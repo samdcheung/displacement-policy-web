@@ -361,6 +361,113 @@ h3 {
   box-shadow: inset 0 0 0 1px rgba(21, 96, 130, 0.16);
 }
 
+.carousel-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-button {
+  min-height: 38px;
+  border: 1px solid var(--blue);
+  padding: 8px 12px;
+  color: var(--blue-dark);
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: #ffffff;
+  background: var(--blue);
+}
+
+.analysis-carousel {
+  position: relative;
+  border-top: 1px solid var(--line-dark);
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.analysis-slide {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.78fr) minmax(420px, 1.22fr);
+  gap: 0;
+  min-height: 470px;
+}
+
+.analysis-slide[hidden] {
+  display: none;
+}
+
+.analysis-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-right: 1px solid var(--line);
+  padding: clamp(26px, 4vw, 48px);
+  background:
+    linear-gradient(145deg, #ffffff, rgba(231, 240, 244, 0.78)),
+    url("assets/brand/dp-mark.svg") left 28px bottom 28px / 100px no-repeat;
+}
+
+.analysis-copy h3 {
+  max-width: 420px;
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  line-height: 1.03;
+}
+
+.analysis-copy p:not(.publication-type) {
+  color: #415160;
+  font-size: 1.04rem;
+}
+
+.analysis-copy .button {
+  margin-top: 14px;
+}
+
+.analysis-visual {
+  display: grid;
+  min-height: 430px;
+  place-items: center;
+  margin: 0;
+  padding: clamp(18px, 3vw, 32px);
+  background: #f8fafb;
+}
+
+.analysis-visual img {
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.carousel-dots {
+  position: absolute;
+  right: 22px;
+  bottom: 18px;
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-dot {
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.carousel-dot.is-active {
+  background: var(--blue);
+}
+
 .theme-list {
   border-top: 1px solid var(--line-dark);
   background: #ffffff;
@@ -591,8 +698,14 @@ h3 {
   .hero-grid,
   .content-grid,
   .editorial-grid,
-  .publication-row {
+  .publication-row,
+  .analysis-slide {
     grid-template-columns: 1fr;
+  }
+
+  .analysis-copy {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
   }
 
   .feature-card {
@@ -692,8 +805,26 @@ h3 {
   .publication-card,
   .compact-list article,
   .publication-row,
+  .analysis-copy,
+  .analysis-visual,
   .contact-form,
   .hero-panel {
     padding: 20px;
+  }
+
+  .analysis-slide {
+    min-height: auto;
+  }
+
+  .analysis-visual {
+    min-height: auto;
+  }
+
+  .carousel-controls {
+    width: 100%;
+  }
+
+  .carousel-button {
+    flex: 1;
   }
 }

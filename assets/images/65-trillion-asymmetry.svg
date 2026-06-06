@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img">
+  <title>The 65 trillion asymmetry</title>
+  <desc>A chart comparing US$65 trillion global sovereign bond markets with a US$33 billion 2026 UN humanitarian appeal.</desc>
+  <rect width="980" height="620" fill="#FAFBFB"/>
+  <rect x="44" y="44" width="892" height="532" fill="#FFFFFF" stroke="#D5DBE1"/>
+  <text x="72" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800" fill="#0B1720">THE 65 TRILLION ASYMMETRY</text>
+  <text x="72" y="162" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-style="italic" fill="#1C1C1A">A single rating notch moves more capital</text>
+  <text x="72" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-style="italic" fill="#1C1C1A">than the entire annual humanitarian response.</text>
+  <line x1="70" y1="506" x2="720" y2="506" stroke="#1C1C1A" stroke-width="2"/>
+  <rect x="98" y="214" width="194" height="292" fill="#156082"/>
+  <rect x="558" y="494" width="108" height="12" fill="#156082"/>
+  <text x="330" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#156082">US$65</text>
+  <text x="330" y="346" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#156082">TRILLION</text>
+  <line x1="330" y1="368" x2="508" y2="368" stroke="#156082" stroke-width="2"/>
+  <text x="330" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#1C1C1A">Global Sovereign</text>
+  <text x="330" y="428" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#1C1C1A">Bond Markets</text>
+  <text x="572" y="390" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="800" fill="#156082">US$33</text>
+  <text x="572" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="800" fill="#156082">BILLION</text>
+  <line x1="572" y1="448" x2="686" y2="448" stroke="#156082" stroke-width="1.8"/>
+  <text x="572" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#1C1C1A">2026 UN</text>
+  <text x="572" y="502" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#1C1C1A">Humanitarian Appeal</text>
+  <line x1="742" y1="232" x2="742" y2="506" stroke="#9AA8B3" stroke-width="1.5"/>
+  <circle cx="832" cy="284" r="48" fill="none" stroke="#156082" stroke-width="3"/>
+  <g fill="none" stroke="#156082" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <line x1="832" y1="250" x2="832" y2="312"/>
+    <line x1="800" y1="266" x2="864" y2="266"/>
+    <line x1="812" y1="266" x2="802" y2="300"/>
+    <line x1="812" y1="266" x2="822" y2="300"/>
+    <line x1="852" y1="266" x2="842" y2="300"/>
+    <line x1="852" y1="266" x2="862" y2="300"/>
+    <path d="M792 300h40c-5 10-35 10-40 0Z" fill="#156082" stroke="none"/>
+    <path d="M832 300h40c-5 10-35 10-40 0Z" fill="#156082" stroke="none"/>
+    <line x1="816" y1="316" x2="848" y2="316"/>
+  </g>
+  <text x="792" y="374" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1C1C1A">Even a small</text>
+  <text x="792" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1C1C1A">shift in sovereign</text>
+  <text x="792" y="426" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1C1C1A">borrowing costs</text>
+  <text x="792" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1C1C1A">moves more capital</text>
+  <text x="792" y="478" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#1C1C1A">than annual response.</text>
+  <text x="72" y="566" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#61717A">Sources: BIS - Global Debt Securities Statistics (Q1 2025) | OCHA - Global Humanitarian Overview 2026</text>
+</svg>
