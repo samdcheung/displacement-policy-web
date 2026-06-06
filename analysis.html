@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact | Displacement Policy</title>
+    <title>Analysis | Displacement Policy</title>
     <meta
       name="description"
-      content="Contact Displacement Policy for research correspondence, speaking invitations, or collaboration inquiries."
+      content="Analysis and notes on displacement governance, finance, institutional adaptation, and Southeast Asia."
     >
     <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
@@ -32,11 +32,11 @@
         </button>
         <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
           <a href="/">Home</a>
-          <a href="/analysis">Analysis</a>
+          <a href="/analysis" aria-current="page">Analysis</a>
           <a href="/publications">Publications</a>
           <a href="/monitor">Data</a>
           <a href="/about">About</a>
-          <a href="/contact" aria-current="page">Contact</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -44,31 +44,29 @@
     <main id="main">
       <section class="page-hero section-band">
         <div class="container">
-          <p class="eyebrow">Contact</p>
-          <h1>For research correspondence.</h1>
-          <p class="subtitle">For research correspondence, speaking invitations, or collaboration inquiries, contact: <a href="mailto:cheung@displacementpolicy.org">cheung@displacementpolicy.org</a></p>
+          <p class="eyebrow">Analysis</p>
+          <h1>Research notes on governance systems.</h1>
+          <p class="subtitle">Short and long-form analysis on how displacement risk is absorbed into law, budgets, service delivery, development finance, and regional institutions.</p>
         </div>
       </section>
 
-      <section class="section section-muted">
-        <div class="container content-grid">
+      <section class="section section-muted" aria-labelledby="featured-title">
+        <div class="container">
           <div class="section-heading">
-            <h2>Send a note.</h2>
-            <p class="contact-email"><a href="mailto:cheung@displacementpolicy.org">cheung@displacementpolicy.org</a></p>
+            <p class="eyebrow">Featured Analysis</p>
+            <h2 id="featured-title">Current arguments.</h2>
           </div>
-          <form class="contact-form" action="mailto:cheung@displacementpolicy.org" method="post" enctype="text/plain">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" autocomplete="name">
+          <div class="card-grid" data-featured-analysis></div>
+        </div>
+      </section>
 
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email">
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5"></textarea>
-
-            <button class="button" type="submit">Send message</button>
-            <p class="form-note">This form opens your email client addressed to Displacement Policy.</p>
-          </form>
+      <section class="section" id="notes" aria-labelledby="notes-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Notes</p>
+            <h2 id="notes-title">Short reflections and updates.</h2>
+          </div>
+          <div class="card-grid compact" data-notes-list></div>
         </div>
       </section>
     </main>

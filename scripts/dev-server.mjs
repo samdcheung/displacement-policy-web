@@ -22,7 +22,7 @@ const contentTypes = {
 function resolveRequestPath(urlPath) {
   const cleanPath = decodeURIComponent(urlPath.split("?")[0]);
   const requestedPath = cleanPath === "/" ? "/index.html" : cleanPath;
-  const filePath = normalize(join(root, requestedPath));
+  let filePath = normalize(join(root, requestedPath));
 
   if (!filePath.startsWith(root)) {
     return null;
@@ -30,6 +30,10 @@ function resolveRequestPath(urlPath) {
 
   if (existsSync(filePath) && statSync(filePath).isDirectory()) {
     return join(filePath, "index.html");
+  }
+
+  if (!existsSync(filePath) && !extname(filePath)) {
+    filePath = `${filePath}.html`;
   }
 
   return filePath;

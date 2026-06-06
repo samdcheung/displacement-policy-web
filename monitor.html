@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Displacement Governance Monitor | Displacement Policy</title>
+    <meta
+      name="description"
+      content="A working comparative dataset tracking displacement governance across selected Southeast Asian countries."
+    >
+    <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="topline">
+        <div class="container topline-inner">
+          <span>Research and analysis on displacement governance, finance, and institutional adaptation.</span>
+          <a href="mailto:cheung@displacementpolicy.org">cheung@displacementpolicy.org</a>
+        </div>
+      </div>
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="Displacement Policy home">
+          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="/">Home</a>
+          <a href="/analysis">Analysis</a>
+          <a href="/publications">Publications</a>
+          <a href="/monitor" aria-current="page">Data</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero section-band">
+        <div class="container">
+          <p class="eyebrow">Data</p>
+          <h1>Displacement Governance Monitor</h1>
+          <p class="subtitle">A working comparative dataset tracking how Southeast Asian states address displacement across legal frameworks, social protection systems, fiscal architecture, and development finance.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container monitor-shell" data-monitor>
+          <div class="monitor-meta" data-monitor-meta></div>
+          <div class="rubric-panel" data-rubric></div>
+
+          <div class="monitor-controls" aria-label="Monitor filters">
+            <label>Country<select data-filter="country"><option value="">All countries</option></select></label>
+            <label>Cluster<select data-filter="cluster"><option value="">All clusters</option></select></label>
+            <label>Score<select data-filter="score"><option value="">All scores</option></select></label>
+            <label>Source type<select data-filter="source_type"><option value="">All source types</option></select></label>
+            <button class="button" type="button" data-download-csv>Download CSV</button>
+          </div>
+
+          <p class="table-count" data-table-count></p>
+          <div class="table-wrap" tabindex="0">
+            <table class="monitor-table">
+              <thead>
+                <tr>
+                  <th>Country</th>
+                  <th>Cluster</th>
+                  <th>Indicator</th>
+                  <th>Value</th>
+                  <th>Score</th>
+                  <th>Confidence</th>
+                  <th>Source</th>
+                  <th>Note</th>
+                  <th>Updated</th>
+                </tr>
+              </thead>
+              <tbody data-monitor-table></tbody>
+            </table>
+          </div>
+
+          <section class="country-profile" aria-labelledby="country-profile-title">
+            <div class="section-heading">
+              <p class="eyebrow">Country Profile Structure</p>
+              <h2 id="country-profile-title">Country snapshot.</h2>
+            </div>
+            <div class="profile-controls">
+              <label>Country<select data-profile-country></select></label>
+            </div>
+            <div class="profile-grid">
+              <div class="radar-card">
+                <canvas data-radar width="360" height="360" aria-label="Cluster strength radar chart"></canvas>
+              </div>
+              <div class="profile-summary" data-profile-summary></div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Displacement Policy</strong>
+          <p>Independent research and analysis on displacement governance, finance, and institutional adaptation.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/analysis">Analysis</a>
+          <a href="/publications">Publications</a>
+          <a href="/monitor">Data</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

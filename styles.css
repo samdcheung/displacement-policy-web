@@ -14,6 +14,12 @@
   --blue-soft: #c8dbe3;
   --blue-grey: #6f8793;
   --oxide: #53636b;
+  --green: #2f6f50;
+  --green-pale: #e8f2ec;
+  --amber: #a36f18;
+  --amber-pale: #fff3d9;
+  --red: #a8433e;
+  --red-pale: #f8e6e3;
   --serif: Georgia, "Times New Roman", serif;
   --sans: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --max-width: 1180px;
@@ -113,6 +119,8 @@ a {
   display: flex;
   align-items: center;
   gap: 2px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .site-nav a {
@@ -325,6 +333,13 @@ h3 {
   margin-bottom: 34px;
 }
 
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
 .section-heading h2::after {
   display: block;
   width: 48px;
@@ -473,6 +488,63 @@ h3 {
   background: #ffffff;
 }
 
+.question-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  border-top: 1px solid var(--line-dark);
+  background: #ffffff;
+}
+
+.question-list article {
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 22px;
+}
+
+.question-list span {
+  display: block;
+  margin-bottom: 18px;
+  color: var(--blue-grey);
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.question-list p {
+  margin: 0;
+  color: var(--charcoal);
+  font-size: 0.95rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card-grid.compact {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.content-card {
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 4px solid var(--blue);
+  padding: 22px;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.content-card p:not(.publication-type) {
+  color: var(--muted);
+}
+
+.content-card .text-link {
+  margin-top: auto;
+}
+
 .feature-card {
   display: grid;
   grid-template-columns: 64px minmax(180px, 280px) minmax(0, 1fr);
@@ -590,6 +662,22 @@ h3 {
   margin-bottom: 32px;
 }
 
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.tag-list span {
+  border: 1px solid rgba(83, 99, 107, 0.24);
+  padding: 5px 8px;
+  color: var(--oxide);
+  background: rgba(243, 245, 246, 0.88);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 .category-list span,
 .areas-grid span {
   border: 1px solid rgba(21, 96, 130, 0.22);
@@ -665,6 +753,197 @@ h3 {
   font: inherit;
 }
 
+.monitor-shell {
+  display: grid;
+  gap: 26px;
+}
+
+.monitor-meta,
+.rubric-panel,
+.country-profile {
+  border-top: 4px solid var(--blue);
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.monitor-meta h2 {
+  margin-bottom: 12px;
+}
+
+.monitor-meta p:last-child,
+.rubric-panel p,
+.profile-summary p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.rubric-panel {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  border-top-color: var(--oxide);
+}
+
+.rubric-panel div {
+  display: grid;
+  gap: 8px;
+}
+
+.monitor-controls,
+.profile-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+  padding: 18px;
+  background: var(--quiet);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.monitor-controls label,
+.profile-controls label {
+  display: grid;
+  min-width: 180px;
+  gap: 6px;
+  color: var(--charcoal);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.monitor-controls select,
+.profile-controls select {
+  min-height: 40px;
+  border: 1px solid #b8c2cb;
+  padding: 8px 10px;
+  color: var(--ink);
+  background: #ffffff;
+  font: inherit;
+}
+
+.table-count {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.monitor-table {
+  width: 100%;
+  min-width: 1180px;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.monitor-table th,
+.monitor-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 11px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.monitor-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: #ffffff;
+  background: var(--charcoal);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.monitor-table tbody tr:nth-child(even) {
+  background: #f8fafb;
+}
+
+.score-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid currentColor;
+  padding: 3px 8px;
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.score-pill span {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.score-pill.green {
+  color: var(--green);
+  background: var(--green-pale);
+}
+
+.score-pill.amber {
+  color: var(--amber);
+  background: var(--amber-pale);
+}
+
+.score-pill.red {
+  color: var(--red);
+  background: var(--red-pale);
+}
+
+.judgement-mark {
+  display: inline-block;
+  margin-left: 6px;
+  border-bottom: 1px dotted var(--red);
+  color: var(--red);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.country-profile {
+  margin-top: 22px;
+  border-top-color: var(--green);
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.radar-card {
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.radar-card canvas {
+  width: min(100%, 360px);
+  height: auto;
+}
+
+.profile-summary {
+  display: grid;
+  gap: 12px;
+}
+
+.profile-cluster {
+  border-left: 4px solid var(--blue-soft);
+  padding: 14px 16px;
+  background: var(--quiet);
+}
+
+.profile-cluster h3 {
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: 3px solid rgba(21, 96, 130, 0.18);
@@ -685,6 +964,13 @@ h3 {
   gap: 24px;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
 .site-footer p {
   margin: 4px 0 0;
   color: #c3d8d5;
@@ -699,7 +985,12 @@ h3 {
   .content-grid,
   .editorial-grid,
   .publication-row,
-  .analysis-slide {
+  .analysis-slide,
+  .question-list,
+  .card-grid,
+  .card-grid.compact,
+  .rubric-panel,
+  .profile-grid {
     grid-template-columns: 1fr;
   }
 

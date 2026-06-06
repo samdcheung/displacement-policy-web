@@ -7,12 +7,20 @@
       "handle": "filesystem"
     },
     {
+      "src": "/analysis",
+      "dest": "/analysis.html"
+    },
+    {
       "src": "/about",
       "dest": "/about.html"
     },
     {
       "src": "/publications",
       "dest": "/publications.html"
+    },
+    {
+      "src": "/monitor",
+      "dest": "/monitor.html"
     },
     {
       "src": "/advisory",
