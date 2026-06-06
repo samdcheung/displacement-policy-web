@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 84" role="img">
+  <title>displacementpolicy.org — primary logo, dark background variant</title>
+  <desc>Logo for use on dark backgrounds — all teal, lighter wordmark</desc>
+  <polygon points="45,4 75,21 75,55 45,72 15,55 15,21" fill="#156082"/>
+  <polygon points="61,16 91,33 91,67 61,84 31,67 31,33"
+    fill="#156082" fill-opacity="0.30" stroke="#9FE1CB" stroke-width="1.8"/>
+  <polygon points="61,33 75,41 75,55 61,63 45,55 45,41"
+    fill="#9FE1CB" fill-opacity="0.40"/>
+  <text x="108" y="38"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="28" font-weight="400" letter-spacing="-0.01em"
+    fill="#9FE1CB">displacement</text>
+  <text x="108" y="68"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="28" font-weight="400" letter-spacing="-0.01em"
+    fill="#E1F5EE">policy</text>
+  <rect x="108" y="76" width="42" height="2" rx="1" fill="#9FE1CB"/>
+</svg>

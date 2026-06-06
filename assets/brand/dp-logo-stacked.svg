@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 158" role="img">
+  <title>displacementpolicy.org — stacked logo</title>
+  <desc>Hexagon mark centred above stacked wordmark</desc>
+  <polygon points="110,8 140,25 140,59 110,76 80,59 80,25" fill="#156082"/>
+  <polygon points="126,20 156,37 156,71 126,88 96,71 96,37"
+    fill="#156082" fill-opacity="0.12" stroke="#156082" stroke-width="1.8"/>
+  <polygon points="126,37 140,45 140,59 126,67 110,59 110,45"
+    fill="#156082" fill-opacity="0.28"/>
+  <text x="110" y="114" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="20" font-weight="400" letter-spacing="0.01em"
+    fill="#156082">displacement</text>
+  <text x="110" y="138" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="20" font-weight="400" letter-spacing="0.01em"
+    fill="#1C1C1A">policy</text>
+  <rect x="89" y="146" width="42" height="1.5" rx="1" fill="#156082"/>
+</svg>
