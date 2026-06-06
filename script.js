@@ -28,6 +28,9 @@ const formatNoteDate = (value) =>
 
 const createTagList = (tags) => tags.map((tag) => `<span>${tag}</span>`).join("");
 
+const titleCase = (value) =>
+  value.replace(/\b[a-z]/g, (letter) => letter.toUpperCase());
+
 async function renderSiteContent() {
   const targets = [
     document.querySelector("[data-featured-analysis]"),
@@ -139,9 +142,15 @@ function drawRadar(canvas, rows, country) {
   const context = canvas.getContext("2d");
   const size = canvas.width;
   const center = size / 2;
-  const radius = size * 0.34;
+  const radius = size * 0.3;
   const countryRows = rows.filter((row) => row.country === country);
   const clusters = uniqueValues(rows, "cluster");
+  const chartLabels = {
+    "Legal and policy framework": "Legal",
+    "Social protection coverage": "Social protection",
+    "Fiscal architecture": "Fiscal",
+    "Development finance and displacement risk pricing": "Finance"
+  };
   const values = clusters.map((cluster) => {
     const clusterRows = countryRows.filter((row) => row.cluster === cluster);
     const average = clusterRows.reduce((sum, row) => sum + scoreValue[row.score], 0) / clusterRows.length;
@@ -149,12 +158,14 @@ function drawRadar(canvas, rows, country) {
   });
 
   context.clearRect(0, 0, size, size);
-  context.fillStyle = "#ffffff";
+  context.fillStyle = "#fafbfb";
   context.fillRect(0, 0, size, size);
-  context.strokeStyle = "#d5dbe1";
-  context.fillStyle = "#61717a";
-  context.font = "12px Segoe UI, Arial, sans-serif";
+  context.lineWidth = 1;
+  context.strokeStyle = "rgba(154, 168, 179, 0.5)";
+  context.fillStyle = "#53636b";
+  context.font = "600 12px Segoe UI, Arial, sans-serif";
   context.textAlign = "center";
+  context.textBaseline = "middle";
 
   for (let ring = 1; ring <= 3; ring += 1) {
     context.beginPath();
@@ -171,13 +182,14 @@ function drawRadar(canvas, rows, country) {
 
   clusters.forEach((cluster, index) => {
     const angle = -Math.PI / 2 + (index * Math.PI * 2) / clusters.length;
-    const x = center + Math.cos(angle) * (radius + 36);
-    const y = center + Math.sin(angle) * (radius + 36);
+    const labelRadius = radius + 34;
+    const x = center + Math.cos(angle) * labelRadius;
+    const y = center + Math.sin(angle) * labelRadius;
     context.beginPath();
     context.moveTo(center, center);
     context.lineTo(center + Math.cos(angle) * radius, center + Math.sin(angle) * radius);
     context.stroke();
-    context.fillText(cluster.replace(" and ", " & "), x, y, 118);
+    context.fillText(chartLabels[cluster] || cluster, x, y);
   });
 
   context.beginPath();
@@ -188,11 +200,21 @@ function drawRadar(canvas, rows, country) {
     index === 0 ? context.moveTo(x, y) : context.lineTo(x, y);
   });
   context.closePath();
-  context.fillStyle = "rgba(21, 96, 130, 0.22)";
-  context.strokeStyle = "#156082";
+  context.fillStyle = "rgba(21, 96, 130, 0.16)";
+  context.strokeStyle = "#104a64";
   context.lineWidth = 2;
   context.fill();
   context.stroke();
+
+  values.forEach((value, index) => {
+    const angle = -Math.PI / 2 + (index * Math.PI * 2) / values.length;
+    const x = center + Math.cos(angle) * radius * value;
+    const y = center + Math.sin(angle) * radius * value;
+    context.beginPath();
+    context.arc(x, y, 3.5, 0, Math.PI * 2);
+    context.fillStyle = "#104a64";
+    context.fill();
+  });
 }
 
 async function renderMonitor() {
@@ -276,7 +298,7 @@ async function renderMonitor() {
         }, { green: 0, amber: 0, red: 0 });
         return `
           <article class="profile-cluster">
-            <h3>${cluster}</h3>
+            <h3>${titleCase(cluster)}</h3>
             <p>${counts.green} green, ${counts.amber} amber, ${counts.red} red indicators.</p>
           </article>
         `;
