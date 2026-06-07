@@ -98,7 +98,7 @@ a {
 
 .header-inner {
   display: flex;
-  min-height: 74px;
+  min-height: 66px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -170,7 +170,11 @@ a {
 
 .section,
 .section-band {
-  padding: 72px 0;
+  padding: 56px 0;
+}
+
+.section-compact {
+  padding: 42px 0;
 }
 
 .section-muted {
@@ -182,7 +186,7 @@ a {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 88px 0 78px;
+  padding: 72px 0 62px;
   border-bottom: 1px solid var(--line);
   color: #ffffff;
   background:
@@ -217,7 +221,7 @@ a {
 }
 
 .page-hero {
-  padding: 64px 0 56px;
+  padding: 42px 0 36px;
   border-bottom: 1px solid var(--line);
   background:
     linear-gradient(120deg, rgba(231, 240, 244, 0.98), rgba(250, 251, 251, 0.98) 58%, rgba(21, 96, 130, 0.08));
@@ -227,7 +231,7 @@ a {
 .content-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(300px, 390px);
-  gap: 70px;
+  gap: 48px;
   align-items: start;
 }
 
@@ -333,7 +337,7 @@ h5 {
 
 .subtitle {
   max-width: 760px;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
   color: var(--blue-dark);
   font-size: clamp(1.15rem, 1.8vw, 1.42rem);
   font-weight: 520;
@@ -378,18 +382,18 @@ h5 {
 }
 
 .section-heading {
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 
 .button-group {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 28px;
+  margin-top: 22px;
 }
 
 .research-pillars {
-  margin-top: 26px;
+  margin-top: 22px;
 }
 
 .research-pillars p {
@@ -428,7 +432,7 @@ h5 {
   display: block;
   width: 48px;
   height: 3px;
-  margin-top: 18px;
+  margin-top: 14px;
   background: linear-gradient(90deg, var(--blue), var(--brass));
   content: "";
 }
@@ -617,13 +621,13 @@ h5 {
 }
 
 .feature-carousel-stage {
-  min-height: 430px;
+  min-height: 390px;
 }
 
 .feature-slide {
   display: grid;
   grid-template-columns: minmax(360px, 1fr) minmax(300px, 0.8fr);
-  min-height: 450px;
+  min-height: 390px;
   border: 1px solid var(--line);
   background: #ffffff;
 }
@@ -634,10 +638,10 @@ h5 {
 
 .feature-slide figure {
   display: grid;
-  min-height: 450px;
+  min-height: 390px;
   place-items: center;
   margin: 0;
-  padding: clamp(26px, 4vw, 46px);
+  padding: clamp(22px, 3.2vw, 38px);
   background:
     linear-gradient(145deg, rgba(231, 240, 244, 0.98), rgba(255, 255, 255, 0.86));
   aspect-ratio: 980 / 620;
@@ -656,7 +660,7 @@ h5 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: clamp(24px, 4vw, 44px);
+  padding: clamp(22px, 3.2vw, 36px);
 }
 
 .feature-slide-copy h3 {
@@ -684,7 +688,7 @@ h5 {
   gap: 8px;
   border: 0;
   border-bottom: 1px solid var(--line);
-  padding: 18px 0;
+  padding: 14px 0;
   color: var(--charcoal);
   background: transparent;
   font: inherit;
@@ -714,7 +718,7 @@ h5 {
 
 .content-card {
   display: flex;
-  min-height: 220px;
+  min-height: 180px;
   flex-direction: column;
   align-items: flex-start;
   border-top: 1px solid var(--line-dark);
@@ -782,7 +786,7 @@ h5 {
   z-index: 1;
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(340px, 0.86fr);
-  gap: 70px;
+  gap: 48px;
   align-items: start;
 }
 
@@ -1023,7 +1027,7 @@ h5 {
   gap: 28px;
   align-items: center;
   border-bottom: 1px solid var(--line);
-  padding: 26px 0;
+  padding: 20px 0;
   background: transparent;
 }
 
@@ -1070,7 +1074,7 @@ h5 {
 
 .mapping-shell {
   display: grid;
-  gap: 26px;
+  gap: 22px;
 }
 
 .rubric-panel,
@@ -1106,7 +1110,7 @@ h5 {
   align-items: end;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  padding: 16px 0;
+  padding: 12px 0;
   background: transparent;
 }
 
@@ -1152,7 +1156,7 @@ h5 {
 .comparison-table th,
 .comparison-table td {
   border-bottom: 1px solid var(--line);
-  padding: 11px 12px;
+  padding: 9px 10px;
   text-align: left;
   vertical-align: top;
 }
@@ -1321,7 +1325,7 @@ h5 {
 
 .profile-stack {
   display: grid;
-  gap: 28px;
+  gap: 20px;
 }
 
 .country-link-list {
@@ -1348,9 +1352,9 @@ h5 {
 
 .mapping-profile {
   display: grid;
-  gap: 22px;
+  gap: 16px;
   border-top: 1px solid var(--line-dark);
-  padding-top: 22px;
+  padding-top: 18px;
 }
 
 .mapping-profile-heading {
@@ -1397,7 +1401,7 @@ h5 {
 .diagnostic-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+  gap: 12px;
 }
 
 .diagnostic-grid > div {
@@ -1419,7 +1423,11 @@ h5 {
 .reform-list {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
+  gap: 14px;
+}
+
+.compact-subsection {
+  margin-top: 8px;
 }
 
 .reform-list article {
@@ -1443,7 +1451,7 @@ h5 {
 }
 
 .site-footer {
-  padding: 42px 0;
+  padding: 30px 0;
   color: var(--charcoal);
   border-top: 1px solid var(--line);
   background: #ffffff;
@@ -1453,7 +1461,7 @@ h5 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 42px;
+  gap: 28px;
 }
 
 .footer-brand {
@@ -1462,9 +1470,9 @@ h5 {
 
 .footer-brand img {
   display: block;
-  width: min(240px, 58vw);
+  width: min(210px, 54vw);
   height: auto;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .footer-links {
@@ -1476,7 +1484,7 @@ h5 {
 }
 
 .site-footer p {
-  margin: 8px 0 0;
+  margin: 5px 0 0;
   color: var(--muted);
   font-size: 0.95rem;
 }
