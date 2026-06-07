@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Displacement Governance Mapping",
+    "positioning": "A comparative diagnostic framework that maps governance fault lines, institutional absorption capacity, fiscal architecture, and reform pathways across displacement contexts.",
+    "note": "This is not a displacement database. It is a governance and fiscal architecture diagnostic platform."
+  },
+  "fault_lines": [
+    {
+      "country_id": "thailand",
+      "categorical": "Medium",
+      "categorical_note": "Inclusion is mediated by legal status, registration and administrative discretion.",
+      "temporal": "Medium",
+      "temporal_note": "Some support is embedded in ordinary systems, but displacement-specific obligations remain uneven.",
+      "territorial": "Medium",
+      "territorial_note": "Service access depends on registration, locality and program rules."
+    },
+    {
+      "country_id": "malaysia",
+      "categorical": "High",
+      "categorical_note": "Refugee and stateless populations face strong status-based exclusion from ordinary systems.",
+      "temporal": "High",
+      "temporal_note": "Support is heavily project-based and externally mediated for non-citizen displaced groups.",
+      "territorial": "Medium",
+      "territorial_note": "Mobility and documentation status shape access across jurisdictions."
+    },
+    {
+      "country_id": "indonesia",
+      "categorical": "Medium",
+      "categorical_note": "Citizens affected by disasters connect to national systems more readily than refugees or non-citizens.",
+      "temporal": "Medium",
+      "temporal_note": "Disaster systems provide continuity, but refugee inclusion remains limited.",
+      "territorial": "Medium",
+      "territorial_note": "Benefits and services are shaped by local implementation and registration."
+    },
+    {
+      "country_id": "philippines",
+      "categorical": "Medium",
+      "categorical_note": "Disaster and conflict displacement systems exist, but implementation varies by geography and status.",
+      "temporal": "Medium",
+      "temporal_note": "Emergency and recovery financing is active, but recurrent inclusion is uneven.",
+      "territorial": "Medium",
+      "territorial_note": "Portability improves through national systems but remains constrained by local delivery."
+    },
+    {
+      "country_id": "myanmar",
+      "categorical": "High",
+      "categorical_note": "Conflict, citizenship exclusion and governance fragmentation create severe access barriers.",
+      "temporal": "High",
+      "temporal_note": "Support is heavily humanitarian and disrupted by conflict conditions.",
+      "territorial": "High",
+      "territorial_note": "Access changes sharply across areas of control, movement routes and documentation status."
+    },
+    {
+      "country_id": "vietnam",
+      "categorical": "Medium",
+      "categorical_note": "Disaster-affected citizens are more connected to systems than informal migrants or non-citizens.",
+      "temporal": "Medium",
+      "temporal_note": "Climate and disaster systems create partial continuity but displacement is not consistently framed as recurrent.",
+      "territorial": "Medium",
+      "territorial_note": "Household registration and locality influence access and portability."
+    },
+    {
+      "country_id": "cambodia",
+      "categorical": "Medium",
+      "categorical_note": "Expanding social systems still leave documentation and mobility-related gaps.",
+      "temporal": "High",
+      "temporal_note": "Displacement-related support remains strongly project and donor shaped.",
+      "territorial": "High",
+      "territorial_note": "Local capacity and documentation constraints limit portability."
+    },
+    {
+      "country_id": "lao-pdr",
+      "categorical": "High",
+      "categorical_note": "System maturity, documentation and remoteness create strong access barriers.",
+      "temporal": "High",
+      "temporal_note": "Support is often project-linked rather than recurrently embedded.",
+      "territorial": "High",
+      "territorial_note": "Services and fiscal capacity are uneven across localities."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "country_id": "thailand",
+      "priority_reforms": [
+        { "issue": "Status-based access to services", "recommended_reform": "Create vulnerability-based service access protocols for displaced and stateless groups", "likely_counterpart_institution": "Interior Ministry", "feasibility": "Medium" },
+        { "issue": "Fragmented recurrent financing", "recommended_reform": "Map displacement-related costs in social protection and local service budgets", "likely_counterpart_institution": "Ministry of Finance", "feasibility": "High" },
+        { "issue": "Limited portability", "recommended_reform": "Pilot portable service entitlements in high-mobility border provinces", "likely_counterpart_institution": "Ministry of Social Development", "feasibility": "Medium" },
+        { "issue": "Infrastructure-linked displacement continuity", "recommended_reform": "Connect resettlement registries to municipal planning systems", "likely_counterpart_institution": "ADB", "feasibility": "Medium" }
+      ]
+    },
+    {
+      "country_id": "malaysia",
+      "priority_reforms": [
+        { "issue": "Refugee exclusion from ordinary systems", "recommended_reform": "Establish limited service access protocols based on vulnerability and public health risk", "likely_counterpart_institution": "Interior Ministry", "feasibility": "Low" },
+        { "issue": "Statelessness and documentation gaps", "recommended_reform": "Create accelerated civil registration pathways for children at risk of statelessness", "likely_counterpart_institution": "Interior Ministry", "feasibility": "Medium" },
+        { "issue": "Project-based support", "recommended_reform": "Build a shared financing compact for urban refugee services", "likely_counterpart_institution": "UNDP", "feasibility": "Medium" },
+        { "issue": "Unpriced displacement risk in finance", "recommended_reform": "Add social inclusion and displacement risk language to sustainable finance diagnostics", "likely_counterpart_institution": "World Bank", "feasibility": "Medium" }
+      ]
+    },
+    {
+      "country_id": "indonesia",
+      "priority_reforms": [
+        { "issue": "Uneven refugee inclusion", "recommended_reform": "Clarify minimum service access standards under existing refugee-handling arrangements", "likely_counterpart_institution": "Interior Ministry", "feasibility": "Medium" },
+        { "issue": "Disaster displacement recurrence", "recommended_reform": "Integrate displacement caseload triggers into adaptive social protection", "likely_counterpart_institution": "Ministry of Social Development", "feasibility": "High" },
+        { "issue": "Subnational delivery variation", "recommended_reform": "Use fiscal transfers to support high-displacement localities", "likely_counterpart_institution": "Ministry of Finance", "feasibility": "Medium" },
+        { "issue": "Infrastructure resettlement continuity", "recommended_reform": "Require post-project inclusion tracking in major infrastructure portfolios", "likely_counterpart_institution": "ADB", "feasibility": "Medium" }
+      ]
+    },
+    {
+      "country_id": "philippines",
+      "priority_reforms": [
+        { "issue": "Conflict displacement recurrence", "recommended_reform": "Embed IDP support into baseline social protection and local recovery budgets", "likely_counterpart_institution": "Ministry of Social Development", "feasibility": "High" },
+        { "issue": "Local fiscal strain", "recommended_reform": "Create displacement-sensitive intergovernmental transfer criteria", "likely_counterpart_institution": "Ministry of Finance", "feasibility": "Medium" },
+        { "issue": "Disaster mobility", "recommended_reform": "Link evacuation, return and relocation records to social registry systems", "likely_counterpart_institution": "Municipal Government", "feasibility": "High" },
+        { "issue": "Finance risk pricing", "recommended_reform": "Include displacement continuity metrics in resilience lending", "likely_counterpart_institution": "World Bank", "feasibility": "High" }
+      ]
+    },
+    {
+      "country_id": "myanmar",
+      "priority_reforms": [
+        { "issue": "Severe access fragmentation", "recommended_reform": "Protect minimum service channels across areas of control", "likely_counterpart_institution": "UNDP", "feasibility": "Low" },
+        { "issue": "Citizenship-based exclusion", "recommended_reform": "Prioritize civil documentation and rights-restoration pathways", "likely_counterpart_institution": "Interior Ministry", "feasibility": "Low" },
+        { "issue": "Humanitarian dependency", "recommended_reform": "Create transition scenarios for future social service restoration", "likely_counterpart_institution": "World Bank", "feasibility": "Low" },
+        { "issue": "Unabsorbed recurrent obligations", "recommended_reform": "Model the fiscal cost of restoring services for displaced populations", "likely_counterpart_institution": "IMF", "feasibility": "Low" }
+      ]
+    },
+    {
+      "country_id": "vietnam",
+      "priority_reforms": [
+        { "issue": "Climate mobility not fully fiscalized", "recommended_reform": "Integrate displacement costs into climate adaptation and urban planning budgets", "likely_counterpart_institution": "Ministry of Finance", "feasibility": "High" },
+        { "issue": "Registration-linked access", "recommended_reform": "Improve portability for mobile households and internal migrants", "likely_counterpart_institution": "Interior Ministry", "feasibility": "Medium" },
+        { "issue": "Infrastructure resettlement continuity", "recommended_reform": "Track post-project livelihood and service inclusion outcomes", "likely_counterpart_institution": "ADB", "feasibility": "Medium" },
+        { "issue": "Fragmented social data", "recommended_reform": "Link relocation, social protection and climate vulnerability registries", "likely_counterpart_institution": "World Bank", "feasibility": "Medium" }
+      ]
+    },
+    {
+      "country_id": "cambodia",
+      "priority_reforms": [
+        { "issue": "Documentation and targeting gaps", "recommended_reform": "Strengthen registration pathways for mobile and vulnerable households", "likely_counterpart_institution": "Interior Ministry", "feasibility": "Medium" },
+        { "issue": "Project-based financing", "recommended_reform": "Identify baseline budget lines for displacement-related service continuity", "likely_counterpart_institution": "Ministry of Finance", "feasibility": "Medium" },
+        { "issue": "Weak municipal absorption", "recommended_reform": "Support local governments receiving relocated or mobile populations", "likely_counterpart_institution": "Municipal Government", "feasibility": "Medium" },
+        { "issue": "Infrastructure displacement follow-up", "recommended_reform": "Create post-resettlement service access audits", "likely_counterpart_institution": "ADB", "feasibility": "Medium" }
+      ]
+    },
+    {
+      "country_id": "lao-pdr",
+      "priority_reforms": [
+        { "issue": "Limited system maturity", "recommended_reform": "Build displacement-sensitive triggers into emerging social protection systems", "likely_counterpart_institution": "Ministry of Social Development", "feasibility": "Medium" },
+        { "issue": "Project-linked resettlement", "recommended_reform": "Connect resettlement planning to district service delivery budgets", "likely_counterpart_institution": "ADB", "feasibility": "Medium" },
+        { "issue": "Fiscal space constraints", "recommended_reform": "Assess recurrent cost implications of relocation and climate mobility", "likely_counterpart_institution": "Ministry of Finance", "feasibility": "Medium" },
+        { "issue": "Weak registry integration", "recommended_reform": "Link affected household records to social and local planning registries", "likely_counterpart_institution": "World Bank", "feasibility": "Medium" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "countries": [
+    {
+      "id": "thailand",
+      "country": "Thailand",
+      "region": "Southeast Asia",
+      "income_group": "Upper-middle income",
+      "population": "71.8 million",
+      "primary_displacement_types": ["Refugee", "Disaster", "Statelessness", "Labour Mobility"]
+    },
+    {
+      "id": "malaysia",
+      "country": "Malaysia",
+      "region": "Southeast Asia",
+      "income_group": "Upper-middle income",
+      "population": "34.7 million",
+      "primary_displacement_types": ["Refugee", "Statelessness", "Labour Mobility"]
+    },
+    {
+      "id": "indonesia",
+      "country": "Indonesia",
+      "region": "Southeast Asia",
+      "income_group": "Upper-middle income",
+      "population": "281.2 million",
+      "primary_displacement_types": ["Refugee", "IDP", "Disaster", "Development-Induced Displacement", "Labour Mobility"]
+    },
+    {
+      "id": "philippines",
+      "country": "Philippines",
+      "region": "Southeast Asia",
+      "income_group": "Lower-middle income",
+      "population": "117.3 million",
+      "primary_displacement_types": ["IDP", "Disaster", "Statelessness", "Labour Mobility"]
+    },
+    {
+      "id": "myanmar",
+      "country": "Myanmar",
+      "region": "Southeast Asia",
+      "income_group": "Lower-middle income",
+      "population": "54.5 million",
+      "primary_displacement_types": ["Refugee", "IDP", "Statelessness", "Disaster"]
+    },
+    {
+      "id": "vietnam",
+      "country": "Vietnam",
+      "region": "Southeast Asia",
+      "income_group": "Lower-middle income",
+      "population": "100.3 million",
+      "primary_displacement_types": ["Disaster", "Development-Induced Displacement", "Labour Mobility"]
+    },
+    {
+      "id": "cambodia",
+      "country": "Cambodia",
+      "region": "Southeast Asia",
+      "income_group": "Lower-middle income",
+      "population": "17.4 million",
+      "primary_displacement_types": ["Disaster", "Statelessness", "Development-Induced Displacement", "Labour Mobility"]
+    },
+    {
+      "id": "lao-pdr",
+      "country": "Lao PDR",
+      "region": "Southeast Asia",
+      "income_group": "Lower-middle income",
+      "population": "7.7 million",
+      "primary_displacement_types": ["Disaster", "Development-Induced Displacement", "Labour Mobility"]
+    }
+  ]
+}

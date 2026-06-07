@@ -1,0 +1,13 @@
+{
+  "countries": [
+    { "country_id": "thailand", "safeguards": "Medium", "resettlement_systems": "Medium", "registry_integration": "Medium", "post_project_continuity": "Medium" },
+    { "country_id": "malaysia", "safeguards": "Medium", "resettlement_systems": "Medium", "registry_integration": "Low", "post_project_continuity": "Low" },
+    { "country_id": "indonesia", "safeguards": "Medium", "resettlement_systems": "Medium", "registry_integration": "Medium", "post_project_continuity": "Medium" },
+    { "country_id": "philippines", "safeguards": "High", "resettlement_systems": "Medium", "registry_integration": "Medium", "post_project_continuity": "Medium" },
+    { "country_id": "myanmar", "safeguards": "Low", "resettlement_systems": "Low", "registry_integration": "Low", "post_project_continuity": "Low" },
+    { "country_id": "vietnam", "safeguards": "Medium", "resettlement_systems": "Medium", "registry_integration": "Medium", "post_project_continuity": "Medium" },
+    { "country_id": "cambodia", "safeguards": "Medium", "resettlement_systems": "Low", "registry_integration": "Low", "post_project_continuity": "Low" },
+    { "country_id": "lao-pdr", "safeguards": "Medium", "resettlement_systems": "Low", "registry_integration": "Low", "post_project_continuity": "Low" }
+  ],
+  "focus": "Whether project-induced displacement is connected to national systems after project completion."
+}

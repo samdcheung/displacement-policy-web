@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Displacement Governance Mapping | Displacement Policy</title>
+    <meta
+      name="description"
+      content="A comparative diagnostic framework mapping governance fault lines, institutional absorption capacity, fiscal architecture, and reform pathways across displacement contexts."
+    >
+    <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="topline">
+        <div class="container topline-inner">
+          <span>Research and analysis on displacement governance, finance, and institutional adaptation.</span>
+          <a href="mailto:info@displacementpolicy.org">info@displacementpolicy.org</a>
+        </div>
+      </div>
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="Displacement Policy home">
+          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="/">Home</a>
+          <a href="/analysis">Research</a>
+          <a href="/mapping" aria-current="page">Displacement Governance Mapping</a>
+          <a href="/publications">Briefs</a>
+          <a href="/methods">Methods</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero section-band">
+        <div class="container">
+          <p class="eyebrow">Diagnostic Platform</p>
+          <h1>Displacement Governance Mapping</h1>
+          <p class="subtitle">Mapping governance fault lines and fiscal pathways across displacement contexts</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container content-grid">
+          <div class="section-heading">
+            <h2>Governance And Fiscal Architecture Diagnostic</h2>
+          </div>
+          <div class="prose">
+            <p>Displacement Governance Mapping is a comparative diagnostic framework examining how governance systems absorb displacement-related pressures.</p>
+            <p>Rather than tracking displaced populations, it identifies where governance systems fragment, where fiscal architecture constrains inclusion, and what reforms can support sustainable inclusion.</p>
+            <p>The framework focuses on governance fault lines, institutional absorption capacity, fiscal architecture, and reform opportunities across displacement contexts.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" data-mapping>
+        <div class="container mapping-shell">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Comparison Dashboard</p>
+              <h2>Country Diagnostics</h2>
+            </div>
+            <p class="section-kicker">This is not a displacement database. It is a governance and fiscal architecture diagnostic platform.</p>
+          </div>
+
+          <div class="monitor-controls" aria-label="Mapping filters">
+            <label>Region<select data-mapping-filter="region"><option value="">All regions</option></select></label>
+            <label>Income Group<select data-mapping-filter="income_group"><option value="">All income groups</option></select></label>
+            <label>Displacement Type<select data-mapping-filter="displacement_type"><option value="">All types</option></select></label>
+            <label>Fault Line Category<select data-mapping-filter="fault_line"><option value="">All fault lines</option></select></label>
+          </div>
+
+          <div class="table-wrap" tabindex="0">
+            <table class="monitor-table mapping-table">
+              <thead>
+                <tr>
+                  <th><button type="button" data-sort="country">Country</button></th>
+                  <th><button type="button" data-sort="categorical">Categorical</button></th>
+                  <th><button type="button" data-sort="temporal">Temporal</button></th>
+                  <th><button type="button" data-sort="territorial">Territorial</button></th>
+                  <th><button type="button" data-sort="fiscal">Fiscal Architecture</button></th>
+                  <th><button type="button" data-sort="infrastructure">Infrastructure Governance</button></th>
+                  <th>Priority Reform</th>
+                </tr>
+              </thead>
+              <tbody data-mapping-table></tbody>
+            </table>
+          </div>
+
+          <section class="mapping-matrix" aria-labelledby="matrix-title">
+            <div class="section-heading">
+              <p class="eyebrow">Matrix View</p>
+              <h2 id="matrix-title">Fault Line Matrix</h2>
+            </div>
+            <div class="matrix-grid" data-mapping-matrix></div>
+          </section>
+
+          <section class="country-database" aria-labelledby="profiles-title">
+            <div class="section-heading">
+              <p class="eyebrow">Country Database</p>
+              <h2 id="profiles-title">Country Profiles</h2>
+            </div>
+            <div class="profile-stack" data-country-profiles></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Displacement Policy</strong>
+          <p>Research and analysis on displacement governance, finance, and institutional adaptation.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="/analysis">Research</a>
+          <a href="/mapping">Mapping</a>
+          <a href="/publications">Briefs</a>
+          <a href="/methods">Methods</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
