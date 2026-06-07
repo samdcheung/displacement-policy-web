@@ -11,6 +11,10 @@
       "dest": "/analysis.html"
     },
     {
+      "src": "/perspectives",
+      "dest": "/perspectives.html"
+    },
+    {
       "src": "/mapping",
       "dest": "/mapping.html"
     },

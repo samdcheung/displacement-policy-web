@@ -35,8 +35,7 @@ async function renderSiteContent() {
   const targets = [
     document.querySelector("[data-featured-analysis]"),
     document.querySelector("[data-publications-list]"),
-    document.querySelector("[data-notes-list]"),
-    document.querySelector("[data-research-progress]")
+    document.querySelector("[data-perspectives-list]")
   ].filter(Boolean);
 
   if (!targets.length) return;
@@ -44,14 +43,16 @@ async function renderSiteContent() {
   const content = await fetchJson("data/site-content.json");
 
   document.querySelectorAll("[data-featured-analysis]").forEach((container) => {
+    const limit = Number(container.dataset.featuredLimit || content.featured_analysis.length);
     container.innerHTML = content.featured_analysis
+      .slice(0, limit)
       .map(
         (item) => `
-          <article class="content-card">
+          <article class="content-card feature-module">
             <p class="publication-type">${item.tag} | ${item.date}</p>
             <h3>${item.title}</h3>
             <p>${item.description}</p>
-            <a class="text-link" href="${item.link}">Read more</a>
+            <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
           </article>
         `
       )
@@ -60,12 +61,14 @@ async function renderSiteContent() {
 
   const publicationList = document.querySelector("[data-publications-list]");
   if (publicationList) {
+    const limit = Number(publicationList.dataset.publicationsLimit || content.publications.length);
     publicationList.innerHTML = content.publications
+      .slice(0, limit)
       .map(
         (item) => `
           <article class="publication-row">
             <div>
-              <p class="publication-type">${item.date}</p>
+              <p class="publication-type">${item.content_type} | ${item.date}</p>
               <h2>${item.title}</h2>
               <p>${item.abstract}</p>
               <div class="tag-list">${createTagList(item.tags)}</div>
@@ -77,25 +80,21 @@ async function renderSiteContent() {
       .join("");
   }
 
-  document.querySelectorAll("[data-notes-list]").forEach((container) => {
-    const limit = Number(container.dataset.notesLimit || content.notes.length);
-    container.innerHTML = [...content.notes]
+  document.querySelectorAll("[data-perspectives-list]").forEach((container) => {
+    const limit = Number(container.dataset.perspectivesLimit || content.perspectives.length);
+    container.innerHTML = [...content.perspectives]
       .sort((a, b) => new Date(b.date) - new Date(a.date))
       .slice(0, limit)
       .map(
         (note) => `
           <article class="content-card">
-            <p class="publication-type">${formatNoteDate(note.date)}</p>
+            <p class="publication-type">${note.topic} | ${formatNoteDate(note.date)}</p>
             <h3>${note.title}</h3>
             <p>${note.summary}</p>
           </article>
         `
       )
       .join("");
-  });
-
-  document.querySelectorAll("[data-research-progress]").forEach((container) => {
-    container.innerHTML = content.research_in_progress.map((item) => `<span>${item}</span>`).join("");
   });
 }
 
@@ -269,6 +268,14 @@ async function renderMapping() {
     `;
   }
 
+  function renderCountryLinks() {
+    const links = root.querySelector("[data-country-links]");
+    if (!links) return;
+    links.innerHTML = sortRecords(visibleCountries)
+      .map((record) => `<a href="#${record.id}">${record.country}</a>`)
+      .join("");
+  }
+
   function renderCountryProfiles() {
     const profiles = root.querySelector("[data-country-profiles]");
     profiles.innerHTML = sortRecords(visibleCountries)
@@ -346,6 +353,7 @@ async function renderMapping() {
     applyMappingFilters();
     renderComparisonTable();
     renderMatrix();
+    renderCountryLinks();
     renderCountryProfiles();
   }
 
