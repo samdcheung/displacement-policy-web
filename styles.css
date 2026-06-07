@@ -769,12 +769,11 @@ h5 {
   font: inherit;
 }
 
-.monitor-shell {
+.mapping-shell {
   display: grid;
   gap: 26px;
 }
 
-.monitor-meta,
 .rubric-panel,
 .country-profile {
   border-top: 1px solid var(--line-dark);
@@ -782,11 +781,6 @@ h5 {
   background: #ffffff;
 }
 
-.monitor-meta h2 {
-  margin-bottom: 12px;
-}
-
-.monitor-meta p:last-child,
 .rubric-panel p,
 .profile-summary p {
   margin-bottom: 0;
@@ -805,7 +799,7 @@ h5 {
   gap: 8px;
 }
 
-.monitor-controls,
+.mapping-controls,
 .profile-controls {
   display: flex;
   flex-wrap: wrap;
@@ -817,7 +811,7 @@ h5 {
   background: transparent;
 }
 
-.monitor-controls label,
+.mapping-controls label,
 .profile-controls label {
   display: grid;
   min-width: 180px;
@@ -827,7 +821,7 @@ h5 {
   font-weight: 800;
 }
 
-.monitor-controls select,
+.mapping-controls select,
 .profile-controls select {
   min-height: 40px;
   border: 1px solid #b8c2cb;
@@ -849,22 +843,22 @@ h5 {
   background: #ffffff;
 }
 
-.monitor-table {
+.comparison-table {
   width: 100%;
   min-width: 1180px;
   border-collapse: collapse;
   font-size: 0.88rem;
 }
 
-.monitor-table th,
-.monitor-table td {
+.comparison-table th,
+.comparison-table td {
   border-bottom: 1px solid var(--line);
   padding: 11px 12px;
   text-align: left;
   vertical-align: top;
 }
 
-.monitor-table th {
+.comparison-table th {
   position: sticky;
   top: 0;
   z-index: 1;
@@ -895,41 +889,8 @@ h5 {
   font-size: 0.78rem;
 }
 
-.monitor-table tbody tr:nth-child(even) {
+.comparison-table tbody tr:nth-child(even) {
   background: #f8fafb;
-}
-
-.score-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  border: 1px solid currentColor;
-  padding: 3px 8px;
-  font-size: 0.74rem;
-  font-weight: 850;
-  text-transform: uppercase;
-}
-
-.score-pill span {
-  width: 9px;
-  height: 9px;
-  border-radius: 999px;
-  background: currentColor;
-}
-
-.score-pill.green {
-  color: var(--green);
-  background: var(--green-pale);
-}
-
-.score-pill.amber {
-  color: var(--amber);
-  background: var(--amber-pale);
-}
-
-.score-pill.red {
-  color: var(--red);
-  background: var(--red-pale);
 }
 
 .rating-badge {
@@ -960,15 +921,6 @@ h5 {
 .rating-badge.capacity-low {
   color: var(--red);
   background: var(--red-pale);
-}
-
-.judgement-mark {
-  display: inline-block;
-  margin-left: 6px;
-  border-bottom: 1px dotted var(--red);
-  color: var(--red);
-  font-size: 0.72rem;
-  font-weight: 800;
 }
 
 .country-profile {

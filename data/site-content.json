@@ -18,14 +18,14 @@
       "title": "Pricing Displacement Risk",
       "description": "How development banks, sovereign lenders, and ESG frameworks could treat displacement as a material governance risk.",
       "date": "June 2026",
-      "link": "/monitor",
+      "link": "/mapping",
       "tag": "Development finance"
     },
     {
       "title": "Southeast Asian Governance Gaps",
       "description": "A comparative view of law, social protection, fiscal architecture, and regional engagement across eight states.",
       "date": "June 2026",
-      "link": "/monitor",
+      "link": "/mapping",
       "tag": "Southeast Asia"
     }
   ],
@@ -61,9 +61,9 @@
   ],
   "notes": [
     {
-      "title": "Why The Monitor Marks Judgement-Based Cells",
+      "title": "Why Mapping Marks Judgement-Based Cells",
       "date": "2026-06-07",
-      "summary": "A working dataset can be useful without pretending to be final. Judgement markers show where evidence still needs triangulation."
+      "summary": "A working diagnostic can be useful without pretending to be final. Judgement markers show where evidence still needs triangulation."
     },
     {
       "title": "Displacement As A Budget Problem",

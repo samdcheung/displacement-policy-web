@@ -27,10 +27,6 @@
       "dest": "/publications.html"
     },
     {
-      "src": "/monitor",
-      "dest": "/monitor.html"
-    },
-    {
       "src": "/advisory",
       "dest": "/advisory.html"
     },
