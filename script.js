@@ -46,52 +46,24 @@ async function renderSiteContent() {
     const limit = Number(container.dataset.featuredLimit || content.featured_analysis.length);
     const items = content.featured_analysis.slice(0, limit);
     container.innerHTML = `
-      <div class="feature-carousel-stage">
-        ${items
-          .map(
-            (item, index) => `
-              <article class="feature-slide ${index === 0 ? "is-active" : ""}" data-feature-slide="${index}" ${index === 0 ? "" : "hidden"}>
-                <figure>
-                  <img src="${item.image}" alt="">
-                </figure>
-                <div class="feature-slide-copy">
-                  <h3>${item.title}</h3>
-                  <p>${item.description}</p>
-                  <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
-                </div>
-              </article>
-            `
-          )
-          .join("")}
-      </div>
-      <div class="feature-selector" aria-label="Select featured analysis">
-        ${items
-          .map(
-            (item, index) => `
-              <button class="${index === 0 ? "is-active" : ""}" type="button" data-feature-selector="${index}">
-                <span>0${index + 1}</span>${item.title}
-              </button>
-            `
-          )
-          .join("")}
-      </div>
+      ${items
+        .map(
+          (item, index) => `
+            <article class="feature-slide">
+              <figure>
+                <img src="${item.image}" alt="">
+              </figure>
+              <div class="feature-slide-copy">
+                <p class="publication-type">${item.tag || `Featured 0${index + 1}`}</p>
+                <h3>${item.title}</h3>
+                <p>${item.description}</p>
+                <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
+              </div>
+            </article>
+          `
+        )
+        .join("")}
     `;
-
-    const slides = [...container.querySelectorAll("[data-feature-slide]")];
-    const selectors = [...container.querySelectorAll("[data-feature-selector]")];
-    const showFeature = (index) => {
-      slides.forEach((slide, slideIndex) => {
-        const isActive = slideIndex === index;
-        slide.classList.toggle("is-active", isActive);
-        slide.hidden = !isActive;
-      });
-      selectors.forEach((selector, selectorIndex) => {
-        selector.classList.toggle("is-active", selectorIndex === index);
-      });
-    };
-    selectors.forEach((selector) => {
-      selector.addEventListener("click", () => showFeature(Number(selector.dataset.featureSelector)));
-    });
   });
 
   const publicationList = document.querySelector("[data-publications-list]");
