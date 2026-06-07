@@ -6,7 +6,8 @@
       "date": "June 2026",
       "link": "/perspectives",
       "tag": "Framework",
-      "button": "Read Framework"
+      "button": "Read Framework",
+      "image": "assets/images/displacement-continuum.svg"
     },
     {
       "title": "The Fiscal Architecture of Displacement",
@@ -14,7 +15,8 @@
       "date": "June 2026",
       "link": "/perspectives",
       "tag": "Analysis",
-      "button": "Read Analysis"
+      "button": "Read Analysis",
+      "image": "assets/images/65-trillion-asymmetry.svg"
     }
   ],
   "publications": [

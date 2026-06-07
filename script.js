@@ -44,19 +44,54 @@ async function renderSiteContent() {
 
   document.querySelectorAll("[data-featured-analysis]").forEach((container) => {
     const limit = Number(container.dataset.featuredLimit || content.featured_analysis.length);
-    container.innerHTML = content.featured_analysis
-      .slice(0, limit)
-      .map(
-        (item) => `
-          <article class="content-card feature-module">
-            <p class="publication-type">${item.tag} | ${item.date}</p>
-            <h3>${item.title}</h3>
-            <p>${item.description}</p>
-            <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
-          </article>
-        `
-      )
-      .join("");
+    const items = content.featured_analysis.slice(0, limit);
+    container.innerHTML = `
+      <div class="feature-carousel-stage">
+        ${items
+          .map(
+            (item, index) => `
+              <article class="feature-slide ${index === 0 ? "is-active" : ""}" data-feature-slide="${index}" ${index === 0 ? "" : "hidden"}>
+                <figure>
+                  <img src="${item.image}" alt="">
+                </figure>
+                <div class="feature-slide-copy">
+                  <h3>${item.title}</h3>
+                  <p>${item.description}</p>
+                  <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
+                </div>
+              </article>
+            `
+          )
+          .join("")}
+      </div>
+      <div class="feature-selector" aria-label="Select featured analysis">
+        ${items
+          .map(
+            (item, index) => `
+              <button class="${index === 0 ? "is-active" : ""}" type="button" data-feature-selector="${index}">
+                <span>0${index + 1}</span>${item.title}
+              </button>
+            `
+          )
+          .join("")}
+      </div>
+    `;
+
+    const slides = [...container.querySelectorAll("[data-feature-slide]")];
+    const selectors = [...container.querySelectorAll("[data-feature-selector]")];
+    const showFeature = (index) => {
+      slides.forEach((slide, slideIndex) => {
+        const isActive = slideIndex === index;
+        slide.classList.toggle("is-active", isActive);
+        slide.hidden = !isActive;
+      });
+      selectors.forEach((selector, selectorIndex) => {
+        selector.classList.toggle("is-active", selectorIndex === index);
+      });
+    };
+    selectors.forEach((selector) => {
+      selector.addEventListener("click", () => showFeature(Number(selector.dataset.featureSelector)));
+    });
   });
 
   const publicationList = document.querySelector("[data-publications-list]");
@@ -88,9 +123,9 @@ async function renderSiteContent() {
       .map(
         (note) => `
           <article class="content-card">
-            <p class="publication-type">${note.topic} | ${formatNoteDate(note.date)}</p>
             <h3>${note.title}</h3>
             <p>${note.summary}</p>
+            <span class="topic-chip">${note.topic}</span>
           </article>
         `
       )
