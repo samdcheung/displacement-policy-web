@@ -35,7 +35,7 @@ async function renderSiteContent() {
   const targets = [
     document.querySelector("[data-featured-analysis]"),
     document.querySelector("[data-publications-list]"),
-    document.querySelector("[data-perspectives-list]")
+    document.querySelector("[data-commentary-list]")
   ].filter(Boolean);
 
   if (!targets.length) return;
@@ -87,9 +87,9 @@ async function renderSiteContent() {
       .join("");
   }
 
-  document.querySelectorAll("[data-perspectives-list]").forEach((container) => {
-    const limit = Number(container.dataset.perspectivesLimit || content.perspectives.length);
-    container.innerHTML = [...content.perspectives]
+  document.querySelectorAll("[data-commentary-list]").forEach((container) => {
+    const limit = Number(container.dataset.commentaryLimit || content.commentary.length);
+    container.innerHTML = [...content.commentary]
       .sort((a, b) => new Date(b.date) - new Date(a.date))
       .slice(0, limit)
       .map(
@@ -105,276 +105,175 @@ async function renderSiteContent() {
   });
 }
 
-const ratingOrder = { Low: 1, Medium: 2, High: 3 };
-
-function ratingBadge(value, mode = "risk") {
-  return `<span class="rating-badge ${mode}-${value.toLowerCase()}">${value}</span>`;
-}
-
-function averageRating(values) {
-  const average = values.reduce((sum, value) => sum + ratingOrder[value], 0) / values.length;
-  if (average >= 2.5) return "High";
-  if (average >= 1.5) return "Medium";
-  return "Low";
-}
-
-function invertRating(value) {
-  return { Low: "High", Medium: "Medium", High: "Low" }[value];
-}
-
-function toTitleLabel(value) {
-  return value
-    .replaceAll("_", " ")
-    .replace(/\b[a-z]/g, (letter) => letter.toUpperCase());
-}
-
 async function renderMapping() {
   const root = document.querySelector("[data-mapping]");
   if (!root) return;
 
-  const [countriesData, mappingData, fiscalData, infrastructureData, reformsData] = await Promise.all([
-    fetchJson("data/countries.json"),
-    fetchJson("data/mapping.json"),
-    fetchJson("data/fiscal_architecture.json"),
-    fetchJson("data/infrastructure_governance.json"),
-    fetchJson("data/reform_pathways.json")
-  ]);
+  const mappingData = await fetchJson("data/mapping.json");
+  const records = mappingData.countries;
+  const filters = mappingData.filters;
+  const matrixColumns = [
+    ["primary_displacement_dynamics", "Primary displacement dynamics"],
+    ["social_protection_inclusion", "Social protection inclusion"],
+    ["territorial_portability", "Territorial portability"],
+    ["municipal_absorption", "Municipal absorption"],
+    ["fiscal_sustainability", "Fiscal sustainability"],
+    ["key_governance_challenge", "Key governance challenge"]
+  ];
+  let activeCountryId = records[0]?.id;
 
-  const countries = countriesData.countries;
-  const faultLines = new Map(mappingData.fault_lines.map((item) => [item.country_id, item]));
-  const fiscal = new Map(fiscalData.countries.map((item) => [item.country_id, item]));
-  const infrastructure = new Map(infrastructureData.countries.map((item) => [item.country_id, item]));
-  const reforms = new Map(reformsData.countries.map((item) => [item.country_id, item.priority_reforms]));
-  const faultLineFields = ["categorical", "temporal", "territorial"];
-  let sortKey = "country";
-  let sortDirection = 1;
-  let visibleCountries = countries;
+  const renderList = (items) => items.map((item) => `<li>${item}</li>`).join("");
 
-  const enrichCountry = (country) => {
-    const countryFaults = faultLines.get(country.id);
-    const countryFiscal = fiscal.get(country.id);
-    const countryInfrastructure = infrastructure.get(country.id);
-    return {
-      ...country,
-      faults: countryFaults,
-      fiscal: countryFiscal,
-      infrastructure: countryInfrastructure,
-      reforms: reforms.get(country.id),
-      fiscal_rating: averageRating([
-        { Humanitarian: "High", Project: "High", Contingency: "Medium", Baseline: "Low" }[countryFiscal.budget_integration],
-        invertRating(countryFiscal.adaptive_systems.adaptive_social_protection),
-        invertRating(countryFiscal.adaptive_systems.disaster_risk_financing),
-        invertRating(countryFiscal.adaptive_systems.municipal_finance),
-        invertRating(countryFiscal.adaptive_systems.climate_finance),
-        countryFiscal.recurrent_fiscal_obligation_risk
-      ]),
-      infrastructure_rating: averageRating([
-        invertRating(countryInfrastructure.safeguards),
-        invertRating(countryInfrastructure.resettlement_systems),
-        invertRating(countryInfrastructure.registry_integration),
-        invertRating(countryInfrastructure.post_project_continuity)
-      ])
-    };
-  };
-
-  const records = countries.map(enrichCountry);
-
-  function populateMappingFilters() {
-    const filterValues = {
-      region: [...new Set(countries.map((country) => country.region))].sort(),
-      income_group: [...new Set(countries.map((country) => country.income_group))].sort(),
-      displacement_type: [...new Set(countries.flatMap((country) => country.primary_displacement_types))].sort(),
-      fault_line: ["Categorical", "Temporal", "Territorial"]
-    };
-
-    root.querySelectorAll("[data-mapping-filter]").forEach((select) => {
-      filterValues[select.dataset.mappingFilter].forEach((value) => {
-        const option = document.createElement("option");
-        option.value = value;
-        option.textContent = value;
-        select.append(option);
+  function renderTabs() {
+    root.querySelectorAll("[data-mapping-tab]").forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const target = tab.dataset.mappingTab;
+        root.querySelectorAll("[data-mapping-tab]").forEach((item) => {
+          const isActive = item === tab;
+          item.classList.toggle("is-active", isActive);
+          item.setAttribute("aria-selected", String(isActive));
+        });
+        root.querySelectorAll("[data-mapping-panel]").forEach((panel) => {
+          panel.hidden = panel.dataset.mappingPanel !== target;
+        });
       });
-      select.addEventListener("change", renderMappingViews);
     });
   }
 
-  function getMappingFilters() {
-    return [...root.querySelectorAll("[data-mapping-filter]")].reduce((filters, select) => {
-      filters[select.dataset.mappingFilter] = select.value;
-      return filters;
-    }, {});
-  }
-
-  function applyMappingFilters() {
-    const filters = getMappingFilters();
-    visibleCountries = records.filter((record) => {
-      const selectedFault = filters.fault_line.toLowerCase();
-      return (
-        (!filters.region || record.region === filters.region) &&
-        (!filters.income_group || record.income_group === filters.income_group) &&
-        (!filters.displacement_type || record.primary_displacement_types.includes(filters.displacement_type)) &&
-        (!selectedFault || ratingOrder[record.faults[selectedFault]] >= ratingOrder.Medium)
-      );
-    });
-  }
-
-  function sortRecords(recordsToSort) {
-    return [...recordsToSort].sort((a, b) => {
-      const sortValue = (record) => {
-        if (sortKey === "country") return record.country;
-        if (sortKey === "fiscal") return ratingOrder[record.fiscal_rating];
-        if (sortKey === "infrastructure") return ratingOrder[record.infrastructure_rating];
-        return ratingOrder[record.faults[sortKey]];
-      };
-      const aValue = sortValue(a);
-      const bValue = sortValue(b);
-      if (typeof aValue === "string") return aValue.localeCompare(bValue) * sortDirection;
-      return (aValue - bValue) * sortDirection;
-    });
-  }
-
-  function renderComparisonTable() {
-    const table = root.querySelector("[data-mapping-table]");
-    table.innerHTML = sortRecords(visibleCountries)
-      .map((record) => `
-        <tr>
-          <td><strong>${record.country}</strong><br><span class="muted-text">${record.income_group}</span></td>
-          <td>${ratingBadge(record.faults.categorical)}</td>
-          <td>${ratingBadge(record.faults.temporal)}</td>
-          <td>${ratingBadge(record.faults.territorial)}</td>
-          <td>${ratingBadge(record.fiscal_rating)}<br><span class="muted-text">${record.fiscal.budget_integration}</span></td>
-          <td>${ratingBadge(record.infrastructure_rating)}</td>
-          <td>${record.reforms[0].recommended_reform}</td>
-        </tr>
-      `)
+  function renderCountryChooser() {
+    const chooser = root.querySelector("[data-country-chooser]");
+    if (!chooser) return;
+    chooser.innerHTML = records
+      .map((record) => `<button class="${record.id === activeCountryId ? "is-active" : ""}" type="button" data-country-choice="${record.id}">${record.country}</button>`)
       .join("");
+    chooser.querySelectorAll("[data-country-choice]").forEach((button) => {
+      button.addEventListener("click", () => {
+        activeCountryId = button.dataset.countryChoice;
+        renderCountryChooser();
+        renderActiveProfile();
+      });
+    });
+  }
+
+  function renderActiveProfile() {
+    const profile = root.querySelector("[data-country-profile]");
+    const record = records.find((item) => item.id === activeCountryId) || records[0];
+    if (!profile || !record) return;
+    profile.innerHTML = `
+      <article class="mapping-profile" id="${record.id}">
+        <div class="mapping-profile-heading">
+          <div>
+            <p class="eyebrow">Country Profile</p>
+            <h3>${record.country}</h3>
+          </div>
+        </div>
+
+        <section>
+          <h4>Overview</h4>
+          <p>${record.overview}</p>
+        </section>
+
+        <section>
+          <h4>Primary displacement dynamics</h4>
+          <div class="tag-list">${createTagList(record.primary_displacement_dynamics)}</div>
+        </section>
+
+        <section>
+          <h4>Institutional architecture</h4>
+          <ul class="compact-bullets">${renderList(record.institutional_architecture)}</ul>
+        </section>
+
+        <section>
+          <h4>Governance fault lines</h4>
+          <ul class="compact-bullets">${renderList(record.governance_fault_lines)}</ul>
+        </section>
+
+        <section>
+          <h4>Relevant systems</h4>
+          <ul class="compact-bullets">${renderList(record.relevant_systems)}</ul>
+        </section>
+
+        <section>
+          <h4>Reform opportunities</h4>
+          <p>${record.reform_opportunities}</p>
+        </section>
+
+        <section>
+          <h4>Sources</h4>
+          <p>${record.sources} <a class="text-link" href="#mapping-methodology" data-open-methodology>Review methodology</a></p>
+        </section>
+      </article>
+    `;
+    profile.querySelector("[data-open-methodology]")?.addEventListener("click", (event) => {
+      event.preventDefault();
+      root.querySelector('[data-mapping-tab="methodology"]')?.click();
+      document.getElementById("mapping-methodology")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  function populateFilters() {
+    const displacement = root.querySelector('[data-filter="displacement"]');
+    const governance = root.querySelector('[data-filter="governance"]');
+    if (displacement) {
+      displacement.innerHTML = `<option value="">All displacement types</option>${filters.displacement_types.map((item) => `<option value="${item}">${item}</option>`).join("")}`;
+    }
+    if (governance) {
+      governance.innerHTML = `<option value="">All governance areas</option>${filters.governance_areas.map((item) => `<option value="${item}">${item}</option>`).join("")}`;
+    }
+    root.querySelectorAll("[data-filter]").forEach((select) => select.addEventListener("change", renderMatrix));
+  }
+
+  function getFilteredRecords() {
+    const displacement = root.querySelector('[data-filter="displacement"]')?.value;
+    const governance = root.querySelector('[data-filter="governance"]')?.value;
+    return records.filter((record) =>
+      (!displacement || record.primary_displacement_dynamics.includes(displacement)) &&
+      (!governance || record.governance_areas.includes(governance))
+    );
   }
 
   function renderMatrix() {
-    const matrix = root.querySelector("[data-mapping-matrix]");
-    const columns = [
-      ["categorical", "Categorical"],
-      ["temporal", "Temporal"],
-      ["territorial", "Territorial"],
-      ["fiscal_rating", "Fiscal"],
-      ["infrastructure_rating", "Infrastructure"]
-    ];
-    matrix.innerHTML = `
-      <div class="matrix-row matrix-head">
-        <span>Country</span>${columns.map(([, label]) => `<span>${label}</span>`).join("")}
-      </div>
-      ${sortRecords(visibleCountries).map((record) => `
-        <div class="matrix-row">
-          <strong>${record.country}</strong>
-          ${columns.map(([key]) => {
-            const value = key.endsWith("_rating") ? record[key] : record.faults[key];
-            return `<span class="matrix-cell ${value.toLowerCase()}" title="${value}">${value}</span>`;
-          }).join("")}
-        </div>
-      `).join("")}
+    const head = root.querySelector("[data-mapping-matrix-head]");
+    const body = root.querySelector("[data-mapping-matrix]");
+    const count = root.querySelector("[data-matrix-count]");
+    const visibleRecords = getFilteredRecords();
+    if (!head || !body) return;
+
+    head.innerHTML = `
+      <tr>
+        <th>Country</th>
+        ${matrixColumns.map(([, label]) => `<th>${label}</th>`).join("")}
+      </tr>
     `;
-  }
-
-  function renderCountryLinks() {
-    const links = root.querySelector("[data-country-links]");
-    if (!links) return;
-    links.innerHTML = sortRecords(visibleCountries)
-      .map((record) => `<a href="#${record.id}">${record.country}</a>`)
-      .join("");
-  }
-
-  function renderCountryProfiles() {
-    const profiles = root.querySelector("[data-country-profiles]");
-    profiles.innerHTML = sortRecords(visibleCountries)
+    body.innerHTML = visibleRecords
       .map((record) => `
-        <article class="mapping-profile" id="${record.id}">
-          <div class="mapping-profile-heading">
-            <div>
-              <p class="eyebrow">${record.region}</p>
-              <h3>${record.country}</h3>
-            </div>
-            <span>${record.income_group}</span>
-          </div>
-
-          <section>
-            <h4>Overview</h4>
-            <dl class="profile-facts">
-              <div><dt>Population</dt><dd>${record.population}</dd></div>
-              <div><dt>Primary Displacement Types</dt><dd>${record.primary_displacement_types.join(", ")}</dd></div>
-            </dl>
-          </section>
-
-          <section>
-            <h4>Governance Fault Lines</h4>
-            <div class="diagnostic-grid">
-              ${faultLineFields.map((key) => `
-                <div>
-                  <strong>${toTitleLabel(key)}</strong>
-                  ${ratingBadge(record.faults[key])}
-                  <p>${record.faults[`${key}_note`]}</p>
-                </div>
-              `).join("")}
-            </div>
-          </section>
-
-          <section>
-            <h4>Fiscal Architecture</h4>
-            <p><strong>Budget Integration:</strong> ${record.fiscal.budget_integration}</p>
-            <div class="diagnostic-grid">
-              ${Object.entries(record.fiscal.adaptive_systems).map(([key, value]) => `
-                <div><strong>${toTitleLabel(key)}</strong>${ratingBadge(value, "capacity")}</div>
-              `).join("")}
-            </div>
-            <p><strong>Recurrent Fiscal Obligation Risk:</strong> ${ratingBadge(record.fiscal.recurrent_fiscal_obligation_risk)} ${record.fiscal.description}</p>
-          </section>
-
-          <section>
-            <h4>Infrastructure Governance</h4>
-            <div class="diagnostic-grid">
-              ${["safeguards", "resettlement_systems", "registry_integration", "post_project_continuity"].map((key) => `
-                <div><strong>${toTitleLabel(key)}</strong>${ratingBadge(record.infrastructure[key], "capacity")}</div>
-              `).join("")}
-            </div>
-          </section>
-
-          <section>
-            <h4>Reform Pathways</h4>
-            <div class="reform-list">
-              ${record.reforms.map((reform, index) => `
-                <article>
-                  <span>Priority Reform ${index + 1}</span>
-                  <h5>${reform.issue}</h5>
-                  <p>${reform.recommended_reform}</p>
-                  <p><strong>Counterpart:</strong> ${reform.likely_counterpart_institution}</p>
-                  <p><strong>Feasibility:</strong> ${ratingBadge(reform.feasibility, "capacity")}</p>
-                </article>
-              `).join("")}
-            </div>
-          </section>
-        </article>
+        <tr>
+          <td><button type="button" data-matrix-country="${record.id}">${record.country}</button></td>
+          ${matrixColumns.map(([key]) => {
+            const value = key === "primary_displacement_dynamics"
+              ? record.primary_displacement_dynamics.join(", ")
+              : record.comparison[key];
+            return `<td>${value}</td>`;
+          }).join("")}
+        </tr>
       `)
       .join("");
-  }
-
-  function renderMappingViews() {
-    applyMappingFilters();
-    renderComparisonTable();
-    renderMatrix();
-    renderCountryLinks();
-    renderCountryProfiles();
-  }
-
-  root.querySelectorAll("[data-sort]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const nextKey = button.dataset.sort;
-      sortDirection = sortKey === nextKey ? sortDirection * -1 : 1;
-      sortKey = nextKey;
-      renderMappingViews();
+    if (count) count.textContent = `${visibleRecords.length} ${visibleRecords.length === 1 ? "country" : "countries"} shown`;
+    body.querySelectorAll("[data-matrix-country]").forEach((button) => {
+      button.addEventListener("click", () => {
+        activeCountryId = button.dataset.matrixCountry;
+        root.querySelector('[data-mapping-tab="profiles"]')?.click();
+        renderCountryChooser();
+        renderActiveProfile();
+      });
     });
-  });
+  }
 
-  populateMappingFilters();
-  renderMappingViews();
+  renderTabs();
+  renderCountryChooser();
+  renderActiveProfile();
+  populateFilters();
+  renderMatrix();
 }
 
 renderSiteContent().catch((error) => console.error(error));

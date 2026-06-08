@@ -17,6 +17,7 @@
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Displacement Policy home">
           <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+          <span>Research and analysis on displacement governance.</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
           <span class="nav-toggle-line"></span>
@@ -25,10 +26,10 @@
           <span class="sr-only">Toggle navigation</span>
         </button>
         <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-          <a href="/">Home</a>
+          <a href="/analysis">Analysis</a>
           <a href="/mapping" aria-current="page">Mapping</a>
-          <a href="/perspectives">Perspectives</a>
           <a href="/publications">Publications</a>
+          <a href="/commentary">Commentary</a>
           <a href="/about">About</a>
         </nav>
       </div>
@@ -37,82 +38,66 @@
     <main id="main">
       <section class="page-hero section-band">
         <div class="container">
-          <p class="eyebrow">Mapping</p>
           <h1>Displacement Governance Mapping</h1>
-          <p class="subtitle">Mapping governance fault lines and fiscal pathways across displacement contexts.</p>
-        </div>
-      </section>
-
-      <section class="section section-compact">
-        <div class="container content-grid">
-          <div class="section-heading">
-            <h2>Governance And Fiscal Architecture Diagnostic</h2>
-          </div>
-          <div class="prose">
-            <p>Displacement Governance Mapping is a comparative diagnostic framework examining how governance systems absorb displacement-related pressures.</p>
-            <p>Rather than tracking displaced populations, it identifies where governance systems fragment, where fiscal architecture constrains inclusion, and what reforms can support sustainable inclusion.</p>
-            <p>The framework focuses on governance fault lines, institutional absorption capacity, fiscal architecture, and reform opportunities across displacement contexts.</p>
-          </div>
+          <p class="subtitle">Mapping where displacement governance breaks &mdash; and where national systems can absorb it.</p>
+          <p class="intro">Displacement Governance Mapping examines how Southeast Asian states manage displacement across legal categories, institutions, territories, and financing systems. The project identifies governance fault lines, institutional arrangements, and reform opportunities using publicly available laws, policies, and research.</p>
         </div>
       </section>
 
       <section class="section section-muted section-compact" data-mapping>
         <div class="container mapping-shell">
-          <div class="section-heading split-heading">
-            <div>
-              <p class="eyebrow">Comparison Dashboard</p>
-              <h2>Country Diagnostics</h2>
+          <div class="mapping-tabs" role="tablist" aria-label="Mapping views">
+            <button class="is-active" type="button" role="tab" aria-selected="true" data-mapping-tab="profiles">Country Profiles</button>
+            <button type="button" role="tab" aria-selected="false" data-mapping-tab="matrix">Comparison Matrix</button>
+            <button type="button" role="tab" aria-selected="false" data-mapping-tab="methodology">Methodology</button>
+          </div>
+
+          <section data-mapping-panel="profiles" aria-labelledby="profiles-title">
+            <div class="mapping-panel-heading">
+              <div>
+                <p class="eyebrow">Select</p>
+                <h2 id="profiles-title">Choose a country</h2>
+              </div>
+              <p class="section-kicker">Select a country to explore its governance arrangements, institutional fault lines, and reform opportunities.</p>
             </div>
-            <p class="section-kicker">This is not a displacement database. It is a governance and fiscal architecture diagnostic platform.</p>
-          </div>
-
-          <div class="mapping-controls" aria-label="Mapping filters">
-            <label>Region<select data-mapping-filter="region"><option value="">All regions</option></select></label>
-            <label>Income Group<select data-mapping-filter="income_group"><option value="">All income groups</option></select></label>
-            <label>Displacement Type<select data-mapping-filter="displacement_type"><option value="">All types</option></select></label>
-            <label>Fault Line Category<select data-mapping-filter="fault_line"><option value="">All fault lines</option></select></label>
-          </div>
-
-          <div class="table-wrap" tabindex="0">
-            <table class="comparison-table mapping-table">
-              <thead>
-                <tr>
-                  <th><button type="button" data-sort="country">Country</button></th>
-                  <th><button type="button" data-sort="categorical">Categorical</button></th>
-                  <th><button type="button" data-sort="temporal">Temporal</button></th>
-                  <th><button type="button" data-sort="territorial">Territorial</button></th>
-                  <th><button type="button" data-sort="fiscal">Fiscal Architecture</button></th>
-                  <th><button type="button" data-sort="infrastructure">Infrastructure Governance</button></th>
-                  <th>Priority Reform</th>
-                </tr>
-              </thead>
-              <tbody data-mapping-table></tbody>
-            </table>
-          </div>
-
-          <section class="mapping-matrix compact-subsection" aria-labelledby="matrix-title">
-            <div class="section-heading">
-              <p class="eyebrow">Matrix View</p>
-              <h2 id="matrix-title">Fault Line Matrix</h2>
-            </div>
-            <div class="matrix-grid" data-mapping-matrix></div>
+            <div class="country-selector" data-country-chooser aria-label="Choose a country"></div>
+            <div data-country-profile></div>
           </section>
 
-          <section class="country-database compact-subsection" aria-labelledby="profiles-title">
-            <div class="section-heading">
-              <p class="eyebrow">Country Profiles</p>
-              <h2 id="profiles-title">Profile Links</h2>
+          <section data-mapping-panel="matrix" aria-labelledby="matrix-title" hidden>
+            <div class="mapping-panel-heading">
+              <div>
+                <p class="eyebrow">Compare</p>
+                <h2 id="matrix-title">Comparison Matrix</h2>
+              </div>
+              <p class="section-kicker">Use filters to compare governance arrangements across countries. The matrix provides analytical descriptions, not country grades.</p>
             </div>
-            <div class="country-link-list" data-country-links></div>
-            <div class="profile-stack" data-country-profiles></div>
+            <div class="mapping-filters" aria-label="Comparison filters">
+              <label>Displacement type<select data-filter="displacement"></select></label>
+              <label>Governance area<select data-filter="governance"></select></label>
+            </div>
+            <p class="table-count" data-matrix-count></p>
+            <div class="table-wrap" tabindex="0">
+              <table class="comparison-table qualitative-matrix">
+                <thead data-mapping-matrix-head></thead>
+                <tbody data-mapping-matrix></tbody>
+              </table>
+            </div>
           </section>
 
-          <section class="method-note compact-subsection" aria-labelledby="method-note-title">
-            <div class="section-heading">
-              <p class="eyebrow">Methodology Note</p>
-              <h2 id="method-note-title">Diagnostic, Not Caseload Tracking</h2>
+          <section id="mapping-methodology" data-mapping-panel="methodology" aria-labelledby="method-title" hidden>
+            <div class="mapping-panel-heading">
+              <div>
+                <p class="eyebrow">Review</p>
+                <h2 id="method-title">Methodology</h2>
+              </div>
             </div>
-            <p>The mapping framework assesses categorical, temporal, territorial, fiscal, and infrastructure fault lines. Ratings are comparative diagnostics intended to identify institutional constraints and reform pathways, not to count displaced populations.</p>
+            <div class="methodology-box">
+              <p>This mapping is a qualitative analytical assessment.</p>
+              <p>It draws on laws, policies, institutional frameworks, published reports, academic literature, and comparative governance analysis.</p>
+              <p>It is not a statistical dataset, ranking exercise, or original field data collection.</p>
+              <p>The framework is informed by the displacement governance and sustainable inclusion research agenda developed through the platform's publications and comparative regional analysis.</p>
+            </div>
           </section>
         </div>
       </section>
@@ -122,29 +107,27 @@
       <div class="container footer-inner">
         <div class="footer-brand">
           <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
-          <p>Displacement Policy examines how states and institutions carry displacement as a recurrent public obligation. The platform connects governance analysis, fiscal architecture, social protection, and development finance to identify practical reform pathways.</p>
-          <p class="copyright">Copyright Displacement Policy</p>
+          <p>Displacement Policy examines how states and institutions carry displacement as a recurrent public obligation.</p>
         </div>
         <div class="footer-section" aria-label="Research themes">
           <h2>Research Themes</h2>
           <ul class="footer-themes">
             <li>Governance Systems</li>
             <li>Fiscal Architecture</li>
-            <li>Social Protection</li>
-            <li>Development Finance</li>
             <li>Sustainable Inclusion</li>
           </ul>
         </div>
         <nav class="footer-section footer-links" aria-label="Footer navigation">
           <h2>Links</h2>
           <a href="/mapping">Mapping</a>
-          <a href="/perspectives">Perspectives</a>
+          <a href="/commentary">Commentary</a>
           <a href="/publications">Publications</a>
           <a href="/about">About</a>
           <a href="/methods">Methods</a>
-          <a href="/contact">Contact</a>
-          <a href="mailto:info@displacementpolicy.org">Email</a>
         </nav>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Displacement Policy.</p>
       </div>
     </footer>
     <script src="script.js"></script>

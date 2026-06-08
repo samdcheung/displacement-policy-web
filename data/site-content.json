@@ -2,18 +2,18 @@
   "featured_analysis": [
     {
       "title": "The Displacement Continuum",
-      "description": "A governance diagnostic for identifying where systems stop following people across categorical, temporal, and territorial boundaries.",
+      "description": "A governance diagnostic for identifying where institutions stop following people across categorical, territorial, and temporal boundaries.",
       "date": "June 2026",
-      "link": "/perspectives",
+      "link": "/commentary",
       "tag": "Framework",
       "button": "Read Framework",
-      "image": "assets/images/displacement-continuum.svg"
+      "image": "assets/images/displacement-continuum.png"
     },
     {
       "title": "The Fiscal Architecture of Displacement",
-      "description": "Why sovereign finance, public expenditure systems, and institutional incentives shape displacement outcomes.",
+      "description": "How sovereign finance, public expenditure systems, and institutional incentives shape displacement response.",
       "date": "June 2026",
-      "link": "/perspectives",
+      "link": "/commentary",
       "tag": "Analysis",
       "button": "Read Analysis",
       "image": "assets/images/65-trillion-asymmetry.svg"
@@ -53,21 +53,21 @@
       "tags": ["Fiscal architecture", "Budgets", "Public finance"]
     }
   ],
-  "perspectives": [
+  "commentary": [
     {
-      "title": "Why Mapping Marks Judgement-Based Cells",
+      "title": "Why mapping marks judgement-based cells",
       "date": "2026-06-07",
       "topic": "Methods",
       "summary": "A working diagnostic can be useful without pretending to be final. Judgement markers show where evidence still needs triangulation."
     },
     {
-      "title": "Displacement As A Budget Problem",
+      "title": "Displacement as a budget problem",
       "date": "2026-06-02",
       "topic": "Fiscal Architecture",
       "summary": "The policy question is not only whether assistance exists, but whether costs are carried by recurrent public systems."
     },
     {
-      "title": "Regional Governance And Ordinary Systems",
+      "title": "Regional governance and ordinary systems",
       "date": "2026-05-24",
       "topic": "Governance",
       "summary": "Regional frameworks matter most when they shape how national systems include people in practice."

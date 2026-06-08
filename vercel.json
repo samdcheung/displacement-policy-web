@@ -11,8 +11,8 @@
       "dest": "/analysis.html"
     },
     {
-      "src": "/perspectives",
-      "dest": "/perspectives.html"
+      "src": "/commentary",
+      "dest": "/commentary.html"
     },
     {
       "src": "/mapping",
@@ -29,10 +29,6 @@
     {
       "src": "/publications",
       "dest": "/publications.html"
-    },
-    {
-      "src": "/advisory",
-      "dest": "/advisory.html"
     },
     {
       "src": "/contact",
