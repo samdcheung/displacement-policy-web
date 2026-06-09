@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
-  <title>Displacement governance hero image</title>
-  <desc>Dark blue field with contour lines, network points, and overlapping hexagons.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700" role="img">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#06283d"></stop>
-      <stop offset="1" stop-color="#0b3d56"></stop>
+      <stop offset="0" stop-color="#06283d" />
+      <stop offset="1" stop-color="#0b3d56" />
     </linearGradient>
 
     <style>
@@ -14,64 +11,47 @@
       .node { fill: #c8902f; opacity: 0.88; }
       .node2 { fill: #e8ddc7; opacity: 0.75; }
       .link { stroke: #e8ddc7; stroke-width: 1; opacity: 0.35; }
-      .hero-title {
-        font-family: Georgia, "Times New Roman", serif;
-        fill: #f8f5ef;
-        font-size: 58px;
-      }
-      .hero-copy {
-        font-family: Arial, Helvetica, sans-serif;
-        fill: #f8f5ef;
-        font-size: 22px;
-      }
     </style>
   </defs>
 
-  <rect width="1600" height="700" fill="url(#bg)"></rect>
+  <rect width="1600" height="700" fill="url(#bg)" />
 
   <g transform="translate(560 -30)">
-    <path class="contour" d="M18 520 C130 350 110 160 290 95 C455 36 610 100 720 210 C842 332 910 350 1065 287 C1220 224 1326 300 1445 405"></path>
-    <path class="contour2" d="M0 565 C145 385 150 183 318 126 C474 73 595 145 694 240 C812 354 898 391 1050 330 C1210 267 1300 322 1468 455"></path>
-    <path class="contour" d="M65 610 C190 460 198 245 350 178 C498 113 604 190 704 282 C822 392 926 436 1088 367 C1250 298 1352 385 1515 515"></path>
-    <path class="contour2" d="M112 663 C240 515 253 302 382 230 C520 153 633 238 724 332 C832 444 952 490 1110 420 C1280 345 1390 443 1560 580"></path>
-    <path class="contour" d="M212 690 C325 546 328 370 440 300 C570 220 690 298 790 394 C895 495 1008 536 1160 477 C1340 408 1430 495 1600 640"></path>
-    <path class="contour2" d="M275 70 C430 -15 610 5 730 130 C860 265 928 280 1050 218 C1210 137 1370 165 1510 280"></path>
-    <path class="contour" d="M320 118 C465 44 600 48 706 158 C835 292 930 330 1078 263 C1230 194 1350 230 1485 340"></path>
-    <path class="contour2" d="M362 168 C493 102 600 105 690 200 C815 332 930 376 1102 310 C1265 247 1378 286 1518 395"></path>
+    <path class="contour" d="M18 520 C130 350 110 160 290 95 C455 36 610 100 720 210 C842 332 910 350 1065 287 C1220 224 1326 300 1445 405" />
+    <path class="contour2" d="M0 565 C145 385 150 183 318 126 C474 73 595 145 694 240 C812 354 898 391 1050 330 C1210 267 1300 322 1468 455" />
+    <path class="contour" d="M65 610 C190 460 198 245 350 178 C498 113 604 190 704 282 C822 392 926 436 1088 367 C1250 298 1352 385 1515 515" />
+    <path class="contour2" d="M112 663 C240 515 253 302 382 230 C520 153 633 238 724 332 C832 444 952 490 1110 420 C1280 345 1390 443 1560 580" />
+    <path class="contour" d="M212 690 C325 546 328 370 440 300 C570 220 690 298 790 394 C895 495 1008 536 1160 477 C1340 408 1430 495 1600 640" />
+    <path class="contour2" d="M275 70 C430 -15 610 5 730 130 C860 265 928 280 1050 218 C1210 137 1370 165 1510 280" />
+    <path class="contour" d="M320 118 C465 44 600 48 706 158 C835 292 930 330 1078 263 C1230 194 1350 230 1485 340" />
+    <path class="contour2" d="M362 168 C493 102 600 105 690 200 C815 332 930 376 1102 310 C1265 247 1378 286 1518 395" />
   </g>
 
   <g>
-    <line class="link" x1="720" y1="160" x2="850" y2="250"></line>
-    <line class="link" x1="850" y1="250" x2="1025" y2="210"></line>
-    <line class="link" x1="1025" y1="210" x2="1190" y2="310"></line>
-    <line class="link" x1="1190" y1="310" x2="1390" y2="260"></line>
-    <line class="link" x1="780" y1="430" x2="960" y2="360"></line>
-    <line class="link" x1="960" y1="360" x2="1190" y2="310"></line>
+    <line class="link" x1="720" y1="160" x2="850" y2="250" />
+    <line class="link" x1="850" y1="250" x2="1025" y2="210" />
+    <line class="link" x1="1025" y1="210" x2="1190" y2="310" />
+    <line class="link" x1="1190" y1="310" x2="1390" y2="260" />
+    <line class="link" x1="780" y1="430" x2="960" y2="360" />
+    <line class="link" x1="960" y1="360" x2="1190" y2="310" />
 
-    <circle class="node" cx="720" cy="160" r="5"></circle>
-    <circle class="node2" cx="850" cy="250" r="5"></circle>
-    <circle class="node" cx="1025" cy="210" r="6"></circle>
-    <circle class="node2" cx="1190" cy="310" r="5"></circle>
-    <circle class="node" cx="1390" cy="260" r="5"></circle>
-    <circle class="node" cx="780" cy="430" r="4"></circle>
-    <circle class="node2" cx="960" cy="360" r="5"></circle>
+    <circle class="node" cx="720" cy="160" r="5" />
+    <circle class="node2" cx="850" cy="250" r="5" />
+    <circle class="node" cx="1025" cy="210" r="6" />
+    <circle class="node2" cx="1190" cy="310" r="5" />
+    <circle class="node" cx="1390" cy="260" r="5" />
+    <circle class="node" cx="780" cy="430" r="4" />
+    <circle class="node2" cx="960" cy="360" r="5" />
   </g>
 
   <g transform="translate(1070 155)">
-    <polygon points="155,0 289,77 289,231 155,308 21,231 21,77" fill="none" stroke="#f8f5ef" stroke-width="6"></polygon>
-    <polygon points="248,152 382,229 382,383 248,460 114,383 114,229" fill="none" stroke="#c8902f" stroke-width="5"></polygon>
-    <polygon points="170,190 280,253 280,379 170,442 60,379 60,253" fill="#1f5a6b" opacity="0.64"></polygon>
+    <polygon points="155,0 289,77 289,231 155,308 21,231 21,77" fill="none" stroke="#f8f5ef" stroke-width="6" />
+    <polygon points="248,152 382,229 382,383 248,460 114,383 114,229" fill="none" stroke="#c8902f" stroke-width="5" />
+    <polygon points="170,190 280,253 280,379 170,442 60,379 60,253" fill="#1f5a6b" opacity="0.64" />
   </g>
 
   <g transform="translate(92 118)">
-    <text class="hero-title" x="0" y="0">Research and analysis</text>
-    <text class="hero-title" x="0" y="72">on displacement</text>
-    <text class="hero-title" x="0" y="144">governance.</text>
+    <line x1="0" y1="190" x2="74" y2="190" stroke="#c8902f" stroke-width="4" />
 
-    <line x1="0" y1="190" x2="74" y2="190" stroke="#c8902f" stroke-width="4"></line>
-
-    <text class="hero-copy" x="0" y="245">Examining how states, institutions and public</text>
-    <text class="hero-copy" x="0" y="278">systems manage displacement across humanitarian,</text>
-    <text class="hero-copy" x="0" y="311">development and climate contexts.</text>
-  </g>
+    </g>
 </svg>
