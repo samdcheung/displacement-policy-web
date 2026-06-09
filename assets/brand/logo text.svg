@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+  <title>Displacement Policy logo</title>
+  <desc>Overlapping hexagon mark with Displacement Policy wordmark.</desc>
+
+  <defs>
+    <style>
+      .word {
+        font-family: Georgia, "Times New Roman", serif;
+        fill: #071d2b;
+        font-size: 58px;
+        font-weight: 400;
+      }
+      .tag {
+        font-family: Arial, Helvetica, sans-serif;
+        fill: #a66c16;
+        font-size: 15px;
+        letter-spacing: 5px;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(42 28)">
+    <polygon points="86,0 154,39 154,117 86,156 18,117 18,39" fill="#06283d"></polygon>
+    <polygon points="124,46 192,85 192,163 124,202 56,163 56,85" fill="#1f5a6b" opacity="0.78"></polygon>
+    <polygon points="122,20 190,59 190,137 122,176 54,137 54,59" fill="none" stroke="#c8902f" stroke-width="4"></polygon>
+  </g>
+
+  <g transform="translate(270 62)">
+    <text class="word" x="0" y="58">Displacement</text>
+    <text class="word" x="0" y="116">Policy</text>
+    <line x1="0" y1="138" x2="86" y2="138" stroke="#c8902f" stroke-width="4"></line>
+    <text class="tag" x="0" y="174">RESEARCH ON DISPLACEMENT GOVERNANCE</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Displacement Policy favicon</title>
+
+  <rect width="64" height="64" rx="12" fill="#f8f5ef"></rect>
+
+  <polygon points="27,7 47,18.5 47,41.5 27,53 7,41.5 7,18.5" fill="#06283d"></polygon>
+  <polygon points="39,20 57,30.5 57,51.5 39,62 21,51.5 21,30.5" fill="#1f5a6b" opacity="0.78"></polygon>
+  <polygon points="38,12 58,23.5 58,46.5 38,58 18,46.5 18,23.5" fill="none" stroke="#c8902f" stroke-width="2.5"></polygon>
+</svg>
