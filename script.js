@@ -104,11 +104,12 @@ async function renderSiteContent() {
       .slice(0, limit)
       .map(
         (note) => `
-          <article class="content-card">
+          <article class="content-card perspective-card">
+            <p class="publication-type">Featured Reflection</p>
             <h3>${note.title}</h3>
             <p class="byline">${note.author} | ${note.date}</p>
             <p>${note.summary}</p>
-            <span class="topic-chip">${note.topic}</span>
+            <a class="text-link" href="/perspectives">Read more</a>
           </article>
         `
       )
