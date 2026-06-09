@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Displacement Governance Mapping | Displacement Policy</title>
+    <title>Mapping | Displacement Policy</title>
     <meta
       name="description"
-      content="A comparative diagnostic framework mapping governance fault lines, institutional absorption capacity, fiscal architecture, and reform pathways across displacement contexts."
+      content="Southeast Asia Displacement Governance Mapping: a comparative methodology for analysing how states govern displacement."
     >
     <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
@@ -17,7 +17,6 @@
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Displacement Policy home">
           <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
-          <span>Research and analysis on displacement governance.</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
           <span class="nav-toggle-line"></span>
@@ -28,9 +27,11 @@
         <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
           <a href="/research">Research</a>
           <a href="/mapping" aria-current="page">Mapping</a>
-          <a href="/publications">Publications</a>
           <a href="/perspectives">Perspectives</a>
+          <a href="/publications">Publications</a>
           <a href="/about">About</a>
+          <a href="/methods">Methods</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -38,7 +39,8 @@
     <main id="main">
       <section class="page-hero section-band">
         <div class="container">
-          <h1>Displacement Governance Mapping</h1>
+          <p class="eyebrow">Mapping</p>
+          <h1>Southeast Asia Displacement Governance Mapping</h1>
           <p class="subtitle">A comparative methodology for analysing how states govern displacement.</p>
           <p class="intro">Displacement Governance Mapping examines how displacement is governed through legal frameworks, institutions, public systems, fiscal architecture, and development finance.</p>
           <p class="intro">Rather than focusing only on displacement outcomes, the project examines how responsibility is organised, where governance systems absorb displacement-related vulnerability, and where governance challenges emerge.</p>
@@ -46,21 +48,60 @@
         </div>
       </section>
 
-      <section class="section section-muted section-compact" data-mapping>
+      <section class="section section-paper" aria-labelledby="examines-title">
+        <div class="container content-grid">
+          <div class="section-heading">
+            <p class="eyebrow">What the Mapping Examines</p>
+            <h2 id="examines-title">Legal frameworks, institutional responsibility, public systems, finance, and inclusion.</h2>
+          </div>
+          <ul class="editorial-list">
+            <li>Legal Frameworks</li>
+            <li>Institutional Responsibility</li>
+            <li>Social Protection Systems</li>
+            <li>Fiscal Architecture</li>
+            <li>Development Finance Exposure</li>
+            <li>Sustainable Inclusion</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-muted" aria-labelledby="regional-title">
+        <div class="container content-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Current Regional Application</p>
+            <h2 id="regional-title">Southeast Asia</h2>
+          </div>
+          <div class="prose">
+            <p>The current phase examines governance systems across eight Southeast Asian countries:</p>
+            <div class="mapping-country-row light" aria-label="Current country coverage">
+              <span>Thailand</span>
+              <span>Malaysia</span>
+              <span>Indonesia</span>
+              <span>Philippines</span>
+              <span>Myanmar</span>
+              <span>Vietnam</span>
+              <span>Cambodia</span>
+              <span>Lao PDR</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-paper section-compact" data-mapping>
         <div class="container mapping-shell">
           <div class="mapping-tabs" role="tablist" aria-label="Mapping views">
             <button class="is-active" type="button" role="tab" aria-selected="true" data-mapping-tab="profiles">Country Profiles</button>
-            <button type="button" role="tab" aria-selected="false" data-mapping-tab="matrix">Comparison Matrix</button>
-            <button type="button" role="tab" aria-selected="false" data-mapping-tab="methodology">Methodology</button>
+            <button type="button" role="tab" aria-selected="false" data-mapping-tab="matrix">Comparative View</button>
+            <button type="button" role="tab" aria-selected="false" data-mapping-tab="methodology">Method</button>
           </div>
 
           <section data-mapping-panel="profiles" aria-labelledby="profiles-title">
             <div class="mapping-panel-heading">
               <div>
-                <p class="eyebrow">Select</p>
+                <p class="eyebrow">Regional Application</p>
                 <h2 id="profiles-title">Choose a country</h2>
               </div>
-              <p class="section-kicker">The current regional application examines governance systems across eight Southeast Asian countries.</p>
+              <p class="section-kicker">The country material is qualitative and comparative. It is not a country ranking, performance index, or scorecard.</p>
             </div>
             <div class="country-selector" data-country-chooser aria-label="Choose a country"></div>
             <div data-country-profile></div>
@@ -69,10 +110,10 @@
           <section data-mapping-panel="matrix" aria-labelledby="matrix-title" hidden>
             <div class="mapping-panel-heading">
               <div>
-                <p class="eyebrow">Compare</p>
-                <h2 id="matrix-title">Comparison Matrix</h2>
+                <p class="eyebrow">Comparison</p>
+                <h2 id="matrix-title">Comparative View</h2>
               </div>
-              <p class="section-kicker">Use filters to compare governance arrangements across countries. The matrix provides analytical descriptions, not country grades.</p>
+              <p class="section-kicker">Use filters to compare governance arrangements across countries. The comparison provides analytical descriptions, not country grades.</p>
             </div>
             <div class="mapping-filters" aria-label="Comparison filters">
               <label>Displacement type<select data-filter="displacement"></select></label>
@@ -91,16 +132,14 @@
           <section id="mapping-methodology" data-mapping-panel="methodology" aria-labelledby="method-title" hidden>
             <div class="mapping-panel-heading">
               <div>
-                <p class="eyebrow">Review</p>
-                <h2 id="method-title">Methodology</h2>
+                <p class="eyebrow">Method</p>
+                <h2 id="method-title">Method</h2>
               </div>
             </div>
             <div class="methodology-box">
-              <p>This mapping is a qualitative analytical assessment.</p>
-              <p>It draws on laws, policies, institutional frameworks, published reports, academic literature, and comparative governance analysis.</p>
-              <p>It is not a country ranking, performance index, scorecard, statistical dataset, or original field data collection.</p>
+              <p>The mapping is a qualitative governance assessment based on publicly available laws, policies, institutional arrangements, and secondary research.</p>
+              <p>It is not a country ranking, performance index, or scorecard.</p>
               <p>The objective is to identify patterns of governance capacity, institutional fragmentation, and opportunities for reform.</p>
-              <p>The framework is informed by the displacement governance and sustainable inclusion research agenda developed through the platform's publications and comparative regional analysis.</p>
             </div>
           </section>
         </div>
@@ -110,29 +149,19 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
-          <p>Displacement Policy examines how states and institutions carry displacement as a recurrent public obligation.</p>
+          <h2>Displacement Policy</h2>
+          <p>Research and analysis on displacement governance.</p>
         </div>
-        <div class="footer-section" aria-label="Research themes">
-          <h2>Research Themes</h2>
-          <ul class="footer-themes">
-            <li>Governance &amp; Institutions</li>
-            <li>Finance &amp; State Capacity</li>
-            <li>Inclusion &amp; Durable Solutions</li>
-          </ul>
-        </div>
-        <nav class="footer-section footer-links" aria-label="Footer navigation">
-          <h2>Links</h2>
+        <nav class="footer-links" aria-label="Footer navigation">
           <a href="/research">Research</a>
           <a href="/mapping">Mapping</a>
           <a href="/perspectives">Perspectives</a>
           <a href="/publications">Publications</a>
           <a href="/about">About</a>
           <a href="/methods">Methods</a>
+          <a href="/contact">Contact</a>
         </nav>
-      </div>
-      <div class="container footer-bottom">
-        <p>&copy; 2026 Displacement Policy.</p>
+        <p class="copyright">&copy; 2026 Displacement Policy.</p>
       </div>
     </footer>
     <script src="script.js"></script>

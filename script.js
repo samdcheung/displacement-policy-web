@@ -64,7 +64,6 @@ async function renderSiteContent() {
               <div class="feature-slide-copy">
                 <p class="publication-type">${item.tag || `Featured 0${index + 1}`}</p>
                 <h3>${item.title}</h3>
-                <p class="byline">${item.author} | ${item.date}</p>
                 <p>${item.description}</p>
                 <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
               </div>

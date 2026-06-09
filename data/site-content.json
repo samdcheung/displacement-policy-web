@@ -2,22 +2,22 @@
   "featured_analysis": [
     {
       "title": "The Displacement Continuum",
-      "description": "A framework for understanding how responsibility for displaced populations shifts across legal categories, institutions, territories, and time horizons.",
+      "description": "A conceptual framework for understanding how responsibility for displaced populations shifts across legal categories, institutions, territories, and time horizons. Drawing on refugee, IDP, migration, climate, and development contexts, the framework explores where governance continuity breaks down and how responsibility is redistributed over time.",
       "date": "June 2026",
       "author": "Samuel Cheung",
       "link": "/research",
       "tag": "Framework",
-      "button": "Explore Framework",
+      "button": "Read Analysis",
       "image": "assets/images/displacement-continuum.png"
     },
     {
       "title": "Fiscal Architecture of Displacement",
-      "description": "How budgets, public finance systems, and development finance shape responses to displacement and long-term inclusion.",
+      "description": "An emerging framework for examining how displacement is financed through humanitarian assistance, public budgets, social protection systems, and development finance. The analysis explores how responsibility for displacement is funded, transferred, and sustained as displacement becomes a longer-term public policy challenge.",
       "date": "June 2026",
       "author": "Samuel Cheung",
       "link": "/research",
       "tag": "Framework",
-      "button": "Explore Framework",
+      "button": "Read Analysis",
       "image": "assets/images/65-trillion-asymmetry.svg"
     }
   ],
