@@ -30,7 +30,6 @@
           <a href="/perspectives">Perspectives</a>
           <a href="/publications" aria-current="page">Publications</a>
           <a href="/about">About</a>
-          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -54,23 +53,17 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div class="footer-brand">
-          <h2>Displacement Policy</h2>
-          <p>Research and analysis on displacement governance.</p>
-        </div>
-        <nav class="footer-links" aria-label="Footer navigation">
-          <a href="/research">Research</a>
-          <a href="/mapping">Mapping</a>
-          <a href="/perspectives">Perspectives</a>
-          <a href="/publications">Publications</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-        </nav>
-        <p class="copyright">&copy; 2026 Displacement Policy.</p>
-      </div>
-    </footer>
+  
+
+    <div id="footer-placeholder"></div>
+
+<script>
+fetch('/footer.html')
+  .then(response => response.text())
+  .then(html => {
+    document.getElementById('footer-placeholder').innerHTML = html;
+  });
+</script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 
-  <body>
+  <body class="research-page">
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
@@ -32,7 +32,7 @@
           <a href="/perspectives">Perspectives</a>
           <a href="/publications">Publications</a>
           <a href="/about">About</a>
-          <a href="/contact">Contact</a>
+
         </nav>
       </div>
     </header>
@@ -41,9 +41,9 @@
       <section class="page-hero research-hero">
         <div class="container">
           <p class="eyebrow">Research</p>
-          <h1>Why capable states fail displaced populations — and what governance design can do about it.</h1>
+          <h1>Displacement governance and public systems.</h1>
           <p class="subtitle">
-            Research examining how responsibility for displaced populations is organised, financed, and sustained across institutions, public systems, and territories.
+            How responsibility for displaced populations is organised, financed, and sustained across institutions, public systems, and territories.
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@
         </div>
       </section>
 
-      <section class="section section-muted" aria-labelledby="fault-lines-title">
+      <section class="section section-muted research-band" aria-labelledby="fault-lines-title">
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">The Displacement Continuum</p>
@@ -88,7 +88,7 @@
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="concepts-title">
+      <section class="section section-paper research-band" aria-labelledby="concepts-title">
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Named Findings</p>
@@ -135,7 +135,7 @@
         </div>
       </section>
 
-      <section class="section section-muted" aria-labelledby="featured-title">
+      <section class="section section-muted research-band" aria-labelledby="featured-title">
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Featured Analysis</p>
@@ -170,7 +170,7 @@
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="series-title">
+      <section class="section section-paper research-band" aria-labelledby="series-title">
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Governing Displacement Series</p>
@@ -226,7 +226,7 @@
         </div>
       </section>
 
-      <section class="section section-muted" aria-labelledby="themes-title">
+      <section class="section section-muted research-band" aria-labelledby="themes-title">
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Research Themes</p>
@@ -252,7 +252,7 @@
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="application-title">
+      <section class="section section-paper research-band research-application" aria-labelledby="application-title">
         <div class="container content-grid">
           <div class="section-heading">
             <p class="eyebrow">Regional Application</p>
@@ -268,23 +268,17 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div class="footer-brand">
-          <h2>Displacement Policy</h2>
-          <p>Research and analysis on displacement governance.</p>
-        </div>
-        <nav class="footer-links" aria-label="Footer navigation">
-          <a href="/research">Research</a>
-          <a href="/mapping">Mapping</a>
-          <a href="/perspectives">Perspectives</a>
-          <a href="/publications">Publications</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-        </nav>
-        <p class="copyright">&copy; 2026 Displacement Policy.</p>
-      </div>
-    </footer>
+    
+
+    <div id="footer-placeholder"></div>
+
+<script>
+fetch('/footer.html')
+  .then(response => response.text())
+  .then(html => {
+    document.getElementById('footer-placeholder').innerHTML = html;
+  });
+</script>
 
     <script src="script.js"></script>
   </body>
