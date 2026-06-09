@@ -10,100 +10,6 @@
     >
     <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .about-page .page-hero {
-        min-height: 420px;
-        display: flex;
-        align-items: center;
-        background: #0f3a4f;
-        color: #fff;
-        border-bottom: 0;
-      }
-
-      .about-page .page-hero .container {
-        max-width: 880px;
-      }
-
-      .about-page .page-hero .eyebrow {
-        color: #d6a84f;
-      }
-
-      .about-page .page-hero h1 {
-        max-width: 760px;
-        color: #fff;
-      }
-
-      .about-page .page-hero .subtitle {
-        max-width: 680px;
-        color: rgba(255, 255, 255, 0.86);
-      }
-
-      .about-editorial {
-        max-width: 800px;
-      }
-
-      .about-editorial .prose,
-      .about-forward-text .prose {
-        max-width: 780px;
-      }
-
-      .about-rule-list {
-        list-style: none;
-        margin: 2rem 0 0;
-        padding: 0;
-        max-width: 840px;
-      }
-
-      .about-rule-list li {
-        border-top: 1px solid rgba(23, 42, 58, 0.14);
-        padding: 1.05rem 0;
-      }
-
-      .about-rule-list li:last-child {
-        border-bottom: 1px solid rgba(23, 42, 58, 0.14);
-      }
-
-      .about-editorial-list {
-        max-width: 900px;
-        margin-top: 2rem;
-      }
-
-      .about-editorial-row {
-        display: grid;
-        grid-template-columns: minmax(180px, 260px) 1fr;
-        gap: 2rem;
-        border-top: 1px solid rgba(23, 42, 58, 0.14);
-        padding: 1.35rem 0;
-      }
-
-      .about-editorial-row:last-child {
-        border-bottom: 1px solid rgba(23, 42, 58, 0.14);
-      }
-
-      .about-editorial-row h3 {
-        margin: 0;
-        font-size: 1rem;
-      }
-
-      .about-editorial-row p {
-        margin: 0;
-      }
-
-      .about-forward-text {
-        max-width: 820px;
-      }
-
-      @media (max-width: 720px) {
-        .about-page .page-hero {
-          min-height: 340px;
-        }
-
-        .about-editorial-row {
-          grid-template-columns: 1fr;
-          gap: 0.45rem;
-        }
-      }
-    </style>
   </head>
 
   <body class="about-page">
@@ -133,32 +39,32 @@
     </header>
 
     <main id="main">
-      <section class="page-hero" aria-labelledby="about-title">
+      <section class="page-hero about-reference-hero">
         <div class="container">
-          <p class="eyebrow">About</p>
-          <h1 id="about-title">Platform</h1>
-          <p class="subtitle">How public systems respond when displacement becomes a recurrent governance challenge.</p>
+          <p class="eyebrow">Platform</p>
+          <h1>How public systems respond when displacement becomes a recurrent governance challenge.</h1>
+          <p class="subtitle">Displacement Policy examines how states, institutions, and public systems organise responses to displacement across humanitarian, development, and climate contexts.</p>
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="platform-title">
-        <div class="container about-editorial">
-          <p class="eyebrow">Platform</p>
-          <h2 id="platform-title">Displacement governance through the lens of public systems.</h2>
-
-          <div class="prose">
+      <section class="section section-paper about-overview-section" aria-labelledby="platform-title">
+        <div class="container">
+          <article class="prose about-prose-box">
+            <h2 id="platform-title">Platform</h2>
             <p>Displacement Policy examines how states, institutions, and public systems organise responses to displacement across humanitarian, development, and climate contexts. Its focus is not only on displacement itself, but on the governance arrangements through which responsibility for displaced populations is allocated — across laws, institutions, public systems, and financing structures.</p>
             <p>The platform brings together conversations that are routinely treated as separate: refugee protection, internal displacement, migration, humanitarian response, disaster risk management, development finance, social protection, and climate adaptation.</p>
-          </div>
+          </article>
         </div>
       </section>
 
-      <section class="section section-muted" aria-labelledby="examines-title">
-        <div class="container about-editorial">
-          <p class="eyebrow">What the platform examines</p>
-          <h2 id="examines-title">Core governance questions.</h2>
+      <section class="section section-muted about-focus-section" aria-labelledby="examines-title">
+        <div class="container">
+          <div class="section-heading section-heading-tight">
+            <p class="eyebrow">What the platform examines</p>
+            <h2 id="examines-title">Core governance questions.</h2>
+          </div>
 
-          <ul class="about-rule-list">
+          <ul class="about-reference-list">
             <li>Responsibility allocation across institutions and legal frameworks</li>
             <li>Fiscal architecture and recurrent public obligations</li>
             <li>Public systems and their capacity for sustainable inclusion</li>
@@ -168,30 +74,30 @@
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="research-focus-title">
+      <section class="section section-paper about-focus-section" aria-labelledby="research-focus-title">
         <div class="container">
           <div class="section-heading section-heading-tight">
             <p class="eyebrow">Research Focus</p>
             <h2 id="research-focus-title">Current areas of work.</h2>
           </div>
 
-          <div class="about-editorial-list">
-            <article class="about-editorial-row">
+          <div class="about-focus-grid">
+            <article class="about-focus-card">
               <h3>Governance architecture</h3>
               <p>How mandates, accountability frameworks, and legal instruments organise state responsibility for displaced populations.</p>
             </article>
 
-            <article class="about-editorial-row">
+            <article class="about-focus-card">
               <h3>Fiscal systems</h3>
               <p>How public budgets, development finance instruments, and recurrent fiscal obligations shape a state's capacity to absorb displacement-related demand.</p>
             </article>
 
-            <article class="about-editorial-row">
+            <article class="about-focus-card">
               <h3>Sustainable inclusion</h3>
               <p>How health, education, registration, and social protection systems can incorporate displacement-related vulnerability into ordinary public provision.</p>
             </article>
 
-            <article class="about-editorial-row">
+            <article class="about-focus-card">
               <h3>Regional mapping</h3>
               <p>Comparative analysis of governance arrangements across Southeast Asia and beyond, identifying where institutional absorption is feasible and where structural constraints persist.</p>
             </article>
@@ -199,24 +105,27 @@
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="founder-title">
-        <div class="container about-editorial">
-          <p class="eyebrow">Founder &amp; Research Director</p>
-          <h2 id="founder-title">The platform emerged from work on protection, displacement, humanitarian coordination, and institutional reform.</h2>
+      <section class="section section-paper about-founder-section" aria-labelledby="founder-title">
+        <div class="container about-two-column">
+          <div class="section-heading">
+            <p class="eyebrow">Founder &amp; Research Director</p>
+            <h2 id="founder-title">The platform emerged from work on protection, displacement, humanitarian coordination, and institutional reform.</h2>
+          </div>
 
-          <div class="prose">
-            <p>Samuel Cheung is the founder and research director of Displacement Policy. He spent two decades with UNHCR in field and headquarters roles across Asia, the Middle East, and Africa, including as Chief of Internal Displacement, Chief of Protection from Violence and Displacement, and Global Protection Cluster Coordinator. His work covered refugee protection, internal displacement, mixed migration, durable solutions, and humanitarian coordination — at country, regional, and headquarters levels.</p>
-            
-            <p to UNHCR, he advised Asian sovereigns on bond programmes and structured finance at Allen & Overy LLP in Hong Kong. He holds a JD from Georgetown University and a BA in Public Policy from Duke University.</p>
+          <div class="prose about-prose-box">
+            <p>Samuel Cheung is the founder and research director of Displacement Policy. He spent two decades with UNHCR in field and headquarters roles across Asia, the Middle East, and Africa, serving as Chief of Internal Displacement, Chief of Protection from Violence and Displacement, and Global Protection Cluster Coordinator. His work covered refugee protection, internal displacement, mixed migration, durable solutions, and humanitarian coordination — at country, regional, and headquarters levels.</p>
+            <p>Prior to UNHCR, he advised Asian sovereigns on bond programmes and structured finance at Allen &amp; Overy LLP in Hong Kong. He holds a JD from Georgetown University Law Center.</p>
             <p>These experiences inform the platform's central questions: how institutions organise responsibility for displacement, how public systems adapt to displacement-related vulnerability, and how sustainable responses are financed and maintained through recurrent rather than exceptional arrangements.</p>
           </div>
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="looking-forward-title">
-        <div class="container about-forward-text">
-          <p class="eyebrow">Looking Forward</p>
-          <h2 id="looking-forward-title">As displacement becomes an increasingly recurrent public challenge, governance questions become more consequential.</h2>
+      <section class="section section-muted about-closing-section" aria-labelledby="looking-forward-title">
+        <div class="container about-closing-card">
+          <div>
+            <p class="eyebrow">Looking Forward</p>
+            <h2 id="looking-forward-title">As displacement becomes an increasingly recurrent public challenge, governance questions become more consequential.</h2>
+          </div>
 
           <div class="prose">
             <p>How is responsibility allocated across institutions? How do public systems absorb displacement-related vulnerability without resorting to parallel or temporary provision? How are long-term obligations financed when displacement extends beyond humanitarian timescales?</p>
