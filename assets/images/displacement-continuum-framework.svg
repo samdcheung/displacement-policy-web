@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">The Displacement Continuum</title>
+<desc id="desc">A stylised policy framework showing how displaced populations move across categorical, territorial, and temporal boundaries while governance fault lines interrupt continuity of responsibility.</desc>
+<rect width="1600" height="900" fill="#F8F5EF"/>
+<defs>
+  <linearGradient id="band1" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#EFE5D0"/>
+    <stop offset="100%" stop-color="#E6D7BA"/>
+  </linearGradient>
+  <linearGradient id="band2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#DEE8E9"/>
+    <stop offset="100%" stop-color="#B8CBD0"/>
+  </linearGradient>
+  <linearGradient id="band3" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#C7D5D8"/>
+    <stop offset="100%" stop-color="#123B52"/>
+  </linearGradient>
+  <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#082C3A" flood-opacity="0.12"/>
+  </filter>
+</defs>
+
+<!-- subtle grid -->
+<g opacity="0.22" stroke="#D8D2C7" stroke-width="1">
+  <path d="M120 120H1480M120 240H1480M120 360H1480M120 480H1480M120 600H1480M120 720H1480"/>
+  <path d="M240 90V780M480 90V780M720 90V780M960 90V780M1200 90V780M1440 90V780"/>
+</g>
+
+<!-- title block -->
+<text x="120" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#1B1B1B">The Displacement Continuum</text>
+<text x="123" y="155" font-family="Inter, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#B38A48">CATEGORIES · TERRITORIES · TIME</text>
+<line x1="120" y1="180" x2="230" y2="180" stroke="#B38A48" stroke-width="5"/>
+
+<!-- flowing bands -->
+<g filter="url(#softShadow)">
+  <path d="M120,330 C280,230 390,280 540,250 C735,210 850,315 1015,275 C1190,232 1320,250 1480,180 L1480,310 C1320,370 1185,358 1018,390 C840,425 725,330 545,375 C380,415 280,360 120,455 Z" fill="url(#band1)" opacity="0.96"/>
+  <path d="M120,455 C285,360 390,415 550,375 C730,330 850,425 1018,390 C1185,358 1320,370 1480,310 L1480,465 C1325,530 1195,500 1025,545 C850,592 715,500 560,545 C395,590 285,525 120,610 Z" fill="url(#band2)" opacity="0.98"/>
+  <path d="M120,610 C285,525 395,590 560,545 C715,500 850,592 1025,545 C1195,500 1325,530 1480,465 L1480,655 C1320,735 1195,680 1030,725 C855,775 720,690 570,735 C400,785 285,720 120,785 Z" fill="url(#band3)" opacity="0.98"/>
+</g>
+
+<!-- continuum line -->
+<path d="M170,520 C340,415 470,455 625,420 C800,382 920,492 1080,455 C1225,420 1325,405 1445,350" fill="none" stroke="#082C3A" stroke-width="5" stroke-linecap="round"/>
+<path d="M170,520 C340,415 470,455 625,420 C800,382 920,492 1080,455 C1225,420 1325,405 1445,350" fill="none" stroke="#B38A48" stroke-width="1.6" stroke-dasharray="10 16" stroke-linecap="round"/>
+
+<!-- stages -->
+<g font-family="Inter, Arial, sans-serif">
+  <g transform="translate(190 500)">
+    <circle r="20" fill="#123B52"/><circle r="8" fill="#F8F5EF"/>
+    <text y="58" x="-45" font-size="18" font-weight="700" fill="#1B1B1B">Emergency</text>
+    <text y="84" x="-52" font-size="15" fill="#54616B">Initial response</text>
+  </g>
+  <g transform="translate(525 438)">
+    <circle r="20" fill="#123B52"/><circle r="8" fill="#F8F5EF"/>
+    <text y="58" x="-42" font-size="18" font-weight="700" fill="#1B1B1B">Recovery</text>
+    <text y="84" x="-72" font-size="15" fill="#54616B">Early reintegration</text>
+  </g>
+  <g transform="translate(840 438)">
+    <circle r="20" fill="#123B52"/><circle r="8" fill="#F8F5EF"/>
+    <text y="62" x="-48" font-size="18" font-weight="700" fill="#1B1B1B">Protracted</text>
+    <text y="88" x="-72" font-size="15" fill="#54616B">Longer-term risk</text>
+  </g>
+  <g transform="translate(1165 438)">
+    <circle r="20" fill="#123B52"/><circle r="8" fill="#F8F5EF"/>
+    <text y="62" x="-52" font-size="18" font-weight="700" fill="#1B1B1B">Inclusion</text>
+    <text y="88" x="-78" font-size="15" fill="#54616B">Ordinary systems</text>
+  </g>
+  <g transform="translate(1415 360)">
+    <circle r="20" fill="#123B52"/><circle r="8" fill="#F8F5EF"/>
+    <text y="64" x="-62" font-size="18" font-weight="700" fill="#1B1B1B">Sustainable</text>
+    <text y="90" x="-54" font-size="15" fill="#54616B">Responsibility</text>
+  </g>
+</g>
+
+<!-- fault lines -->
+<g stroke="#A94735" stroke-width="3" fill="none" opacity="0.95">
+  <path d="M405 245 L455 286 L417 330 L470 372 L428 420 L480 466 L442 515"/>
+  <path d="M730 220 L780 260 L742 308 L795 348 L750 395 L802 438 L760 495"/>
+  <path d="M1038 260 L1088 302 L1050 350 L1105 396 L1062 445 L1118 490 L1072 548"/>
+</g>
+<g font-family="Inter, Arial, sans-serif" font-size="15" fill="#A94735" font-weight="700">
+  <text x="366" y="225">Legal / category break</text>
+  <text x="700" y="205">Territorial break</text>
+  <text x="1000" y="245">Temporal break</text>
+</g>
+
+<!-- lower legend -->
+<g transform="translate(120 815)">
+  <rect x="0" y="-42" width="1360" height="78" fill="#FFFFFF" opacity="0.65" stroke="#D8D2C7"/>
+  <text x="30" y="-2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1B1B1B">Governance continuity breaks where systems do not follow people.</text>
+  <text x="30" y="24" font-family="Inter, Arial, sans-serif" font-size="16" fill="#54616B">The continuum maps responsibility across categories, jurisdictions, institutions, and time horizons.</text>
+  <g transform="translate(1100 -5)">
+    <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="none" stroke="#123B52" stroke-width="3"/>
+    <polygon points="0,-18 16,-9 16,9 0,18 -16,9 -16,-9" fill="#123B52"/>
+  </g>
+</g>
+</svg>

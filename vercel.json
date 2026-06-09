@@ -19,10 +19,6 @@
       "dest": "/mapping.html"
     },
     {
-      "src": "/methods",
-      "dest": "/methods.html"
-    },
-    {
       "src": "/about",
       "dest": "/about.html"
     },

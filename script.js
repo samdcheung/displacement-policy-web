@@ -64,7 +64,7 @@ async function renderSiteContent() {
               <div class="feature-slide-copy">
                 <p class="publication-type">${item.tag || `Featured 0${index + 1}`}</p>
                 <h3>${item.title}</h3>
-                <p>${item.description}</p>
+                <p>${item.short_description || item.description}</p>
                 <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
               </div>
             </article>
@@ -77,11 +77,12 @@ async function renderSiteContent() {
   const publicationList = document.querySelector("[data-publications-list]");
   if (publicationList) {
     const limit = Number(publicationList.dataset.publicationsLimit || content.publications.length);
+    const isGrid = publicationList.dataset.publicationsLayout === "grid";
     publicationList.innerHTML = content.publications
       .slice(0, limit)
       .map(
         (item) => `
-          <article class="publication-row">
+          <article class="${isGrid ? "publication-card" : "publication-row"}">
             <div>
               <p class="publication-type">${item.content_type}</p>
               <h2>${item.title}</h2>
@@ -89,7 +90,7 @@ async function renderSiteContent() {
               <p>${item.abstract}</p>
               <div class="tag-list">${createTagList(item.tags)}</div>
             </div>
-            <a class="button" href="${item.pdf}">PDF</a>
+            <a class="button" href="${item.pdf}">${isGrid ? "Read / PDF" : "PDF"}</a>
           </article>
         `
       )

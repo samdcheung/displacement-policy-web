@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Southeast Asia Displacement Governance Mapping</title>
+<desc id="desc">An abstract Southeast Asia governance mapping visual showing countries as connected nodes across legal frameworks, institutions, public systems, fiscal architecture, and sustainable inclusion.</desc>
+<rect width="1600" height="900" fill="#082C3A"/>
+<defs>
+  <radialGradient id="glow" cx="55%" cy="45%" r="70%">
+    <stop offset="0%" stop-color="#1D5970" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#082C3A" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.22"/>
+  </filter>
+</defs>
+<rect width="1600" height="900" fill="url(#glow)"/>
+
+<!-- contour lines -->
+<g opacity="0.28" stroke="#B38A48" stroke-width="1" fill="none">
+  <path d="M780 120 C940 80 1180 120 1340 240 C1470 340 1460 520 1320 650 C1180 790 940 780 760 670 C600 570 590 390 690 260 C720 220 745 160 780 120Z"/>
+  <path d="M820 180 C950 145 1140 170 1260 270 C1370 360 1365 505 1250 610 C1130 720 950 720 805 625 C680 545 675 405 755 300 C780 265 795 210 820 180Z"/>
+  <path d="M855 245 C965 220 1105 250 1190 325 C1270 400 1260 500 1175 575 C1085 650 965 655 865 590 C780 535 780 430 835 355 C850 330 850 270 855 245Z"/>
+  <path d="M895 310 C975 295 1065 318 1125 370 C1180 420 1170 490 1112 540 C1048 594 970 595 905 550 C845 508 850 440 888 390 C900 372 890 330 895 310Z"/>
+</g>
+
+<text x="120" y="105" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#F8F5EF">Southeast Asia</text>
+<text x="120" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#F8F5EF">Displacement Governance Mapping</text>
+<text x="123" y="215" font-family="Inter, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#B38A48">COMPARATIVE EVIDENCE INITIATIVE</text>
+<line x1="120" y1="240" x2="230" y2="240" stroke="#B38A48" stroke-width="5"/>
+
+<!-- abstract region -->
+<g filter="url(#soft)" stroke="#F8F5EF" stroke-width="2">
+  <path d="M850 255 C810 270 790 315 806 355 C830 342 850 312 850 255Z" fill="#AFC5CB" opacity="0.95"/>
+  <path d="M885 315 C845 350 850 405 895 432 C925 395 930 350 885 315Z" fill="#DCE7E9" opacity="0.95"/>
+  <path d="M775 420 C725 450 715 510 760 550 C810 520 825 465 775 420Z" fill="#C7D5D8" opacity="0.95"/>
+  <path d="M930 455 C880 490 880 560 930 600 C980 565 990 500 930 455Z" fill="#9DB8C0" opacity="0.95"/>
+  <path d="M1080 365 C1040 390 1035 440 1075 475 C1118 448 1120 395 1080 365Z" fill="#EFE5D0" opacity="0.98"/>
+  <path d="M1160 520 C1120 548 1125 600 1172 625 C1215 590 1205 540 1160 520Z" fill="#B38A48" opacity="0.92"/>
+  <path d="M1000 660 C950 680 940 740 990 765 C1035 742 1040 690 1000 660Z" fill="#DCE7E9" opacity="0.95"/>
+  <path d="M695 580 C650 610 655 665 705 690 C745 660 745 605 695 580Z" fill="#B8CBD0" opacity="0.95"/>
+</g>
+
+<!-- nodes -->
+<g>
+  <g fill="#B38A48" stroke="#F8F5EF" stroke-width="2">
+    <circle cx="850" cy="255" r="9"/><circle cx="885" cy="315" r="9"/><circle cx="775" cy="420" r="9"/><circle cx="930" cy="455" r="9"/>
+    <circle cx="1080" cy="365" r="9"/><circle cx="1160" cy="520" r="9"/><circle cx="1000" cy="660" r="9"/><circle cx="695" cy="580" r="9"/>
+  </g>
+  <g stroke="#B38A48" stroke-width="2" fill="none" opacity="0.72">
+    <path d="M850 255 L885 315 L930 455 L1080 365 L1160 520 L1000 660 L695 580 L775 420 L850 255"/>
+    <path d="M775 420 L930 455 L695 580"/>
+    <path d="M885 315 L1080 365"/>
+  </g>
+</g>
+
+<!-- dimensions cards -->
+<g transform="translate(120 330)" font-family="Inter, Arial, sans-serif">
+  <rect x="0" y="0" width="410" height="360" fill="#FFFFFF" opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <text x="28" y="45" font-size="21" font-weight="700" fill="#F8F5EF">Mapping dimensions</text>
+  <g font-size="18" fill="#F8F5EF" opacity="0.95">
+    <text x="28" y="92">01 Legal frameworks</text>
+    <text x="28" y="140">02 Institutional responsibility</text>
+    <text x="28" y="188">03 Public systems</text>
+    <text x="28" y="236">04 Fiscal architecture</text>
+    <text x="28" y="284">05 Sustainable inclusion</text>
+  </g>
+</g>
+
+<!-- country labels -->
+<g font-family="Inter, Arial, sans-serif" font-size="15" fill="#F8F5EF" opacity="0.92">
+  <text x="865" y="242">Myanmar</text>
+  <text x="905" y="316">Thailand</text>
+  <text x="690" y="410">Lao PDR</text>
+  <text x="948" y="450">Cambodia</text>
+  <text x="1098" y="360">Vietnam</text>
+  <text x="1180" y="520">Philippines</text>
+  <text x="1018" y="660">Indonesia</text>
+  <text x="610" y="580">Malaysia</text>
+</g>
+
+<!-- footer statement -->
+<g transform="translate(120 780)">
+  <rect x="0" y="-42" width="1360" height="78" fill="#F8F5EF" opacity="0.09" stroke="#F8F5EF" stroke-opacity="0.22"/>
+  <text x="30" y="-2" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#F8F5EF">A qualitative governance assessment, not a country ranking or scorecard.</text>
+  <text x="30" y="25" font-family="Inter, Arial, sans-serif" font-size="16" fill="#DCE7E9">The mapping identifies governance architectures, institutional fault lines, and opportunities for reform.</text>
+</g>
+</svg>
