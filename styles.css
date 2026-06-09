@@ -83,3 +83,21 @@
 .editorial-panel-compact h2 {
   max-width: 760px;
 }
+
+.framework-visual,
+.research-visual,
+.feature-slide figure {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.framework-visual img,
+.research-visual img,
+.feature-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
