@@ -13,6 +13,20 @@ if (navToggle && siteNav) {
       navToggle.setAttribute("aria-expanded", "false");
     }
   });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      siteNav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 820) {
+      siteNav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    }
+  });
 }
 
 const fetchJson = async (url) => {
@@ -23,19 +37,13 @@ const fetchJson = async (url) => {
   return response.json();
 };
 
-const formatNoteDate = (value) =>
-  new Intl.DateTimeFormat("en", { month: "long", year: "numeric", day: "numeric" }).format(new Date(value));
-
 const createTagList = (tags) => tags.map((tag) => `<span>${tag}</span>`).join("");
-
-const titleCase = (value) =>
-  value.replace(/\b[a-z]/g, (letter) => letter.toUpperCase());
 
 async function renderSiteContent() {
   const targets = [
     document.querySelector("[data-featured-analysis]"),
     document.querySelector("[data-publications-list]"),
-    document.querySelector("[data-commentary-list]")
+    document.querySelector("[data-perspectives-list]")
   ].filter(Boolean);
 
   if (!targets.length) return;
@@ -56,6 +64,7 @@ async function renderSiteContent() {
               <div class="feature-slide-copy">
                 <p class="publication-type">${item.tag || `Featured 0${index + 1}`}</p>
                 <h3>${item.title}</h3>
+                <p class="byline">${item.author} | ${item.date}</p>
                 <p>${item.description}</p>
                 <a class="button secondary" href="${item.link}">${item.button || "Read More"}</a>
               </div>
@@ -75,8 +84,9 @@ async function renderSiteContent() {
         (item) => `
           <article class="publication-row">
             <div>
-              <p class="publication-type">${item.content_type} | ${item.date}</p>
+              <p class="publication-type">${item.content_type}</p>
               <h2>${item.title}</h2>
+              <p class="byline">${item.author} | ${item.date}</p>
               <p>${item.abstract}</p>
               <div class="tag-list">${createTagList(item.tags)}</div>
             </div>
@@ -87,15 +97,16 @@ async function renderSiteContent() {
       .join("");
   }
 
-  document.querySelectorAll("[data-commentary-list]").forEach((container) => {
-    const limit = Number(container.dataset.commentaryLimit || content.commentary.length);
-    container.innerHTML = [...content.commentary]
+  document.querySelectorAll("[data-perspectives-list]").forEach((container) => {
+    const limit = Number(container.dataset.perspectivesLimit || content.perspectives.length);
+    container.innerHTML = [...content.perspectives]
       .sort((a, b) => new Date(b.date) - new Date(a.date))
       .slice(0, limit)
       .map(
         (note) => `
           <article class="content-card">
             <h3>${note.title}</h3>
+            <p class="byline">${note.author} | ${note.date}</p>
             <p>${note.summary}</p>
             <span class="topic-chip">${note.topic}</span>
           </article>
@@ -235,6 +246,7 @@ async function renderMapping() {
   function renderMatrix() {
     const head = root.querySelector("[data-mapping-matrix-head]");
     const body = root.querySelector("[data-mapping-matrix]");
+    const cardList = root.querySelector("[data-mapping-matrix-cards]");
     const count = root.querySelector("[data-matrix-count]");
     const visibleRecords = getFilteredRecords();
     if (!head || !body) return;
@@ -258,8 +270,25 @@ async function renderMapping() {
         </tr>
       `)
       .join("");
+    if (cardList) {
+      cardList.innerHTML = visibleRecords
+        .map((record) => `
+          <article class="matrix-country-card">
+            <h3><button type="button" data-matrix-country="${record.id}">${record.country}</button></h3>
+            <dl>
+              ${matrixColumns.map(([key, label]) => {
+                const value = key === "primary_displacement_dynamics"
+                  ? record.primary_displacement_dynamics.join(", ")
+                  : record.comparison[key];
+                return `<div><dt>${label}</dt><dd>${value}</dd></div>`;
+              }).join("")}
+            </dl>
+          </article>
+        `)
+        .join("");
+    }
     if (count) count.textContent = `${visibleRecords.length} ${visibleRecords.length === 1 ? "country" : "countries"} shown`;
-    body.querySelectorAll("[data-matrix-country]").forEach((button) => {
+    root.querySelectorAll("[data-matrix-country]").forEach((button) => {
       button.addEventListener("click", () => {
         activeCountryId = button.dataset.matrixCountry;
         root.querySelector('[data-mapping-tab="profiles"]')?.click();
