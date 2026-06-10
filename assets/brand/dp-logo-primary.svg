@@ -18,10 +18,10 @@
       }
       .tagline {
         font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 8.5px;
+        font-size: 7.8px;
         font-weight: 500;
         fill: #c8882a;
-        letter-spacing: 2.8px;
+        letter-spacing: 1.45px;
         text-transform: uppercase;
       }
     </style>
