@@ -6,24 +6,28 @@
     <title>Publications | Displacement Policy</title>
     <meta
       name="description"
-      content="Research briefs and papers from Displacement Policy."
+      content="Research briefs, working papers, reports, and book chapters from Displacement Policy."
     >
-    <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/brand/dp-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
   </head>
-  <body>
+
+  <body class="publications-page">
     <a class="skip-link" href="#main">Skip to content</a>
+
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Displacement Policy home">
-          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+          <img src="/assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
         </a>
+
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
           <span class="nav-toggle-line"></span>
           <span class="nav-toggle-line"></span>
           <span class="nav-toggle-line"></span>
           <span class="sr-only">Toggle navigation</span>
         </button>
+
         <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
           <a href="/research">Research</a>
           <a href="/mapping">Mapping</a>
@@ -35,35 +39,50 @@
     </header>
 
     <main id="main">
-      <section class="page-hero section-band">
-        <div class="container">
+      <section class="editorial-masthead" aria-labelledby="page-title">
+        <div class="container editorial-column">
           <p class="eyebrow">Publications</p>
-          <h1>Publications</h1>
-          <p class="subtitle">Policy briefs, working papers, reports, and book chapters exploring the governance of displacement.</p>
+          <h1 id="page-title">Publications</h1>
+          <p class="subtitle">Research briefs, working papers, reports, and book chapters on the governance of displacement.</p>
         </div>
       </section>
 
-      <section class="section section-muted section-compact">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Featured Publications</h2>
+      <section class="section section-paper" aria-labelledby="publications-intro-title">
+        <div class="container about-column">
+          <p class="eyebrow">Research Outputs</p>
+          <h2 id="publications-intro-title">Research on displacement, institutions, and public systems.</h2>
+
+          <div class="prose">
+            <p>Displacement Policy publishes research briefs, working papers, reports, and book chapters examining how displacement is governed through laws, institutions, public systems, and financing arrangements.</p>
+            <p>The publications focus on displacement as a public policy and institutional challenge, with particular attention to responsibility allocation, fiscal architecture, sustainable inclusion, and regional governance systems.</p>
           </div>
-          <div class="publication-grid" data-publications-list data-publications-layout="grid"></div>
+        </div>
+      </section>
+
+      <section class="section section-paper about-final-section" aria-labelledby="featured-publications-title">
+        <div class="container about-column">
+          <p class="eyebrow">Featured Publications</p>
+          <h2 id="featured-publications-title">Briefs, papers, and reports.</h2>
+
+          <div
+            class="editorial-list"
+            data-publications-list
+            data-publications-layout="list"
+          ></div>
         </div>
       </section>
     </main>
 
-  
-
     <div id="footer-placeholder"></div>
 
-<script>
-fetch('/footer.html')
-  .then(response => response.text())
-  .then(html => {
-    document.getElementById('footer-placeholder').innerHTML = html;
-  });
-</script>
-    <script src="script.js"></script>
+    <script>
+      fetch('/footer.html')
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById('footer-placeholder').innerHTML = html;
+        });
+    </script>
+
+    <script src="/script.js"></script>
   </body>
 </html>

@@ -4,18 +4,80 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Perspectives | Displacement Policy</title>
-    <meta name="description" content="Policy Perspectives: reflections on displacement governance, institutions, and public policy.">
-    <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Reflections on displacement governance, institutions, and public systems.">
+    <link rel="icon" href="/assets/brand/dp-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+
+    <style>
+      .perspectives-page .perspectives-column {
+        max-width: 780px;
+      }
+
+      .perspectives-page .perspectives-column .prose {
+        max-width: 780px;
+      }
+
+      .perspectives-page .perspectives-list {
+        margin-top: 1.4rem;
+      }
+
+      .perspectives-page .perspective-row {
+        display: grid;
+        grid-template-columns: minmax(180px, 260px) 1fr;
+        gap: 2rem;
+        border-top: 1px solid rgba(8, 23, 35, 0.14);
+        padding: 1.05rem 0;
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .perspectives-page .perspective-row:last-child {
+        border-bottom: 1px solid rgba(8, 23, 35, 0.14);
+      }
+
+      .perspectives-page .perspective-row h3 {
+        margin: 0;
+        font-family: var(--serif, Georgia, "Times New Roman", serif);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.25;
+      }
+
+      .perspectives-page .perspective-row p {
+        margin: 0;
+        color: var(--muted, #4f5d5d);
+        font-size: 0.98rem;
+        line-height: 1.55;
+      }
+
+      .perspectives-page .perspective-row:hover h3,
+      .perspectives-page .perspective-row:focus h3 {
+        color: var(--navy-2, #0d4154);
+        text-decoration: underline;
+        text-decoration-color: var(--bronze, #b88234);
+        text-underline-offset: 4px;
+      }
+
+      .perspectives-page .perspectives-final-section {
+        border-top: 1px solid rgba(8, 23, 35, 0.10);
+      }
+
+      @media (max-width: 720px) {
+        .perspectives-page .perspective-row {
+          grid-template-columns: 1fr;
+          gap: 0.45rem;
+        }
+      }
+    </style>
   </head>
 
-  <body>
+  <body class="perspectives-page">
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Displacement Policy home">
-          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+          <img src="/assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
         </a>
 
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -36,66 +98,46 @@
     </header>
 
     <main id="main">
-      <section class="page-hero perspectives-hero perspectives-hero-tight">
-        <div class="container">
-          <p class="eyebrow">Policy Perspectives</p>
-          <h1>Reflections on displacement governance, institutions, and public policy.</h1>
+      <section class="editorial-masthead" aria-labelledby="page-title">
+        <div class="container editorial-column">
+          <p class="eyebrow">Perspectives</p>
+          <h1 id="page-title">Perspectives</h1>
+          <p class="subtitle">Reflections on displacement governance, institutions, and public systems.</p>
+        </div>
+      </section>
 
-          <div class="theme-chip-group perspective-topic-row" aria-label="Perspective topics">
-            <span class="theme-chip">Displacement Governance</span>
-            <span class="theme-chip">Institutional Responsibility</span>
-            <span class="theme-chip">State Capacity</span>
-            <span class="theme-chip">Protection</span>
-            <span class="theme-chip">Social Protection</span>
-            <span class="theme-chip">Fiscal Architecture</span>
-            <span class="theme-chip">Durable Solutions</span>
-            <span class="theme-chip">Climate &amp; Disaster Displacement</span>
-            <span class="theme-chip">Regional Governance</span>
+      <section class="section section-paper" aria-labelledby="perspectives-intro-title">
+        <div class="container perspectives-column">
+          <p class="eyebrow">About Perspectives</p>
+          <h2 id="perspectives-intro-title">Short reflections on institutions, policy, and practice.</h2>
+
+          <div class="prose">
+            <p>Perspectives brings together short reflections from researchers, practitioners, and policymakers working on displacement, governance, and public systems. The emphasis is on ideas, institutional lessons, and emerging debates rather than news or commentary.</p>
+            <p>The section includes reflections on protection leadership, internal displacement, humanitarian coordination, public systems, financing, and the institutional conditions that shape displacement outcomes.</p>
           </div>
         </div>
       </section>
 
-      <section class="section section-paper section-compact" aria-labelledby="reflections-title">
-        <div class="container">
-          <div class="card-grid compact">
-            <article class="content-card reflection-card editorial-card">
+      <section class="section section-paper perspectives-final-section" aria-labelledby="recent-essays-title">
+        <div class="container perspectives-column">
+          <p class="eyebrow">Recent Essays</p>
+          <h2 id="recent-essays-title">Reflections and analysis.</h2>
+
+          <div class="editorial-list perspectives-list">
+            <a class="editorial-row perspective-row" href="/perspectives/leadership-protection-governance">
               <h3>Leadership, Protection, and Governance</h3>
-
-              <div class="card-tags" aria-label="Reflection topics">
-                <span>Protection</span>
-                <span>Institutional Responsibility</span>
-              </div>
-
               <p>Why protection outcomes often reflect institutional incentives and leadership choices more than policy commitments.</p>
+            </a>
 
-              <a class="text-link" href="/perspectives">Read reflection →</a>
-            </article>
-
-            <article class="content-card reflection-card editorial-card">
+            <a class="editorial-row perspective-row" href="/perspectives/beyond-iasc-protection-policy">
               <h3>Beyond the IASC Protection Policy</h3>
-
-              <div class="card-tags" aria-label="Reflection topics">
-                <span>Protection</span>
-                <span>Governance</span>
-              </div>
-
               <p>Why protection remains difficult to institutionalise despite two decades of policy reform.</p>
+            </a>
 
-              <a class="text-link" href="/perspectives">Read reflection →</a>
-            </article>
-
-            <article class="content-card reflection-card editorial-card">
+            <a class="editorial-row perspective-row" href="/perspectives/governing-internal-displacement">
               <h3>Governing Internal Displacement</h3>
-
-              <div class="card-tags" aria-label="Reflection topics">
-                <span>Displacement Governance</span>
-                <span>State Capacity</span>
-              </div>
-
               <p>Why internal displacement increasingly tests state capacity, public systems, and political responsibility.</p>
-
-              <a class="text-link" href="/perspectives">Read reflection →</a>
-            </article>
+            </a>
           </div>
         </div>
       </section>
@@ -104,7 +146,7 @@
     <div id="footer-placeholder"></div>
 
     <script>
-      fetch('footer.html')
+      fetch('/footer.html')
         .then(response => response.text())
         .then(html => {
           document.getElementById('footer-placeholder').innerHTML = html;
@@ -114,6 +156,6 @@
         });
     </script>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>

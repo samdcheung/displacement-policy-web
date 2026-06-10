@@ -48,7 +48,7 @@ async function renderSiteContent() {
 
   if (!targets.length) return;
 
-  const content = await fetchJson("data/site-content.json");
+  const content = await fetchJson("/data/site-content.json");
 
   document.querySelectorAll("[data-featured-analysis]").forEach((container) => {
     const limit = Number(container.dataset.featuredLimit || content.featured_analysis.length);
@@ -81,18 +81,35 @@ async function renderSiteContent() {
     publicationList.innerHTML = content.publications
       .slice(0, limit)
       .map(
-        (item) => `
-          <article class="${isGrid ? "publication-card" : "publication-row"}">
-            <div>
-              <p class="publication-type">${item.content_type}</p>
-              <h2>${item.title}</h2>
-              <p class="byline">${item.author} | ${item.date}</p>
-              <p>${item.abstract}</p>
-              <div class="tag-list">${createTagList(item.tags)}</div>
-            </div>
-            <a class="button" href="${item.pdf}">${isGrid ? "Read / PDF" : "PDF"}</a>
-          </article>
-        `
+        (item) => {
+          if (isGrid) {
+            return `
+              <article class="publication-card">
+                <div>
+                  <p class="publication-type">${item.content_type}</p>
+                  <h2>${item.title}</h2>
+                  <p class="byline">${item.author} | ${item.date}</p>
+                  <p>${item.abstract}</p>
+                  <div class="tag-list">${createTagList(item.tags)}</div>
+                </div>
+                <a class="button" href="${item.pdf}">Read / PDF</a>
+              </article>
+            `;
+          }
+
+          return `
+            <article class="editorial-row publication-row">
+              <div>
+                <h2>${item.title}</h2>
+                <p class="byline">${item.author} | ${item.date}</p>
+              </div>
+              <div>
+                <p>${item.abstract}</p>
+                <a class="text-link" href="${item.pdf}">Read &rarr;</a>
+              </div>
+            </article>
+          `;
+        }
       )
       .join("");
   }
@@ -121,7 +138,7 @@ async function renderMapping() {
   const root = document.querySelector("[data-mapping]");
   if (!root) return;
 
-  const mappingData = await fetchJson("data/mapping.json");
+  const mappingData = await fetchJson("/data/mapping.json");
   const records = mappingData.countries;
   const filters = mappingData.filters;
   const matrixColumns = [

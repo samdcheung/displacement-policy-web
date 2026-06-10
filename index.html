@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Displacement Policy | Displacement Governance Research</title>
     <meta name="description" content="Examining how governments, public systems, and international actors respond to displacement across humanitarian, development, and climate contexts.">
-    <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/brand/dp-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
   </head>
 
   <body>
@@ -15,7 +15,7 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Displacement Policy home">
-          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+          <img src="/assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
         </a>
 
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -125,13 +125,13 @@
     <div id="footer-placeholder"></div>
 
     <script>
-      fetch('footer.html')
+      fetch('/footer.html')
         .then(response => response.text())
         .then(html => {
           document.getElementById('footer-placeholder').innerHTML = html;
         });
     </script>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>

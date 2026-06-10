@@ -8,8 +8,8 @@
       name="description"
       content="Research on displacement governance, institutional design, public systems, fiscal architecture, and sustainable inclusion."
     >
-    <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/brand/dp-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
   </head>
 
   <body class="research-page">
@@ -18,7 +18,7 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Displacement Policy home">
-          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+          <img src="/assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
         </a>
 
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -39,12 +39,13 @@
     </header>
 
     <main id="main">
-      <section class="page-hero research-hero research-hero-blue">
-        <div class="container">
+      <section class="editorial-masthead" aria-labelledby="page-title">
+        <div class="container editorial-column">
           <p class="eyebrow">Research</p>
-          <h1>Displacement governance and public systems</h1>
+          <h1 id="page-title">Displacement governance and public systems</h1>
           <p class="subtitle">
-            Why capable states still fail displaced populations — and what institutional design can do about it.
+            Why capable states still fail displaced populations —
+            and what institutional design can do about it.
           </p>
         </div>
       </section>
@@ -257,7 +258,7 @@
     <div id="footer-placeholder"></div>
 
     <script>
-      fetch('footer.html')
+      fetch('/footer.html')
         .then(response => response.text())
         .then(html => {
           document.getElementById('footer-placeholder').innerHTML = html;
@@ -267,6 +268,6 @@
         });
     </script>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>

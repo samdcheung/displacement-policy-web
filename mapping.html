@@ -8,22 +8,94 @@
       name="description"
       content="Southeast Asia Displacement Governance Mapping: a comparative methodology for analysing how states govern displacement."
     >
-    <link rel="icon" href="assets/brand/dp-favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/brand/dp-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+      .mapping-project-hero {
+        position: relative;
+        min-height: 520px;
+        display: flex;
+        align-items: center;
+        padding: clamp(54px, 7vw, 82px) 0;
+        overflow: hidden;
+        background:
+          linear-gradient(90deg, rgba(8, 47, 63, 0.94) 0%, rgba(8, 47, 63, 0.82) 44%, rgba(8, 47, 63, 0.42) 100%),
+          url("/assets/images/southeast-asia-governance-mapping.svg") center / cover no-repeat;
+        color: var(--white);
+        border-bottom: 0;
+      }
+
+      .mapping-project-hero .eyebrow {
+        color: var(--bronze-soft);
+      }
+
+      .mapping-project-hero h1 {
+        max-width: 780px;
+        margin-bottom: 14px;
+        color: var(--white);
+        font-size: clamp(2.45rem, 5vw, 4.1rem);
+        line-height: 1;
+      }
+
+      .mapping-project-hero .subtitle {
+        max-width: 700px;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.88);
+      }
+
+      .mapping-column,
+      .mapping-hero-column {
+        max-width: 780px;
+      }
+
+      .mapping-agenda-list {
+        margin-top: 1.4rem;
+      }
+
+      .mapping-country-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        margin-top: 1.4rem;
+      }
+
+      .mapping-country-row span {
+        border: 1px solid var(--line);
+        padding: 0.45rem 0.65rem;
+        background: rgba(255, 255, 255, 0.62);
+        font-size: 0.86rem;
+        font-weight: 650;
+      }
+
+      .mapping-shell {
+        max-width: 980px;
+      }
+
+      @media (max-width: 720px) {
+        .mapping-project-hero {
+          min-height: 320px;
+          padding: 46px 0;
+        }
+      }
+    </style>
   </head>
-  <body>
+
+  <body class="mapping-page">
     <a class="skip-link" href="#main">Skip to content</a>
+
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="/" aria-label="Displacement Policy home">
-          <img src="assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
+          <img src="/assets/brand/dp-logo-primary.svg" alt="Displacement Policy">
         </a>
+
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
           <span class="nav-toggle-line"></span>
           <span class="nav-toggle-line"></span>
           <span class="nav-toggle-line"></span>
           <span class="sr-only">Toggle navigation</span>
         </button>
+
         <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
           <a href="/research">Research</a>
           <a href="/mapping" aria-current="page">Mapping</a>
@@ -35,62 +107,89 @@
     </header>
 
     <main id="main">
-      <section class="page-hero section-band mapping-page-hero">
-        <div class="container mapping-hero-grid">
-          <div>
-            <p class="eyebrow">Mapping</p>
-            <h1>Southeast Asia Displacement Governance Mapping</h1>
-            <p class="subtitle">A comparative methodology for analysing how states govern displacement.</p>
-            <p class="intro">Displacement Governance Mapping examines how displacement is governed through legal frameworks, institutions, public systems, fiscal architecture, and development finance.</p>
-            <p class="intro">Rather than focusing only on displacement outcomes, the project examines how responsibility is organised, where governance systems absorb displacement-related vulnerability, and where governance challenges emerge.</p>
-            <p class="intro">The current phase focuses on Southeast Asia as the first regional application of the methodology.</p>
-          </div>
-          <figure class="mapping-hero-visual">
-            <img src="assets/images/southeast-asia-governance-mapping.svg" alt="Southeast Asia Displacement Governance Mapping framework visual">
-          </figure>
+      <section class="mapping-project-hero" aria-labelledby="mapping-title">
+        <div class="container editorial-column mapping-hero-column">
+          <p class="eyebrow">Mapping Project</p>
+          <h1 id="mapping-title">Southeast Asia Displacement Governance Mapping</h1>
+          <p class="subtitle">A comparative methodology for analysing how states govern displacement.</p>
         </div>
       </section>
 
-      <section class="section section-paper" aria-labelledby="examines-title">
-        <div class="container content-grid">
-          <div class="section-heading">
-            <p class="eyebrow">What the Mapping Examines</p>
-            <h2 id="examines-title">Legal frameworks, institutional responsibility, public systems, finance, and inclusion.</h2>
-          </div>
-          <ul class="editorial-list">
-            <li>Legal Frameworks</li>
-            <li>Institutional Responsibility</li>
-            <li>Social Protection Systems</li>
-            <li>Fiscal Architecture</li>
-            <li>Development Finance Exposure</li>
-            <li>Sustainable Inclusion</li>
-          </ul>
-        </div>
-      </section>
+      <section class="section section-paper" aria-labelledby="mapping-intro-title">
+        <div class="container mapping-column">
+          <p class="eyebrow">Project</p>
+          <h2 id="mapping-intro-title">Mapping where displacement governance breaks — and where public systems can absorb it.</h2>
 
-      <section class="section section-muted" aria-labelledby="regional-title">
-        <div class="container content-grid">
-          <div class="section-heading">
-            <p class="eyebrow">Current Regional Application</p>
-            <h2 id="regional-title">Southeast Asia</h2>
-          </div>
           <div class="prose">
-            <p>The current phase examines governance systems across eight Southeast Asian countries:</p>
-            <div class="mapping-country-row light" aria-label="Current country coverage">
-              <span>Thailand</span>
-              <span>Malaysia</span>
-              <span>Indonesia</span>
-              <span>Philippines</span>
-              <span>Myanmar</span>
-              <span>Vietnam</span>
-              <span>Cambodia</span>
-              <span>Lao PDR</span>
-            </div>
+            <p>Displacement Governance Mapping examines how displacement is governed through legal frameworks, institutions, public systems, fiscal architecture, and development finance.</p>
+            <p>Rather than focusing only on displacement outcomes, the project examines how responsibility is organised, where governance systems absorb displacement-related vulnerability, and where governance challenges emerge.</p>
+            <p>The current phase focuses on Southeast Asia as the first regional application of the methodology.</p>
           </div>
         </div>
       </section>
 
-      <section class="section section-paper section-compact" data-mapping>
+      <section class="section section-muted" aria-labelledby="mapping-agenda-title">
+        <div class="container mapping-column">
+          <p class="eyebrow">Analytical Framework</p>
+          <h2 id="mapping-agenda-title">What the mapping examines.</h2>
+
+          <div class="about-research-list mapping-agenda-list">
+            <article class="about-research-row">
+              <h3>Legal frameworks</h3>
+              <p>How displacement is recognised, categorised, or left outside formal legal and policy frameworks.</p>
+            </article>
+
+            <article class="about-research-row">
+              <h3>Institutional responsibility</h3>
+              <p>How mandates are allocated across ministries, agencies, local authorities, and humanitarian or development actors.</p>
+            </article>
+
+            <article class="about-research-row">
+              <h3>Public systems</h3>
+              <p>How health, education, registration, and social protection systems include or exclude displacement-affected populations.</p>
+            </article>
+
+            <article class="about-research-row">
+              <h3>Fiscal architecture</h3>
+              <p>How displacement-related obligations are financed, transferred, or left dependent on temporary external support.</p>
+            </article>
+
+            <article class="about-research-row">
+              <h3>Development finance exposure</h3>
+              <p>How infrastructure, safeguards, and development finance shape displacement risk and institutional responsibility.</p>
+            </article>
+
+            <article class="about-research-row">
+              <h3>Sustainable inclusion</h3>
+              <p>Where ordinary governance systems can absorb displacement-related vulnerability, and where structural constraints persist.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-paper" aria-labelledby="regional-title">
+        <div class="container mapping-column">
+          <p class="eyebrow">Current Regional Application</p>
+          <h2 id="regional-title">Southeast Asia</h2>
+
+          <div class="prose">
+            <p>The current phase examines governance systems across eight Southeast Asian countries.</p>
+          </div>
+
+          <div class="mapping-country-row" aria-label="Current country coverage">
+            <span>Thailand</span>
+            <span>Malaysia</span>
+            <span>Indonesia</span>
+            <span>Philippines</span>
+            <span>Myanmar</span>
+            <span>Vietnam</span>
+            <span>Cambodia</span>
+            <span>Lao PDR</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-paper about-final-section" data-mapping>
         <div class="container mapping-shell">
           <div class="mapping-tabs" role="tablist" aria-label="Mapping views">
             <button class="is-active" type="button" role="tab" aria-selected="true" data-mapping-tab="profiles">Country Profiles</button>
@@ -148,15 +247,17 @@
         </div>
       </section>
     </main>
-<div id="footer-placeholder"></div>
 
-<script>
-fetch('/footer.html')
-  .then(response => response.text())
-  .then(html => {
-    document.getElementById('footer-placeholder').innerHTML = html;
-  });
-</script>
-    <script src="script.js"></script>
+    <div id="footer-placeholder"></div>
+
+    <script>
+      fetch('/footer.html')
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById('footer-placeholder').innerHTML = html;
+        });
+    </script>
+
+    <script src="/script.js"></script>
   </body>
 </html>

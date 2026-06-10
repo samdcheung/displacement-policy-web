@@ -173,7 +173,6 @@ h3 {
 }
 .prose p { margin-bottom: 10px; }
 .prose ul,
-.editorial-list,
 .compact-bullets {
   display: grid;
   gap: 9px;
@@ -720,11 +719,6 @@ h3 {
 }
 
 /* About page */
-.about-reference-hero {
-  padding: clamp(42px, 5vw, 64px) 0 clamp(34px, 4vw, 48px);
-  background: var(--white);
-  border-bottom: 1px solid var(--line);
-}
 .about-hero-grid,
 .about-overview-grid {
   display: grid;
@@ -733,12 +727,6 @@ h3 {
   align-items: start;
 }
 .about-hero-grid { align-items: end; }
-.about-reference-hero h1 {
-  max-width: 760px;
-  margin-bottom: 12px;
-  font-size: clamp(2.15rem, 3.4vw, 3rem);
-}
-.about-reference-hero .subtitle { max-width: 760px; margin-bottom: 0; color: var(--atlantic); }
 .about-hero-note,
 .about-side-card,
 .about-main-card,
@@ -825,18 +813,7 @@ h3 {
 .research-page .publication-row { gap: 18px; padding: 12px 0; }
 .research-page .research-application .content-grid { grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1fr); gap: clamp(22px, 3vw, 38px); align-items: center; }
 
-.publications-page .page-hero,
-body:has([data-publications-list]) .page-hero {
-  padding-top: clamp(38px, 4.5vw, 56px);
-  padding-bottom: clamp(30px, 3.8vw, 44px);
-  background: var(--white);
-}
-.publications-page .section,
-body:has([data-publications-list]) .section { padding-top: clamp(28px, 3vw, 40px); padding-bottom: clamp(30px, 3.2vw, 44px); }
-.publications-page .publication-grid,
-body:has([data-publications-list]) .publication-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.publications-page .publication-card,
-body:has([data-publications-list]) .publication-card { padding: 18px; }
+.publications-page .section { padding-top: clamp(28px, 3vw, 40px); padding-bottom: clamp(30px, 3.2vw, 44px); }
 
 /* Compact footer */
 .site-footer,
@@ -952,9 +929,7 @@ body:has([data-publications-list]) .publication-card { padding: 18px; }
 }
 
 @media (max-width: 860px) {
-  .research-page .card-grid,
-  .publications-page .publication-grid,
-  body:has([data-publications-list]) .publication-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .research-page .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .research-page .framework-section,
   .research-page .framework-section.reverse,
   .research-page .research-application .content-grid,
@@ -1060,8 +1035,196 @@ body:has([data-publications-list]) .publication-card { padding: 18px; }
   .perspective-card-grid,
   .editorial-card-row,
   .research-page .card-grid,
-  .publications-page .publication-grid,
-  body:has([data-publications-list]) .publication-grid,
   .about-focus-grid { grid-template-columns: 1fr; }
   .footer-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* =====================================================
+   UNIVERSAL EDITORIAL MASTHEAD
+===================================================== */
+
+.editorial-masthead {
+  min-height: clamp(340px, 42vw, 460px);
+  display: flex;
+  align-items: center;
+  padding: clamp(54px, 7vw, 82px) 0;
+  color: var(--white);
+  background:
+    linear-gradient(
+      125deg,
+      var(--navy) 0%,
+      var(--navy-2) 62%,
+      #123f52 100%
+    );
+  border-bottom: 0;
+}
+
+.editorial-masthead .eyebrow {
+  color: var(--bronze-soft);
+}
+
+.editorial-masthead h1 {
+  max-width: 780px;
+  margin-bottom: 14px;
+  color: var(--white);
+  font-size: clamp(2.45rem, 5vw, 4.1rem);
+  line-height: 1;
+}
+
+.editorial-masthead .subtitle {
+  max-width: 700px;
+  margin-bottom: 0;
+  color: rgba(255,255,255,.86);
+}
+
+.editorial-column {
+  width: min(calc(100% - 44px), 780px);
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-column {
+  width: min(calc(100% - 44px), 780px);
+  max-width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Reusable editorial rows */
+.editorial-list,
+.about-research-list {
+  width: 100%;
+  max-width: 780px;
+  margin: 1.45rem 0 0;
+  padding: 0;
+}
+
+.editorial-row,
+.about-research-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 220px) minmax(0, 1fr);
+  gap: 1.6rem;
+  align-items: start;
+  border-top: 1px solid var(--line);
+  padding: 1.1rem 0;
+}
+
+.editorial-row:last-child,
+.about-research-row:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.editorial-row h2,
+.editorial-row h3,
+.about-research-row h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.24;
+}
+
+.editorial-row p,
+.about-research-row p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.97rem;
+  line-height: 1.56;
+}
+
+.editorial-row .byline {
+  margin-top: 0.25rem;
+  color: var(--blue-grey);
+  font-size: 0.84rem;
+  font-weight: 650;
+}
+
+.editorial-row .text-link {
+  align-self: start;
+  justify-self: start;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 720px) {
+  .editorial-column {
+    width: min(calc(100% - 32px), 780px);
+  }
+
+  .editorial-masthead {
+    min-height: 320px;
+    padding: 46px 0;
+  }
+
+  .editorial-row,
+  .about-research-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+    padding: 1rem 0;
+  }
+}
+
+/* About page — editorial layout system override */
+.about-page .section {
+  padding: clamp(42px, 5vw, 62px) 0;
+}
+
+.about-page .section + .section-paper {
+  border-top: 1px solid var(--line);
+}
+
+.about-page .section-heading {
+  margin-bottom: 0;
+}
+
+.about-page .section-heading h2::after {
+  margin-top: 12px;
+}
+
+.about-page .prose {
+  display: grid;
+  gap: 0.85rem;
+  max-width: 780px;
+  margin-top: 1.25rem;
+}
+
+.about-page .prose p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.64;
+}
+
+.about-page .about-simple-list {
+  width: 100%;
+  max-width: 780px;
+  margin: 1.45rem 0 0;
+  padding: 0;
+}
+
+.about-page .about-simple-list {
+  list-style: none;
+}
+
+.about-page .about-simple-list li {
+  border-top: 1px solid var(--line);
+  padding: 0.95rem 0;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-page .about-simple-list li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.about-page .about-final-section {
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 720px) {
+  .about-column {
+    width: min(calc(100% - 32px), 780px);
+  }
 }
