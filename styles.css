@@ -1465,3 +1465,32 @@ h3 {
   }
 }
 
+.home-page .home-column {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* Homepage editorial centering override */
+.home-page .home-column {
+  width: min(calc(100% - 44px), 760px) !important;
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.home-page .home-about .home-column {
+  width: min(calc(100% - 44px), 700px) !important;
+  max-width: 700px !important;
+}
+
+.home-page .home-about .prose {
+  display: block !important;
+  grid-template-columns: none !important;
+  max-width: 700px !important;
+}
+
+.home-page .home-about h2 {
+  max-width: 700px !important;
+}
