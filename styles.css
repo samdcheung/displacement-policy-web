@@ -1390,3 +1390,78 @@ h3 {
     letter-spacing: -0.025em;
   }
 }
+
+/* =====================================================
+   HOME MAPPING BANNER — FLAGSHIP INITIATIVE TREATMENT
+===================================================== */
+
+.home-page .home-mapping-feature {
+  min-height: clamp(280px, 30vw, 360px);
+  padding: clamp(42px, 5vw, 64px) 0;
+}
+
+.home-page .home-mapping-feature .mapping-feature-inner {
+  min-height: unset;
+  display: grid;
+  grid-template-columns: minmax(0, 640px);
+  align-items: center;
+}
+
+.home-page .home-mapping-feature .home-mapping-copy {
+  max-width: 600px;
+  margin-left: 0;
+  padding: clamp(22px, 3vw, 32px);
+  border-left: 3px solid var(--bronze);
+  background: rgba(6, 35, 50, 0.52);
+  backdrop-filter: blur(2px);
+}
+
+.home-page .home-mapping-feature .home-mapping-copy h2 {
+  max-width: 560px;
+  font-size: clamp(1.65rem, 2.8vw, 2.45rem);
+  line-height: 1.05;
+}
+
+.home-page .home-mapping-feature .home-mapping-copy p {
+  max-width: 540px;
+  margin-bottom: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.home-page .home-mapping-feature .home-mapping-copy .small-note {
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.home-page .home-mapping-feature .button.secondary {
+  width: fit-content;
+  color: var(--ink);
+  border-color: var(--bronze-soft);
+  background: var(--paper-warm);
+}
+
+.home-page .home-mapping-feature .button.secondary:hover,
+.home-page .home-mapping-feature .button.secondary:focus {
+  color: var(--white);
+  border-color: var(--white);
+  background: transparent;
+}
+
+@media (max-width: 760px) {
+  .home-page .home-mapping-feature {
+    min-height: auto;
+    padding: 34px 0;
+    background-position: center;
+  }
+
+  .home-page .home-mapping-feature .home-mapping-copy {
+    max-width: none;
+    padding: 1.35rem 1.25rem;
+    background: rgba(6, 35, 50, 0.68);
+  }
+
+  .home-page .home-mapping-feature .button.secondary {
+    width: 100%;
+  }
+}
+
