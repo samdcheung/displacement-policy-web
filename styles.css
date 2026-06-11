@@ -1494,3 +1494,118 @@ h3 {
 .home-page .home-about h2 {
   max-width: 700px !important;
 }
+
+/* ==========================================
+   Footer subscribe form
+   ========================================== */
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.footer-brand-compact {
+  flex: 1 1 auto;
+}
+
+.footer-subscribe-kit {
+  flex: 0 0 420px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.footer-subscribe-text {
+  margin: 0 0 0.55rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: rgba(255,255,255,0.72);
+}
+
+.footer-subscribe-kit .formkit-form {
+  max-width: 420px !important;
+  margin: 0 !important;
+}
+
+.footer-subscribe-kit .formkit-fields {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.55rem !important;
+  margin: 0 !important;
+}
+
+.footer-subscribe-kit .formkit-field {
+  flex: 1 1 auto !important;
+  margin: 0 !important;
+}
+
+.footer-subscribe-kit .formkit-input {
+  width: 100% !important;
+  height: 42px !important;
+  padding: 0 0.85rem !important;
+  border: 1px solid rgba(255,255,255,0.22) !important;
+  border-radius: 0 !important;
+  background: rgba(255,255,255,0.08) !important;
+  color: #ffffff !important;
+  font-family: inherit !important;
+  font-size: 0.95rem !important;
+}
+
+.footer-subscribe-kit .formkit-input::placeholder {
+  color: rgba(255,255,255,0.70) !important;
+}
+
+.footer-subscribe-kit .formkit-submit {
+  flex: 0 0 auto !important;
+  height: 42px !important;
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: #f4efe6 !important;
+  color: #173247 !important;
+  font-family: inherit !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  white-space: nowrap !important;
+}
+
+.footer-subscribe-kit .formkit-submit span {
+  padding: 0 !important;
+}
+
+.footer-subscribe-kit .formkit-powered-by-convertkit-container {
+  display: none !important;
+}
+
+.site-footer-compact {
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.footer-brand-compact p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-subscribe-kit {
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+
+  .footer-subscribe-kit .formkit-fields {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .footer-subscribe-kit .formkit-submit {
+    width: 100% !important;
+  }
+}

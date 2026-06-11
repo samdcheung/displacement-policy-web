@@ -1,21 +1,65 @@
 <footer class="site-footer site-footer-compact">
   <div class="container footer-top">
+
     <div class="footer-brand-compact">
       <img src="/assets/brand/dp-favicon.svg" alt="" aria-hidden="true">
+
       <div>
         <strong>Displacement Policy</strong>
-        <p>Research and analysis on displacement governance.</p>
+
         <p class="footer-contact">
-          <a href="mailto:info@displacementpolicy.org">info@displacementpolicy.org</a>
+          <a href="mailto:info@displacementpolicy.org">
+            info@displacementpolicy.org
+          </a>
         </p>
       </div>
     </div>
 
-    <form class="footer-subscribe-inline" action="#" method="post" aria-label="Subscribe to research updates">
-      <label class="sr-only" for="footer-email">Email address</label>
-      <input id="footer-email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
-      <button type="submit">Follow</button>
-    </form>
+    <div class="footer-subscribe-kit">
+      <p class="footer-subscribe-text">
+        Receive new research and commentary by email.
+      </p>
+
+      <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+
+      <form
+        action="https://app.kit.com/forms/9550211/subscriptions"
+        class="seva-form formkit-form"
+        method="post"
+        data-sv-form="9550211"
+        data-uid="5b5b8ec5c7"
+        data-format="inline"
+        data-version="5">
+
+        <div data-style="clean">
+          <ul class="formkit-alert formkit-alert-error"
+              data-element="errors"
+              data-group="alert">
+          </ul>
+
+          <div
+            data-element="fields"
+            data-stacked="false"
+            class="seva-fields formkit-fields">
+
+            <div class="formkit-field">
+              <input
+                class="formkit-input"
+                name="email_address"
+                type="email"
+                placeholder="Email address"
+                aria-label="Email address"
+                required>
+            </div>
+
+            <button data-element="submit" class="formkit-submit">
+              <span>Get Updates</span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
   </div>
 
   <div class="container footer-bottom-compact">
@@ -26,6 +70,7 @@
       <a href="/publications">Publications</a>
       <a href="/about">About</a>
     </nav>
+
     <p>&copy; 2026 Displacement Policy</p>
   </div>
 </footer>
