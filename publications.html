@@ -10,6 +10,71 @@
     >
     <link rel="icon" href="/assets/brand/dp-favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/styles.css">
+
+    <style>
+      .publications-page .external-publication-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 1.5rem;
+        align-items: start;
+        padding: 1.15rem 0;
+        border-top: 1px solid rgba(8, 23, 35, 0.14);
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .publications-page .external-publication-row:last-child {
+        border-bottom: 1px solid rgba(8, 23, 35, 0.14);
+      }
+
+      .publications-page .external-publication-row h3 {
+        margin: 0;
+        font-family: var(--serif, Georgia, "Times New Roman", serif);
+        font-size: clamp(1.05rem, 2vw, 1.2rem);
+        font-weight: 400;
+        line-height: 1.25;
+      }
+
+      .publications-page .external-publication-row p {
+        margin: 0.5rem 0 0;
+        color: var(--muted, #4f5d5d);
+        font-size: 0.98rem;
+        line-height: 1.55;
+      }
+
+      .publications-page .publication-type {
+        margin: 0 0 0.35rem;
+        color: var(--bronze, #b88234);
+        font-size: 0.74rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        line-height: 1.3;
+        text-transform: uppercase;
+      }
+
+      .publications-page .external-publication-row .text-link {
+        white-space: nowrap;
+      }
+
+      .publications-page .external-publication-row:hover h3,
+      .publications-page .external-publication-row:focus h3 {
+        color: var(--navy-2, #0d4154);
+        text-decoration: underline;
+        text-decoration-color: var(--bronze, #b88234);
+        text-underline-offset: 4px;
+      }
+
+      @media (max-width: 760px) {
+        .publications-page .external-publication-row {
+          grid-template-columns: 1fr;
+          gap: 0.65rem;
+        }
+
+        .publications-page .external-publication-row .text-link {
+          white-space: normal;
+        }
+      }
+    </style>
   </head>
 
   <body class="publications-page">
@@ -64,11 +129,49 @@
           <p class="eyebrow">Featured Publications</p>
           <h2 id="featured-publications-title">Briefs, papers, and reports.</h2>
 
-          <div
-            class="editorial-list"
-            data-publications-list
-            data-publications-layout="list"
-          ></div>
+          <div class="editorial-list">
+            <a
+              class="external-publication-row"
+              href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6607419"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>
+                <p class="publication-type">Policy Brief · SSRN</p>
+                <h3>Governance by Design</h3>
+                <p>The displacement continuum and sustainable inclusion in Southeast Asia.</p>
+              </div>
+              <span class="text-link">View on SSRN →</span>
+            </a>
+
+            <a
+              class="external-publication-row"
+              href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6713961"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>
+                <p class="publication-type">Policy Brief · SSRN</p>
+                <h3>The Infrastructure Finance Gap</h3>
+                <p>Development-induced displacement and the limits of project-based safeguards.</p>
+              </div>
+              <span class="text-link">View on SSRN →</span>
+            </a>
+
+            <a
+              class="external-publication-row"
+              href="https://zenodo.org/records/20534390"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>
+                <p class="publication-type">Policy Brief · Zenodo</p>
+                <h3>Beyond Shock-Responsiveness</h3>
+                <p>Horizontal integration as the next frontier of adaptive social protection.</p>
+              </div>
+              <span class="text-link">View on Zenodo →</span>
+            </a>
+          </div>
         </div>
       </section>
     </main>
