@@ -32,6 +32,44 @@
       .research-page .research-closing-link {
         margin-top: 1.25rem;
       }
+
+      .research-page .research-visual-container {
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .research-page .research-visual {
+        margin: clamp(2rem, 4vw, 3rem) auto 0;
+      }
+
+      .research-page .research-visual img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid rgba(18, 59, 82, 0.14);
+        background: #f8f5ef;
+        box-shadow: 0 18px 40px rgba(8, 44, 58, 0.08);
+      }
+
+      .research-page .research-visual figcaption {
+        max-width: 780px;
+        margin: 0.85rem auto 0;
+        color: var(--color-text-muted, #54616b);
+        font-size: 0.95rem;
+        line-height: 1.55;
+      }
+
+      @media (max-width: 760px) {
+        .research-page .research-visual-container {
+          max-width: 100%;
+        }
+
+        .research-page .research-visual img {
+          border-radius: 8px;
+        }
+      }
     </style>
   </head>
 
@@ -154,6 +192,19 @@
             </article>
           </div>
         </div>
+
+        <div class="container research-visual-container">
+          <figure class="research-visual">
+            <img
+              src="/assets/images/whothisagendaengages-visual.png"
+              alt="Infographic showing how the research agenda engages humanitarians, researchers, governments and public system actors, and international financial institutions and development banks, with applications across displacement contexts and public systems."
+              loading="lazy"
+            >
+            <figcaption>
+              Different communities enter the research agenda through different governance problems and reform levers.
+            </figcaption>
+          </figure>
+        </div>
       </section>
 
       <section class="section section-muted research-band" aria-labelledby="frameworks-title">
@@ -203,6 +254,19 @@
               </div>
             </article>
           </div>
+        </div>
+
+        <div class="container research-visual-container">
+          <figure class="research-visual">
+            <img
+              src="/assets/images/displacement-continuum-visual.png"
+              alt="Infographic explaining the Displacement Continuum across categorical, territorial, and temporal dimensions, identifying governance fault lines and the conditions for sustainable inclusion."
+              loading="lazy"
+            >
+            <figcaption>
+              The Displacement Continuum identifies where protection continuity breaks when institutions do not follow people across status, space, and time.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -347,12 +411,28 @@
           <p class="prose">
             Displacement Policy welcomes engagement with researchers, practitioners, governments, international financial institutions, and development actors interested in applying these frameworks to concrete governance problems.
           </p>
-<p class="prose">
-  Related briefs, papers, and articles produced from this agenda are collected on the publications page.
-</p>
-<p class="research-closing-link">
-  <a class="text-link" href="/publications">View publications →</a>
-</p>
+        </div>
+
+        <div class="container research-visual-container">
+          <figure class="research-visual">
+            <img
+              src="/assets/images/advancingthisagenda-visual.png"
+              alt="Infographic showing how the research agenda advances through policy briefs and papers, applied case analysis, expert dialogue, and partner engagement across key areas such as social protection, infrastructure finance, disaster governance, local service delivery, civil registration, public finance, and mandate design."
+              loading="lazy"
+            >
+            <figcaption>
+              The agenda is developed through outputs, applied analysis, dialogue, and engagement around concrete institutional reform problems.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="container research-column">
+          <p class="prose">
+            Related briefs, papers, and articles produced from this agenda are collected on the publications page.
+          </p>
+          <p class="research-closing-link">
+            <a class="text-link" href="/publications">View publications →</a>
+          </p>
         </div>
       </section>
     </main>
