@@ -6,12 +6,12 @@
     <title>Publications | Displacement Policy</title>
     <meta
       name="description"
-      content="Research briefs, papers, reports, and book chapters on displacement governance, institutions, public systems, and finance."
+      content="Research briefs, working papers, reports, and book chapters on displacement governance, institutions, public systems, and finance."
     >
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.displacementpolicy.org/publications">
     <meta property="og:title" content="Publications | Displacement Policy">
-    <meta property="og:description" content="Research briefs, papers, reports, and book chapters on displacement governance, institutions, public systems, and finance.">
+    <meta property="og:description" content="Research briefs, working papers, reports, and book chapters on displacement governance, institutions, public systems, and finance.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.displacementpolicy.org/publications">
     <meta property="og:site_name" content="Displacement Policy">
@@ -20,7 +20,7 @@
     <meta property="og:image:height" content="1055">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Publications | Displacement Policy">
-    <meta name="twitter:description" content="Research briefs, papers, reports, and book chapters on displacement governance, institutions, public systems, and finance.">
+    <meta name="twitter:description" content="Research briefs, working papers, reports, and book chapters on displacement governance, institutions, public systems, and finance.">
     <meta name="twitter:image" content="https://www.displacementpolicy.org/assets/images/displacement-continuum-visual.png">
     <link rel="preconnect" href="https://f.convertkit.com">
     <link rel="preconnect" href="https://app.kit.com">
@@ -33,7 +33,7 @@
         "@id": "https://www.displacementpolicy.org/publications#webpage",
         "url": "https://www.displacementpolicy.org/publications",
         "name": "Publications | Displacement Policy",
-        "description": "Research briefs, papers, reports, and book chapters on displacement governance, institutions, public systems, and finance.",
+        "description": "Research briefs, working papers, reports, and book chapters on displacement governance, institutions, public systems, and finance.",
         "isPartOf": {
           "@id": "https://www.displacementpolicy.org/#website"
         },
@@ -48,19 +48,31 @@
             "@type": "ScholarlyArticle",
             "headline": "Governance by Design",
             "description": "The displacement continuum and sustainable inclusion in Southeast Asia.",
-            "sameAs": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6607419"
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6607419"
           },
           {
             "@type": "ScholarlyArticle",
             "headline": "The Infrastructure Finance Gap",
             "description": "Development-induced displacement and the limits of project-based safeguards.",
-            "sameAs": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6713961"
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6713961"
           },
           {
-            "@type": "CreativeWork",
+            "@type": "ScholarlyArticle",
             "headline": "Beyond Shock-Responsiveness",
             "description": "Horizontal integration as the next frontier of adaptive social protection.",
-            "sameAs": "https://zenodo.org/records/20534390"
+            "url": "https://www.displacementpolicy.org/assets/publications/governing-displacement-brief-3-beyond-shock-responsiveness.pdf"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "headline": "Fiscal Architecture of Displacement",
+            "description": "Sovereign finance and the recurrent fiscal obligation problem.",
+            "url": "https://zenodo.org/records/20534390"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "headline": "Fiscal Architecture of Displacement: Sovereign Finance and the Recurrent Fiscal Obligation Problem",
+            "description": "Displacement Policy Working Paper No. 1.",
+            "url": "https://www.displacementpolicy.org/assets/publications/displacement-policy-working-paper-1-fiscal-architecture.pdf"
           }
         ]
       }
@@ -117,6 +129,10 @@
         text-decoration: underline;
         text-decoration-color: var(--bronze, #b88234);
         text-underline-offset: 4px;
+      }
+
+      .publications-page .publication-section + .publication-section {
+        margin-top: clamp(3rem, 6vw, 4.5rem);
       }
 
       @media (max-width: 760px) {
@@ -179,53 +195,86 @@
         </div>
       </section>
 
-      <section class="section section-paper about-final-section" aria-labelledby="featured-publications-title">
+      <section class="section section-paper about-final-section" aria-labelledby="policy-briefs-title">
         <div class="container about-column">
-          <p class="eyebrow">Featured Publications</p>
-          <h2 id="featured-publications-title">Briefs, papers, and reports.</h2>
+          <div class="publication-section">
+            <p class="eyebrow">Policy Briefs</p>
+            <h2 id="policy-briefs-title">Governing Displacement series.</h2>
 
-          <div class="editorial-list">
-            <a
-              class="external-publication-row"
-              href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6607419"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div>
-                <p class="publication-type">Policy Brief · SSRN</p>
-                <h3>Governance by Design</h3>
-                <p>The displacement continuum and sustainable inclusion in Southeast Asia.</p>
-              </div>
-              <span class="text-link">View on SSRN →</span>
-            </a>
+            <div class="editorial-list">
+              <a
+                class="external-publication-row"
+                href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6607419"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>
+                  <p class="publication-type">Policy Brief No. 1</p>
+                  <h3>Governance by Design</h3>
+                  <p>The displacement continuum and sustainable inclusion in Southeast Asia.</p>
+                </div>
+                <span class="text-link">Read the brief →</span>
+              </a>
 
-            <a
-              class="external-publication-row"
-              href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6713961"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div>
-                <p class="publication-type">Policy Brief · SSRN</p>
-                <h3>The Infrastructure Finance Gap</h3>
-                <p>Development-induced displacement and the limits of project-based safeguards.</p>
-              </div>
-              <span class="text-link">View on SSRN →</span>
-            </a>
+              <a
+                class="external-publication-row"
+                href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6713961"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>
+                  <p class="publication-type">Policy Brief No. 2</p>
+                  <h3>The Infrastructure Finance Gap</h3>
+                  <p>Development-induced displacement and the limits of project-based safeguards.</p>
+                </div>
+                <span class="text-link">Read the brief →</span>
+              </a>
 
-            <a
-              class="external-publication-row"
-              href="https://zenodo.org/records/20534390"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div>
-                <p class="publication-type">Policy Brief · Zenodo</p>
-                <h3>Beyond Shock-Responsiveness</h3>
-                <p>Horizontal integration as the next frontier of adaptive social protection.</p>
-              </div>
-              <span class="text-link">View on Zenodo →</span>
-            </a>
+              <a
+                class="external-publication-row"
+                href="/assets/publications/governing-displacement-brief-3-beyond-shock-responsiveness.pdf"
+              >
+                <div>
+                  <p class="publication-type">Policy Brief No. 3</p>
+                  <h3>Beyond Shock-Responsiveness</h3>
+                  <p>Horizontal integration as the next frontier of adaptive social protection.</p>
+                </div>
+                <span class="text-link">Read the brief →</span>
+              </a>
+
+              <a
+                class="external-publication-row"
+                href="https://zenodo.org/records/20534390"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>
+                  <p class="publication-type">Policy Brief No. 4</p>
+                  <h3>Fiscal Architecture of Displacement</h3>
+                  <p>Sovereign finance and the recurrent fiscal obligation problem.</p>
+                </div>
+                <span class="text-link">Read the brief →</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="publication-section">
+            <p class="eyebrow">Working Papers</p>
+            <h2 id="working-papers-title">Long-form research papers.</h2>
+
+            <div class="editorial-list">
+              <a
+                class="external-publication-row"
+                href="/assets/publications/displacement-policy-working-paper-1-fiscal-architecture.pdf"
+              >
+                <div>
+                  <p class="publication-type">Working Paper No. 1</p>
+                  <h3>Fiscal Architecture of Displacement: Sovereign Finance and the Recurrent Fiscal Obligation Problem</h3>
+                  <p>A longer research paper on how sovereign financing systems shape the institutional conditions for sustainable inclusion.</p>
+                </div>
+                <span class="text-link">Read the working paper →</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
