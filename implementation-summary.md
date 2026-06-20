@@ -1,31 +1,17 @@
-# Displacement Governance Mapping — consolidated interface update
+# Displacement Governance Mapping — refined repository explorer
 
-Build: 20260620 consolidated sources-visible interface
+Refinement applied after visual/content review.
 
-This package updates the mapping page structure without changing the current dataset.
+## Changes
 
-## What changed
-
-- Replaced the separate tab structure with one consolidated mapping explorer.
-- The explorer now has three entry points: select by country, select by governance layer, or select by fault line.
-- Illustrative cases now appear contextually inside the selected view rather than as a separate selector.
-- Confidence labels have been removed from rendered cards.
-- Expandable source sections remain visible in country, layer, fault-line, and case views.
-- The overall dashboard has been simplified into a systematic summary of the mapping contents: profiles, layers, fault lines, and cases.
-- Country profiles now use a smaller, full-width country summary and emphasize governance-layer analysis rather than a large standalone descriptive heading.
-- The page keeps the embedded fallback database and still attempts to load the external JSON first when the build ID matches.
-
-## Dataset counts
-
-- Countries: 8
-- Governance dimensions: 7
-- Country-dimension cells: 56
-- Illustrative cases: 14
-- Build ID: 20260620-ccea2719d0d7
+- Removed the separate “Repository-style explorer” eyebrow and “One mapping, three entry points” header block.
+- Merged the “How to use it” guidance into the main introductory section.
+- Removed the overview/stat cards above the explorer so the page moves directly from explanation into the data interface.
+- Simplified “View by” buttons to only: Country profile, Governance layer, Fault line.
+- Fixed selector-button spacing so secondary descriptions no longer run into the main label.
+- Preserved the repository-style explorer logic: one dataset, three entry points, contextual cases, expandable sources, no public confidence labels.
 
 ## Deployment structure
-
-Upload or replace these files:
 
 ```
 mapping.html
@@ -35,4 +21,4 @@ displacement-governance-database.json
 mapping.json
 ```
 
-The root-level JSON copies are included for fallback compatibility.
+Build ID: 20260620-ccea2719d0d7
