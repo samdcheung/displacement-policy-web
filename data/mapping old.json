@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "title": "Displacement Governance Mapping",
+    "tagline": "A comparative methodology for analysing how states govern displacement.",
+    "description": "Displacement Governance Mapping examines how displacement is governed through legal frameworks, institutions, public systems, fiscal architecture, and development finance. The current phase focuses on Southeast Asia as the first regional application of the methodology.",
+    "methodology": [
+      "This mapping is a qualitative analytical assessment.",
+      "It draws on laws, policies, institutional frameworks, published reports, academic literature, and comparative governance analysis.",
+      "It is not a country ranking, performance index, scorecard, statistical dataset, or original field data collection.",
+      "The framework is informed by the displacement governance and sustainable inclusion research agenda developed through the platform's publications and comparative regional analysis."
+    ]
+  },
+  "filters": {
+    "displacement_types": [
+      "Refugees",
+      "Internal displacement",
+      "Disaster displacement",
+      "Statelessness",
+      "Labour mobility",
+      "Development-induced displacement"
+    ],
+    "governance_areas": [
+      "Social protection",
+      "Disaster management",
+      "Local government",
+      "Fiscal architecture",
+      "Data systems",
+      "Infrastructure safeguards",
+      "Climate adaptation"
+    ]
+  },
+  "countries": [
+    {
+      "id": "cambodia",
+      "country": "Cambodia",
+      "overview": "Cambodia's displacement governance sits across disaster exposure, statelessness risks, labour mobility, and development-induced displacement. Expanding public systems create inclusion opportunities, but documentation, local capacity, and project-to-system financing remain central constraints.",
+      "primary_displacement_dynamics": ["Disaster displacement", "Statelessness", "Labour mobility", "Development-induced displacement"],
+      "governance_areas": ["Social protection", "Disaster management", "Local government", "Fiscal architecture", "Data systems", "Infrastructure safeguards"],
+      "institutional_architecture": ["Disaster management authority", "Migration/interior authority", "Social protection agency", "Local government actors", "Development finance actors"],
+      "governance_fault_lines": ["Documentation and eligibility", "Registry interoperability", "Territorial portability", "Municipal absorption", "Project-to-system financing"],
+      "relevant_systems": ["Social protection", "Civil registration", "Disaster management", "Local government systems", "Infrastructure safeguards"],
+      "reform_opportunities": "Strengthen registration pathways for mobile and vulnerable households, connect affected household records to social protection and local planning systems, and require post-resettlement service audits for infrastructure-linked displacement.",
+      "comparison": {
+        "social_protection_inclusion": "Expanding systems create openings for inclusion, but eligibility and documentation gaps continue to shape access.",
+        "territorial_portability": "Portability remains constrained by local administrative capacity and documentation practices.",
+        "municipal_absorption": "Local governments need stronger fiscal and planning support where relocation, mobility, or disaster exposure increases demand.",
+        "fiscal_sustainability": "Project-linked support needs clearer pathways into baseline budgets and recurrent public systems.",
+        "key_governance_challenge": "Project-linked and local implementation arrangements do not always connect to continuing public obligations."
+      },
+      "sources": "Assessment basis: publicly available social protection, civil registration, disaster, development finance, and infrastructure safeguard materials; published research and development partner reporting."
+    },
+    {
+      "id": "indonesia",
+      "country": "Indonesia",
+      "overview": "Indonesia's displacement governance spans disaster risk, internal displacement, refugee/asylum issues, infrastructure-linked relocation, and labour mobility. Disaster systems provide important continuity for citizens, while refugees and some mobile groups remain less connected to ordinary systems.",
+      "primary_displacement_dynamics": ["Refugees", "Internal displacement", "Disaster displacement", "Labour mobility", "Development-induced displacement"],
+      "governance_areas": ["Social protection", "Disaster management", "Local government", "Fiscal architecture", "Data systems", "Infrastructure safeguards", "Climate adaptation"],
+      "institutional_architecture": ["Disaster management authority", "Migration/interior authority", "Social protection agency", "Local government actors", "Development finance actors"],
+      "governance_fault_lines": ["Documentation and eligibility", "Registry interoperability", "Emergency-to-recovery transition", "Municipal absorption", "Project-to-system financing"],
+      "relevant_systems": ["Disaster management", "Social protection", "Social registry systems", "Local government systems", "Infrastructure safeguards", "Climate adaptation"],
+      "reform_opportunities": "Clarify minimum access standards for refugees, integrate displacement triggers into adaptive social protection, support high-displacement localities through fiscal transfers, and require post-project inclusion tracking in infrastructure portfolios.",
+      "comparison": {
+        "social_protection_inclusion": "Disaster-affected citizens connect more readily to national systems than refugees and some non-citizen groups.",
+        "territorial_portability": "Portability depends on the interaction between national registries, local delivery, and administrative status.",
+        "municipal_absorption": "Subnational delivery variation remains a central issue in high-exposure and high-mobility areas.",
+        "fiscal_sustainability": "Disaster and climate finance create pathways for recurrent recognition, but not all displacement dynamics are carried by ordinary budgets.",
+        "key_governance_challenge": "Different displacement categories connect unevenly to national and subnational systems."
+      },
+      "sources": "Assessment basis: public disaster, social protection, migration, infrastructure, and climate policy materials; published research and development partner reporting."
+    },
+    {
+      "id": "lao-pdr",
+      "country": "Lao PDR",
+      "overview": "Lao PDR's displacement governance is shaped by disaster exposure, labour mobility, and development-induced displacement. Emerging public systems and constrained fiscal space make continuity between projects, local delivery, and national systems a central concern.",
+      "primary_displacement_dynamics": ["Disaster displacement", "Labour mobility", "Development-induced displacement"],
+      "governance_areas": ["Social protection", "Disaster management", "Local government", "Fiscal architecture", "Data systems", "Infrastructure safeguards", "Climate adaptation"],
+      "institutional_architecture": ["Disaster management authority", "Social protection agency", "Local government actors", "Planning ministries", "Development finance actors"],
+      "governance_fault_lines": ["Registry interoperability", "Territorial portability", "Emergency-to-recovery transition", "Municipal absorption", "Project-to-system financing"],
+      "relevant_systems": ["Disaster management", "Emerging social protection systems", "District delivery systems", "Infrastructure safeguards", "Development planning"],
+      "reform_opportunities": "Build displacement-sensitive triggers into emerging social protection systems, connect resettlement planning to district delivery budgets, and link affected household records to social and local planning registries.",
+      "comparison": {
+        "social_protection_inclusion": "Emerging systems create a platform for inclusion, but coverage and delivery capacity remain uneven.",
+        "territorial_portability": "Portability is limited by remoteness, documentation, and district-level delivery constraints.",
+        "municipal_absorption": "District and local systems require stronger financing and planning support after relocation or disaster shocks.",
+        "fiscal_sustainability": "Project-linked support and limited fiscal space make recurrent inclusion difficult to absorb into baseline systems.",
+        "key_governance_challenge": "Limited system maturity and local fiscal capacity constrain absorption after relocation or disaster shock."
+      },
+      "sources": "Assessment basis: public disaster, planning, emerging social protection, and development finance materials; published research and development partner reporting."
+    },
+    {
+      "id": "malaysia",
+      "country": "Malaysia",
+      "overview": "Malaysia's displacement governance is strongly shaped by refugee/asylum, statelessness, and labour mobility questions. Ordinary systems are comparatively developed, but access for non-citizens and undocumented groups remains highly status-mediated.",
+      "primary_displacement_dynamics": ["Refugees", "Statelessness", "Labour mobility"],
+      "governance_areas": ["Social protection", "Local government", "Fiscal architecture", "Data systems"],
+      "institutional_architecture": ["Migration/interior authority", "Civil registration authorities", "Social protection agency", "Local government actors", "Development finance actors"],
+      "governance_fault_lines": ["Documentation and eligibility", "Registry interoperability", "Territorial portability", "Municipal absorption", "Accountability gaps"],
+      "relevant_systems": ["Immigration administration", "Civil registration", "Urban local government", "Health and education access protocols", "Social assistance"],
+      "reform_opportunities": "Establish limited vulnerability-based access protocols, improve civil registration pathways for children at risk of statelessness, and build financing arrangements for urban refugee inclusion.",
+      "comparison": {
+        "social_protection_inclusion": "Ordinary systems are comparatively developed, but access for refugees, stateless populations, and undocumented groups is strongly status-mediated.",
+        "territorial_portability": "Portability is constrained by documentation and immigration status across jurisdictions.",
+        "municipal_absorption": "Urban local systems carry practical inclusion pressures without clear national absorption pathways.",
+        "fiscal_sustainability": "Refugee and statelessness inclusion is politically sensitive as a recurrent fiscal commitment.",
+        "key_governance_challenge": "Legal status limits continuity between humanitarian protection, public systems, and local implementation."
+      },
+      "sources": "Assessment basis: public legal and policy materials, institutional mandates, UN and civil society reporting, and published research on refugee, statelessness, and migrant inclusion."
+    },
+    {
+      "id": "myanmar",
+      "country": "Myanmar",
+      "overview": "Myanmar's displacement governance is defined by conflict, refugee flows, statelessness, disaster exposure, and fragmented authority. Protection continuity is constrained across documentation systems, areas of control, and disrupted public institutions.",
+      "primary_displacement_dynamics": ["Refugees", "Internal displacement", "Disaster displacement", "Statelessness"],
+      "governance_areas": ["Disaster management", "Local government", "Fiscal architecture", "Data systems"],
+      "institutional_architecture": ["Disaster management authority", "Migration/interior authority", "Local authorities", "Humanitarian coordination actors", "Development finance actors"],
+      "governance_fault_lines": ["Documentation and eligibility", "Registry interoperability", "Territorial portability", "Emergency-to-recovery transition", "Municipal absorption", "Accountability gaps"],
+      "relevant_systems": ["Civil documentation", "Humanitarian coordination", "Local administration", "Disaster management", "Future public system restoration"],
+      "reform_opportunities": "Protect minimum public support channels across areas of control, prioritize civil documentation pathways, and develop transition scenarios for future restoration of public systems.",
+      "comparison": {
+        "social_protection_inclusion": "Public system inclusion is deeply affected by conflict, citizenship exclusion, and disrupted institutions.",
+        "territorial_portability": "Continuity changes sharply across areas of control, movement routes, and documentation status.",
+        "municipal_absorption": "Local absorption is shaped by conflict conditions, displacement scale, and fragmented authority.",
+        "fiscal_sustainability": "Recurring obligations are difficult to absorb under current institutional and fiscal conditions.",
+        "key_governance_challenge": "Conflict and institutional fragmentation disrupt continuity across territory, status, and time."
+      },
+      "sources": "Assessment basis: published humanitarian, UN, legal, and institutional analysis; public reporting on displacement, citizenship, and conflict-related access constraints."
+    },
+    {
+      "id": "philippines",
+      "country": "Philippines",
+      "overview": "The Philippines has extensive disaster governance and social protection architecture alongside conflict displacement and statelessness concerns. Continuity is comparatively stronger where national systems and local recovery mechanisms are linked, but geography and local capacity still matter.",
+      "primary_displacement_dynamics": ["Internal displacement", "Disaster displacement", "Statelessness", "Labour mobility"],
+      "governance_areas": ["Social protection", "Disaster management", "Local government", "Fiscal architecture", "Data systems", "Climate adaptation"],
+      "institutional_architecture": ["Disaster management authority", "Social protection agency", "Local government actors", "Migration/interior authority", "Development finance actors"],
+      "governance_fault_lines": ["Registry interoperability", "Territorial portability", "Emergency-to-recovery transition", "Municipal absorption", "Accountability gaps"],
+      "relevant_systems": ["Disaster risk reduction and management", "Social protection", "Local recovery planning", "Civil registration", "Resilience finance"],
+      "reform_opportunities": "Embed recurrent displacement support into social protection and local recovery budgets, link evacuation and relocation records to social registries, and strengthen displacement-sensitive intergovernmental transfers.",
+      "comparison": {
+        "social_protection_inclusion": "Social protection systems provide important pathways for inclusion, especially for disaster-affected citizens.",
+        "territorial_portability": "Portability improves through national systems but remains affected by geography and local delivery capacity.",
+        "municipal_absorption": "Local governments carry major recovery responsibilities and need predictable financing for recurrent displacement.",
+        "fiscal_sustainability": "Disaster and recovery finance are active, but conflict displacement can create recurrent local fiscal pressure.",
+        "key_governance_challenge": "Moving from emergency response to durable local recovery across highly exposed territories."
+      },
+      "sources": "Assessment basis: public disaster, social protection, recovery, and civil registration frameworks; published research and UN/development partner reporting."
+    },
+    {
+      "id": "thailand",
+      "country": "Thailand",
+      "overview": "Thailand combines long-standing refugee and statelessness questions with disaster exposure and regional labour mobility. Governance arrangements are comparatively developed, but continuity often depends on legal status, registration, locality, and administrative discretion.",
+      "primary_displacement_dynamics": ["Refugees", "Disaster displacement", "Statelessness", "Labour mobility"],
+      "governance_areas": ["Social protection", "Disaster management", "Local government", "Fiscal architecture", "Data systems"],
+      "institutional_architecture": ["Migration/interior authority", "Disaster management authority", "Social protection agency", "Local government actors", "Development finance actors"],
+      "governance_fault_lines": ["Documentation and eligibility", "Registry interoperability", "Territorial portability", "Municipal absorption", "Project-to-system financing"],
+      "relevant_systems": ["Civil registration", "Border and migration administration", "Disaster management", "Social protection", "Municipal planning"],
+      "reform_opportunities": "Create vulnerability-based access protocols for displaced and stateless groups, map displacement-related costs in social protection and local budgets, and pilot portable entitlements in high-mobility border provinces.",
+      "comparison": {
+        "social_protection_inclusion": "Inclusion is possible through ordinary systems, but legal status and registration heavily shape access.",
+        "territorial_portability": "Portability depends on registration, locality, and administrative discretion.",
+        "municipal_absorption": "Border and high-mobility localities need stronger planning and financing tools.",
+        "fiscal_sustainability": "Some support is carried by sector systems, but recurrent obligations are not consistently explicit.",
+        "key_governance_challenge": "Status and registration systems shape access to ordinary public systems."
+      },
+      "sources": "Assessment basis: publicly available legal and policy frameworks, institutional mandates, UN and development partner reporting, and published analysis on refugee, statelessness, disaster, and labour mobility governance."
+    },
+    {
+      "id": "vietnam",
+      "country": "Vietnam",
+      "overview": "Vietnam's displacement governance is linked primarily to disaster risk, climate mobility, labour mobility, and infrastructure-linked relocation. Public systems can absorb some displacement-related vulnerability, but household registration, locality, and project follow-up remain important fault lines.",
+      "primary_displacement_dynamics": ["Disaster displacement", "Labour mobility", "Development-induced displacement"],
+      "governance_areas": ["Social protection", "Disaster management", "Local government", "Fiscal architecture", "Data systems", "Infrastructure safeguards", "Climate adaptation"],
+      "institutional_architecture": ["Disaster management authority", "Social protection agency", "Local government actors", "Planning ministries", "Development finance actors"],
+      "governance_fault_lines": ["Registry interoperability", "Territorial portability", "Emergency-to-recovery transition", "Project-to-system financing", "Accountability gaps"],
+      "relevant_systems": ["Disaster management", "Social protection", "Household registration", "Urban and climate planning", "Infrastructure safeguards"],
+      "reform_opportunities": "Improve portability for mobile households, integrate displacement costs into climate adaptation and urban planning budgets, and track post-project livelihood and inclusion outcomes.",
+      "comparison": {
+        "social_protection_inclusion": "Public systems can absorb some displacement-related vulnerability, especially where citizenship and registration align.",
+        "territorial_portability": "Household registration and locality influence access and portability.",
+        "municipal_absorption": "Urban and climate-exposed localities need stronger links between planning, registries, and delivery.",
+        "fiscal_sustainability": "Climate adaptation and public systems can carry some costs, but mobility-linked obligations are not fully explicit.",
+        "key_governance_challenge": "Climate and relocation pressures require stronger continuity between planning, registries, and local delivery."
+      },
+      "sources": "Assessment basis: public disaster, climate adaptation, social protection, household registration, and infrastructure safeguard materials; development partner reporting and published research."
+    }
+  ]
+}

@@ -1,0 +1,938 @@
+{
+  "meta": {
+    "title": "Southeast Asia Displacement Governance Mapping",
+    "description": "Framework-derived qualitative governance database: 8 countries, 7 governance areas, 3 fault lines, and chapter-linked case examples.",
+    "method": "Qualitative governance assessment derived from the accompanying chapter, policy briefs, secondary sources, and practitioner analysis. Not a ranking, scorecard, or primary data collection."
+  },
+  "dimensions": [
+    {
+      "id": "mobility",
+      "name": "Mobility governance",
+      "desc": "How migration, refugee, asylum, statelessness, and cross-border movement are recognised and governed."
+    },
+    {
+      "id": "disaster_idp",
+      "name": "Disaster & internal displacement",
+      "desc": "How disaster, conflict, and internal displacement are governed across emergency and recovery phases."
+    },
+    {
+      "id": "public_systems",
+      "name": "Public systems integration",
+      "desc": "How health, education, registration, labour, and social protection systems include or exclude displaced populations."
+    },
+    {
+      "id": "institutional",
+      "name": "Institutional responsibility",
+      "desc": "How mandates and coordination are allocated across ministries, local authorities, and external actors."
+    },
+    {
+      "id": "fiscal",
+      "name": "Fiscal architecture",
+      "desc": "How displacement-related obligations are financed, transferred, bounded, or left outside ordinary budgets."
+    },
+    {
+      "id": "data",
+      "name": "Data & administrative infrastructure",
+      "desc": "How registries, identity systems, databases, and eligibility architecture follow — or fail to follow — people."
+    },
+    {
+      "id": "infra_finance",
+      "name": "Infrastructure & development finance",
+      "desc": "How safeguards, project finance, land acquisition, and development corridors shape displacement risk and absorption."
+    }
+  ],
+  "countries": [
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "sovereignty": "Administrative sovereignty",
+      "role": "Strongest absorption case: Health Insurance Card Scheme; pink cards/statelessness; Karen return reset.",
+      "summary": "Thailand combines restrictive refugee law with comparatively strong sectoral absorption in health. Its governance pattern shows how inclusion can advance through administrative and public-health incentives while remaining categorically separate from citizenship or asylum status.",
+      "cases": [
+        "Health Insurance Card Scheme (HICS)",
+        "Pink cards / stateless persons",
+        "Karen return / durable solution reset"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "Employer-tied labour migration and non-signatory refugee governance operate through reversible status, bounded documentation, and administrative discretion. UNHCR recognition and the National Screening Mechanism do not by themselves create pathways into ordinary systems.",
+          "mechanisms": [
+            "Immigration Act B.E. 2522",
+            "MOU labour permit system",
+            "National Screening Mechanism",
+            "UNHCR RSD"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Sovereignty-preserving functional access",
+          "confidence": "High"
+        },
+        "disaster_idp": {
+          "characterization": "Disaster governance is comparatively institutionalized through the Ministry of Interior, but internal displacement is not governed through a distinct longitudinal framework. Stateless and border populations are managed through registration instruments that can restrict movement and reset access across provinces.",
+          "mechanisms": [
+            "DDPM",
+            "Pink card system",
+            "Civil registration restrictions"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Within-system reset",
+          "confidence": "Medium"
+        },
+        "public_systems": {
+          "characterization": "Health is the strongest public-system absorption point. HICS extends coverage to non-Thai populations through a separate, premium-based and cost-recovery model, while most social assistance remains citizen-bound.",
+          "mechanisms": [
+            "Health Insurance Card Scheme for Non-Thai Persons",
+            "Universal Coverage Scheme",
+            "State welfare card"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Sectoral absorption",
+          "confidence": "High"
+        },
+        "institutional": {
+          "characterization": "No single whole-of-government displacement mandate exists. Coordination occurs through sectoral channels, cabinet discretion, and screening procedures rather than a unified architecture for displacement-related vulnerability.",
+          "mechanisms": [
+            "Community Refugee Screening Process",
+            "Ministry of Interior",
+            "Ministry of Public Health"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Sectoral responsiveness without longitudinal mandate",
+          "confidence": "Medium"
+        },
+        "fiscal": {
+          "characterization": "The HICS model limits open-ended fiscal exposure by separating non-citizen coverage from the citizen universal coverage scheme and using premium/cost-recovery logic. This makes absorption politically and fiscally manageable while preserving categorical boundaries.",
+          "mechanisms": [
+            "Premium-based HICS financing",
+            "Cost recovery through public health facilities"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Bounded fiscal inclusion",
+          "confidence": "High"
+        },
+        "data": {
+          "characterization": "Administrative registration is relatively strong but fragmented. Disaster, health, welfare, migration, and stateless-person records do not form a single portable system following displaced populations across territorial or status changes.",
+          "mechanisms": [
+            "Pink cards",
+            "Civil registration",
+            "DDPM records",
+            "MoPH health records"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Administrative legibility without portability",
+          "confidence": "Medium"
+        },
+        "infra_finance": {
+          "characterization": "Infrastructure-induced displacement is less central than in Mekong dam states, but Thailand is affected by cross-border downstream impacts and return dynamics along the Myanmar border. Development finance is not yet systematically connected to displacement absorption.",
+          "mechanisms": [
+            "Cross-border Mekong impacts",
+            "Border-area infrastructure and return planning"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Indirect exposure",
+          "confidence": "Low"
+        }
+      }
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "sovereignty": "Demographic sovereignty",
+      "role": "Categorical rigidity case: labour migration model extended to refugees; absorption ceiling shaped by citizenship and bumiputera politics.",
+      "summary": "Malaysia is the clearest categorical rigidity case. Refugees are managed through immigration law rather than protection architecture, and even limited functional access preserves a sharp separation from legal or fiscal incorporation.",
+      "cases": [
+        "Malaysia categorical rigidity",
+        "Rohingya Bangladesh-to-Malaysia",
+        "IMM13 group-specific tolerance"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "Migration governance is built around employer-tied, temporary, reversible labour migration. Refugees without lawful immigration status remain treated as irregular migrants despite UNHCR documentation.",
+          "mechanisms": [
+            "Immigration Act 1959/63",
+            "Temporary Employment Visit Pass",
+            "UNHCR cards",
+            "IMM13 permits"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Categorical rigidity",
+          "confidence": "High"
+        },
+        "disaster_idp": {
+          "characterization": "Disaster management is organized around national disaster response but does not systematically include non-citizen or undocumented populations. Internal displacement is not a significant recognized policy category.",
+          "mechanisms": [
+            "NADMA",
+            "Flood response architecture",
+            "Local authority disaster response"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Citizen-oriented disaster response",
+          "confidence": "Medium"
+        },
+        "public_systems": {
+          "characterization": "Social protection programmes are overwhelmingly citizen or lawful-worker based. Refugees can access some health services at foreign-patient rates but are excluded from ordinary assistance, social insurance, and formal labour access.",
+          "mechanisms": [
+            "EPF",
+            "SOCSO",
+            "JKM welfare assistance",
+            "Foreign-patient health rates"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Differentiated access without integration",
+          "confidence": "High"
+        },
+        "institutional": {
+          "characterization": "The Ministry of Home Affairs and Immigration dominate. There is no national displacement framework or cross-ministerial architecture capable of separating functional access from membership incorporation.",
+          "mechanisms": [
+            "Ministry of Home Affairs",
+            "Immigration Department",
+            "UNHCR mediation"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Immigration-led governance",
+          "confidence": "High"
+        },
+        "fiscal": {
+          "characterization": "Fiscal architecture reinforces exclusion by reserving social assistance and insurance systems for citizens or documented workers. Refugee inclusion is framed as potential fiscal and membership exposure rather than resilience investment.",
+          "mechanisms": [
+            "Citizen-only welfare programmes",
+            "Foreign patient charging structure"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Fiscal containment through non-recognition",
+          "confidence": "Medium"
+        },
+        "data": {
+          "characterization": "UNHCR registration functions as de facto identification but has no domestic legal effect. Refugee, immigration, health, and education data remain separated, preventing system-linked inclusion.",
+          "mechanisms": [
+            "UNHCR cards",
+            "Immigration databases",
+            "Community learning centre records"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Parallel identification without state effect",
+          "confidence": "High"
+        },
+        "infra_finance": {
+          "characterization": "Development-induced displacement is not the central mapped governance problem, though Orang Asli and land-related displacement raise protection questions outside refugee and migration systems.",
+          "mechanisms": [
+            "Orang Asli development displacement",
+            "Land and infrastructure projects"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "Peripheral and under-coded",
+          "confidence": "Low"
+        }
+      }
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "sovereignty": "Post-colonial governmental sovereignty",
+      "role": "Palu, e-KTP/SIKS-NG, Presidential Regulation 125/2016, and fiscal-jurisdictional reset.",
+      "summary": "Indonesia has some of the region’s strongest formal architecture and data systems, but fiscal decentralisation and territorial anchoring limit continuity when people move across districts or emergency phases.",
+      "cases": [
+        "Palu earthquake (2018)",
+        "e-KTP / SIKS-NG architecture",
+        "Presidential Regulation 125/2016"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "Indonesia is primarily a labour-sending state but has a formal refugee-handling instrument. Presidential Regulation 125/2016 assigns state responsibilities but does not create integration pathways or resolve local fiscal implementation gaps.",
+          "mechanisms": [
+            "BP2MI",
+            "Presidential Regulation No. 125/2016",
+            "UNHCR RSD"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Formal mandate without durable integration",
+          "confidence": "High"
+        },
+        "disaster_idp": {
+          "characterization": "BNPB provides strong emergency coordination, but support is time-bound. When emergency status expires, responsibility shifts to local government budgets, creating gaps for households whose displacement continues.",
+          "mechanisms": [
+            "BNPB",
+            "Law No. 24/2007 on Disaster Management",
+            "BPBDs",
+            "Palu response"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Emergency-to-local reset",
+          "confidence": "High"
+        },
+        "public_systems": {
+          "characterization": "Indonesia has significant social protection and health-system capacity through PKH, SIKS-NG, and BPJS Kesehatan, including adaptive enrolment in crises. The problem is not system absence but portability and eligibility continuity.",
+          "mechanisms": [
+            "PKH",
+            "SIKS-NG",
+            "BPJS Kesehatan",
+            "Bantuan Sosial Tunai"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Partial systems absorption",
+          "confidence": "High"
+        },
+        "institutional": {
+          "characterization": "Formal whole-of-government design exists for refugees and disasters, but implementation is fragmented through decentralised fiscal and administrative authority across hundreds of districts.",
+          "mechanisms": [
+            "Presidential Regulation 125/2016",
+            "BNPB/BPBD system",
+            "Law 23/2014 on local government"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Design-implementation gap under decentralisation",
+          "confidence": "High"
+        },
+        "fiscal": {
+          "characterization": "The fiscal constraint is jurisdictional. Emergency budgets can activate rapidly, but longer-term responsibility must be absorbed by local governments whose budget ceilings do not automatically follow displaced populations.",
+          "mechanisms": [
+            "Emergency budget authority",
+            "District budget responsibility",
+            "Intergovernmental fiscal transfers"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Fiscal-jurisdictional reset",
+          "confidence": "High"
+        },
+        "data": {
+          "characterization": "The e-KTP and SIKS-NG architecture is highly developed but territorially anchored. Disaster databases and social protection registries do not automatically interoperate, so displaced households can be reclassified or excluded at re-enumeration.",
+          "mechanisms": [
+            "e-KTP",
+            "SIKS-NG",
+            "BNPB disaster records"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Non-interoperability at system boundary",
+          "confidence": "High"
+        },
+        "infra_finance": {
+          "characterization": "Infrastructure and development displacement are present but less central than disaster and data-system cases in the current chapter. The same absorption constraints would apply where project-affected populations require transfer into national systems.",
+          "mechanisms": [
+            "Kalimantan and infrastructure relocation",
+            "Land and social protection systems"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "System-linkage requirement",
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "sovereignty": "Devolved sovereignty dynamics",
+      "role": "Marawi, 4Ps/Listahanan, post-Haiyan reconciliation, and OFW/IDP contrast.",
+      "summary": "The Philippines has advanced disaster, social protection, and overseas-worker institutions. Its core problem is not activation capacity but longitudinal continuity across local government, programme cycles, and recovery phases.",
+      "cases": [
+        "Marawi siege (2017)",
+        "4Ps / Listahanan + post-Haiyan",
+        "OFW / domestic IDP contrast"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "Outward labour migration is governed through robust longitudinal institutions, while inward migration and domestic displacement receive far less portable protection. This contrast exposes the architecture of membership and portability.",
+          "mechanisms": [
+            "POEA",
+            "OWWA",
+            "Bangsamoro governance context",
+            "DOJ refugee procedures"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "External portability stronger than domestic portability",
+          "confidence": "High"
+        },
+        "disaster_idp": {
+          "characterization": "The NDRRMC is among the strongest disaster coordination architectures in the region, but its assumptions are time-bound. Marawi showed that the system could activate but not absorb displacement over years.",
+          "mechanisms": [
+            "NDRRMC",
+            "RA 10121",
+            "Task Force Bangon Marawi",
+            "Local disaster councils"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Temporal drop-off",
+          "confidence": "High"
+        },
+        "public_systems": {
+          "characterization": "4Ps, Listahanan, PhilHealth, DepEd, and DSWD offer strong institutional capacity, but access is interrupted when displaced households cross municipal boundaries or fall between enumeration cycles.",
+          "mechanisms": [
+            "4Ps / Pantawid Pamilya",
+            "Listahanan",
+            "PhilHealth",
+            "DepEd temporary learning spaces"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Partial fiscal absorption with portability gaps",
+          "confidence": "High"
+        },
+        "institutional": {
+          "characterization": "Whole-of-government disaster coordination is formalized, yet recovery responsibility fragments across housing, education, health, welfare, and local government mandates. No single institution carries longitudinal IDP responsibility.",
+          "mechanisms": [
+            "NDRRMC clusters",
+            "Task Force Bangon Marawi",
+            "Local Government Code",
+            "BARMM structures"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Activation without absorption",
+          "confidence": "High"
+        },
+        "fiscal": {
+          "characterization": "The Philippines demonstrates both fiscal integration and its limits. 4Ps is legislated and budgeted, but devolved fiscal architecture creates portability gaps when displaced populations move across municipalities.",
+          "mechanisms": [
+            "RA 11310 / 4Ps Act",
+            "Local government finance",
+            "Disaster risk financing"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Devolved fiscal portability gap",
+          "confidence": "High"
+        },
+        "data": {
+          "characterization": "Listahanan provides a strong registry backbone and post-Haiyan data-matching precedent, but enumeration cycles and cross-municipal moves can interrupt benefits for displaced households.",
+          "mechanisms": [
+            "Listahanan",
+            "NDRRMC data",
+            "Post-Haiyan registry reconciliation"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Registry cycle gap",
+          "confidence": "High"
+        },
+        "infra_finance": {
+          "characterization": "Infrastructure finance is less central than disaster and conflict displacement in the chapter’s Philippines analysis, though reconstruction and housing after Marawi show how projectized recovery can fragment responsibility.",
+          "mechanisms": [
+            "Marawi rehabilitation projects",
+            "NHA housing delivery",
+            "IFI-supported disaster recovery"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Projectized recovery gap",
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar",
+      "sovereignty": "Limit case — institutional reversal post-2021",
+      "role": "Institutional reversal, Kachin/Shan protracted camps, social protection collapse, Rohingya statelessness.",
+      "summary": "Myanmar is the framework’s outer boundary. Where fiscal predictability, mandate stability, and sovereign continuity collapse, sustainable inclusion cannot be presumed; the mapping identifies what reconstruction would need to restore.",
+      "cases": [
+        "Myanmar social protection collapse",
+        "Kachin / northern Shan IDP camps",
+        "Rohingya statelessness",
+        "Karen return reset"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "Migration and displacement are shaped by state-produced statelessness, conflict, labour emigration, and parallel post-coup governance. The 1982 Citizenship Law remains the core categorical exclusion mechanism for Rohingya.",
+          "mechanisms": [
+            "1982 Citizenship Law",
+            "NRC system",
+            "Labour emigration systems",
+            "SAC/NUG parallel governance"
+          ],
+          "faultLine": "Categorical",
+          "pattern": "State-produced exclusion",
+          "confidence": "High"
+        },
+        "disaster_idp": {
+          "characterization": "Pre-coup disaster and social welfare systems existed but have degraded severely. Conflict IDP displacement is massive and protracted, while humanitarian delivery substitutes for state systems.",
+          "mechanisms": [
+            "NDMC",
+            "Kachin/Shan IDP camps",
+            "OCHA humanitarian coordination",
+            "Ethnic governance structures"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Institutional reversal",
+          "confidence": "High"
+        },
+        "public_systems": {
+          "characterization": "Pre-coup social protection expansion through MCCT, social pensions, and disability allowances collapsed after 2021. Health, education, and registration systems have fragmented into state, resistance, and humanitarian channels.",
+          "mechanisms": [
+            "MCCT",
+            "Social pension",
+            "Civil Disobedience Movement health/education disruption",
+            "Humanitarian cash programming"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "System collapse and parallel substitution",
+          "confidence": "High"
+        },
+        "institutional": {
+          "characterization": "Whole-of-government coordination is structurally impossible under competing authorities and conflict. The mapping therefore reads Myanmar less as an absorption case than as a reconstruction requirements case.",
+          "mechanisms": [
+            "SAC",
+            "NUG",
+            "Ethnic resistance organisations",
+            "UN/OCHA coordination"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Competing governance authorities",
+          "confidence": "High"
+        },
+        "fiscal": {
+          "characterization": "Ordinary fiscal integration has been replaced by humanitarian and parallel financing flows. Displacement-related support is short-cycle, externally financed, and not embedded in predictable public expenditure systems.",
+          "mechanisms": [
+            "Humanitarian appeals",
+            "Parallel service delivery",
+            "Interrupted national budget systems"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Collapse of fiscal embedding",
+          "confidence": "High"
+        },
+        "data": {
+          "characterization": "IDP data are dispersed across humanitarian registration systems, ethnic governance structures, and fragmented state records. No institutionalized transfer mechanism exists into stable national systems.",
+          "mechanisms": [
+            "Humanitarian IDP registries",
+            "NRC exclusion",
+            "Parallel service records"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Parallel registries without transfer",
+          "confidence": "High"
+        },
+        "infra_finance": {
+          "characterization": "Infrastructure-related displacement exists, but post-coup conflict and institutional collapse dominate the governance landscape. Development finance entry points are constrained by legitimacy, sanctions, and access.",
+          "mechanisms": [
+            "Suspended or constrained development finance",
+            "Conflict-affected infrastructure corridors"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Reform entry point constrained by legitimacy crisis",
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "sovereignty": "Territorial state-directed sovereignty",
+      "role": "Hộ khẩu as non-interoperability by sovereign choice; planned relocation and infrastructure displacement.",
+      "summary": "Vietnam shows high state capacity directed toward territorial management rather than protection portability. Fragmentation is often deliberate: systems are designed to make populations legible to the state, not to track displacement vulnerability across boundaries.",
+      "cases": [
+        "Vietnam hộ khẩu system",
+        "Mekong resettlement",
+        "State-directed planned relocation"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "Household registration governs access to local services and internal mobility. Labour emigration is managed through bilateral schemes, while refugee governance is limited and politically sensitive cases are treated as state matters.",
+          "mechanisms": [
+            "Hộ khẩu / household registration",
+            "Temporary residence registration",
+            "Labour export agreements"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Territorial legibility",
+          "confidence": "High"
+        },
+        "disaster_idp": {
+          "characterization": "Disaster and climate adaptation capacity is strong, including planned relocation in the Mekong Delta, but relocation is framed as spatial development rather than displacement protection.",
+          "mechanisms": [
+            "VNDMA",
+            "Mekong Delta relocation programmes",
+            "Climate adaptation plans"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "State-directed spatial management",
+          "confidence": "Medium"
+        },
+        "public_systems": {
+          "characterization": "Health, education, poverty targeting, and social insurance are administered through territorially anchored systems. Moving across commune or registration boundaries can disrupt access regardless of underlying vulnerability.",
+          "mechanisms": [
+            "Poverty registry",
+            "Commune health centres",
+            "Social insurance",
+            "Hộ khẩu-linked services"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Service access tied to registered residence",
+          "confidence": "High"
+        },
+        "institutional": {
+          "characterization": "Whole-of-government coherence is strong where it serves state spatial and development objectives. The issue is not weak coordination but the orientation of coordination toward territorial control rather than longitudinal protection.",
+          "mechanisms": [
+            "Party-state coordination",
+            "Prime Ministerial steering structures",
+            "Ministry of Public Security",
+            "MARD/MONRE coordination"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Coherence without protection portability",
+          "confidence": "High"
+        },
+        "fiscal": {
+          "characterization": "Fiscal responsibility is tied to local administrative units and state development plans. Resettlement support is often project or programme based rather than embedded as portable long-term entitlement.",
+          "mechanisms": [
+            "Local public finance",
+            "Resettlement compensation",
+            "Poverty reduction budgets"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Territorially bounded fiscal responsibility",
+          "confidence": "Medium"
+        },
+        "data": {
+          "characterization": "The registration system is the central administrative infrastructure. Non-interoperability is not merely technical: it reflects a sovereign choice to prioritize territorial legibility over vulnerability portability.",
+          "mechanisms": [
+            "Hộ khẩu",
+            "Temporary residence records",
+            "Poverty registries",
+            "Resettlement records"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Non-interoperability by sovereign choice",
+          "confidence": "High"
+        },
+        "infra_finance": {
+          "characterization": "Infrastructure and planned relocation are central. Resettlement compensation exists, but records and support do not consistently integrate with poverty or service systems after households cross administrative boundaries.",
+          "mechanisms": [
+            "Land Law",
+            "Mekong dam resettlement",
+            "Transport corridors",
+            "State resettlement programmes"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Project compensation without longitudinal transfer",
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "sovereignty": "Territorial state-directed sovereignty with weaker capacity",
+      "role": "Lower Sesan 2, land concessions, commune-boundary resettlement disruption.",
+      "summary": "Cambodia illustrates how infrastructure and land-based displacement can be managed through project or commune systems without sustained transfer into public services and social protection.",
+      "cases": [
+        "Lower Sesan 2 Dam",
+        "Economic land concessions",
+        "IDPoor portability constraints"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "The primary mobility issue is labour outmigration to Thailand, while internal displacement is driven largely by land concessions, infrastructure, and dam construction. Refugee law exists but is weakly implemented.",
+          "mechanisms": [
+            "Labour agreements with Thailand",
+            "1951 Refugee Convention accession",
+            "Economic land concessions"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Outmigration plus project displacement",
+          "confidence": "Medium"
+        },
+        "disaster_idp": {
+          "characterization": "Flood and drought governance exists through NCDM, but internal displacement is not recognized through a dedicated longitudinal framework. Climate and Mekong hydrology pressures increase displacement risk.",
+          "mechanisms": [
+            "NCDM",
+            "AADMER participation",
+            "Tonle Sap flood/drought response"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Emergency response without IDP architecture",
+          "confidence": "Medium"
+        },
+        "public_systems": {
+          "characterization": "IDPoor and Health Equity Funds provide important targeting and health-financing mechanisms, but commune-based administration and three-year update cycles create portability and timing gaps for displaced households.",
+          "mechanisms": [
+            "IDPoor",
+            "Health Equity Funds",
+            "Commune health and education services"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Commune-based eligibility gap",
+          "confidence": "Medium"
+        },
+        "institutional": {
+          "characterization": "Coordination is often driven by development priorities, party-state control, and project management units rather than a protection-oriented displacement framework.",
+          "mechanisms": [
+            "CARD",
+            "Ministry of Interior",
+            "ADB/World Bank project units",
+            "Commune councils"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Development-directed coordination",
+          "confidence": "Medium"
+        },
+        "fiscal": {
+          "characterization": "Displacement-related support is commonly handled through project compensation, donor-supported programmes, or locally administered services rather than portable fiscal responsibility.",
+          "mechanisms": [
+            "Project resettlement budgets",
+            "IDPoor targeting",
+            "Local service budgets"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Project and commune-bounded fiscal support",
+          "confidence": "Medium"
+        },
+        "data": {
+          "characterization": "IDPoor is a significant data instrument but updates and portability are limited. Resettlement and compensation records are not consistently linked to social assistance or service access over time.",
+          "mechanisms": [
+            "IDPoor registry",
+            "Commune records",
+            "Project resettlement records"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Registry-cycle and transfer gap",
+          "confidence": "Medium"
+        },
+        "infra_finance": {
+          "characterization": "Infrastructure displacement is central. Lower Sesan 2 shows how compensation and relocation packages can be provided while service access and vulnerability continue beyond the project boundary.",
+          "mechanisms": [
+            "Lower Sesan 2 Dam",
+            "Sub-Decree 146 on resettlement",
+            "Economic land concessions",
+            "IFI safeguards"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Project-bounded governance",
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "laos",
+      "name": "Lao PDR",
+      "sovereignty": "Territorial state-directed sovereignty",
+      "role": "Xayaburi, Nam Ou/Nam Theun dam displacement, highland resettlement, safeguard gap.",
+      "summary": "Lao PDR is the clearest infrastructure-finance case. Project safeguards and resettlement action plans can manage bounded impacts but do not govern downstream, cross-jurisdictional, or long-term livelihood disruption.",
+      "cases": [
+        "Xayaburi Dam",
+        "Attapeu dam collapse",
+        "Highland minority resettlement",
+        "Nam Ou / Nam Theun hydropower"
+      ],
+      "cells": {
+        "mobility": {
+          "characterization": "Mobility governance is dominated by labour emigration to Thailand and state-directed resettlement of highland communities. Inward refugee governance is limited despite formal Convention accession.",
+          "mechanisms": [
+            "Labour emigration to Thailand",
+            "Highland resettlement policy",
+            "1951 Refugee Convention accession"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "State-directed resettlement",
+          "confidence": "Medium"
+        },
+        "disaster_idp": {
+          "characterization": "Disaster governance exists but remains weaker than in larger neighbours. The Attapeu dam collapse exposed the interface between disaster response, infrastructure liability, and displaced-community support.",
+          "mechanisms": [
+            "NDMO",
+            "Attapeu dam collapse response",
+            "AADMER/Sendai participation"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Disaster-infrastructure interface gap",
+          "confidence": "Medium"
+        },
+        "public_systems": {
+          "characterization": "National social protection infrastructure is limited, especially in rural and resettled areas. Health, education, and welfare access often depend on village location and project-specific support.",
+          "mechanisms": [
+            "National Health Insurance Scheme",
+            "Village Fund systems",
+            "Resettlement support packages"
+          ],
+          "faultLine": "Territorial",
+          "pattern": "Limited absorption infrastructure",
+          "confidence": "Medium"
+        },
+        "institutional": {
+          "characterization": "Whole-of-government coherence is organized around development and infrastructure priorities. Resettlement is handled through project bodies and line ministries rather than a cross-sectoral IDP protection mandate.",
+          "mechanisms": [
+            "Lao National Mekong Committee",
+            "Ministry of Energy and Mines",
+            "MONRE ESIA process",
+            "National Resettlement Committee"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Project-bounded coordination",
+          "confidence": "Medium"
+        },
+        "fiscal": {
+          "characterization": "Displacement support is usually project financed and bounded by resettlement action plans. Limited ordinary social protection capacity makes fiscal embedding difficult after project closure.",
+          "mechanisms": [
+            "RAP budgets",
+            "ESIA processes",
+            "Project concession finance",
+            "Limited national social protection budgets"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Project-to-system gap",
+          "confidence": "Medium"
+        },
+        "data": {
+          "characterization": "Administrative and social protection data systems are less developed than in Indonesia, Vietnam, or the Philippines. Project records rarely provide a pathway into broader social support.",
+          "mechanisms": [
+            "Village records",
+            "Project resettlement records",
+            "Local service records"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Weak transfer infrastructure",
+          "confidence": "Low"
+        },
+        "infra_finance": {
+          "characterization": "Hydropower and corridor infrastructure are central. Xayaburi illustrates the mismatch between safeguard-calibrated project obligations and displacement as a longitudinal, cross-border livelihood condition.",
+          "mechanisms": [
+            "Xayaburi Dam",
+            "Nam Ou cascade",
+            "Nam Theun 2",
+            "Kunming-Vientiane rail corridor"
+          ],
+          "faultLine": "Temporal",
+          "pattern": "Project-bounded safeguard gap",
+          "confidence": "High"
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "hics",
+      "name": "Health Insurance Card Scheme (HICS)",
+      "country": "Thailand",
+      "dimensions": [
+        "mobility",
+        "public_systems",
+        "fiscal"
+      ],
+      "faultLine": "Categorical",
+      "pattern": "Sectoral absorption",
+      "function": "Strongest positive absorption case. Shows how public-health and cost-recovery rationales can extend coverage without formal protection status."
+    },
+    {
+      "id": "pink_cards",
+      "name": "Pink cards / stateless persons",
+      "country": "Thailand",
+      "dimensions": [
+        "mobility",
+        "public_systems",
+        "data"
+      ],
+      "faultLine": "Territorial",
+      "pattern": "Within-system reset",
+      "function": "Shows how administrative documentation can provide access while restricting mobility and resetting eligibility across provincial boundaries."
+    },
+    {
+      "id": "rohingya_malaysia",
+      "name": "Rohingya Bangladesh-to-Malaysia",
+      "country": "Malaysia",
+      "dimensions": [
+        "mobility",
+        "data"
+      ],
+      "faultLine": "Territorial",
+      "pattern": "Territorial reset",
+      "function": "UNHCR registration in Bangladesh does not travel to Malaysia; protection needs continue while status and recognition reset."
+    },
+    {
+      "id": "palu",
+      "name": "Palu earthquake (2018)",
+      "country": "Indonesia",
+      "dimensions": [
+        "disaster_idp",
+        "public_systems",
+        "data",
+        "fiscal"
+      ],
+      "faultLine": "Temporal",
+      "pattern": "Within-system and fiscal-jurisdictional reset",
+      "function": "Disaster-affected households were reclassified as internal migrants or excluded after emergency and registry cycles shifted."
+    },
+    {
+      "id": "pres125",
+      "name": "Presidential Regulation 125/2016",
+      "country": "Indonesia",
+      "dimensions": [
+        "mobility",
+        "institutional"
+      ],
+      "faultLine": "Temporal",
+      "pattern": "Formal mandate anchoring",
+      "function": "Positive whole-of-government design assigning cross-ministerial responsibilities, while implementation remains fiscally decentralised."
+    },
+    {
+      "id": "marawi",
+      "name": "Marawi siege (2017)",
+      "country": "Philippines",
+      "dimensions": [
+        "disaster_idp",
+        "institutional",
+        "public_systems",
+        "fiscal"
+      ],
+      "faultLine": "Temporal",
+      "pattern": "Activation without absorption",
+      "function": "Shows how strong emergency coordination can fail to produce a single longitudinal mandate for protracted displacement."
+    },
+    {
+      "id": "listahanan",
+      "name": "4Ps / Listahanan after Haiyan",
+      "country": "Philippines",
+      "dimensions": [
+        "public_systems",
+        "data",
+        "fiscal"
+      ],
+      "faultLine": "Territorial",
+      "pattern": "Partial fiscal absorption with portability limits",
+      "function": "Shows the promise and limits of registry-linked social protection when households move across municipal boundaries."
+    },
+    {
+      "id": "myanmar_collapse",
+      "name": "Myanmar social protection collapse",
+      "country": "Myanmar",
+      "dimensions": [
+        "public_systems",
+        "fiscal",
+        "institutional"
+      ],
+      "faultLine": "Temporal",
+      "pattern": "Institutional reversal",
+      "function": "Outer diagnostic boundary: national systems were not merely weak but reversed, requiring reconstruction before absorption can occur."
+    },
+    {
+      "id": "hokhau",
+      "name": "Vietnam hộ khẩu system",
+      "country": "Vietnam",
+      "dimensions": [
+        "mobility",
+        "public_systems",
+        "data"
+      ],
+      "faultLine": "Territorial",
+      "pattern": "Non-interoperability by sovereign choice",
+      "function": "Shows that data fragmentation can be a design feature of territorial control rather than a technical deficit."
+    },
+    {
+      "id": "lower_sesan",
+      "name": "Lower Sesan 2 Dam",
+      "country": "Cambodia",
+      "dimensions": [
+        "infra_finance",
+        "public_systems",
+        "data"
+      ],
+      "faultLine": "Territorial",
+      "pattern": "Project-bounded governance",
+      "function": "Compensation and relocation did not ensure portable service access after commune-boundary disruption."
+    },
+    {
+      "id": "xayaburi",
+      "name": "Xayaburi Dam",
+      "country": "Lao PDR",
+      "dimensions": [
+        "infra_finance",
+        "fiscal",
+        "institutional"
+      ],
+      "faultLine": "Temporal",
+      "pattern": "Project safeguard gap",
+      "function": "Shows why safeguards calibrated to project closure cannot govern downstream and long-term livelihood disruption."
+    }
+  ]
+}
