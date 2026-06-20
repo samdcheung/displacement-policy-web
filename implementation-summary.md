@@ -1,72 +1,38 @@
-# Displacement Governance Mapping Revision
+# Displacement Governance Mapping — consolidated interface update
 
-Build ID: `20260620-ccea2719d0d7`
+Build: 20260620 consolidated sources-visible interface
 
-Generated from: `displacement-governance-json-review.xlsx`
+This package updates the mapping page structure without changing the current dataset.
 
-## Outputs
+## What changed
 
-- `mapping.html`
-- `assets/data/displacement-governance-database.json`
-- `assets/data/mapping.json`
-- root-level copies of both JSON files for emergency fallback/path testing
+- Replaced the separate tab structure with one consolidated mapping explorer.
+- The explorer now has three entry points: select by country, select by governance layer, or select by fault line.
+- Illustrative cases now appear contextually inside the selected view rather than as a separate selector.
+- Confidence labels have been removed from rendered cards.
+- Expandable source sections remain visible in country, layer, fault-line, and case views.
+- The overall dashboard has been simplified into a systematic summary of the mapping contents: profiles, layers, fault lines, and cases.
+- Country profiles now use a smaller, full-width country summary and emphasize governance-layer analysis rather than a large standalone descriptive heading.
+- The page keeps the embedded fallback database and still attempts to load the external JSON first when the build ID matches.
 
-## Counts
+## Dataset counts
 
-- Countries in database: 8
+- Countries: 8
 - Governance dimensions: 7
 - Country-dimension cells: 56
 - Illustrative cases: 14
-- Overview countries in `mapping.json`: 8
+- Build ID: 20260620-ccea2719d0d7
 
-## Revised database country profiles
+## Deployment structure
 
-thailand, malaysia, philippines, myanmar, cambodia
+Upload or replace these files:
 
-## Revised database country-dimension cells
-
-- thailand / mobility
-- thailand / public_systems
-- thailand / institutional
-- thailand / fiscal
-- thailand / data
-- malaysia / mobility
-- malaysia / institutional
-- malaysia / data
-- philippines / disaster_idp
-- myanmar / disaster_idp
-- myanmar / fiscal
-- vietnam / mobility
-- vietnam / data
-- cambodia / data
-
-## Revised mapping overview countries
-
-cambodia, malaysia, myanmar, philippines, thailand, vietnam
-
-## Deployment
-
-Deploy the files using this structure:
-
-```text
+```
 mapping.html
 assets/data/displacement-governance-database.json
 assets/data/mapping.json
+displacement-governance-database.json
+mapping.json
 ```
 
-Direct test after deployment:
-
-```text
-https://www.displacementpolicy.org/assets/data/displacement-governance-database.json
-```
-
-Search inside it for:
-
-```text
-20260620-ccea2719d0d7
-thailand_id_cards_2026
-malaysia_dpp_2026
-myanmar_earthquake_2025
-```
-
-The revised `mapping.html` includes the same database as an embedded fallback. It will use the external JSON only if it exists and has a matching `meta.build_id`, reducing the risk that a stale deployed JSON overrides the embedded revision.
+The root-level JSON copies are included for fallback compatibility.
