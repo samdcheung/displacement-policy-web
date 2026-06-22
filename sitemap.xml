@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.displacementpolicy.org/</loc>
+    <loc>https://displacementpolicy.org/</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/research</loc>
+    <loc>https://displacementpolicy.org/research</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/mapping</loc>
+    <loc>https://displacementpolicy.org/mapping</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/perspectives</loc>
+    <loc>https://displacementpolicy.org/perspectives</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/publications</loc>
+    <loc>https://displacementpolicy.org/publications</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/about</loc>
+    <loc>https://displacementpolicy.org/about</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/blogposts/leadership-protection-governance</loc>
+    <loc>https://displacementpolicy.org/blogposts/protection-cannot-stay-parallel</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/blogposts/displacement-governance-limits-humanitarian-policy</loc>
+    <loc>https://displacementpolicy.org/blogposts/system-we-forgot-we-were-building</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/blogposts/problem-no-one-owns</loc>
+    <loc>https://displacementpolicy.org/blogposts/leadership-protection-governance</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/blogposts/protection-cannot-stay-parallel</loc>
+    <loc>https://displacementpolicy.org/blogposts/displacement-governance-limits-humanitarian-policy</loc>
   </url>
   <url>
-    <loc>https://www.displacementpolicy.org/blogposts/system-we-forgot-we-were-building</loc>
+    <loc>https://displacementpolicy.org/blogposts/problem-no-one-owns</loc>
+  </url>
+  <url>
+    <loc>https://displacementpolicy.org/publications/governance-by-design</loc>
+  </url>
+  <url>
+    <loc>https://displacementpolicy.org/publications/infrastructure-finance-gap</loc>
+  </url>
+  <url>
+    <loc>https://displacementpolicy.org/publications/beyond-shock-responsiveness</loc>
+  </url>
+  <url>
+    <loc>https://displacementpolicy.org/publications/fiscal-architecture-of-displacement</loc>
+  </url>
+  <url>
+    <loc>https://displacementpolicy.org/publications/fiscal-architecture-working-paper</loc>
   </url>
 </urlset>
