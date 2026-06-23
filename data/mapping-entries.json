@@ -1,0 +1,482 @@
+{
+"schema_version": "2026-06-phase-1",
+"entries": [
+{
+"title": "AALCO Bangkok Principles",
+"slug": "aalco-bangkok-principles",
+"country_or_region": "Asia-Africa",
+"governance_layer": "Regional norms and mobility governance",
+"sector": "Refugee protection and state responsibility",
+"instrument_type": "Non-binding regional principles",
+"population_groups": ["Refugees", "Asylum seekers", "Persons seeking protection across borders"],
+"inclusion_type": "Normative recognition without direct service absorption",
+"fault_lines": ["Categorical", "Territorial", "Accountability"],
+"one_line_finding": "The Bangkok Principles create a regional vocabulary for refugee protection, but they do not by themselves carry displaced people into national registration, financing, or service systems.",
+"what_it_is": "The Bangkok Principles are AALCO's regional principles on the status and treatment of refugees. Originally adopted in 1966 and revised in 2001, they are one of the few regional soft-law instruments in Asia and Africa dealing expressly with refugee status, treatment, asylum, non-refoulement, burden sharing, and durable solutions.",
+"governance_function": "The principles provide a sovereignty-preserving normative framework. They allow states to discuss refugee protection in regional terms without requiring accession to the 1951 Refugee Convention or creating automatic domestic entitlements. Their governance function is therefore classificatory and diplomatic rather than administrative or fiscal.",
+"who_is_included": "People who fit refugee or asylum-related categories as understood through regional and international protection norms may be recognised analytically by the instrument. The framework is most relevant to cross-border displacement involving persecution, conflict, or serious protection risk.",
+"who_is_left_out": "People displaced by disasters, development projects, climate stress, statelessness, mixed migration, internal movement, or administrative exclusion are not automatically covered unless national systems or other legal regimes separately recognise them.",
+"where_continuity_breaks": "Continuity breaks when regional principles are not translated into domestic legal status, civil registration, budget lines, health coverage, education access, work authorization, or portable documentation. Protection remains normatively acknowledged but institutionally thin.",
+"why_it_matters": "The Bangkok Principles illustrate the difference between normative protection architecture and operational inclusion. They are important for understanding Asian and African regional approaches to refugee protection, but a governance map must ask whether such principles connect to systems people actually use. The political economy archetype is sovereignty-preserving ambiguity: states accept a shared vocabulary while retaining discretion over recognition, services, and fiscal responsibility.",
+"responsibility": "Regional legal framing rests with AALCO member states, but implementation depends on national ministries, immigration authorities, asylum or refugee bodies where they exist, courts, public service agencies, and cooperation with UNHCR or humanitarian actors.",
+"eligibility": "Eligibility is framed through refugee and asylum categories rather than vulnerability, movement history, public service need, or displacement-related risk across the full continuum.",
+"financing": "The principles do not create a financing channel. Any costs must be absorbed through national budgets, humanitarian funding, host community support, or separate burden-sharing arrangements.",
+"data_systems": "No direct registry or interoperable data system is created. Documentation depends on national asylum or immigration systems, UNHCR registration, or ad hoc administrative arrangements.",
+"delivery_system": "No direct delivery system is established. Inclusion requires translation into immigration, civil registration, social protection, health, education, labour, or local government systems.",
+"portability": "Portability is weak unless national documents, recognition decisions, or assistance records are accepted across borders or jurisdictions.",
+"accountability": "Accountability is primarily diplomatic and normative. The principles do not create a direct complaints mechanism, enforceable entitlement, or operational accountability pathway for affected people.",
+"time_horizon": "Long-term regional normative framework, with operational effects only where states incorporate, reference, or apply it in domestic practice.",
+"official_sources": [
+{
+"label": "AALCO final text of the Bangkok Principles",
+"url": "https://www.aalco.int/final%20text%20of%20bangkok%20principles.pdf"
+},
+{
+"label": "AALCO official website",
+"url": "https://www.aalco.int/"
+}
+],
+"secondary_sources": [
+{
+"label": "Refworld entry on the Bangkok Principles",
+"url": "https://www.refworld.org/legal/resolution/aalco/1966/18604"
+}
+],
+"related_mapping_entries": ["Global Compact on Refugees", "Global Compact for Safe, Orderly and Regular Migration"],
+"related_research": ["The Displacement Continuum and Sustainable Inclusion", "Governance by Design"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "Guiding Principles on Internal Displacement",
+"slug": "guiding-principles-internal-displacement",
+"country_or_region": "Global",
+"governance_layer": "Internal displacement law and policy",
+"sector": "IDP protection and national responsibility",
+"instrument_type": "International soft-law principles",
+"population_groups": ["Internally displaced persons", "People at risk of internal displacement", "Returnees and resettled IDPs"],
+"inclusion_type": "Normative responsibility with domestic implementation dependency",
+"fault_lines": ["Categorical", "Temporal", "Accountability", "Fiscal"],
+"one_line_finding": "The Guiding Principles define IDP rights across displacement phases, but protection continuity depends on whether states translate them into budgets, mandates, data systems, and ordinary services.",
+"what_it_is": "The Guiding Principles on Internal Displacement set out rights and guarantees relevant to the protection of internally displaced persons before, during, and after displacement. They are not a treaty, but they have become the central international reference point for IDP law, policy, and institutional responsibility.",
+"governance_function": "The principles convert internal displacement into a matter of national responsibility, supported by international law by analogy and human rights standards. Their function is to clarify what protection should cover, while leaving implementation to domestic governance systems and international support arrangements.",
+"who_is_included": "People forced or obliged to flee or leave their homes or places of habitual residence, particularly as a result of armed conflict, generalized violence, human rights violations, or disasters, who have not crossed an internationally recognized state border.",
+"who_is_left_out": "People who cross an international border become subject to other legal and institutional regimes. People affected by slower-onset development, climate, livelihood, or administrative displacement may be left out when national systems interpret internal displacement narrowly.",
+"where_continuity_breaks": "Continuity breaks when IDP recognition is not connected to civil registration, housing, land and property systems, social protection, education, health care, local government finance, durable solutions planning, or post-return accountability.",
+"why_it_matters": "The Guiding Principles are foundational for IDP governance, but they do not themselves create an implementation architecture. The governance problem is whether national systems can carry responsibility across prevention, emergency response, protracted displacement, return, local integration, and settlement elsewhere. The political economy archetype is normative responsibility without automatic fiscal absorption.",
+"responsibility": "Primary responsibility rests with national authorities. International humanitarian and development actors support implementation but do not replace sovereign responsibility.",
+"eligibility": "Eligibility turns on internal displacement status, coercive movement, displacement-related risk, and remaining within national borders. Domestic laws may further specify categories and procedures.",
+"financing": "The principles do not create budget lines. Financing depends on national appropriations, local government resources, humanitarian appeals, development finance, and recovery programmes.",
+"data_systems": "No registry is created by the principles. Data architecture depends on national IDP registries, civil registration, disaster systems, humanitarian assessments, or sectoral databases.",
+"delivery_system": "Delivery depends on ordinary public systems, humanitarian assistance, local authorities, and sectoral ministries. The principles themselves are not a delivery mechanism.",
+"portability": "Portability is essential but not guaranteed. Entitlements and records must follow IDPs across districts, camps, host communities, return areas, and settlement locations.",
+"accountability": "Accountability depends on domestic law, courts, administrative grievance mechanisms, national human rights institutions, international monitoring, and political oversight.",
+"time_horizon": "Full displacement cycle: prevention, protection during displacement, humanitarian assistance, durable solutions, return, resettlement, and reintegration.",
+"official_sources": [
+{
+"label": "OCHA Guiding Principles on Internal Displacement",
+"url": "https://www.unocha.org/publications/report/world/guiding-principles-internal-displacement-0"
+},
+{
+"label": "UN Digital Library record",
+"url": "https://digitallibrary.un.org/record/535577"
+}
+],
+"secondary_sources": [
+{
+"label": "IDMC publication page",
+"url": "https://www.internal-displacement.org/publications/ocha-guiding-principles-on-internal-displacement/"
+}
+],
+"related_mapping_entries": ["UN Secretary-General Action Agenda on Internal Displacement", "Global Compact on Refugees"],
+"related_research": ["The Displacement Continuum and Sustainable Inclusion", "Governance by Design"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "UN Secretary-General Action Agenda on Internal Displacement",
+"slug": "un-action-agenda-internal-displacement",
+"country_or_region": "Global",
+"governance_layer": "Solutions governance and institutional responsibility",
+"sector": "Internal displacement, development planning, and durable solutions",
+"instrument_type": "UN system action agenda",
+"population_groups": ["Internally displaced persons", "Host communities", "Returnees", "Communities affected by protracted displacement"],
+"inclusion_type": "Development-system absorption and solutions-oriented governance",
+"fault_lines": ["Temporal", "Fiscal", "Mandate", "Accountability"],
+"one_line_finding": "The Action Agenda shifts internal displacement from humanitarian management toward development, prevention, and solutions, but success depends on whether states and partners embed IDP inclusion in ordinary planning and financing systems.",
+"what_it_is": "The UN Secretary-General's Action Agenda on Internal Displacement sets out a system-wide vision to better resolve, prevent, and address internal displacement. It followed the High-Level Panel on Internal Displacement and places particular emphasis on durable solutions, prevention, data, development engagement, and national ownership.",
+"governance_function": "The Action Agenda reframes internal displacement as a cross-cutting governance and development issue rather than a residual humanitarian caseload. It seeks to align national responsibility, UN system support, development financing, prevention, and solutions planning.",
+"who_is_included": "IDPs in emergency and protracted situations, host communities, people seeking return, local integration, or settlement elsewhere, and populations at risk of future displacement.",
+"who_is_left_out": "People may remain outside if national plans do not recognise them, if displacement data are weak, if solutions are defined narrowly as return, or if financing remains humanitarian and short-term.",
+"where_continuity_breaks": "Continuity breaks when emergency assistance does not transition into development planning, when local authorities lack resources, when IDP data are not integrated into national statistics, or when solutions strategies lack budget authority.",
+"why_it_matters": "The Action Agenda is central to the Mapping because it articulates the move from humanitarian response to governance architecture. It asks whether internal displacement can be absorbed into ordinary national systems, local development, prevention, and financing. The political economy archetype is development-system absorption under conditions of national ownership and donor alignment.",
+"responsibility": "National governments retain primary responsibility. The UN system, development actors, humanitarian agencies, financial institutions, and local authorities are expected to align behind nationally owned prevention and solutions efforts.",
+"eligibility": "Eligibility depends less on a single entitlement rule and more on whether IDPs and affected communities are recognised in national solutions strategies, development plans, local plans, and data systems.",
+"financing": "The agenda calls for more predictable development and solutions financing, but does not itself create a financing instrument. Financing must be mobilised through national budgets, development banks, UN programmes, donors, and local planning systems.",
+"data_systems": "The agenda emphasizes better IDP data, national statistics, and evidence for solutions. Interoperability with civil registration, social protection, local planning, and sectoral data remains the implementation challenge.",
+"delivery_system": "Delivery depends on national and local institutions, UN country teams, humanitarian operations, development programmes, and sectoral public systems.",
+"portability": "Portability is a core requirement for solutions: IDPs need documentation, services, land or housing claims, social protection access, and livelihoods support that survive movement and return.",
+"accountability": "Accountability depends on national leadership, UN system coordination, solutions strategies, monitoring, and follow-up mechanisms. Direct entitlements require domestic translation.",
+"time_horizon": "Medium- to long-term, spanning immediate response, protracted displacement, prevention, durable solutions, and development planning.",
+"official_sources": [
+{
+"label": "UN Action Agenda on Internal Displacement page",
+"url": "https://www.un.org/en/content/action-agenda-on-internal-displacement/"
+},
+{
+"label": "Action Agenda PDF",
+"url": "https://www.un.org/en/content/action-agenda-on-internal-displacement/assets/pdf/Action-Agenda-on-Internal-Displacement_EN.pdf"
+}
+],
+"secondary_sources": [
+{
+"label": "2024 Action Agenda progress report",
+"url": "https://www.un.org/sites/un2.un.org/files/osa_final-action-agenda-progress-report-december-2024.pdf"
+}
+],
+"related_mapping_entries": ["Guiding Principles on Internal Displacement", "Global Compact on Refugees"],
+"related_research": ["The Displacement Continuum and Sustainable Inclusion", "Fiscal Architecture of Displacement"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "Global Compact on Refugees",
+"slug": "global-compact-on-refugees",
+"country_or_region": "Global",
+"governance_layer": "Responsibility sharing and refugee inclusion",
+"sector": "Refugee protection, host country systems, and development cooperation",
+"instrument_type": "Non-binding global compact",
+"population_groups": ["Refugees", "Host communities", "Returnees", "Stateless persons where relevant"],
+"inclusion_type": "Responsibility-sharing framework with national systems orientation",
+"fault_lines": ["Fiscal", "Territorial", "Mandate", "Accountability"],
+"one_line_finding": "The Global Compact on Refugees promotes inclusion in national systems and more predictable responsibility sharing, but implementation depends on host-state choices, donor financing, and development-system alignment.",
+"what_it_is": "The Global Compact on Refugees is a non-binding international framework affirmed by the UN General Assembly in 2018. It aims to strengthen responsibility sharing, ease pressure on host countries, enhance refugee self-reliance, expand third-country solutions, and support conditions for voluntary return.",
+"governance_function": "The compact links refugee protection to development cooperation, national systems, host community support, financing, and multi-stakeholder pledging. Its function is to shift refugee response away from purely parallel humanitarian assistance toward more predictable inclusion and burden sharing.",
+"who_is_included": "Refugees and host communities are the core populations. Returnees and stateless persons may be included where relevant to a particular situation or pledge.",
+"who_is_left_out": "IDPs, migrants, disaster-displaced people, and development-displaced populations are outside the compact's central refugee frame unless addressed through related national or international mechanisms.",
+"where_continuity_breaks": "Continuity breaks when pledges do not translate into budget support, when refugee inclusion remains project-based, when host states restrict legal status or work rights, or when national systems lack capacity to absorb additional users.",
+"why_it_matters": "The compact is a key global instrument for sustainable inclusion because it legitimises refugee access to ordinary systems while recognising host-country costs. The political economy archetype is conditional inclusion through responsibility sharing: host states may include refugees when international financing, development cooperation, and political incentives align.",
+"responsibility": "Host states retain responsibility for domestic systems and legal access. Donors, development banks, UNHCR, UN agencies, NGOs, private actors, and refugees themselves are expected to contribute through the compact's responsibility-sharing architecture.",
+"eligibility": "Eligibility follows refugee status and host-country rules, with inclusion often mediated by registration, documentation, location, sectoral policy, and national programme criteria.",
+"financing": "Financing is mobilised through donor pledges, development cooperation, concessional finance, humanitarian assistance, host government budgets, and multi-stakeholder support platforms.",
+"data_systems": "Refugee registration, host country administrative data, sectoral systems, social registries, education and health data, and development monitoring systems all shape implementation.",
+"delivery_system": "Delivery may occur through national services, UNHCR-supported systems, humanitarian partners, development programmes, municipalities, schools, health facilities, and social protection programmes.",
+"portability": "Portability depends on documentation, legal status, movement rules, recognition across jurisdictions, and access to services outside camps or assigned locations.",
+"accountability": "Accountability is political and programmatic rather than judicial. Global Refugee Forums, pledges, indicators, host-state policy, donor reporting, and protection monitoring shape follow-up.",
+"time_horizon": "Medium- to long-term framework for protracted displacement, inclusion, solutions, and international cooperation.",
+"official_sources": [
+{
+"label": "Global Compact on Refugees official platform",
+"url": "https://globalcompactrefugees.org/"
+},
+{
+"label": "Global Compact on Refugees PDF",
+"url": "https://globalcompactrefugees.org/sites/default/files/2019-12/Global%20compact%20on%20refugees%20EN.pdf"
+},
+{
+"label": "UNHCR Global Compact on Refugees booklet",
+"url": "https://www.unhcr.org/media/global-compact-refugees-booklet"
+}
+],
+"secondary_sources": [],
+"related_mapping_entries": ["Guiding Principles on Internal Displacement", "Global Compact for Safe, Orderly and Regular Migration", "UN Secretary-General Action Agenda on Internal Displacement"],
+"related_research": ["The Displacement Continuum and Sustainable Inclusion", "Fiscal Architecture of Displacement", "Beyond Shock-Responsiveness"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "Global Compact for Safe, Orderly and Regular Migration",
+"slug": "global-compact-safe-orderly-regular-migration",
+"country_or_region": "Global",
+"governance_layer": "Migration governance and cross-border mobility",
+"sector": "Migration, rights, services, and international cooperation",
+"instrument_type": "Non-binding global compact",
+"population_groups": ["Migrants", "Migrant workers", "People in vulnerable migration situations", "Families and communities affected by migration"],
+"inclusion_type": "Cooperative migration governance without refugee-status protection",
+"fault_lines": ["Categorical", "Territorial", "Data", "Accountability"],
+"one_line_finding": "The Global Compact for Migration promotes rights-based and cooperative migration governance, but it separates migrants from refugees and leaves access to services, status, and protection largely dependent on domestic systems.",
+"what_it_is": "The Global Compact for Safe, Orderly and Regular Migration is a non-binding intergovernmental agreement adopted in 2018. It provides a cooperative framework for migration governance across objectives including data, regular pathways, decent work, services, identity, border governance, return, reintegration, and international cooperation.",
+"governance_function": "The compact organises migration as a whole-of-government and whole-of-society governance issue. It creates a policy vocabulary for cooperation while preserving state sovereignty over admission, status, and national implementation.",
+"who_is_included": "Migrants in international migration contexts, including migrant workers, people in vulnerable situations, families, and communities affected by migration.",
+"who_is_left_out": "Refugees remain governed by separate refugee protection frameworks. IDPs and people displaced internally by conflict, disasters, development projects, or climate stress are not the compact's primary population unless migration pathways or cross-border mobility are implicated.",
+"where_continuity_breaks": "Continuity breaks when migrants move between regular and irregular status, when service access depends on documentation, when labour protections do not follow across borders, or when return and reintegration are not connected to social protection and local development systems.",
+"why_it_matters": "The compact is important for displacement governance because many displaced people are administratively treated as migrants when they move outside refugee or IDP categories. The political economy archetype is managed mobility with rights language: cooperation expands, but domestic status control remains central.",
+"responsibility": "States carry primary implementation responsibility. UN Network on Migration, IOM, OHCHR, ILO, UNHCR where relevant, civil society, employers, local governments, and diaspora actors support implementation.",
+"eligibility": "Eligibility depends on migrant status, national law, documentation, sectoral rules, and programme criteria rather than a single global entitlement.",
+"financing": "The compact does not create a direct financing entitlement. Implementation depends on national budgets, development cooperation, diaspora and remittance systems, labour market institutions, and international partnerships.",
+"data_systems": "The compact emphasizes better migration data, identity documentation, evidence-based policymaking, and international data cooperation. It does not create a single registry.",
+"delivery_system": "Delivery occurs through national migration systems, consular services, labour institutions, local governments, education and health systems, border authorities, and service providers.",
+"portability": "Portability depends on recognition of identity documents, qualifications, social security arrangements, remittance channels, labour agreements, and return/reintegration systems.",
+"accountability": "Accountability is voluntary and review-based, including national implementation, regional review, the International Migration Review Forum, and stakeholder reporting.",
+"time_horizon": "Long-term cooperative framework for international migration governance and implementation of the 23 objectives.",
+"official_sources": [
+{
+"label": "OHCHR page on the Global Compact for Migration",
+"url": "https://www.ohchr.org/en/migration/global-compact-safe-orderly-and-regular-migration-gcm"
+},
+{
+"label": "IOM Global Compact for Migration page",
+"url": "https://www.iom.int/global-compact-migration"
+},
+{
+"label": "Global Compact for Migration final draft PDF",
+"url": "https://refugeesmigrants.un.org/sites/default/files/180711_final_draft_0.pdf"
+}
+],
+"secondary_sources": [],
+"related_mapping_entries": ["Global Compact on Refugees", "AALCO Bangkok Principles"],
+"related_research": ["The Displacement Continuum and Sustainable Inclusion", "Governance by Design"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "World Bank ESS5",
+"slug": "world-bank-ess5",
+"country_or_region": "Global",
+"governance_layer": "Infrastructure and development finance",
+"sector": "Land acquisition, resettlement, and project finance",
+"instrument_type": "Environmental and social safeguard standard",
+"population_groups": ["Project-affected people", "People physically displaced by projects", "People economically displaced by projects", "Host communities receiving displaced people"],
+"inclusion_type": "Project-bounded protection and mitigation",
+"fault_lines": ["Temporal", "Territorial", "Fiscal", "Accountability"],
+"one_line_finding": "ESS5 governs displacement created by World Bank-financed projects, but its protections can end at the project boundary before livelihood, service, and territorial continuity are restored.",
+"what_it_is": "Environmental and Social Standard 5 is the World Bank standard on land acquisition, restrictions on land use, and involuntary resettlement under the Environmental and Social Framework. It applies to Investment Project Financing and sets borrower obligations for avoiding, minimizing, compensating, and managing project-related displacement impacts.",
+"governance_function": "ESS5 translates development finance into procedural and substantive obligations for resettlement, compensation, livelihood restoration, consultation, grievance handling, and mitigation of project-induced displacement.",
+"who_is_included": "People physically or economically displaced by World Bank-financed project activities, including some people without formal land title, may fall within the standard's protection framework.",
+"who_is_left_out": "People affected indirectly, downstream, cumulatively, across borders, after project closure, or outside the financed project's defined area may be harder to capture unless the project assessment includes them.",
+"where_continuity_breaks": "Continuity breaks when compensation or resettlement action plans are treated as project deliverables rather than bridges into ordinary housing, livelihood, land administration, civil registration, social protection, and service systems.",
+"why_it_matters": "ESS5 is central to displacement governance because it shows how development finance creates obligations, while also showing how project logic can narrow responsibility by time, territory, and causation. The political economy archetype is safeguard-based mitigation: displacement is governed as project risk rather than as long-term inclusion.",
+"responsibility": "Borrowers implement project obligations under World Bank requirements, with Bank oversight through preparation, appraisal, supervision, environmental and social commitments, and implementation support.",
+"eligibility": "Eligibility is tied to project impact, cut-off dates, affected-person status, land use, livelihood loss, and resettlement planning categories.",
+"financing": "Financing is project-bounded. Mitigation, compensation, resettlement, livelihood restoration, monitoring, and grievance costs are attached to the financed operation and borrower commitments.",
+"data_systems": "Project census, socio-economic surveys, asset inventories, resettlement action plans, livelihood restoration plans, grievance records, and monitoring systems form the core data architecture.",
+"delivery_system": "Delivery runs through project implementation units, borrower agencies, contractors, local authorities, compensation mechanisms, livelihood restoration programmes, and grievance mechanisms.",
+"portability": "Portability is limited unless project records and entitlements connect affected people to permanent land, housing, income, civil registration, public services, and social protection systems.",
+"accountability": "Accountability includes borrower grievance mechanisms, World Bank supervision, environmental and social commitment plans, disclosure requirements, and potential recourse through the World Bank Accountability Mechanism.",
+"time_horizon": "Project lifecycle, with residual obligations where livelihood restoration and monitoring continue after displacement occurs.",
+"official_sources": [
+{
+"label": "World Bank Environmental and Social Standards",
+"url": "https://www.worldbank.org/en/projects-operations/environmental-and-social-framework/brief/environmental-and-social-standards"
+},
+{
+"label": "World Bank Environmental and Social Framework PDF",
+"url": "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf"
+},
+{
+"label": "ESS5 fact sheet PDF",
+"url": "https://thedocs.worldbank.org/en/doc/796881511809516397-0290022017/original/EnvironmentalSocialStandardESS5FactSheetWBESF.pdf"
+}
+],
+"secondary_sources": [],
+"related_mapping_entries": ["IFC Performance Standard 5", "UN Secretary-General Action Agenda on Internal Displacement"],
+"related_research": ["Development-Induced Displacement", "Fiscal Architecture of Displacement", "The Displacement Continuum and Sustainable Inclusion"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "IFC Performance Standard 5",
+"slug": "ifc-performance-standard-5",
+"country_or_region": "Global",
+"governance_layer": "Private finance and project safeguards",
+"sector": "Land acquisition, resettlement, livelihood restoration, and private-sector development",
+"instrument_type": "Private-sector environmental and social performance standard",
+"population_groups": ["Project-affected people", "People physically displaced by private-sector projects", "People economically displaced by private-sector projects", "Affected communities"],
+"inclusion_type": "Client-managed mitigation and livelihood restoration",
+"fault_lines": ["Temporal", "Territorial", "Accountability", "Private finance"],
+"one_line_finding": "IFC Performance Standard 5 extends displacement governance into private-sector finance, but responsibility remains anchored to client risk management and project boundaries rather than public-system inclusion.",
+"what_it_is": "IFC Performance Standard 5 is the IFC standard on land acquisition and involuntary resettlement. It forms part of IFC's Sustainability Framework and applies to IFC clients whose projects involve land acquisition, restrictions on land use, physical displacement, or economic displacement.",
+"governance_function": "The standard turns displacement risk into a condition of private-sector finance. It requires clients to avoid or minimize displacement, compensate affected people, restore livelihoods, engage communities, and establish grievance mechanisms.",
+"who_is_included": "People and communities physically or economically displaced by IFC-supported client activities, including people with formal rights, customary claims, or recognized use of land and assets, depending on the circumstances.",
+"who_is_left_out": "People indirectly affected through cumulative impacts, market shifts, downstream effects, informal tenure not recognised in practice, or impacts beyond the project area may be excluded if the client's assessment does not capture them.",
+"where_continuity_breaks": "Continuity breaks when livelihood restoration is time-limited, when company-managed processes are not connected to public land administration or social services, or when accountability weakens after financial close or project completion.",
+"why_it_matters": "Performance Standard 5 shows how displacement governance is increasingly mediated by private finance, ESG risk, lender requirements, and corporate due diligence. The political economy archetype is private-risk internalisation: displacement is governed to protect affected people and manage project risk, but public-system absorption remains external to the standard.",
+"responsibility": "The IFC client carries implementation responsibility, with IFC review and supervision. Government authorities may also be involved in land acquisition, permits, compensation, and local service systems.",
+"eligibility": "Eligibility is tied to project impact, displacement category, land or asset use, cut-off dates, and client assessment of affected persons and communities.",
+"financing": "Financing is project and client-bounded. Costs are carried through project budgets, compensation frameworks, resettlement action plans, livelihood restoration plans, and lender-required mitigation measures.",
+"data_systems": "Socio-economic baseline surveys, asset inventories, resettlement action plans, livelihood restoration plans, stakeholder engagement records, grievance logs, and monitoring reports form the data architecture.",
+"delivery_system": "Delivery occurs through client systems, consultants, local authorities, contractors, compensation mechanisms, livelihood programmes, and grievance processes.",
+"portability": "Portability is weak unless project records connect affected people to public documentation, land systems, social protection, livelihood services, and long-term local development planning.",
+"accountability": "Accountability includes client grievance mechanisms, IFC supervision, lender requirements, disclosure expectations, and potential complaints to the Compliance Advisor Ombudsman where applicable.",
+"time_horizon": "Project and investment lifecycle, with ongoing monitoring where livelihood restoration or displacement impacts continue.",
+"official_sources": [
+{
+"label": "IFC Performance Standard 5 page",
+"url": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standard-5"
+},
+{
+"label": "IFC Performance Standard 5 PDF",
+"url": "https://www.ifc.org/content/dam/ifc/doc/2010/2012-ifc-performance-standard-5-en.pdf"
+},
+{
+"label": "IFC Performance Standards overview",
+"url": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards"
+}
+],
+"secondary_sources": [
+{
+"label": "IFC Guidance Note 5 PDF",
+"url": "https://www.ifc.org/content/dam/ifc/doc/2010/2012-ifc-ps-guidance-note-5-en.pdf"
+}
+],
+"related_mapping_entries": ["World Bank ESS5"],
+"related_research": ["Development-Induced Displacement", "Fiscal Architecture of Displacement"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "Thailand Migrant Health Insurance Scheme",
+"slug": "thailand-migrant-health-insurance-scheme",
+"country_or_region": "Thailand",
+"governance_layer": "Public systems integration",
+"sector": "Health",
+"instrument_type": "Public health insurance arrangement",
+"population_groups": ["Migrant workers", "Non-Thai residents", "Dependants of migrant workers", "Administratively registered non-citizens"],
+"inclusion_type": "Sectoral absorption into ordinary health facilities",
+"fault_lines": ["Categorical", "Territorial", "Data", "Portability"],
+"one_line_finding": "Thailand's migrant health insurance architecture shows how a public system can absorb non-citizens for health purposes while leaving legal status, portability, and broader social protection unresolved.",
+"what_it_is": "Thailand's migrant health insurance arrangements provide a route for some non-Thai populations to access care through public health facilities outside the citizen universal coverage scheme. The scheme has been shaped by public health, migration management, labour administration, and financing concerns.",
+"governance_function": "The scheme converts a migration and public health management problem into a bounded health-financing mechanism. It reduces uncompensated care, supports disease control, and allows access to public health facilities without generalising legal membership or broader social entitlement.",
+"who_is_included": "Coverage is strongest for migrants who can be documented, registered, linked to work-permit and health-check processes, or otherwise brought into the relevant administrative channel. Dependants may be included under specific arrangements.",
+"who_is_left_out": "People without documents, people outside registration windows, refugees outside the relevant administrative channel, people unable to pay premiums, mobile workers, and people whose employer or status changes may remain outside or experience interrupted access.",
+"where_continuity_breaks": "Continuity breaks when a person's immigration status, employment status, province, facility, registration document, payment record, or entitlement record changes faster than health systems can update and transfer access.",
+"why_it_matters": "This is a key example of functional inclusion: the health system can include displaced or mobile people for sectoral reasons even when the legal system avoids broader recognition. The political economy archetype is sectoral absorption through public health logic: inclusion is feasible where state interests in disease control, hospital financing, and migration management align.",
+"responsibility": "The Ministry of Public Health and linked health service administrators carry core system responsibility, while labour, interior, immigration, and employer-linked processes shape documentation and eligibility pathways.",
+"eligibility": "Eligibility is tied to non-citizen registration, migrant status, health checks, premium payment, employer-linked documentation, or administrative windows rather than displacement need as such.",
+"financing": "Financing is bounded through premiums, facility reimbursement, health insurance fund arrangements, and public health budgets rather than an open-ended social entitlement.",
+"data_systems": "Health records, migrant registration, work-permit records, health insurance fund records, and non-Thai identification systems intersect but are not always fully portable.",
+"delivery_system": "Delivery runs through ordinary public hospitals and clinics, making it more absorptive than parallel humanitarian health provision.",
+"portability": "Portability depends on whether registration and entitlement records follow the person across provinces, employers, facilities, and status categories.",
+"accountability": "Accountability is mainly administrative and facility-based, with limited rights-based appeal architecture for excluded non-citizens.",
+"time_horizon": "Ongoing sectoral arrangement with periodic administrative changes linked to migration policy, labour regularisation, and public health financing.",
+"official_sources": [
+{
+"label": "Thailand Ministry of Public Health",
+"url": "https://www.moph.go.th/"
+},
+{
+"label": "Migrant Workers and Migrants Health Insurance Fund",
+"url": "https://fwf.moph.go.th/"
+},
+{
+"label": "National Health Security Office",
+"url": "https://www.nhso.go.th/"
+}
+],
+"secondary_sources": [
+{
+"label": "WHO Thailand migrant health page",
+"url": "https://www.who.int/thailand/our-work/migrant-health"
+},
+{
+"label": "Implementing health insurance for migrants, Thailand",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5327939/"
+}
+],
+"related_mapping_entries": ["Global Compact for Safe, Orderly and Regular Migration", "AALCO Bangkok Principles"],
+"related_research": ["Beyond Shock-Responsiveness", "Fiscal Architecture of Displacement", "The Displacement Continuum and Sustainable Inclusion"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "Indonesia DTKS / SIKS-NG",
+"slug": "indonesia-dtks-siks-ng",
+"country_or_region": "Indonesia",
+"governance_layer": "Data and administrative infrastructure",
+"sector": "Social protection",
+"instrument_type": "Social registry and information system",
+"population_groups": ["Poor and vulnerable households", "Disaster-affected households", "Internally displaced people when captured by social welfare systems", "Households moving across local jurisdictions"],
+"inclusion_type": "Registry-mediated inclusion",
+"fault_lines": ["Temporal", "Territorial", "Data", "Eligibility"],
+"one_line_finding": "DTKS and SIKS-NG can connect households to social assistance, but displaced households can fall out when emergency lists, domicile records, and registry updating cycles do not align.",
+"what_it_is": "DTKS is Indonesia's integrated social welfare data architecture, supported operationally by SIKS-NG and related administrative systems, for identifying and managing poor and vulnerable households across social assistance programmes.",
+"governance_function": "The system makes eligibility administratively legible. It determines who can be found, verified, updated, and linked to programmes across central and local government. In displacement contexts, its governance function is not only targeting but continuity: whether vulnerability remains visible after movement.",
+"who_is_included": "Households whose poverty, vulnerability, identity, and domicile information are captured, validated, and updated in the registry can be routed toward assistance.",
+"who_is_left_out": "Displaced households, informal settlers, people without current domicile documents, households newly impoverished by shocks, and households whose circumstances change between updating cycles may be missed or delayed.",
+"where_continuity_breaks": "Continuity breaks between disaster displacement lists and ordinary social welfare registries, and when a household moves across village, district, or province boundaries without data transfer, re-verification, or timely registry updating.",
+"why_it_matters": "This entry maps the administrative infrastructure beneath social protection. Inclusion depends not only on policy intent but on whether data systems can follow people after displacement. The political economy archetype is registry-mediated inclusion: the state can include people whom it can identify, verify, and classify, while mobile or administratively irregular households risk becoming invisible.",
+"responsibility": "The Ministry of Social Affairs holds national responsibility, while local governments play a major role in verification, validation, updating, and local-level implementation.",
+"eligibility": "Eligibility depends on registry status, poverty and vulnerability criteria, identity records, domicile information, local validation, and programme-specific criteria.",
+"financing": "The registry does not finance benefits itself, but it controls access to nationally and locally financed social assistance programmes.",
+"data_systems": "DTKS and SIKS-NG are the central data layer, interacting with civil registration, local welfare lists, disaster records, programme-specific databases, and emerging socio-economic registration reforms.",
+"delivery_system": "Delivery is programme-specific: cash transfers, food assistance, health subsidy links, education assistance, and other social assistance channels may use the registry.",
+"portability": "Portability is constrained when social assistance is tied to registered domicile, local verification, programme lists, or administrative cycles that do not update at displacement speed.",
+"accountability": "Accountability depends on grievance, correction, updating, and verification channels available through social affairs offices, village administrators, local governments, and programme mechanisms.",
+"time_horizon": "Ongoing administrative infrastructure with periodic updates, validation processes, and reform.",
+"official_sources": [
+{
+"label": "Indonesia Ministry of Social Affairs",
+"url": "https://kemensos.go.id/"
+},
+{
+"label": "DTKS portal",
+"url": "https://dtks.kemensos.go.id/"
+},
+{
+"label": "SIKS-NG portal",
+"url": "https://siks.kemensos.go.id/"
+}
+],
+"secondary_sources": [
+{
+"label": "World Bank report on improving data quality for Indonesia's social registry",
+"url": "https://documents1.worldbank.org/curated/en/099515110132223290/pdf/P177341026be35061089cf0d835280eaf15.pdf"
+}
+],
+"related_mapping_entries": ["Philippines 4Ps", "UN Secretary-General Action Agenda on Internal Displacement"],
+"related_research": ["Beyond Shock-Responsiveness", "The Displacement Continuum and Sustainable Inclusion"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+},
+{
+"title": "Philippines 4Ps",
+"slug": "philippines-4ps",
+"country_or_region": "Philippines",
+"governance_layer": "Public systems integration",
+"sector": "Social protection",
+"instrument_type": "Statutory conditional cash transfer programme",
+"population_groups": ["Poor households", "Children", "Pregnant women", "Disaster-affected households when eligible", "Internally displaced households when captured by programme systems"],
+"inclusion_type": "Programme-based absorption through social protection",
+"fault_lines": ["Territorial", "Temporal", "Eligibility", "Service compliance"],
+"one_line_finding": "4Ps gives the Philippines a statutory social protection platform, but displacement creates continuity risks when household location, school enrolment, health compliance, or registry status changes.",
+"what_it_is": "The Pantawid Pamilyang Pilipino Program is the Philippines' national conditional cash transfer programme, institutionalised by Republic Act No. 11310 and administered by the Department of Social Welfare and Development.",
+"governance_function": "4Ps links poor households to cash assistance and human capital conditions, using social welfare administration as a platform for recurring support rather than one-off emergency relief. In displacement contexts, it can function as a stabilising platform if records, payments, and compliance systems remain portable.",
+"who_is_included": "Poor households meeting programme criteria, particularly those with children or pregnant members, can be included when identified, registered, and maintained in programme systems.",
+"who_is_left_out": "Displaced households may be missed if they are not in the targeting system, cannot maintain school or health compliance after moving, lack documentation, or cross local administrative boundaries without case transfer.",
+"where_continuity_breaks": "Continuity breaks between emergency displacement response and regular programme administration, especially when household records, school attendance, health visits, payment access, or municipal coordination do not travel with the family.",
+"why_it_matters": "4Ps is an absorption platform: it can stabilise households after shocks, but only if programme rules and data systems can accommodate mobility and protracted displacement. The political economy archetype is programme-based absorption with conditionality: displaced households can be included through ordinary social protection, but compliance and registry rules can reproduce exclusion.",
+"responsibility": "DSWD is the lead agency, with health, education, local government, payment providers, and community-level implementers carrying important implementation roles.",
+"eligibility": "Eligibility is based on poverty targeting, household composition, programme registration, and compliance with health and education conditions.",
+"financing": "Financing is through national social protection appropriations and programme budgets, with possible links to shock response financing and emergency assistance during crises.",
+"data_systems": "Programme records interact with household targeting systems, payment systems, school and health compliance monitoring, local case management, and grievance systems.",
+"delivery_system": "Delivery operates through cash transfer mechanisms, municipal links, schools, health facilities, social welfare offices, and payment providers.",
+"portability": "Portability depends on whether beneficiary records, payment access, compliance monitoring, and case management can move across municipalities and displacement locations.",
+"accountability": "Accountability includes programme grievance channels, DSWD oversight, audit, statutory responsibilities under the 4Ps law, and local implementation monitoring.",
+"time_horizon": "Long-term statutory programme with recurring household support while eligibility and compliance continue.",
+"official_sources": [
+{
+"label": "DSWD Pantawid Pamilyang Pilipino Program",
+"url": "https://pantawid.dswd.gov.ph/"
+},
+{
+"label": "Republic Act No. 11310 PDF",
+"url": "https://pantawid.dswd.gov.ph/wp-content/uploads/2020/02/RA-11310.pdf"
+},
+{
+"label": "Official Gazette: Republic Act No. 11310",
+"url": "https://www.officialgazette.gov.ph/2019/04/17/republic-act-no-11310/"
+}
+],
+"secondary_sources": [
+{
+"label": "Philippine legal e-library: Republic Act No. 11310",
+"url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/89090"
+}
+],
+"related_mapping_entries": ["Indonesia DTKS / SIKS-NG", "UN Secretary-General Action Agenda on Internal Displacement"],
+"related_research": ["Beyond Shock-Responsiveness", "Governance by Design", "The Displacement Continuum and Sustainable Inclusion"],
+"date_added": "2026-06-23",
+"date_updated": "2026-06-23"
+}
+]
+}
