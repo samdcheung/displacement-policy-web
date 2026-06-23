@@ -112,11 +112,13 @@
       .mapping-entry-teaser .tag { padding:.18rem .38rem; font-size:.66rem; font-weight:650; }
       .mapping-entry-teaser .text-link { margin-top:.55rem; align-self:flex-start; font-size:.82rem; font-weight:600; text-decoration-thickness:1px; text-underline-offset:3px; }
       .mapping-filter-empty { border:1px solid var(--line); background:var(--paper); padding:1rem; color:var(--muted); }
+      [data-mapping] { background:#f6f1e8; border-top:1px solid #e3d8c8; }
       .explorer-heading { margin-bottom:1rem; }
       .explorer-heading p { max-width:760px; color:var(--muted); margin:.4rem 0 0; }
       .sidebar-note { margin:.85rem 0 0; color:var(--muted); font-size:.86rem; line-height:1.5; }
       .load-status { margin:.85rem 0 0; color:var(--muted); font-size:.76rem; line-height:1.4; }
 
+      [data-mapping] .explorer-sidebar, [data-mapping] .result-head { border-color:#e1d6c6; background:rgba(255,255,255,.9); }
       .result-head { border:1px solid var(--line); background:var(--white); padding:clamp(1.05rem,2vw,1.45rem); margin-bottom:1rem; }
       .result-head h2 { margin:.15rem 0 .5rem; font-size:clamp(1.45rem,2.8vw,2.05rem); line-height:1.12; }
       .result-head p { margin:0; color:var(--muted); line-height:1.6; }
@@ -128,10 +130,11 @@
       .tag { display:inline-flex; border:1px solid var(--line); background: rgba(21,96,130,.06); padding:.24rem .48rem; font-size:.72rem; font-weight:750; color: var(--blue, #156082); line-height:1.2; }
       .tag.is-fault { background:rgba(184,130,52,.1); color:var(--ink); }
       .entry-grid { display:grid; grid-template-columns:1fr; gap:.7rem; }
-      .entry-card { border:1px solid var(--line); background:var(--white); min-height:100%; }
+      .entry-card { border:1px solid #e1d6c6; background:var(--white); min-height:100%; }
       .entry-card summary { list-style:none; cursor:pointer; padding:.82rem .95rem; }
       .entry-card summary::-webkit-details-marker { display:none; }
-      .entry-card[open] summary { border-bottom:1px solid var(--line); }
+      .entry-card summary:hover, .entry-card summary:focus { background:#fbf8f2; }
+      .entry-card[open] summary { border-bottom:1px solid #e1d6c6; }
       .entry-topline { display:flex; gap:.4rem; flex-wrap:wrap; align-items:center; margin-bottom:.58rem; }
       .entry-topline span { color:var(--blue,#156082); font-size:.7rem; font-weight:850; letter-spacing:.08em; text-transform:uppercase; }
       .entry-topline span + span::before { content:"/"; color:var(--muted); margin-right:.4rem; font-weight:600; }
@@ -144,6 +147,8 @@
       .entry-card[open] .entry-detail-toggle::after { content:"Collapse profile"; }
       .entry-details { padding:.9rem .95rem .95rem; }
       .entry-details .entry-text { margin-bottom:.7rem; }
+      [data-result-grid] .tag { border-color:#e1d6c6; background:#fbf8f2; color:var(--ink); font-weight:650; }
+      [data-result-grid] .tag.is-fault { background:#f3eadc; }
       .mechanism-block, .case-block { border-top:1px solid var(--line); margin-top:.85rem; padding-top:.8rem; }
       .case-list-compact { display:grid; gap:.55rem; }
       .case-mini { border:1px solid var(--line); background:rgba(242,238,230,.46); padding:.7rem; }
@@ -563,7 +568,8 @@
       const EXPECTED_BUILD_ID = EMBEDDED_DB.meta && EMBEDDED_DB.meta.build_id ? EMBEDDED_DB.meta.build_id : null;
       let MAPPING_DB = EMBEDDED_DB;
       let state = { mode: 'country', selected: null, query: '', page: 1 };
-      const PAGE_SIZE = 8;
+      const ENTRY_PAGE_SIZE = 8;
+      const EXPLORER_PAGE_SIZE = 3;
       const $ = (sel, root=document) => root.querySelector(sel);
       const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
       const esc = (s) => String(s ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -665,14 +671,15 @@
           ? `<span>${esc(entry.dim.name)}</span><span>${esc(cell.faultLine)}</span>`
           : `<span>${esc(entry.country.name)}</span><span>${esc(entry.dim.name)}</span><span>${esc(cell.faultLine)}</span>`;
         const mechanisms = cell.mechanisms && cell.mechanisms.length ? `<div class="mechanism-block"><p class="small-label">Anchor mechanisms</p>${tags(cell.mechanisms)}</div>` : '';
-        const previewMechanisms = (cell.mechanisms || []).slice(0, 4);
+        const layerChips = MAPPING_DB.dimensions.filter(dim => entry.country.cells?.[dim.id]).map(dim => dim.name).slice(0, 5);
+        const faultChips = dominantFaults(entry.country).slice(0, 5).map(fault => `Fault line: ${fault}`);
         return `<details class="entry-card" data-search-text="${esc(entrySearchText(entry, fallbackCases))}">
           <summary>
             <div class="entry-topline">${topLine}</div>
             <h3>${esc(entry.country.name)}</h3>
-            <p class="entry-summary-text">${esc(cell.characterization || '')}</p>
-            ${tags([entry.dim.name, cell.pattern, ...previewMechanisms])}
-            ${tags([`Fault line: ${cell.faultLine}`], 'is-fault')}
+            <p class="entry-summary-text">${esc(entry.country.summary || cell.characterization || '')}</p>
+            ${tags(layerChips)}
+            ${tags(faultChips, 'is-fault')}
             <span class="entry-detail-toggle" aria-hidden="true"></span>
           </summary>
           <div class="entry-details">
@@ -691,20 +698,20 @@
         if (!q) return entries;
         return entries.filter(e => norm(entrySearchText(e, casesFor(e.country, e.dim.id, null))).includes(q));
       }
-      function paginate(entries, page) {
-        const totalPages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
+      function paginate(entries, page, pageSize) {
+        const totalPages = Math.max(1, Math.ceil(entries.length / pageSize));
         const currentPage = Math.min(Math.max(1, page || 1), totalPages);
-        const start = (currentPage - 1) * PAGE_SIZE;
-        const end = Math.min(start + PAGE_SIZE, entries.length);
+        const start = (currentPage - 1) * pageSize;
+        const end = Math.min(start + pageSize, entries.length);
         return { items: entries.slice(start, end), currentPage, totalPages, start, end, total: entries.length };
       }
       function renderPagedExplorerEntries(entries, context) {
-        const page = paginate(entries, state.page);
+        const page = paginate(entries, state.page, EXPLORER_PAGE_SIZE);
         state.page = page.currentPage;
         if (!entries.length) return `<div class="empty-state">No governance entries match the current filter.</div>`;
         return `
           <div class="mapping-entry-controls" aria-live="polite">
-            <p class="mapping-entry-count">Showing ${page.start + 1}-${page.end} of ${page.total} country profile entries</p>
+            <p class="mapping-entry-count">Showing ${page.start + 1}-${page.end} of ${page.total} country profiles</p>
             <div class="mapping-entry-actions mapping-pagination" ${page.totalPages <= 1 ? 'hidden' : ''}>
               <button class="mapping-entry-action" type="button" data-explorer-page="-1" ${page.currentPage <= 1 ? 'disabled' : ''}>Previous</button>
               <span class="mapping-page-status">Page ${page.currentPage} of ${page.totalPages}</span>
@@ -833,10 +840,10 @@
           const values = Object.fromEntries($$('select[data-filter-key]', form).map(select => [select.dataset.filterKey, select.value]));
           const hasFilters = Object.values(values).some(Boolean);
           const matching = entries.filter(entry => Object.entries(values).every(([key, value]) => matches(entry, key, value)));
-          const totalPages = Math.max(1, Math.ceil(matching.length / PAGE_SIZE));
+          const totalPages = Math.max(1, Math.ceil(matching.length / ENTRY_PAGE_SIZE));
           currentPage = Math.min(Math.max(1, currentPage), totalPages);
-          const start = (currentPage - 1) * PAGE_SIZE;
-          const end = Math.min(start + PAGE_SIZE, matching.length);
+          const start = (currentPage - 1) * ENTRY_PAGE_SIZE;
+          const end = Math.min(start + ENTRY_PAGE_SIZE, matching.length);
           entries.forEach(entry => {
             const index = matching.indexOf(entry);
             entry.hidden = index < start || index >= end;
