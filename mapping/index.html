@@ -127,14 +127,23 @@
       .tag-row { display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.7rem; }
       .tag { display:inline-flex; border:1px solid var(--line); background: rgba(21,96,130,.06); padding:.24rem .48rem; font-size:.72rem; font-weight:750; color: var(--blue, #156082); line-height:1.2; }
       .tag.is-fault { background:rgba(184,130,52,.1); color:var(--ink); }
-      .entry-grid { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap:1rem; }
-      .entry-card { border:1px solid var(--line); background:var(--white); padding:1.05rem; display:flex; flex-direction:column; min-height:100%; }
+      .entry-grid { display:grid; grid-template-columns:1fr; gap:.7rem; }
+      .entry-card { border:1px solid var(--line); background:var(--white); min-height:100%; }
+      .entry-card summary { list-style:none; cursor:pointer; padding:.82rem .95rem; }
+      .entry-card summary::-webkit-details-marker { display:none; }
+      .entry-card[open] summary { border-bottom:1px solid var(--line); }
       .entry-topline { display:flex; gap:.4rem; flex-wrap:wrap; align-items:center; margin-bottom:.58rem; }
       .entry-topline span { color:var(--blue,#156082); font-size:.7rem; font-weight:850; letter-spacing:.08em; text-transform:uppercase; }
       .entry-topline span + span::before { content:"/"; color:var(--muted); margin-right:.4rem; font-weight:600; }
       .entry-card h3 { margin:0 0 .5rem; font-family:var(--serif); font-weight:400; font-size:1.24rem; line-height:1.18; }
       .entry-card p { color:var(--muted); font-size:.92rem; line-height:1.56; }
       .entry-card .entry-text { margin:0; }
+      .entry-summary-text { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; margin:0 0 .55rem; }
+      .entry-detail-toggle { display:inline-block; margin-top:.58rem; color:var(--navy-2); border-bottom:1px solid var(--bronze); font-size:.82rem; font-weight:600; }
+      .entry-detail-toggle::after { content:"Expand profile"; }
+      .entry-card[open] .entry-detail-toggle::after { content:"Collapse profile"; }
+      .entry-details { padding:.9rem .95rem .95rem; }
+      .entry-details .entry-text { margin-bottom:.7rem; }
       .mechanism-block, .case-block { border-top:1px solid var(--line); margin-top:.85rem; padding-top:.8rem; }
       .case-list-compact { display:grid; gap:.55rem; }
       .case-mini { border:1px solid var(--line); background:rgba(242,238,230,.46); padding:.7rem; }
@@ -656,15 +665,26 @@
           ? `<span>${esc(entry.dim.name)}</span><span>${esc(cell.faultLine)}</span>`
           : `<span>${esc(entry.country.name)}</span><span>${esc(entry.dim.name)}</span><span>${esc(cell.faultLine)}</span>`;
         const mechanisms = cell.mechanisms && cell.mechanisms.length ? `<div class="mechanism-block"><p class="small-label">Anchor mechanisms</p>${tags(cell.mechanisms)}</div>` : '';
-        return `<article class="entry-card" data-search-text="${esc(entrySearchText(entry, fallbackCases))}">
-          <div class="entry-topline">${topLine}</div>
-          <h3>${esc(cell.pattern || entry.dim.name)}</h3>
-          <p class="entry-text">${esc(cell.characterization || '')}</p>
-          ${tags([`Fault line: ${cell.faultLine}`], 'is-fault')}
-          ${mechanisms}
-          ${renderCaseBlock(fallbackCases)}
-          ${renderSources(cell.sources, entry.country.sources, ...caseSources(fallbackCases))}
-        </article>`;
+        const previewMechanisms = (cell.mechanisms || []).slice(0, 4);
+        return `<details class="entry-card" data-search-text="${esc(entrySearchText(entry, fallbackCases))}">
+          <summary>
+            <div class="entry-topline">${topLine}</div>
+            <h3>${esc(entry.country.name)}</h3>
+            <p class="entry-summary-text">${esc(cell.characterization || '')}</p>
+            ${tags([entry.dim.name, cell.pattern, ...previewMechanisms])}
+            ${tags([`Fault line: ${cell.faultLine}`], 'is-fault')}
+            <span class="entry-detail-toggle" aria-hidden="true"></span>
+          </summary>
+          <div class="entry-details">
+            <p class="small-label">Governance configuration</p>
+            <h3>${esc(cell.pattern || entry.dim.name)}</h3>
+            <p class="entry-text">${esc(cell.characterization || '')}</p>
+            ${tags([`Fault line: ${cell.faultLine}`], 'is-fault')}
+            ${mechanisms}
+            ${renderCaseBlock(fallbackCases)}
+            ${renderSources(cell.sources, entry.country.sources, ...caseSources(fallbackCases))}
+          </div>
+        </details>`;
       }
       function filterEntries(entries) {
         const q = norm(state.query).trim();
