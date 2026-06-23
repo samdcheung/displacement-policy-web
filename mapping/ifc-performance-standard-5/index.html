@@ -61,26 +61,32 @@
   ]
 }</script>
     <style>
-      .mapping-entry-page .page-masthead { margin:0; padding:clamp(4.5rem,8vw,7rem) 0 clamp(2.25rem,4vw,3.5rem); background:var(--paper-deep); border-bottom:1px solid var(--line); }
+      .mapping-entry-page .page-masthead { margin:0; padding:clamp(3.4rem,6vw,5rem) 0 clamp(1.75rem,3vw,2.5rem); background:var(--paper-deep); border-bottom:1px solid var(--line); }
       .mapping-entry-page .page-masthead .container, .mapping-entry-page .page-content .container { width:min(calc(100% - 2rem), 980px); max-width:980px; }
-      .mapping-entry-page .article-meta { color:var(--blue-grey); font-size:.9rem; margin-bottom:.7rem; }
-      .mapping-entry-page .mapping-entry-finding { max-width:780px; color:var(--atlantic); font-size:clamp(1.05rem,1.35vw,1.22rem); line-height:1.5; margin:.6rem 0 1.1rem; }
-      .mapping-entry-page .mapping-entry-archetype { max-width:780px; border-left:3px solid var(--bronze); padding-left:.85rem; margin:0 0 1rem; }
-      .mapping-entry-page .mapping-entry-archetype strong { display:block; color:var(--blue,#156082); font-size:.72rem; text-transform:uppercase; letter-spacing:.09em; margin-bottom:.2rem; }
-      .mapping-entry-page .mapping-entry-archetype span { display:block; color:var(--ink); font-family:var(--serif); font-size:1.08rem; line-height:1.3; }
-      .mapping-entry-page .mapping-entry-archetype p { margin:.35rem 0 0; color:var(--muted); line-height:1.55; }
-      .mapping-entry-page .metadata-chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:1rem; }
-      .mapping-entry-page .page-content { padding:clamp(2.25rem,4vw,3.5rem) 0 clamp(4rem,7vw,6rem); background:var(--white); }
-      .mapping-entry-layout { display:grid; gap:1.2rem; }
-      .mapping-entry-section { border-top:1px solid var(--line); padding-top:1.1rem; }
-      .mapping-entry-section h2 { font-size:clamp(1.22rem,1.6vw,1.55rem); margin-bottom:.55rem; }
-      .mapping-entry-section p, .mapping-entry-section li { color:var(--muted); line-height:1.62; }
+      .mapping-entry-page h1 { font-size:clamp(2rem,3.2vw,3rem); line-height:1.08; }
+      .mapping-entry-page .article-meta { color:var(--blue-grey); font-size:.86rem; margin-bottom:.65rem; }
+      .mapping-entry-page .mapping-entry-finding { max-width:780px; color:var(--atlantic); font-size:1rem; line-height:1.52; margin:.45rem 0 .95rem; }
+      .mapping-entry-page .mapping-entry-archetype { max-width:780px; border-left:3px solid var(--bronze); padding-left:.8rem; margin:0 0 .9rem; }
+      .mapping-entry-page .mapping-entry-archetype strong { display:block; color:var(--blue,#156082); font-size:.68rem; text-transform:uppercase; letter-spacing:.09em; margin-bottom:.18rem; }
+      .mapping-entry-page .mapping-entry-archetype span { display:block; color:var(--ink); font-family:var(--serif); font-size:1rem; line-height:1.32; }
+      .mapping-entry-page .mapping-entry-archetype p { margin:.3rem 0 0; color:var(--muted); font-size:.9rem; line-height:1.52; }
+      .mapping-entry-page .metadata-chips { display:flex; flex-wrap:wrap; gap:.32rem; margin-top:.85rem; }
+      .mapping-entry-page .metadata-chips .tag { font-size:.66rem; font-weight:650; padding:.18rem .38rem; }
+      .mapping-entry-page .page-content { padding:clamp(2rem,3.6vw,3rem) 0 clamp(3.5rem,6vw,5rem); background:var(--white); }
+      .mapping-entry-layout { display:grid; gap:1.05rem; }
+      .mapping-entry-section { border-top:1px solid var(--line); padding-top:1rem; }
+      .mapping-entry-section h2 { font-size:clamp(1.18rem,1.45vw,1.4rem); margin-bottom:.5rem; }
+      .mapping-entry-section h3 { font-size:1rem; margin:.75rem 0 .3rem; }
+      .mapping-entry-section p, .mapping-entry-section li { color:var(--muted); font-size:.95rem; line-height:1.58; }
       .mapping-coding-table { width:100%; border-collapse:collapse; border:1px solid var(--line); background:var(--white); }
-      .mapping-coding-table th, .mapping-coding-table td { border-bottom:1px solid var(--line); padding:.78rem .85rem; text-align:left; vertical-align:top; }
-      .mapping-coding-table th { width:28%; color:var(--blue,#156082); font-size:.72rem; text-transform:uppercase; letter-spacing:.09em; }
-      .mapping-source-list { display:grid; gap:.5rem; margin:0; padding-left:1.1rem; }
-      .mapping-entry-related { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
-      .back-link { margin-top:2rem; }
+      .mapping-coding-table th, .mapping-coding-table td { border-bottom:1px solid var(--line); padding:.68rem .78rem; text-align:left; vertical-align:top; }
+      .mapping-coding-table th { width:28%; color:var(--blue,#156082); font-size:.68rem; text-transform:uppercase; letter-spacing:.09em; }
+      .mapping-coding-table td { color:var(--muted); font-size:.92rem; line-height:1.5; }
+      .mapping-source-list, .mapping-related-list { display:grid; gap:.38rem; margin:.1rem 0 .75rem; padding-left:1.05rem; }
+      .mapping-source-list li, .mapping-related-list li, .mapping-entry-muted { color:var(--muted); font-size:.88rem; line-height:1.45; }
+      .mapping-source-list .text-link { font-size:.88rem; font-weight:500; overflow-wrap:anywhere; }
+      .mapping-entry-related { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.9rem; }
+      .back-link { margin-top:1.5rem; }
       @media (max-width:720px) { .mapping-entry-related { grid-template-columns:1fr; } .mapping-coding-table th, .mapping-coding-table td { display:block; width:100%; } }
     </style>
   </head>
@@ -176,11 +182,11 @@
             <div class="mapping-entry-related">
               <div>
                 <h3>Related Mapping entries</h3>
-                <ul class="compact-bullets"><li>World Bank ESS5</li></ul>
+                <ul class="mapping-related-list"><li>World Bank ESS5</li></ul>
               </div>
               <div>
                 <h3>Related research</h3>
-                <ul class="compact-bullets"><li>Development-Induced Displacement</li><li>Fiscal Architecture of Displacement</li></ul>
+                <ul class="mapping-related-list"><li>Development-Induced Displacement</li><li>Fiscal Architecture of Displacement</li></ul>
               </div>
             </div>
           </section>

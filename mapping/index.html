@@ -85,20 +85,31 @@
       .selector-button span { display:block; font-size:.72rem; font-weight:650; opacity:.72; margin-top:.18rem; }
       .filter-input { width:100%; border:1px solid var(--line); background:#fff; padding:.72rem .75rem; font:inherit; font-size:.9rem; }
       .mapping-entry-index { border-top:1px solid var(--line); background:var(--white); }
-      .mapping-entry-index-head { display:grid; grid-template-columns:minmax(0,1fr) minmax(280px,.34fr); gap:1.4rem; align-items:end; margin-bottom:1.1rem; }
+      .mapping-entry-index-head { display:grid; grid-template-columns:minmax(0,1fr) minmax(280px,.34fr); gap:1.4rem; align-items:end; margin-bottom:1rem; }
       .mapping-entry-index-head p { margin:0; color:var(--muted); line-height:1.6; }
-      .mapping-filter-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.7rem; margin:0 0 1rem; }
+      .mapping-filter-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.65rem; margin:0 0 .85rem; }
       .mapping-filter-grid label { display:grid; gap:.28rem; }
       .mapping-filter-grid span { color:var(--blue,#156082); font-size:.68rem; font-weight:850; letter-spacing:.1em; text-transform:uppercase; }
-      .mapping-filter-grid select { width:100%; border:1px solid var(--line); background:#fff; padding:.66rem .72rem; color:var(--ink); font:inherit; font-size:.86rem; }
-      .mapping-entry-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
-      .mapping-entry-teaser { border:1px solid var(--line); background:var(--white); padding:1.05rem; display:flex; flex-direction:column; min-height:100%; }
+      .mapping-filter-grid select { width:100%; border:1px solid var(--line); background:#fff; padding:.58rem .66rem; color:var(--ink); font:inherit; font-size:.82rem; }
+      .mapping-entry-controls { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.7rem; margin:.25rem 0 .9rem; }
+      .mapping-entry-count { margin:0; color:var(--muted); font-size:.86rem; }
+      .mapping-entry-actions { display:flex; flex-wrap:wrap; gap:.55rem; }
+      .mapping-entry-action { border:0; border-bottom:1px solid var(--bronze); background:transparent; padding:.1rem 0; color:var(--navy-2); font:inherit; font-size:.84rem; font-weight:600; cursor:pointer; }
+      .mapping-entry-action[hidden] { display:none; }
+      .mapping-entry-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; }
+      .mapping-entry-teaser { border:1px solid var(--line); background:var(--white); padding:.82rem .9rem; display:flex; flex-direction:column; min-height:100%; }
       .mapping-entry-teaser[hidden] { display:none; }
-      .mapping-entry-teaser h3 { margin:0 0 .45rem; font-size:1.22rem; }
-      .mapping-entry-teaser p { color:var(--muted); font-size:.92rem; line-height:1.56; }
-      .mapping-entry-teaser .entry-text { margin:0 0 .6rem; }
-      .mapping-entry-teaser .text-link { margin-top:auto; }
+      .mapping-entry-teaser h3 { margin:0 0 .35rem; font-size:1.05rem; line-height:1.22; }
+      .mapping-entry-teaser h3 a { color:inherit; text-decoration:none; }
+      .mapping-entry-teaser h3 a:hover, .mapping-entry-teaser h3 a:focus { color:var(--navy-2); text-decoration:underline; text-decoration-color:var(--bronze); text-underline-offset:3px; }
+      .mapping-entry-teaser p { color:var(--muted); font-size:.86rem; line-height:1.48; }
+      .mapping-entry-teaser .entry-text { margin:0 0 .45rem; }
+      .mapping-entry-teaser .tag-row { gap:.28rem; margin-top:.45rem; }
+      .mapping-entry-teaser .tag { padding:.18rem .38rem; font-size:.66rem; font-weight:650; }
+      .mapping-entry-teaser .text-link { margin-top:.55rem; align-self:flex-start; font-size:.82rem; font-weight:600; text-decoration-thickness:1px; text-underline-offset:3px; }
       .mapping-filter-empty { border:1px solid var(--line); background:var(--paper); padding:1rem; color:var(--muted); }
+      .explorer-heading { margin-bottom:1rem; }
+      .explorer-heading p { max-width:760px; color:var(--muted); margin:.4rem 0 0; }
       .sidebar-note { margin:.85rem 0 0; color:var(--muted); font-size:.86rem; line-height:1.5; }
       .load-status { margin:.85rem 0 0; color:var(--muted); font-size:.76rem; line-height:1.4; }
 
@@ -200,6 +211,13 @@
             <label><span>Fault line</span><select data-filter-key="fault"><option value="">All</option><option>Categorical</option><option>Territorial</option><option>Accountability</option><option>Temporal</option><option>Fiscal</option><option>Mandate</option><option>Data</option><option>Portability</option><option>Eligibility</option><option>Service access</option><option>Local capacity</option><option>Sustainability</option><option>Legal status</option><option>Livelihood restoration</option></select></label>
             <label><span>Archetype</span><select data-filter-key="archetype"><option value="">All</option><option>Sovereignty-preserving ambiguity</option><option>Normative responsibility without fiscal absorption</option><option>Development-system absorption</option><option>Conditional inclusion through responsibility sharing</option><option>Managed mobility with rights language</option><option>Safeguard-based mitigation</option><option>Private-risk internalization</option><option>Sectoral absorption</option><option>Registry-mediated inclusion</option><option>Programme-based absorption</option><option>Regional cooperation with national implementation dependency</option><option>Sovereignty-constrained humanitarian diplomacy</option><option>Citizen-based universalism</option><option>Administrative membership formation</option><option>Event-based recognition</option><option>Decentralized responsibility with local fiscal exposure</option><option>Reconstruction-led inclusion</option><option>Employment-linked containment</option><option>Nascent social protection under crisis stress</option><option>Humanitarian legibility without legal absorption</option><option>Managed labour mobility with bounded protection</option><option>Humanitarian containment</option><option>Territorial humanitarian containment</option><option>Citizenship-based transnational protection</option><option>Digital administrative portability</option><option>Land formalization under investment pressure</option><option>Project-led resettlement</option><option>Legal membership regularization</option><option>Parallel assistance with alignment potential</option><option>Conditional fiscal absorption</option><option>Subsidized sovereign borrowing</option><option>De jure inclusion with de facto exclusion</option><option>Shock-responsive expansion with registry dependency</option><option>Prevention-oriented risk governance</option><option>Tool-based protection without binding status</option><option>Solutions criteria without implementation authority</option><option>Binding responsibility with implementation dependency</option><option>Rights-based registry inclusion under fiscal strain</option></select></label>
           </form>
+          <div class="mapping-entry-controls" aria-live="polite">
+            <p class="mapping-entry-count" data-entry-count>40 mapping entries</p>
+            <div class="mapping-entry-actions">
+              <button class="mapping-entry-action" type="button" data-entry-toggle>Show all entries</button>
+              <button class="mapping-entry-action" type="button" data-entry-reset hidden>Clear filters</button>
+            </div>
+          </div>
           <div class="mapping-entry-list" data-entry-list>
             <article class="mapping-entry-teaser" data-country="Asia-Africa" data-layer="Regional norms and cooperation" data-sector="Refugee protection and state responsibility" data-population="Refugees|Asylum seekers|Persons seeking protection across borders" data-instrument="Non-binding regional principles" data-inclusion="Normative recognition" data-fault="Categorical|Territorial|Accountability" data-archetype="Sovereignty-preserving ambiguity">
               <div class="entry-topline"><span>Asia-Africa</span><span>Categorical / Territorial / Accountability</span></div>
@@ -488,6 +506,11 @@
 
       <section class="section section-paper about-final-section" data-mapping aria-label="Displacement governance mapping explorer">
         <div class="container mapping-shell">
+          <div class="explorer-heading">
+            <p class="eyebrow">Country profiles</p>
+            <h2>Explore country profiles</h2>
+            <p>Use the country explorer to compare governance layers, recurring fault lines, and illustrative cases across Southeast Asia.</p>
+          </div>
           <div class="explorer-shell">
             <aside class="explorer-sidebar" aria-label="Mapping filters">
               <p class="small-label">View by</p>
@@ -723,7 +746,12 @@
         const form = $('[data-entry-filters]');
         const entries = $$('[data-entry-list] .mapping-entry-teaser');
         const empty = $('[data-entry-empty]');
+        const count = $('[data-entry-count]');
+        const toggle = $('[data-entry-toggle]');
+        const reset = $('[data-entry-reset]');
         if (!form || !entries.length) return;
+        let showAllEntries = false;
+        const defaultVisibleCount = 8;
         const arrayKeys = new Set(['fault', 'population']);
         const normalizeFilter = value => norm(value).trim().replace(/\s+/g, ' ');
         const partsFor = (entry, key) => norm(entry.dataset[key] || '').split('|').map(part => normalizeFilter(part)).filter(Boolean);
@@ -735,15 +763,37 @@
         };
         const apply = () => {
           const values = Object.fromEntries($$('select[data-filter-key]', form).map(select => [select.dataset.filterKey, select.value]));
+          const hasFilters = Object.values(values).some(Boolean);
+          const matching = entries.filter(entry => Object.entries(values).every(([key, value]) => matches(entry, key, value)));
+          const visibleLimit = hasFilters || showAllEntries ? matching.length : defaultVisibleCount;
           let shown = 0;
           entries.forEach(entry => {
-            const visible = Object.entries(values).every(([key, value]) => matches(entry, key, value));
+            const match = matching.includes(entry);
+            const visible = match && shown < visibleLimit;
             entry.hidden = !visible;
             if (visible) shown += 1;
           });
           if (empty) empty.hidden = shown > 0;
+          if (count) {
+            count.textContent = hasFilters
+              ? `${matching.length} ${matching.length === 1 ? 'entry' : 'entries'} shown`
+              : showAllEntries
+                ? `${entries.length} mapping entries`
+                : `Showing ${Math.min(defaultVisibleCount, entries.length)} of ${entries.length} mapping entries`;
+          }
+          if (toggle) {
+            toggle.hidden = hasFilters || entries.length <= defaultVisibleCount;
+            toggle.textContent = showAllEntries ? 'Show fewer entries' : 'Show all entries';
+          }
+          if (reset) reset.hidden = !hasFilters;
         };
-        form.addEventListener('change', apply);
+        form.addEventListener('change', () => { showAllEntries = false; apply(); });
+        toggle?.addEventListener('click', () => { showAllEntries = !showAllEntries; apply(); });
+        reset?.addEventListener('click', () => {
+          $$('select[data-filter-key]', form).forEach(select => { select.value = ''; });
+          showAllEntries = false;
+          apply();
+        });
         apply();
       }
       document.addEventListener('DOMContentLoaded', async () => {
