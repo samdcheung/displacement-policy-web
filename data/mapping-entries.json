@@ -59,7 +59,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Sovereignty-preserving ambiguity",
+      "archetype_explanation": "Regional principles create a shared protection vocabulary while preserving state discretion over recognition, services, and fiscal responsibility."
     },
     {
       "title": "Guiding Principles on Internal Displacement",
@@ -120,7 +122,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Normative responsibility without fiscal absorption",
+      "archetype_explanation": "The principles define national responsibility for IDPs but do not themselves create budgets, delivery systems, registries, or enforceable service entitlements."
     },
     {
       "title": "UN Secretary-General Action Agenda on Internal Displacement",
@@ -182,7 +186,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Development-system absorption",
+      "archetype_explanation": "The agenda seeks to move internal displacement from humanitarian management into national planning, development finance, prevention, and solutions systems."
     },
     {
       "title": "Global Compact on Refugees",
@@ -245,7 +251,9 @@
         "Beyond Shock-Responsiveness"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Conditional inclusion through responsibility sharing",
+      "archetype_explanation": "Refugee inclusion becomes more feasible where host-state policy, international financing, donor commitments, and development cooperation align."
     },
     {
       "title": "Global Compact for Safe, Orderly and Regular Migration",
@@ -306,7 +314,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Managed mobility with rights language",
+      "archetype_explanation": "The compact promotes rights-based migration cooperation while preserving state control over admission, status, and national implementation."
     },
     {
       "title": "World Bank ESS5",
@@ -368,7 +378,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Safeguard-based mitigation",
+      "archetype_explanation": "Displacement is governed as a project-related environmental and social risk, with obligations bounded by project scope, financing, and supervision."
     },
     {
       "title": "IFC Performance Standard 5",
@@ -433,7 +445,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Private-risk internalization",
+      "archetype_explanation": "Private-sector displacement risk is internalized through client obligations, lender requirements, mitigation plans, and project accountability systems."
     },
     {
       "title": "Thailand Migrant Health Insurance Scheme",
@@ -504,7 +518,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Sectoral absorption",
+      "archetype_explanation": "Non-citizens are absorbed into health financing where public health, hospital financing, and migration-management incentives align, without broader legal membership."
     },
     {
       "title": "Indonesia DTKS / SIKS-NG",
@@ -570,7 +586,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Registry-mediated inclusion",
+      "archetype_explanation": "Inclusion depends on whether households are visible, verified, updated, and classified within social welfare data systems."
     },
     {
       "title": "Philippines 4Ps",
@@ -637,7 +655,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Programme-based absorption",
+      "archetype_explanation": "Displaced households can be stabilized through an ordinary social protection programme, but conditionality, registry status, and mobility can reproduce exclusion."
     },
     {
       "title": "ASEAN Agreement on Disaster Management and Emergency Response",
@@ -698,7 +718,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Regional cooperation with national implementation dependency",
+      "archetype_explanation": "ASEAN enables regional disaster cooperation, but assistance, recovery, and long-term inclusion depend on national and local systems."
     },
     {
       "title": "ASEAN Five-Point Consensus on Myanmar",
@@ -759,7 +781,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Sovereignty-constrained humanitarian diplomacy",
+      "archetype_explanation": "Regional diplomacy seeks humanitarian access and de-escalation while remaining constrained by sovereignty, consent, and limited enforcement."
     },
     {
       "title": "Thailand Universal Coverage Scheme",
@@ -820,7 +844,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Citizen-based universalism",
+      "archetype_explanation": "Health vulnerability is absorbed into a tax-financed universal system for citizens, while non-citizens remain governed through separate arrangements."
     },
     {
       "title": "Thailand Civil Registration and Statelessness Framework",
@@ -886,7 +912,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Administrative membership formation",
+      "archetype_explanation": "Legal identity systems make people visible to the state and create staged pathways from documentation toward fuller membership and service access."
     },
     {
       "title": "Indonesia Law No. 24/2007 on Disaster Management",
@@ -951,7 +979,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Event-based recognition",
+      "archetype_explanation": "People become visible through disaster events and emergency administration, but continuity may weaken once the event-based response period ends."
     },
     {
       "title": "Philippines Disaster Risk Reduction and Management Act",
@@ -1012,7 +1042,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Decentralized responsibility with local fiscal exposure",
+      "archetype_explanation": "Disaster governance is institutionalized nationally but depends heavily on local governments whose fiscal and administrative capacity determines continuity."
     },
     {
       "title": "Philippines Marawi Rehabilitation Architecture",
@@ -1079,7 +1111,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Reconstruction-led inclusion",
+      "archetype_explanation": "Inclusion is pursued through reconstruction, compensation, housing, and local recovery, but land, documentation, and accountability bottlenecks shape outcomes."
     },
     {
       "title": "Malaysia Foreign Worker Health Protection Scheme",
@@ -1141,7 +1175,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Employment-linked containment",
+      "archetype_explanation": "Health access and cost management are tied to documented employment and insurance, leaving people outside labour channels structurally exposed."
     },
     {
       "title": "Myanmar Maternal and Child Cash Transfer",
@@ -1208,7 +1244,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Nascent social protection under crisis stress",
+      "archetype_explanation": "Early social protection infrastructure can reduce vulnerability, but crisis, conflict, and administrative disruption expose the fragility of programme continuity."
     },
     {
       "title": "Bangladesh-UNHCR Rohingya Registration and Identity Architecture",
@@ -1274,7 +1312,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Humanitarian legibility without legal absorption",
+      "archetype_explanation": "Refugees are made visible for assistance and protection while remaining outside durable legal membership and ordinary national systems."
     },
     {
       "title": "ASEAN Declaration on the Protection and Promotion of the Rights of Migrant Workers",
@@ -1337,7 +1377,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Managed labour mobility with bounded protection",
+      "archetype_explanation": "ASEAN recognises migrant-worker protection while leaving enforcement, eligibility, and portability to national labour and immigration systems."
     },
     {
       "title": "Indonesia Presidential Regulation No. 125/2016 on the Handling of Refugees from Abroad",
@@ -1403,7 +1445,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Humanitarian containment",
+      "archetype_explanation": "Refugees are administratively received, sheltered, and coordinated without being absorbed into a full asylum, work, or national inclusion system."
     },
     {
       "title": "Thailand Refugee Camp and Border Assistance Architecture",
@@ -1466,7 +1510,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Territorial humanitarian containment",
+      "archetype_explanation": "Refugees receive protection and assistance in bounded camp spaces while movement, work, legal status, and national-system access remain constrained."
     },
     {
       "title": "Philippines Migrant Workers and Overseas Filipinos Act",
@@ -1528,7 +1574,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Citizenship-based transnational protection",
+      "archetype_explanation": "The state extends protection to nationals abroad through labour migration, consular, welfare, repatriation, and reintegration systems."
     },
     {
       "title": "Vietnam Residence Law and Household Registration Reform",
@@ -1590,7 +1638,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Digital administrative portability",
+      "archetype_explanation": "Digital residence data can reduce paper-based exclusion, but access still depends on local registration, data accuracy, and administrative acceptance."
     },
     {
       "title": "Cambodia Land Law and Economic Land Concession Architecture",
@@ -1655,7 +1705,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Land formalization under investment pressure",
+      "archetype_explanation": "Formal land law protects recognized claims while communities with weak, informal, or contested tenure remain vulnerable to investment-driven displacement."
     },
     {
       "title": "Lao PDR Decree on Compensation and Resettlement Management in Development Projects",
@@ -1718,7 +1770,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Project-led resettlement",
+      "archetype_explanation": "Displacement is managed through project compensation and resettlement procedures, with livelihood restoration dependent on implementation quality and monitoring."
     },
     {
       "title": "Thailand Cabinet Resolution on Accelerated Statelessness Resolution",
@@ -1784,7 +1838,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Legal membership regularization",
+      "archetype_explanation": "Administrative records are used to move registered stateless people toward legal status, nationality, and fuller access to ordinary systems."
     },
     {
       "title": "UNHCR Registration as Humanitarian Identity Infrastructure",
@@ -1846,7 +1902,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Humanitarian legibility without legal absorption",
+      "archetype_explanation": "UNHCR registration makes people visible for protection and assistance but does not automatically create domestic legal status or public-system inclusion."
     },
     {
       "title": "Humanitarian Cash Transfer Systems as Parallel Social Protection",
@@ -1914,7 +1972,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Parallel assistance with alignment potential",
+      "archetype_explanation": "Humanitarian cash can stabilize households quickly, but without alignment to national systems it remains a parallel residual rather than sustainable inclusion."
     },
     {
       "title": "ADB Safeguard Policy Statement and Environmental and Social Framework",
@@ -1976,7 +2036,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Safeguard-based mitigation",
+      "archetype_explanation": "Development-induced displacement is governed through project safeguards, mitigation plans, borrower obligations, and lender supervision."
     },
     {
       "title": "World Bank IDA Window for Host Communities and Refugees",
@@ -2039,7 +2101,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Conditional fiscal absorption",
+      "archetype_explanation": "Refugee-hosting costs are partially absorbed into development finance where host-state policy commitments and concessional financing align."
     },
     {
       "title": "Global Concessional Financing Facility",
@@ -2103,7 +2167,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Subsidized sovereign borrowing",
+      "archetype_explanation": "Donor-funded concessionality lowers borrowing costs for refugee-hosting states but still works through sovereign loans and project logic."
     },
     {
       "title": "OECD Social Protection for the Forcibly Displaced",
@@ -2167,7 +2233,9 @@
         "The Displacement Continuum and Sustainable Inclusion"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "De jure inclusion with de facto exclusion",
+      "archetype_explanation": "Legal or policy access to social protection may exist, but actual inclusion depends on documentation, data, financing, delivery capacity, and politics."
     },
     {
       "title": "World Bank Adaptive Social Protection Framework",
@@ -2230,7 +2298,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Shock-responsive expansion with registry dependency",
+      "archetype_explanation": "Social protection can scale during shocks, but displaced people benefit only if registries, financing, triggers, and payment systems can reach them."
     },
     {
       "title": "Sendai Framework for Disaster Risk Reduction",
@@ -2290,7 +2360,9 @@
         "Beyond Shock-Responsiveness"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Prevention-oriented risk governance",
+      "archetype_explanation": "Displacement is addressed upstream through risk reduction, preparedness, resilience, and recovery planning rather than individual entitlement."
     },
     {
       "title": "Platform on Disaster Displacement and Nansen Protection Agenda",
@@ -2351,7 +2423,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Tool-based protection without binding status",
+      "archetype_explanation": "States can use migration, humanitarian, disaster, and protection tools for cross-border disaster displacement, but no binding status category is created."
     },
     {
       "title": "IASC Framework on Durable Solutions for Internally Displaced Persons",
@@ -2415,7 +2489,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Solutions criteria without implementation authority",
+      "archetype_explanation": "The framework defines what durable solutions require but relies on governments and partners to finance and implement them."
     },
     {
       "title": "Kampala Convention",
@@ -2476,7 +2552,9 @@
         "Governance by Design"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Binding responsibility with implementation dependency",
+      "archetype_explanation": "Regional law creates binding IDP obligations, but outcomes depend on domestic incorporation, institutions, budgets, and accountability."
     },
     {
       "title": "Colombia Registro Único de Víctimas",
@@ -2544,7 +2622,9 @@
         "Fiscal Architecture of Displacement"
       ],
       "date_added": "2026-06-23",
-      "date_updated": "2026-06-23"
+      "date_updated": "2026-06-23",
+      "political_economy_archetype": "Rights-based registry inclusion under fiscal strain",
+      "archetype_explanation": "Legal recognition through a national registry creates access to assistance and reparations, but implementation depends on fiscal and administrative capacity."
     }
   ]
 }

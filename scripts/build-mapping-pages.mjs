@@ -75,12 +75,14 @@ function page(entry) {
       entry.country_or_region,
       entry.governance_layer,
       entry.sector,
+      entry.political_economy_archetype,
       ...asArray(entry.population_groups),
       ...asArray(entry.fault_lines)
     ].filter(Boolean)
   };
 
   const codingRows = [
+    ["Political economy archetype", entry.political_economy_archetype],
     ["Responsibility", entry.responsibility],
     ["Eligibility", entry.eligibility],
     ["Financing", entry.financing],
@@ -123,6 +125,10 @@ function page(entry) {
       .mapping-entry-page .page-masthead .container, .mapping-entry-page .page-content .container { width:min(calc(100% - 2rem), 980px); max-width:980px; }
       .mapping-entry-page .article-meta { color:var(--blue-grey); font-size:.9rem; margin-bottom:.7rem; }
       .mapping-entry-page .mapping-entry-finding { max-width:780px; color:var(--atlantic); font-size:clamp(1.05rem,1.35vw,1.22rem); line-height:1.5; margin:.6rem 0 1.1rem; }
+      .mapping-entry-page .mapping-entry-archetype { max-width:780px; border-left:3px solid var(--bronze); padding-left:.85rem; margin:0 0 1rem; }
+      .mapping-entry-page .mapping-entry-archetype strong { display:block; color:var(--blue,#156082); font-size:.72rem; text-transform:uppercase; letter-spacing:.09em; margin-bottom:.2rem; }
+      .mapping-entry-page .mapping-entry-archetype span { display:block; color:var(--ink); font-family:var(--serif); font-size:1.08rem; line-height:1.3; }
+      .mapping-entry-page .mapping-entry-archetype p { margin:.35rem 0 0; color:var(--muted); line-height:1.55; }
       .mapping-entry-page .metadata-chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:1rem; }
       .mapping-entry-page .page-content { padding:clamp(2.25rem,4vw,3.5rem) 0 clamp(4rem,7vw,6rem); background:var(--white); }
       .mapping-entry-layout { display:grid; gap:1.2rem; }
@@ -153,9 +159,14 @@ function page(entry) {
           <p class="eyebrow">Mapping Entry</p>
           <h1>${escapeHtml(entry.title)}</h1>
           <p class="mapping-entry-finding">${escapeHtml(entry.one_line_finding)}</p>
+          <div class="mapping-entry-archetype">
+            <strong>Political economy archetype</strong>
+            <span>${escapeHtml(entry.political_economy_archetype || "Not coded")}</span>
+            <p>${escapeHtml(entry.archetype_explanation || "")}</p>
+          </div>
           <p class="article-meta">${escapeHtml(entry.country_or_region)} | ${escapeHtml(entry.governance_layer)} | Updated ${escapeHtml(entry.date_updated)}</p>
           <div class="metadata-chips">
-            ${chips([entry.country_or_region, entry.governance_layer, entry.sector, entry.instrument_type, entry.inclusion_type, ...asArray(entry.population_groups), ...asArray(entry.fault_lines)])}
+            ${chips([entry.country_or_region, entry.governance_layer, entry.sector, entry.instrument_type, entry.inclusion_type, entry.political_economy_archetype, ...asArray(entry.population_groups), ...asArray(entry.fault_lines)])}
           </div>
         </div>
       </section>
