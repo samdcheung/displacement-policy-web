@@ -1714,3 +1714,151 @@ h3 {
     padding: 1.15rem 0 1.25rem;
   }
 }
+body.perspective-article-page .page-masthead h1,
+body.perspective-article-page .page-masthead .lede {
+  max-width: 100%;
+}
+
+body.perspective-article-page main {
+  display: block;
+}
+
+body.perspective-article-page .page-masthead {
+  margin: 0;
+  padding: clamp(3.75rem, 7vw, 6.5rem) 0 clamp(2.25rem, 4.5vw, 3.75rem);
+  border-bottom: 1px solid rgba(8, 23, 35, 0.12);
+  background: linear-gradient(180deg, #f5f0e7 0%, #f0e9dd 100%);
+}
+
+body.perspective-article-page .page-masthead .container {
+  width: min(calc(100% - 2rem), 1080px);
+  max-width: 1080px;
+  margin-inline: auto;
+}
+
+body.perspective-article-page .page-masthead h1 {
+  margin-bottom: clamp(1rem, 2vw, 1.35rem);
+  font-size: clamp(2.55rem, 5vw, 5rem);
+  line-height: 1.01;
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: balance;
+}
+
+body.perspective-article-page .page-masthead .lede {
+  max-width: 850px;
+  margin: 0;
+  color: rgba(8, 23, 35, 0.72);
+  font-size: clamp(1.08rem, 1.55vw, 1.32rem);
+  line-height: 1.62;
+}
+
+body.perspective-article-page .page-content {
+  padding-top: clamp(2rem, 4vw, 3rem);
+  padding-bottom: clamp(4rem, 7vw, 6rem);
+}
+
+body.perspective-article-page .page-content > .container,
+body.perspective-article-page .narrow-content,
+body.perspective-article-page .perspective-essay,
+body.perspective-article-page .content-intro,
+body.perspective-article-page .prose,
+body.perspective-article-page .back-link {
+  width: min(calc(100% - 2rem), 700px);
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+body.perspective-article-page .perspective-essay {
+  display: block;
+}
+
+body.perspective-article-page .content-intro {
+  margin-bottom: clamp(1.9rem, 3vw, 2.65rem);
+  padding: 1rem 0 0 1.15rem;
+  border-left: 2px solid rgba(184, 130, 52, 0.42);
+  border-top: 1px solid rgba(8, 23, 35, 0.12);
+}
+
+body.perspective-article-page .article-meta {
+  margin: 0;
+  color: rgba(8, 23, 35, 0.78);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+body.perspective-article-page .article-author-note {
+  margin: 0.7rem 0 0;
+  color: var(--muted, #4f5d5d);
+  font-size: 0.96rem;
+  font-style: italic;
+  line-height: 1.65;
+}
+
+body.perspective-article-page .article-note {
+  margin: 0.9rem 0 0;
+  color: rgba(79, 93, 93, 0.88);
+  font-size: 0.95rem;
+  line-height: 1.62;
+}
+
+body.perspective-article-page .prose {
+  color: var(--ink);
+  font-size: clamp(1.04rem, 0.95rem + 0.25vw, 1.08rem);
+  line-height: 1.8;
+}
+
+body.perspective-article-page .prose p {
+  max-width: 70ch;
+  margin-bottom: 1.15rem;
+  color: rgba(8, 23, 35, 0.86);
+  font-size: inherit;
+  line-height: inherit;
+}
+
+body.perspective-article-page .back-link {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+}
+
+@media (max-width: 720px) {
+  body.perspective-article-page .page-masthead {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  body.perspective-article-page .page-masthead .container,
+  body.perspective-article-page .page-content > .container {
+    width: min(calc(100vw - 2rem), 700px);
+    max-width: calc(100vw - 2rem);
+  }
+
+  body.perspective-article-page .page-masthead h1 {
+    max-width: min(100%, 8.8em);
+    font-size: clamp(2rem, 9vw, 2.35rem);
+    line-height: 1.05;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-wrap: normal;
+  }
+
+  body.perspective-article-page .content-intro {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0.9rem;
+  }
+
+  body.perspective-article-page .perspective-essay,
+  body.perspective-article-page .prose,
+  body.perspective-article-page .back-link {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body.perspective-article-page .prose {
+    font-size: 1.04rem;
+    line-height: 1.76;
+  }
+}
