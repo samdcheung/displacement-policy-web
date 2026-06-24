@@ -1819,6 +1819,24 @@ body.perspective-article-page .prose p {
   line-height: inherit;
 }
 
+body.perspective-article-page .pull-quote {
+  margin: clamp(2rem, 4vw, 2.8rem) 0;
+  padding: clamp(1.15rem, 2.5vw, 1.55rem) 0 clamp(1.15rem, 2.5vw, 1.55rem) clamp(1rem, 2vw, 1.35rem);
+  border-left: 3px solid rgba(184, 130, 52, 0.55);
+  border-top: 1px solid rgba(8, 23, 35, 0.1);
+  border-bottom: 1px solid rgba(8, 23, 35, 0.1);
+}
+
+body.perspective-article-page .pull-quote p {
+  margin: 0;
+  max-width: 24em;
+  color: rgba(8, 23, 35, 0.9);
+  font-family: var(--serif);
+  font-size: clamp(1.45rem, 2.5vw, 2rem);
+  font-style: italic;
+  line-height: 1.24;
+}
+
 body.perspective-article-page .back-link {
   margin-top: clamp(2.5rem, 5vw, 4rem);
 }
@@ -1860,5 +1878,14 @@ body.perspective-article-page .back-link {
   body.perspective-article-page .prose {
     font-size: 1.04rem;
     line-height: 1.76;
+  }
+
+  body.perspective-article-page .pull-quote {
+    margin: 1.7rem 0;
+    padding: 1rem 0 1rem 0.9rem;
+  }
+
+  body.perspective-article-page .pull-quote p {
+    font-size: clamp(1.32rem, 7vw, 1.65rem);
   }
 }
