@@ -107,16 +107,16 @@ function page(entry) {
     <meta property="og:type" content="article">
     <meta property="og:url" content="${canonical}">
     <meta property="og:site_name" content="Displacement Policy">
-    <meta property="og:image" content="${siteUrl}/assets/images/dp-linkedin-card.png">
-    <meta property="og:image:secure_url" content="${siteUrl}/assets/images/dp-linkedin-card.png">
+    <meta property="og:image" content="${siteUrl}/assets/images/dp-linkedin-card-202607.png">
+    <meta property="og:image:secure_url" content="${siteUrl}/assets/images/dp-linkedin-card-202607.png">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="627">
+    <meta property="og:image:width" content="1735">
+    <meta property="og:image:height" content="906">
     <meta property="og:image:alt" content="Displacement Policy - research on displacement governance and public systems">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeHtml(entry.title)} | Mapping | Displacement Policy">
     <meta name="twitter:description" content="${escapeHtml(description)}">
-    <meta name="twitter:image" content="${siteUrl}/assets/images/dp-linkedin-card.png">
+    <meta name="twitter:image" content="${siteUrl}/assets/images/dp-linkedin-card-202607.png">
     <link rel="icon" href="/assets/brand/dp-favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/styles.css">
     <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
