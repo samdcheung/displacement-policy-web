@@ -706,7 +706,7 @@ h3 {
 .mapping-feature-light {
   min-height: clamp(300px, 32vw, 390px);
   color: var(--white);
-  background: linear-gradient(90deg, rgba(6, 35, 50, 0.9) 0%, rgba(6, 35, 50, 0.74) 42%, rgba(6, 35, 50, 0.35) 100%), url("assets/images/southeast-asia-governance-mapping.svg") center / cover no-repeat;
+  background: linear-gradient(90deg, rgba(6, 35, 50, 0.9) 0%, rgba(6, 35, 50, 0.74) 42%, rgba(6, 35, 50, 0.35) 100%), url("assets/images/southeast-asia-mapping-hero-20260707.png") center / cover no-repeat;
 }
 .mapping-feature-light::before { opacity: 0.22; mix-blend-mode: screen; }
 .mapping-feature-light::after { display: none; }
