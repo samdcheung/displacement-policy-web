@@ -1,0 +1,72 @@
+[
+    {
+        "slug":  "states-are-the-solution-not-the-problem",
+        "category":  "National Systems",
+        "title":  "States are the Solution, Not the Problem",
+        "author":  "Peter De Clercq",
+        "affiliation":  "Former UN Assistant Secretary-General",
+        "standfirst":  "Sustainable protection in displacement contexts must be anchored in national systems, local ownership, and the rule of law.",
+        "href":  "/perspectives/states-are-the-solution-not-the-problem",
+        "image":  null,
+        "socialImage":  null,
+        "socialTitle":  null,
+        "socialDescription":  null,
+        "featured":  true
+    },
+    {
+        "slug":  "the-system-we-forgot-we-were-building",
+        "category":  "Social Work in Crises",
+        "title":  "The System We Forgot We Were Building",
+        "author":  "Inah Kaloga",
+        "affiliation":  "Global Director, Violence Prevention \u0026 Response, IRC",
+        "standfirst":  "Humanitarian protection and social work have always been more closely connected than the sector often admits.",
+        "href":  "/perspectives/the-system-we-forgot-we-were-building",
+        "image":  null,
+        "socialImage":  null,
+        "socialTitle":  null,
+        "socialDescription":  null,
+        "featured":  false
+    },
+    {
+        "slug":  "when-protection-leadership-is-not-enough",
+        "category":  "Protection Leadership",
+        "title":  "When Protection Leadership Is Not Enough",
+        "author":  "Samuel Cheung",
+        "affiliation":  "Founder and Director, Displacement Policy",
+        "standfirst":  "Protection outcomes often depend less on formal policy commitments than on leadership choices, institutional incentives, and mandate design.",
+        "href":  "/perspectives/when-protection-leadership-is-not-enough",
+        "image":  null,
+        "socialImage":  null,
+        "socialTitle":  null,
+        "socialDescription":  null,
+        "featured":  false
+    },
+    {
+        "slug":  "humanitarian-policy-reform-and-displacement-governance",
+        "category":  "Humanitarian Policy",
+        "title":  "Humanitarian policy reform cannot substitute for displacement governance.",
+        "author":  "Samuel Cheung",
+        "affiliation":  "Founder and Director, Displacement Policy",
+        "standfirst":  "After two decades of policy innovation, protection still often fails where institutional responsibility remains fragmented.",
+        "href":  "/perspectives/humanitarian-policy-reform-and-displacement-governance",
+        "image":  null,
+        "socialImage":  null,
+        "socialTitle":  null,
+        "socialDescription":  null,
+        "featured":  false
+    },
+    {
+        "slug":  "problem-no-one-owns",
+        "category":  "Internal Displacement",
+        "title":  "The Problem No One Owns",
+        "author":  "Samuel Cheung",
+        "affiliation":  "Founder and Director, Displacement Policy",
+        "standfirst":  "Internal displacement reveals what happens when protection needs are clear but responsibility remains fragmented.",
+        "href":  "/perspectives/problem-no-one-owns",
+        "image":  null,
+        "socialImage":  null,
+        "socialTitle":  null,
+        "socialDescription":  null,
+        "featured":  false
+    }
+]
