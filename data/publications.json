@@ -1,0 +1,54 @@
+[
+    {
+        "slug":  "fiscal-architecture-of-displacement",
+        "status":  "published",
+        "publishedDate":  "2026-06-04",
+        "type":  "Policy Brief No. 4",
+        "series":  "Governing Displacement",
+        "title":  "Fiscal Architecture of Displacement",
+        "summary":  "Sovereign finance and the recurrent fiscal obligation problem.",
+        "date":  "June 2026",
+        "href":  "/publications/fiscal-architecture-of-displacement",
+        "image":  "/images/publications/governing-displacement-brief-4.png",
+        "imageAlt":  "Fiscal Architecture of Displacement - Governing Displacement Policy Brief No. 4"
+    },
+    {
+        "slug":  "beyond-shock-responsiveness",
+        "status":  "published",
+        "publishedDate":  "2026-06-03",
+        "type":  "Policy Brief No. 3",
+        "series":  "Governing Displacement",
+        "title":  "Beyond Shock-Responsiveness",
+        "summary":  "Horizontal integration as the next frontier of adaptive social protection.",
+        "date":  "June 2026",
+        "href":  "/publications/beyond-shock-responsiveness",
+        "image":  "/images/publications/governing-displacement-brief-3.png",
+        "imageAlt":  "Beyond Shock-Responsiveness - Governing Displacement Policy Brief No. 3"
+    },
+    {
+        "slug":  "infrastructure-finance-gap",
+        "status":  "published",
+        "publishedDate":  "2026-06-02",
+        "type":  "Policy Brief No. 2",
+        "series":  "Governing Displacement",
+        "title":  "The Infrastructure Finance Gap",
+        "summary":  "Development-induced displacement and the limits of project-based safeguards.",
+        "date":  "June 2026",
+        "href":  "/publications/infrastructure-finance-gap",
+        "image":  "/images/publications/governing-displacement-brief-2.png",
+        "imageAlt":  "The Infrastructure Finance Gap - Governing Displacement Policy Brief No. 2"
+    },
+    {
+        "slug":  "governance-by-design",
+        "status":  "published",
+        "publishedDate":  "2026-06-01",
+        "type":  "Policy Brief No. 1",
+        "series":  "Governing Displacement",
+        "title":  "Governance by Design",
+        "summary":  "The displacement continuum and sustainable inclusion in Southeast Asia.",
+        "date":  "June 2026",
+        "href":  "/publications/governance-by-design",
+        "image":  "/images/publications/governing-displacement-brief-1.png",
+        "imageAlt":  "Governance by Design - Governing Displacement Policy Brief No. 1"
+    }
+]

@@ -1,6 +1,8 @@
 [
     {
         "slug":  "states-are-the-solution-not-the-problem",
+        "status":  "published",
+        "publishedDate":  "2026-06-05",
         "category":  "National Systems",
         "title":  "States are the Solution, Not the Problem",
         "author":  "Peter De Clercq",
@@ -16,6 +18,8 @@
     },
     {
         "slug":  "the-system-we-forgot-we-were-building",
+        "status":  "published",
+        "publishedDate":  "2026-06-04",
         "category":  "Social Work in Crises",
         "title":  "The System We Forgot We Were Building",
         "author":  "Inah Kaloga",
@@ -31,6 +35,8 @@
     },
     {
         "slug":  "when-protection-leadership-is-not-enough",
+        "status":  "published",
+        "publishedDate":  "2026-06-03",
         "category":  "Protection Leadership",
         "title":  "When Protection Leadership Is Not Enough",
         "author":  "Samuel Cheung",
@@ -46,6 +52,8 @@
     },
     {
         "slug":  "humanitarian-policy-reform-and-displacement-governance",
+        "status":  "published",
+        "publishedDate":  "2026-06-02",
         "category":  "Humanitarian Policy",
         "title":  "Humanitarian policy reform cannot substitute for displacement governance.",
         "author":  "Samuel Cheung",
@@ -61,6 +69,8 @@
     },
     {
         "slug":  "problem-no-one-owns",
+        "status":  "published",
+        "publishedDate":  "2026-06-01",
         "category":  "Internal Displacement",
         "title":  "The Problem No One Owns",
         "author":  "Samuel Cheung",
