@@ -2805,3 +2805,26 @@ body.perspective-article-page .back-link {
     font-size: clamp(2rem, 10vw, 2.7rem);
   }
 }
+
+/* Perspectives preview card image refinements */
+.perspectives-page .perspectives-feature-column,
+.perspectives-page .perspectives-list-column {
+  width: min(calc(100% - 44px), 1120px);
+  max-width: 1120px;
+}
+
+.perspectives-page .perspective-feature-image img,
+.perspectives-page .perspective-list-image img {
+  aspect-ratio: 1672 / 941;
+}
+
+.perspectives-page .perspective-list-image {
+  align-self: start;
+}
+
+@media (max-width: 760px) {
+  .perspectives-page .perspectives-feature-column,
+  .perspectives-page .perspectives-list-column {
+    width: min(calc(100% - 32px), 700px);
+  }
+}
