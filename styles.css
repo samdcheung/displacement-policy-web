@@ -1260,6 +1260,38 @@ h3 {
   line-height: 1.64;
 }
 
+.about-page .about-lens-list {
+  display: grid;
+  gap: 20px;
+  max-width: 780px;
+  margin: 26px 0 30px;
+}
+
+.about-page .about-lens-entry {
+  max-width: 700px;
+}
+
+.about-page .about-lens-entry h3 {
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(1.22rem, 2vw, 1.45rem);
+  font-weight: 520;
+  letter-spacing: 0;
+  line-height: 1.16;
+}
+
+.about-page .about-lens-entry p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.about-page .about-agenda-conclusion {
+  margin-top: 0;
+}
+
 .about-page .about-simple-list {
   width: 100%;
   max-width: 780px;
