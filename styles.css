@@ -3012,6 +3012,12 @@ body.perspective-article-page .back-link {
   margin-top: 0.45rem;
 }
 
+.research-page #analytical-framework,
+.research-page #areas-of-work,
+.research-page #research-outputs {
+  scroll-margin-top: 110px;
+}
+
 .research-page .framework-grid,
 .research-page .framework-card-grid {
   display: grid;
