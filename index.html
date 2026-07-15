@@ -52,198 +52,6 @@
       }
     </script>
 
-    <style>
-      .home-page .home-column {
-        width: min(calc(100% - 44px), 760px) !important;
-        max-width: 760px !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-      }
-
-      .home-page .home-about .home-column {
-        width: min(calc(100% - 44px), 760px) !important;
-        max-width: 760px !important;
-      }
-
-      .home-page .home-column .prose,
-      .home-page .home-column .lead {
-        max-width: 700px;
-      }
-
-      .home-page .home-about .prose {
-        display: block !important;
-        grid-template-columns: none !important;
-        max-width: 700px !important;
-      }
-
-      .home-page .home-about h2 {
-        max-width: 700px !important;
-      }
-
-      .home-page .home-research-column {
-        width: min(calc(100% - 44px), 1180px);
-        max-width: 1180px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .home-page .home-research-copy {
-        max-width: 700px;
-      }
-
-      .home-page .home-research-list {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 1rem;
-        align-items: stretch;
-        margin-top: 1.45rem;
-      }
-
-      .home-page .home-research-row {
-        display: flex;
-        min-width: 0;
-        height: 100%;
-        padding: 1.1rem;
-        border: 1px solid rgba(8, 23, 35, 0.14);
-        border-radius: 12px;
-        background: rgba(255, 255, 255, 0.72);
-        color: inherit;
-        text-decoration: none;
-        transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
-      }
-
-      .home-page .home-research-card-copy {
-        display: flex;
-        flex-direction: column;
-        min-width: 0;
-        height: 100%;
-      }
-
-      .home-page .home-research-row:hover,
-      .home-page .home-research-row:focus {
-        border-color: rgba(184, 130, 52, 0.45);
-        box-shadow: 0 16px 34px rgba(8, 44, 58, 0.08);
-        transform: translateY(-1px);
-      }
-
-      .home-page .home-research-thumb {
-        display: block;
-        aspect-ratio: 4 / 3;
-        overflow: hidden;
-        border-radius: 8px;
-        border: 1px solid rgba(18, 59, 82, 0.12);
-        background: #f8f5ef;
-      }
-
-      .home-page .home-research-thumb img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-      }
-
-      .home-page .home-research-row h3 {
-        min-height: 3.3rem;
-        margin: 0;
-        font-family: var(--serif, Georgia, "Times New Roman", serif);
-        font-size: clamp(1.15rem, 2vw, 1.35rem);
-        font-weight: 400;
-        line-height: 1.22;
-      }
-
-      .home-page .home-research-row p {
-        margin: 0.55rem 0 1rem;
-        color: var(--muted, #4f5d5d);
-        font-size: 0.98rem;
-        line-height: 1.55;
-      }
-
-      .home-page .home-research-row .text-link {
-        display: inline-block;
-        margin-top: auto;
-      }
-
-      .home-page .home-editorial-list {
-        margin-top: 1.35rem;
-      }
-
-      .home-page .home-editorial-row {
-        display: grid;
-        grid-template-columns: minmax(180px, 260px) 1fr;
-        gap: 1.6rem;
-        align-items: start;
-        border-top: 1px solid rgba(8, 23, 35, 0.14);
-        padding: 1.05rem 0;
-        color: inherit;
-        text-decoration: none;
-      }
-
-      .home-page .home-editorial-row:last-child {
-        border-bottom: 1px solid rgba(8, 23, 35, 0.14);
-      }
-
-      .home-page .home-editorial-row h3 {
-        margin: 0;
-        font-family: var(--serif, Georgia, "Times New Roman", serif);
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.25;
-      }
-
-      .home-page .home-editorial-row p {
-        margin: 0;
-        color: var(--muted, #4f5d5d);
-        font-size: 0.98rem;
-        line-height: 1.55;
-      }
-
-      .home-page .home-editorial-row:hover h3,
-      .home-page .home-editorial-row:focus h3 {
-        color: var(--navy-2, #0d4154);
-        text-decoration: underline;
-        text-decoration-color: var(--bronze, #b88234);
-        text-underline-offset: 4px;
-      }
-
-      .home-page .home-section-action {
-        margin-top: 1rem;
-      }
-
-      .home-page .home-section-action .text-link {
-        font-size: 0.84rem;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-      }
-
-      @media (max-width: 900px) {
-        .home-page .home-research-list {
-          grid-template-columns: 1fr;
-        }
-      }
-
-      @media (max-width: 760px) {
-        .home-page .home-editorial-row {
-          grid-template-columns: 1fr;
-          gap: 0.65rem;
-        }
-
-        .home-page .home-research-row {
-          padding: 0.95rem;
-        }
-
-        .home-page .home-research-row h3 {
-          min-height: 0;
-        }
-      }
-
-        .home-page .home-research-row {
-          padding: 0.85rem;
-        }
-      }
-    </style>
   </head>
 
   <body class="home-page">
@@ -294,55 +102,55 @@
         </div>
       </section>
 
-      <section class="section section-paper home-about section-compact" aria-labelledby="about-title">
-        <div class="container home-column">
-          <p class="eyebrow">About</p>
-          <h2 id="about-title">A research platform focused on displacement as an institutional design problem.</h2>
+      <section class="section section-paper home-section home-section--compact home-about" aria-labelledby="about-title">
+        <div class="container home-column home-section__inner">
+          <p class="eyebrow home-section__eyebrow">About</p>
+          <h2 id="about-title" class="home-section__title">A research platform focused on displacement as an institutional design problem.</h2>
 
-          <div class="prose">
+          <div class="prose home-section__intro">
             <p>Displacement Policy examines why displaced populations often fall outside functioning public systems â€” not because institutions are absent, but because existing systems are designed around categories, territories, mandates, and fiscal rules that do not follow people through displacement.</p>
           </div>
         </div>
       </section>
 
-      <section class="section section-muted section-compact featured-analysis-section" aria-labelledby="featured-title">
-        <div class="container home-research-column">
+      <section class="section section-muted home-section featured-analysis-section" aria-labelledby="featured-title">
+        <div class="container home-research-column home-section__inner">
           <div class="home-research-copy">
-            <p class="eyebrow">Research Agenda</p>
-            <h2 id="featured-title">Displacement governance and public systems.</h2>
-            <p class="prose">
+            <p class="eyebrow home-section__eyebrow">Research Agenda</p>
+            <h2 id="featured-title" class="home-section__title">Displacement governance and public systems.</h2>
+            <p class="prose home-section__intro">
               The research agenda examines where institutional responsibility breaks down — and how responsibility for displaced populations can be more clearly assigned, financed, and sustained across public systems.
             </p>
           </div>
 
-          <div class="home-research-list">
-            <a class="home-research-row" href="/research#analytical-framework">
+          <div class="home-research-list research-agenda__cards">
+            <a class="home-research-row research-card" href="/research#analytical-framework">
               <span class="home-research-card-copy">
-                <h3>Analytical Framework</h3>
-                <p>
+                <h3 class="research-card__title">Analytical Framework</h3>
+                <p class="research-card__description">
                   The Displacement Continuum, Sustainable Inclusion, and Political Economy provide three connected lenses for understanding institutional fragmentation and reform.
                 </p>
-                <span class="text-link">Explore the framework →</span>
+                <span class="text-link research-card__link">Explore the framework →</span>
               </span>
             </a>
 
-            <a class="home-research-row" href="/research#areas-of-work">
+            <a class="home-research-row research-card" href="/research#areas-of-work">
               <span class="home-research-card-copy">
-                <h3>Current Areas of Work</h3>
-                <p>
+                <h3 class="research-card__title">Current Areas of Work</h3>
+                <p class="research-card__description">
                   Research focuses on public systems and social protection; development and infrastructure; climate, disasters, and mobility; and legal status and multilevel governance.
                 </p>
-                <span class="text-link">View the research areas →</span>
+                <span class="text-link research-card__link">View the research areas →</span>
               </span>
             </a>
 
-            <a class="home-research-row" href="/research#research-outputs">
+            <a class="home-research-row research-card" href="/research#research-outputs">
               <span class="home-research-card-copy">
-                <h3>Research Outputs</h3>
-                <p>
+                <h3 class="research-card__title">Research Outputs</h3>
+                <p class="research-card__description">
                   Governance mapping, policy briefs, working papers, expert Perspectives, and institutional dialogue build a cumulative body of research and applied analysis.
                 </p>
-                <span class="text-link">See how the agenda advances →</span>
+                <span class="text-link research-card__link">See how the agenda advances →</span>
               </span>
             </a>
           </div>
@@ -352,7 +160,7 @@
       <section class="section mapping-feature mapping-feature-light home-mapping-feature" aria-labelledby="mapping-title">
         <div class="container mapping-feature-inner">
           <div class="mapping-project-copy home-mapping-copy">
-            <p class="eyebrow">Comparative Evidence</p>
+            <p class="eyebrow home-section__eyebrow">Comparative Evidence</p>
             <h2 id="mapping-title">Southeast Asia Displacement Governance Mapping</h2>
             <p>A structured evidence base examining how responsibility for displacement is assigned across laws, institutions, public systems, safeguards, and financing arrangements.</p>
             <p class="small-note">Current regional focus: Southeast Asia.</p>
@@ -361,10 +169,10 @@
         </div>
       </section>
 
-      <section class="section section-muted section-compact perspectives-feature" aria-labelledby="perspectives-title">
-        <div class="container home-column">
-          <p class="eyebrow">Perspectives</p>
-          <h2 id="perspectives-title">Ideas on how displacement is governed.</h2>
+      <section class="section section-muted home-section perspectives-feature" aria-labelledby="perspectives-title">
+        <div class="container home-column home-section__inner">
+          <p class="eyebrow home-section__eyebrow">Perspectives</p>
+          <h2 id="perspectives-title" class="home-section__title">Ideas on how displacement is governed.</h2>
 
           <div class="home-output-list" data-source="/data/perspectives.json" data-limit="3" data-filter="published">
             <article class="home-output-row home-perspective-output">
@@ -408,10 +216,10 @@
         </div>
       </section>
 
-      <section class="section section-paper section-compact" aria-labelledby="publications-title">
-        <div class="container home-column">
-          <p class="eyebrow">Research Outputs</p>
-          <h2 id="publications-title">Latest publications.</h2>
+      <section class="section section-paper home-section" aria-labelledby="publications-title">
+        <div class="container home-column home-section__inner">
+          <p class="eyebrow home-section__eyebrow">Research Outputs</p>
+          <h2 id="publications-title" class="home-section__title">Latest publications.</h2>
 
           <div class="home-output-list home-publication-list" data-source="/data/publications.json" data-limit="3" data-filter="published">
             <article class="home-output-row home-publication-output">
