@@ -7,3 +7,4 @@ homepage-check.png
 npm-debug.log*
 
 .vercel
+public/
