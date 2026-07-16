@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/dev-server.mjs"
+    "dev": "node scripts/dev-server.mjs",
+    "validate:mapping": "node scripts/validate-mapping-diagnostic.mjs",
+    "build:mapping": "node scripts/build-mapping-pages.mjs",
+    "build": "npm run validate:mapping && npm run build:mapping"
   }
 }

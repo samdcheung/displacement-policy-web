@@ -1,0 +1,429 @@
+{
+  "schemaVersion": "2026-07-consolidated-v2",
+  "title": "Displacement Governance Diagnostic",
+  "description": "A canonical schema that preserves the black-letter and institutional record, diagnoses categorical, temporal and territorial fault lines, maps institutional interfaces and handoffs, identifies sustainable-inclusion mechanisms, and records continuity outcomes, political economy and evidence strength.",
+  "conceptualModel": {
+    "analyticalChain": [
+      "displacementTransition",
+      "primaryFaultLine",
+      "institutionalInterface",
+      "transmissionFailureOrBridgingMechanism",
+      "continuityOutcome",
+      "politicalAndFiscalConditions"
+    ],
+    "primaryFaultLines": [
+      {
+        "id": "categorical",
+        "label": "Categorical",
+        "definition": "Protection changes or ends when a person is reclassified across legal, administrative or programme categories."
+      },
+      {
+        "id": "temporal",
+        "label": "Temporal",
+        "definition": "Protection changes or ends when an emergency, project, programme, mandate or funding period expires before displacement-related vulnerability resolves."
+      },
+      {
+        "id": "territorial",
+        "label": "Territorial",
+        "definition": "Protection changes or ends when a person crosses a border, district, municipality, provider catchment or other jurisdictional boundary."
+      }
+    ],
+    "transmissionPoints": [
+      "mandate",
+      "fiscal-architecture",
+      "data-and-registration",
+      "eligibility",
+      "portability",
+      "accountability",
+      "delivery-capacity"
+    ],
+    "sustainableInclusionDomains": [
+      {
+        "id": "systems-integration",
+        "label": "Systems integration",
+        "definition": "Embedding displaced or mobile populations in ordinary public systems, service pathways, registries and administrative procedures."
+      },
+      {
+        "id": "fiscal-integration",
+        "label": "Fiscal integration",
+        "definition": "Embedding displacement-related obligations in durable, recurrent or transferable public financing arrangements."
+      },
+      {
+        "id": "sustained-institutional-responsibility",
+        "label": "Sustained institutional responsibility",
+        "definition": "Maintaining clear responsibility, authority and accountability across institutions, jurisdictions and displacement phases."
+      }
+    ],
+    "politicalEconomyDimensions": [
+      "membership-logic",
+      "mandate-logic",
+      "fiscal-exposure-logic",
+      "inclusion-rationale",
+      "absorption-constraint"
+    ]
+  },
+  "taxonomies": {
+    "objectTypes": [
+      "law-or-regulation",
+      "policy-or-strategy",
+      "programme",
+      "public-system",
+      "registry-or-data-system",
+      "financing-instrument",
+      "safeguard-or-standard",
+      "regional-or-global-framework",
+      "administrative-practice",
+      "humanitarian-delivery-arrangement",
+      "implementation-event"
+    ],
+    "governanceModes": [
+      "state-led",
+      "delegated",
+      "co-produced",
+      "parallel",
+      "externally-financed",
+      "privately-implemented",
+      "hybrid"
+    ],
+    "mechanismFamilies": [
+      {
+        "id": "legal-or-administrative-recognition",
+        "domain": "systems-integration",
+        "label": "Legal or administrative recognition"
+      },
+      {
+        "id": "sectoral-absorption",
+        "domain": "systems-integration",
+        "label": "Sectoral absorption"
+      },
+      {
+        "id": "registry-interoperability",
+        "domain": "systems-integration",
+        "label": "Registry interoperability"
+      },
+      {
+        "id": "portable-entitlement",
+        "domain": "systems-integration",
+        "label": "Portable entitlement"
+      },
+      {
+        "id": "status-neutral-access",
+        "domain": "systems-integration",
+        "label": "Status-neutral access"
+      },
+      {
+        "id": "emergency-to-system-transition",
+        "domain": "systems-integration",
+        "label": "Emergency-to-system transition"
+      },
+      {
+        "id": "recurrent-budget-integration",
+        "domain": "fiscal-integration",
+        "label": "Recurrent budget integration"
+      },
+      {
+        "id": "contingent-financing",
+        "domain": "fiscal-integration",
+        "label": "Contingent financing"
+      },
+      {
+        "id": "intergovernmental-fiscal-transfer",
+        "domain": "fiscal-integration",
+        "label": "Intergovernmental fiscal transfer"
+      },
+      {
+        "id": "contributory-or-premium-inclusion",
+        "domain": "fiscal-integration",
+        "label": "Contributory or premium-based inclusion"
+      },
+      {
+        "id": "externally-financed-system-expansion",
+        "domain": "fiscal-integration",
+        "label": "Externally financed system expansion"
+      },
+      {
+        "id": "project-to-system-transition",
+        "domain": "fiscal-integration",
+        "label": "Project-to-system transition"
+      },
+      {
+        "id": "statutory-mandate-assignment",
+        "domain": "sustained-institutional-responsibility",
+        "label": "Statutory mandate assignment"
+      },
+      {
+        "id": "institutional-handoff",
+        "domain": "sustained-institutional-responsibility",
+        "label": "Institutional handoff"
+      },
+      {
+        "id": "lead-agency-responsibility",
+        "domain": "sustained-institutional-responsibility",
+        "label": "Lead-agency responsibility"
+      },
+      {
+        "id": "cross-institutional-protocol",
+        "domain": "sustained-institutional-responsibility",
+        "label": "Cross-institutional protocol"
+      },
+      {
+        "id": "grievance-and-review",
+        "domain": "sustained-institutional-responsibility",
+        "label": "Grievance and review"
+      },
+      {
+        "id": "post-project-responsibility",
+        "domain": "sustained-institutional-responsibility",
+        "label": "Post-project responsibility"
+      }
+    ],
+    "mechanismEffects": [
+      "reproduces-fault-line",
+      "manages-fault-line",
+      "partially-overcomes",
+      "substantially-overcomes",
+      "effect-not-established"
+    ],
+    "continuityRatings": [
+      "none",
+      "limited",
+      "partial",
+      "substantial",
+      "not-assessed"
+    ],
+    "evidenceStages": [
+      "formal-design",
+      "implementation-observed",
+      "outcome-evaluated",
+      "causal-effect-demonstrated",
+      "analytical-inference"
+    ],
+    "confidenceRatings": [
+      "high",
+      "medium",
+      "low",
+      "not-assessed"
+    ],
+    "institutionalMaturityStages": [
+      "parallel-provision",
+      "administrative-accommodation",
+      "aligned-delivery",
+      "sectoral-absorption",
+      "fiscal-integration",
+      "portable-system-wide-continuity"
+    ]
+  },
+  "caseRecord": {
+    "id": "string",
+    "title": "string",
+    "slug": "string",
+    "scope": {
+      "countries": [
+        "country-id"
+      ],
+      "regions": [
+        "region-id"
+      ],
+      "governanceLevels": [
+        "global|regional|national|subnational|local|project"
+      ],
+      "sectors": [
+        "controlled-sector-id"
+      ],
+      "objectType": "controlled-object-type",
+      "populationGroups": [
+        "string"
+      ],
+      "governanceMode": "controlled-governance-mode"
+    },
+    "policyRecord": {
+      "whatItIs": "string",
+      "legalOrPolicyBasis": [
+        "string"
+      ],
+      "responsibleInstitutions": [
+        "string"
+      ],
+      "eligibility": "string",
+      "financing": "string",
+      "dataSystems": "string",
+      "deliverySystem": "string",
+      "portability": "string",
+      "accountability": "string",
+      "timeHorizon": "string"
+    },
+    "diagnostic": {
+      "displacementTransition": {
+        "from": "string",
+        "to": "string",
+        "trigger": "string"
+      },
+      "primaryFaultLine": "categorical|temporal|territorial",
+      "secondaryFaultLines": [
+        "categorical|temporal|territorial"
+      ],
+      "transmissionPoints": [
+        "controlled-transmission-point"
+      ],
+      "institutionalInterfaces": [
+        {
+          "fromSystem": "string",
+          "toSystem": "string",
+          "handoffMechanism": "string",
+          "continuityRisk": "low|medium|high|not-assessed",
+          "dataTransfers": "yes|partial|no|not-assessed",
+          "eligibilityPersists": "yes|partial|no|not-assessed",
+          "financeFollows": "yes|partial|no|not-assessed",
+          "accountabilitySurvives": "yes|partial|no|not-assessed",
+          "evidenceStage": "controlled-evidence-stage"
+        }
+      ],
+      "mechanisms": [
+        {
+          "mechanismId": "controlled-mechanism-id",
+          "domain": "systems-integration|fiscal-integration|sustained-institutional-responsibility",
+          "effect": "controlled-mechanism-effect",
+          "scope": "string",
+          "reversibility": "high|medium|low|not-assessed",
+          "residualFaultLines": [
+            "categorical|temporal|territorial"
+          ]
+        }
+      ],
+      "continuityAssessment": {
+        "categoricalContinuity": "controlled-continuity-rating",
+        "temporalContinuity": "controlled-continuity-rating",
+        "territorialContinuity": "controlled-continuity-rating",
+        "basis": "controlled-evidence-stage",
+        "explanation": "string"
+      },
+      "institutionalMaturity": "controlled-maturity-stage",
+      "residualGaps": "string"
+    },
+    "politicalEconomy": {
+      "membershipLogic": "string",
+      "mandateLogic": "string",
+      "fiscalExposureLogic": "string",
+      "inclusionRationale": "string",
+      "absorptionConstraint": "string",
+      "authoredPattern": "string"
+    },
+    "financingArchitecture": {
+      "sources": [
+        "national-budget|local-budget|premium|emergency-allocation|humanitarian|concessional-loan|grant|project-finance|private-finance|other"
+      ],
+      "budgetStatus": "recurrent|contingent|temporary|project-bounded|parallel|not-applicable",
+      "liabilityStructure": "open-ended|bounded|reversible|externally-conditioned|not-assessed",
+      "allocationBasis": "person|household|programme|territory|institution|project|mixed|not-assessed",
+      "followsMovement": "yes|partial|no|not-assessed",
+      "postEmergencyOrProjectProvision": "string"
+    },
+    "administrativePathway": {
+      "steps": [
+        "string"
+      ],
+      "cumulativeBurden": "low|medium|high|not-assessed",
+      "failurePoints": [
+        "string"
+      ]
+    },
+    "analysis": {
+      "oneLineFinding": "string",
+      "governanceFunction": "string",
+      "included": "string",
+      "excluded": "string",
+      "continuityBreak": "string",
+      "whyItMatters": "string"
+    },
+    "evidence": {
+      "confidence": "controlled-confidence-rating",
+      "evidenceStages": [
+        "controlled-evidence-stage"
+      ],
+      "officialSources": [
+        {
+          "label": "string",
+          "url": "string"
+        }
+      ],
+      "secondarySources": [
+        {
+          "label": "string",
+          "url": "string"
+        }
+      ],
+      "lastReviewed": "YYYY-MM-DD",
+      "reviewNotes": "string"
+    },
+    "relationships": {
+      "relatedCaseIds": [
+        "case-id"
+      ],
+      "relatedResearch": [
+        "string"
+      ],
+      "countryAssessmentLinks": [
+        {
+          "countryId": "string",
+          "dimensionId": "string"
+        }
+      ]
+    },
+    "versions": [
+      {
+        "period": "string",
+        "institutionalForm": "string",
+        "continuityEffect": "string",
+        "evidenceStage": "controlled-evidence-stage"
+      }
+    ]
+  },
+  "countryAssessment": {
+    "countryId": "string",
+    "dimensionId": "string",
+    "synthesis": "string",
+    "caseIds": [
+      "case-id"
+    ],
+    "primaryFaultLines": [
+      "categorical|temporal|territorial"
+    ],
+    "transmissionPoints": [
+      "controlled-transmission-point"
+    ],
+    "mechanismIds": [
+      "controlled-mechanism-id"
+    ],
+    "politicalEconomy": {
+      "membershipLogic": "string",
+      "mandateLogic": "string",
+      "fiscalExposureLogic": "string"
+    },
+    "externalContext": {
+      "multilateralEmbeddedness": "string",
+      "dominantExternalFinance": [
+        "string"
+      ],
+      "sovereigntySensitivity": "string",
+      "responsibilitySharingContext": "string",
+      "implicationsForReform": "string"
+    },
+    "confidence": "controlled-confidence-rating",
+    "reformPathways": [
+      {
+        "reform": "string",
+        "institutionalBeneficiary": "string",
+        "politicalIncentive": "string",
+        "fiscalCost": "string",
+        "administrativeChange": "string",
+        "likelyResistance": "string",
+        "preconditions": [
+          "string"
+        ]
+      }
+    ],
+    "evidenceGaps": [
+      "string"
+    ]
+  }
+}

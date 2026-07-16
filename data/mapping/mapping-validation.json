@@ -1,0 +1,37 @@
+{
+  "mappingRecordCount": 23,
+  "referenceCount": 143,
+  "countryProfileCount": 10,
+  "recordsMovedToReferences": 17,
+  "errors": [],
+  "warnings": [],
+  "recordStatusCounts": {
+    "Country record": 18,
+    "Regional comparative case": 4,
+    "Comparative case": 1
+  },
+  "publicSystemCounts": {
+    "Health": 3,
+    "Social protection": 5,
+    "Disaster risk management": 3,
+    "Civil registration and identity": 4,
+    "Housing, land and resettlement": 3,
+    "Migration and labour": 2,
+    "Cross-sector governance": 1,
+    "Public and development finance": 2
+  },
+  "countryRegionCounts": {
+    "Thailand": 5,
+    "Indonesia": 3,
+    "Philippines": 4,
+    "ASEAN": 1,
+    "Malaysia": 1,
+    "Myanmar": 1,
+    "Bangladesh": 1,
+    "Vietnam": 1,
+    "Cambodia": 1,
+    "Lao PDR": 1,
+    "Global": 3,
+    "Colombia": 1
+  }
+}

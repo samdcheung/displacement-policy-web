@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "title": "Country Profiles",
+    "version": "2026-07-simple-v2"
+  },
+  "countries": [
+    {
+      "country": "Cambodia",
+      "profileType": "Regional core",
+      "overview": "Cambodia's displacement governance sits across disaster exposure, statelessness risks, labour mobility, and development-induced displacement. Expanding public systems create inclusion opportunities, but documentation, local capacity, and project-to-system financing remain central constraints. The IDPoor social registry has shifted since 2020 to on-demand digital registration (formalized by the 2023 CRVSID law, with biometric eID rollout from 2025), narrowing the registry-cycle gap that previously left mobile households waiting years between survey rounds.",
+      "mainDisplacementContexts": [
+        "Disaster displacement",
+        "Statelessness",
+        "Labour mobility",
+        "Development-induced displacement"
+      ],
+      "institutionalArchitecture": [
+        "Disaster management authority",
+        "Migration/interior authority",
+        "Social protection agency",
+        "Local government actors",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Documentation and eligibility",
+        "Registry interoperability",
+        "Territorial portability",
+        "Municipal absorption",
+        "Project-to-system financing"
+      ],
+      "reformOpportunities": "Strengthen registration pathways for mobile and vulnerable households, connect affected household records to social protection and local planning systems, and require post-resettlement service audits for infrastructure-linked displacement.",
+      "priorityPublicSystems": [
+        "Housing, land and resettlement"
+      ],
+      "keyReferenceIds": [
+        "cambodia-land-law-english-pdf",
+        "council-for-the-development-of-cambodia-land",
+        "open-development-cambodia-land-law-2001"
+      ],
+      "relatedMappingRecordIds": [
+        "cambodia-land-law-economic-land-concessions"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "profileType": "Regional core",
+      "overview": "Indonesia's displacement governance spans disaster risk, internal displacement, refugee/asylum issues, infrastructure-linked relocation, and labour mobility. Disaster systems provide important continuity for citizens, while refugees and some mobile groups remain less connected to ordinary systems.",
+      "mainDisplacementContexts": [
+        "Refugees",
+        "Internal displacement",
+        "Disaster displacement",
+        "Labour mobility",
+        "Development-induced displacement"
+      ],
+      "institutionalArchitecture": [
+        "Disaster management authority",
+        "Migration/interior authority",
+        "Social protection agency",
+        "Local government actors",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Documentation and eligibility",
+        "Registry interoperability",
+        "Emergency-to-recovery transition",
+        "Municipal absorption",
+        "Project-to-system financing"
+      ],
+      "reformOpportunities": "Clarify minimum access standards for refugees, integrate displacement triggers into adaptive social protection, support high-displacement localities through fiscal transfers, and require post-project inclusion tracking in infrastructure portfolios.",
+      "priorityPublicSystems": [
+        "Disaster risk management",
+        "Migration and labour",
+        "Social protection"
+      ],
+      "keyReferenceIds": [
+        "indonesia-ministry-of-social-affairs",
+        "dtks-portal",
+        "siks-ng-portal",
+        "world-bank-report-on-improving-data-quality-for-indonesia-s-social-reg",
+        "law-no-24-2007-english-translation-pdf",
+        "preventionweb-summary-of-indonesia-law-no-24-2007"
+      ],
+      "relatedMappingRecordIds": [
+        "indonesia-dtks-siks-ng",
+        "indonesia-law-24-2007-disaster-management",
+        "indonesia-presidential-regulation-125-2016-refugees"
+      ]
+    },
+    {
+      "country": "Lao PDR",
+      "profileType": "Regional core",
+      "overview": "Lao PDR's displacement governance is shaped by disaster exposure, labour mobility, and development-induced displacement. Emerging public systems and constrained fiscal space make continuity between projects, local delivery, and national systems a central concern.",
+      "mainDisplacementContexts": [
+        "Disaster displacement",
+        "Labour mobility",
+        "Development-induced displacement"
+      ],
+      "institutionalArchitecture": [
+        "Disaster management authority",
+        "Social protection agency",
+        "Local government actors",
+        "Planning ministries",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Registry interoperability",
+        "Territorial portability",
+        "Emergency-to-recovery transition",
+        "Municipal absorption",
+        "Project-to-system financing"
+      ],
+      "reformOpportunities": "Build displacement-sensitive triggers into emerging social protection systems, connect resettlement planning to district delivery budgets, and link affected household records to social and local planning registries.",
+      "priorityPublicSystems": [
+        "Housing, land and resettlement"
+      ],
+      "keyReferenceIds": [
+        "decree-no-84-on-compensation-and-resettlement-management-in-developmen",
+        "land-portal-entry-on-lao-pdr-compensation-and-resettlement-decree",
+        "world-bank-resettlement-policy-framework-referencing-decree-84"
+      ],
+      "relatedMappingRecordIds": [
+        "lao-pdr-compensation-resettlement-development-projects"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "profileType": "Regional core",
+      "overview": "Malaysia's displacement governance is strongly shaped by refugee/asylum, statelessness, and labour mobility questions. Ordinary systems are comparatively developed, but access for non-citizens and undocumented groups remains highly status-mediated. Since Jan 2026, the government has rolled out its own registration system (DPP), displacing UNHCR as the primary registering authority for refugees without conferring legal status -- a shift in who controls documentation, not in the underlying categorical exclusion.",
+      "mainDisplacementContexts": [
+        "Refugees",
+        "Statelessness",
+        "Labour mobility"
+      ],
+      "institutionalArchitecture": [
+        "Migration/interior authority",
+        "Civil registration authorities",
+        "Social protection agency",
+        "Local government actors",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Documentation and eligibility",
+        "Registry interoperability",
+        "Territorial portability",
+        "Municipal absorption",
+        "Accountability gaps",
+        "State displacement of international registration authority (new, 2026)"
+      ],
+      "reformOpportunities": "Establish limited vulnerability-based access protocols, improve civil registration pathways for children at risk of statelessness, and build financing arrangements for urban refugee inclusion.",
+      "priorityPublicSystems": [
+        "Health"
+      ],
+      "keyReferenceIds": [
+        "malaysia-ministry-of-health",
+        "malaysia-immigration-department",
+        "ilo-malaysia-labour-migration-resources"
+      ],
+      "relatedMappingRecordIds": [
+        "malaysia-foreign-worker-health-protection-scheme"
+      ]
+    },
+    {
+      "country": "Myanmar",
+      "profileType": "Regional core",
+      "overview": "Myanmar's displacement governance is defined by conflict, refugee flows, statelessness, disaster exposure, and fragmented authority. Protection continuity is constrained across documentation systems, areas of control, and disrupted public institutions. The Mar 2025 earthquake compounded conflict displacement, pushing internal displacement toward a projected 4 million in 2026, while international humanitarian financing for the response has contracted sharply (only 26% of the 2025 appeal funded), forcing the 2026 response plan to narrow its geographic and activity scope.",
+      "mainDisplacementContexts": [
+        "Refugees",
+        "Internal displacement",
+        "Disaster displacement",
+        "Statelessness"
+      ],
+      "institutionalArchitecture": [
+        "Disaster management authority",
+        "Migration/interior authority",
+        "Local authorities",
+        "Humanitarian coordination actors",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Documentation and eligibility",
+        "Registry interoperability",
+        "Territorial portability",
+        "Emergency-to-recovery transition",
+        "Municipal absorption",
+        "Accountability gaps"
+      ],
+      "reformOpportunities": "Protect minimum public support channels across areas of control, prioritize civil documentation pathways, and develop transition scenarios for future restoration of public systems.",
+      "priorityPublicSystems": [
+        "Social protection"
+      ],
+      "keyReferenceIds": [
+        "world-bank-press-release-on-myanmar-mcct-financing",
+        "world-bank-project-document-text",
+        "journal-of-nutrition-study-on-sustained-mcct-benefits",
+        "save-the-children-igc-presentation-on-mcct"
+      ],
+      "relatedMappingRecordIds": [
+        "myanmar-maternal-child-cash-transfer"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "profileType": "Regional core",
+      "overview": "The Philippines has extensive disaster governance and social protection architecture alongside conflict displacement and statelessness concerns. Continuity is comparatively stronger where national systems and local recovery mechanisms are linked, but geography and local capacity still matter. The 2025 Anticipatory Action Law institutionalized pre-disaster planning and financing, directly targeting the temporal gap between disaster activation and sustained recovery financing that this profile already identifies.",
+      "mainDisplacementContexts": [
+        "Internal displacement",
+        "Disaster displacement",
+        "Statelessness",
+        "Labour mobility"
+      ],
+      "institutionalArchitecture": [
+        "Disaster management authority",
+        "Social protection agency",
+        "Local government actors",
+        "Migration/interior authority",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Registry interoperability",
+        "Territorial portability",
+        "Emergency-to-recovery transition",
+        "Municipal absorption",
+        "Accountability gaps"
+      ],
+      "reformOpportunities": "Embed recurrent displacement support into social protection and local recovery budgets, link evacuation and relocation records to social registries, and strengthen displacement-sensitive intergovernmental transfers.",
+      "priorityPublicSystems": [
+        "Disaster risk management",
+        "Housing, land and resettlement",
+        "Migration and labour",
+        "Social protection"
+      ],
+      "keyReferenceIds": [
+        "dswd-pantawid-pamilyang-pilipino-program",
+        "republic-act-no-11310-pdf",
+        "official-gazette-republic-act-no-11310",
+        "philippine-legal-e-library-republic-act-no-11310",
+        "republic-act-no-10121-text",
+        "philippine-e-library-republic-act-no-10121"
+      ],
+      "relatedMappingRecordIds": [
+        "philippines-4ps",
+        "philippines-disaster-risk-reduction-management-act",
+        "philippines-marawi-rehabilitation-architecture",
+        "philippines-migrant-workers-overseas-filipinos-act"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "profileType": "Regional core",
+      "overview": "Thailand combines long-standing refugee and statelessness questions with disaster exposure and regional labour mobility. Governance arrangements are comparatively developed, but continuity often depends on legal status, registration, locality, and administrative discretion. A 2025-26 policy shift -- work permits for long-staying camp-based Myanmar refugees, followed by biometric, civil-registry-integrated ID cards -- is the most significant formalisation of this population's status in decades, though it remains bounded by age, employment, and camp residency rather than extending general legal status.",
+      "mainDisplacementContexts": [
+        "Refugees",
+        "Disaster displacement",
+        "Statelessness",
+        "Labour mobility"
+      ],
+      "institutionalArchitecture": [
+        "Migration/interior authority",
+        "Disaster management authority",
+        "Social protection agency",
+        "Local government actors",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Documentation and eligibility",
+        "Registry interoperability",
+        "Territorial portability",
+        "Municipal absorption",
+        "Project-to-system financing",
+        "Phased/cohort-bounded formalisation (new, 2025-26)"
+      ],
+      "reformOpportunities": "Create vulnerability-based access protocols for displaced and stateless groups, map displacement-related costs in social protection and local budgets, and pilot portable entitlements in high-mobility border provinces.",
+      "priorityPublicSystems": [
+        "Civil registration and identity",
+        "Cross-sector governance",
+        "Health"
+      ],
+      "keyReferenceIds": [
+        "thailand-ministry-of-public-health",
+        "migrant-workers-and-migrants-health-insurance-fund",
+        "national-health-security-office",
+        "who-thailand-migrant-health-page",
+        "implementing-health-insurance-for-migrants-thailand",
+        "political-economy-of-thailand-s-tax-financed-universal-coverage-scheme"
+      ],
+      "relatedMappingRecordIds": [
+        "thailand-migrant-health-insurance-scheme",
+        "thailand-universal-coverage-scheme",
+        "thailand-civil-registration-statelessness",
+        "thailand-refugee-camp-border-assistance-architecture",
+        "thailand-cabinet-resolution-statelessness-2024"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "profileType": "Regional core",
+      "overview": "Vietnam's displacement governance is linked primarily to disaster risk, climate mobility, labour mobility, and infrastructure-linked relocation. Public systems can absorb some displacement-related vulnerability, but household registration, locality, and project follow-up remain important fault lines. The paper ho khau book formally ceased validity on 1 Jan 2023, replaced by an ID-number-linked national population database; officials have been explicit that this is a change in administrative form, not in the underlying logic of residence-tied access. The territorial fault line therefore persists through the digital system rather than being resolved by it.",
+      "mainDisplacementContexts": [
+        "Disaster displacement",
+        "Labour mobility",
+        "Development-induced displacement"
+      ],
+      "institutionalArchitecture": [
+        "Disaster management authority",
+        "Social protection agency",
+        "Local government actors",
+        "Planning ministries",
+        "Development finance actors"
+      ],
+      "mainGovernancePatterns": [
+        "Registry interoperability",
+        "Territorial portability",
+        "Emergency-to-recovery transition",
+        "Project-to-system financing",
+        "Accountability gaps"
+      ],
+      "reformOpportunities": "Improve portability for mobile households, integrate displacement costs into climate adaptation and urban planning budgets, and track post-project livelihood and inclusion outcomes.",
+      "priorityPublicSystems": [
+        "Civil registration and identity"
+      ],
+      "keyReferenceIds": [
+        "law-on-residence-68-2020-qh14-english-text",
+        "vietnam-law-magazine-management-of-citizen-residence-to-be-digitalized",
+        "vietnamnet-online-residence-registration"
+      ],
+      "relatedMappingRecordIds": [
+        "vietnam-residence-law-household-registration-reform"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "profileType": "Comparative case",
+      "overview": "Bangladesh is included as a comparative refugee-hosting case, centred on the registration and humanitarian governance architecture for Rohingya refugees.",
+      "mainDisplacementContexts": [
+        "Refugee hosting"
+      ],
+      "institutionalArchitecture": [],
+      "mainGovernancePatterns": [
+        "Humanitarian registration creates administrative visibility but does not by itself establish domestic legal status or inclusion in ordinary public systems."
+      ],
+      "reformOpportunities": [],
+      "priorityPublicSystems": [
+        "Civil registration and identity"
+      ],
+      "keyReferenceIds": [
+        "unhcr-joint-bangladesh-unhcr-verification-gets-underway",
+        "unhcr-rohingya-refugees-receive-identity-documents",
+        "unhcr-bangladesh-registration-faq",
+        "unhcr-operational-data-portal-myanmar-situation"
+      ],
+      "relatedMappingRecordIds": [
+        "bangladesh-unhcr-rohingya-registration"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "profileType": "Comparative case",
+      "overview": "Colombia is included as a comparative case because its victim-registration and social-protection architecture offers a mature example of linking displacement recognition to public programmes.",
+      "mainDisplacementContexts": [
+        "Internal displacement"
+      ],
+      "institutionalArchitecture": [],
+      "mainGovernancePatterns": [
+        "Rights-bearing registration can connect displaced populations to assistance and reparations, while implementation remains constrained by fiscal and territorial capacity."
+      ],
+      "reformOpportunities": [],
+      "priorityPublicSystems": [
+        "Social protection"
+      ],
+      "keyReferenceIds": [
+        "unidad-para-las-v-ctimas-registro-nico-de-v-ctimas",
+        "unidad-en-l-nea",
+        "unidad-para-las-v-ctimas-official-website",
+        "infopa-lante-explainer-on-the-ruv"
+      ],
+      "relatedMappingRecordIds": [
+        "colombia-registro-unico-victimas"
+      ]
+    }
+  ]
+}
