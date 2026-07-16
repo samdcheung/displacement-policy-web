@@ -4,6 +4,10 @@
   "trailingSlash": false,
   "routes": [
     {
+      "src": "/mapping",
+      "dest": "/mapping.html"
+    },
+    {
       "handle": "filesystem"
     },
     {
@@ -13,10 +17,6 @@
     {
       "src": "/perspectives",
       "dest": "/perspectives.html"
-    },
-    {
-      "src": "/mapping",
-      "dest": "/mapping.html"
     },
     {
       "src": "/about",
