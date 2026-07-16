@@ -1,0 +1,6 @@
+public/
+archive/
+.mapping-visual-check/
+.edge-check*/
+homepage-check.png
+npm-debug.log*
