@@ -194,7 +194,6 @@ async function main() {
 
   await rm(mappingDir, { recursive: true, force: true });
   await write(resolve(root, "mapping.html"), landingPage(records, references, profiles));
-  await write(resolve(root, "mapping", "index.html"), landingPage(records, references, profiles));
 
   for (const record of records) await write(resolve(mappingDir, record.slug, "index.html"), recordPage(record, referencesById));
   await write(resolve(mappingDir, "references", "index.html"), referencesIndex(references));
@@ -204,7 +203,7 @@ async function main() {
   const aliases = await legacyAliases(new Set(records.map((record) => record.slug)), references);
   for (const alias of aliases) await write(resolve(mappingDir, alias.slug, "index.html"), referencePage(alias.reference, recordsById, alias.slug));
 
-  const expectedRoutes = [resolve(mappingDir, "index.html"), resolve(mappingDir, "references", "index.html"), resolve(mappingDir, "methodology", "index.html"), ...records.map((record) => resolve(mappingDir, record.slug, "index.html")), ...references.map((reference) => resolve(mappingDir, "references", reference.slug, "index.html")), ...aliases.map((alias) => resolve(mappingDir, alias.slug, "index.html"))];
+  const expectedRoutes = [resolve(root, "mapping.html"), resolve(mappingDir, "references", "index.html"), resolve(mappingDir, "methodology", "index.html"), ...records.map((record) => resolve(mappingDir, record.slug, "index.html")), ...references.map((reference) => resolve(mappingDir, "references", reference.slug, "index.html")), ...aliases.map((alias) => resolve(mappingDir, alias.slug, "index.html"))];
   const missing = [];
   for (const route of expectedRoutes) {
     try { await readFile(route, "utf8"); } catch { missing.push(route); }
@@ -214,6 +213,7 @@ async function main() {
 }
 
 await main();
+
 
 
 
