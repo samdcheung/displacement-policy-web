@@ -3909,12 +3909,16 @@ body.perspective-article-page .back-link {
     font-size: 20px;
   }
 
-  .research-page .research-masthead h1,
-  .research-page.framework-page .research-masthead h1 {
-    max-width: 100%;
-    font-size: clamp(2rem, 10vw, 2.55rem);
-    overflow-wrap: anywhere;
-  }
+ .research-page .research-masthead h1,
+.research-page.framework-page .research-masthead h1 {
+  width: 100%;
+  max-width: 100%;
+  font-size: clamp(2rem, 9vw, 2.6rem);
+  line-height: 1.08;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
 
   .research-page.framework-page .framework-bridge {
     max-width: 100%;
@@ -3926,10 +3930,15 @@ body.perspective-article-page .back-link {
     padding-bottom: 52px !important;
   }
 
-  .mapping-project-hero h1 {
-    font-size: clamp(2rem, 10vw, 2.55rem) !important;
-    overflow-wrap: anywhere !important;
-  }
+.mapping-project-hero h1 {
+  width: 100%;
+  max-width: 100% !important;
+  font-size: clamp(2rem, 9vw, 2.6rem) !important;
+  line-height: 1.08 !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  hyphens: none;
+}
 }
 /* =====================================================
    Homepage shared section system
@@ -4361,10 +4370,14 @@ body.perspective-article-page .back-link {
   .publications-page .editorial-masthead h1,
   .about-page .editorial-masthead h1,
   .mapping-project-hero h1 {
-    max-width: 11ch !important;
-    font-size: clamp(2rem, 10vw, 2.45rem) !important;
+    width: 100%;
+    max-width: 100% !important;
+    font-size: clamp(2rem, 9vw, 2.6rem) !important;
+    line-height: 1.08 !important;
     white-space: normal;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
   }
 
   .editorial-masthead .subtitle,
@@ -4606,5 +4619,23 @@ body.perspective-article-page .back-link {
 
   .research-page.framework-page .framework-use-list li {
     padding-left: 2.5rem;
+  }
+}
+/* Mobile masthead title wrap fix */
+@media (max-width: 680px) {
+  .editorial-masthead h1,
+  .research-page .research-masthead h1,
+  .research-page.framework-page .research-masthead h1,
+  .publications-page .editorial-masthead h1,
+  .about-page .editorial-masthead h1,
+  .mapping-project-hero h1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: clamp(2rem, 9vw, 2.6rem) !important;
+    line-height: 1.08 !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    hyphens: none !important;
   }
 }
