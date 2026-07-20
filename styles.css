@@ -17,6 +17,13 @@
   --serif: Georgia, "Times New Roman", serif;
   --sans: Inter, "Segoe UI", Aptos, Roboto, "Helvetica Neue", Arial, sans-serif;
   --max-width: 1180px;
+  --type-eyebrow: 0.78rem;
+  --type-page-title: clamp(2.1rem, 3vw, 2.8rem);
+  --type-section-title: clamp(1.65rem, 2vw, 2.1rem);
+  --type-subsection-title: clamp(1.35rem, 1.7vw, 1.7rem);
+  --type-body: 1.08rem;
+  --leading-body: 1.6;
+  --measure-body: 72ch;
 }
 
 * { box-sizing: border-box; }
@@ -4164,5 +4171,177 @@ body.perspective-article-page .back-link {
   .home-page .research-card,
   .home-page .home-research-row {
     padding: 22px 20px 18px;
+  }
+}
+
+/* =====================================================
+   Shared Editorial Typography Normalization
+===================================================== */
+
+.eyebrow,
+.section-eyebrow,
+.publication-type,
+.panel-label,
+.home-page .home-section__eyebrow,
+.home-page .home-section .eyebrow,
+.home-page .home-mapping-feature .eyebrow,
+.perspectives-page .perspective-category,
+.perspectives-page .section-eyebrow,
+.perspectives-page .perspective-kicker,
+.publications-page .publication-number,
+.publication-detail .publication-meta dt,
+.publication-detail .publication-section-label,
+.publication-detail .publication-meta-list dt,
+.mapping-filter-grid span,
+.mapping-label,
+.mapping-record-country,
+.reference-item__meta {
+  color: var(--bronze);
+  font-family: var(--sans);
+  font-size: var(--type-eyebrow);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.editorial-masthead h1,
+.research-page .research-masthead h1,
+.publications-page .editorial-masthead h1,
+.about-page .editorial-masthead h1,
+.mapping-project-hero h1 {
+  max-width: 780px;
+  margin-bottom: 14px;
+  font-family: var(--serif);
+  font-size: var(--type-page-title) !important;
+  font-weight: 400;
+  line-height: 1.1 !important;
+}
+
+.editorial-masthead .subtitle,
+.research-page .research-masthead .subtitle,
+.mapping-project-hero .subtitle {
+  max-width: var(--measure-body) !important;
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+
+.about-page .section-heading h2,
+.about-page .about-main-card h2,
+.about-page .about-closing-card h2,
+.research-page .research-section-heading h2,
+.research-page .research-section > .container > h2,
+.research-page .research-column > h2,
+.research-page .framework-detail-section h2,
+.publications-page .section-title,
+.publications-page #publications-intro-title,
+.mapping-section-title,
+.mapping-summary h2,
+.mapping-country-dashboard h2,
+.perspectives-page .perspectives-section-title,
+.home-page .home-section__title,
+.home-page .home-section .home-research-copy h2 {
+  font-family: var(--serif);
+  font-size: var(--type-section-title);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.about-page .about-lens-entry h3,
+.about-research-row h3,
+.research-page .research-area-card h3,
+.research-page .framework-summary-card h3,
+.research-page .research-product-item h3,
+.research-page .research-copy-block h3,
+.research-page .research-work-item h3,
+.research-page .research-output-item h3,
+.research-page .framework-sequence-card h3,
+.research-page .framework-use-step h3,
+.research-page .research-mapping-section h3,
+.publications-page .publication-title,
+.mapping-record-title,
+.mapping-diagnostic-item h3,
+.mapping-country-heading,
+.perspectives-page .perspective-title,
+.home-page .research-card__title,
+.home-page .home-research-row h3,
+.home-page .home-output-copy h3 {
+  font-family: var(--serif);
+  font-size: var(--type-subsection-title);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.about-page .prose,
+.about-page .prose p,
+.research-page .prose,
+.research-page .prose p,
+.research-page .framework-summary-card p,
+.research-page .research-product-item p,
+.research-page .framework-sequence-card p,
+.research-page .framework-use-step p,
+.research-page .framework-bridge,
+.publications-page .prose,
+.publications-page .prose p,
+.publications-page .publication-series-intro,
+.publications-page .publication-subtitle,
+.mapping-section-intro,
+.mapping-summary p,
+.mapping-country-dashboard p,
+.mapping-record-body,
+.reference-item p,
+.perspectives-page .perspectives-intro-copy,
+.perspectives-page .perspective-standfirst,
+.home-page .home-section__intro,
+.home-page .home-section__intro p,
+.home-page .home-research-copy .prose,
+.home-page .home-about .prose,
+.home-page .home-about .prose p,
+.home-page .home-research-row p,
+.home-page .research-card__description,
+.home-page .home-output-copy p {
+  max-width: var(--measure-body);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+
+.perspectives-page .perspective-feature-title {
+  font-size: clamp(2.05rem, 5vw, 4rem);
+  line-height: 1.04;
+}
+
+@media (max-width: 680px) {
+  .editorial-masthead .editorial-column,
+  .mapping-project-hero .editorial-column {
+    width: calc(100% - 32px) !important;
+    max-width: calc(100% - 32px) !important;
+  }
+
+  .editorial-masthead h1,
+  .research-page .research-masthead h1,
+  .publications-page .editorial-masthead h1,
+  .about-page .editorial-masthead h1,
+  .mapping-project-hero h1 {
+    max-width: 11ch !important;
+    font-size: clamp(2rem, 10vw, 2.45rem) !important;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .editorial-masthead .subtitle,
+  .research-page .research-masthead .subtitle,
+  .mapping-project-hero .subtitle {
+    max-width: 100% !important;
+  }
+
+  .research-page .prose,
+  .research-page .prose p,
+  .research-page .research-area-card,
+  .research-page .framework-summary-card,
+  .research-page .research-product-item {
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 }
