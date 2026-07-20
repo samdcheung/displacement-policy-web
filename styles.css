@@ -3097,6 +3097,10 @@ body.perspective-article-page .back-link {
 
 .research-page #analytical-framework,
 .research-page #areas-of-work,
+.research-page #financing-displacement,
+.research-page #cross-cutting-lenses,
+.research-page #reform-pathways,
+.research-page #policy-application,
 .research-page #research-outputs {
   scroll-margin-top: 110px;
 }
@@ -3265,6 +3269,92 @@ body.perspective-article-page .back-link {
   text-anchor: middle;
 }
 
+.research-page .research-work-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 32px;
+}
+
+.research-page .research-work-grid .research-work-item {
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--bronze);
+  padding: 24px 26px 26px;
+  background: rgba(248, 245, 239, 0.48);
+}
+
+.research-page .research-work-grid .research-work-item h3 {
+  min-height: 3.9rem;
+}
+
+.research-page .research-financing-section {
+  background: linear-gradient(135deg, #f3efe7 0%, #fffdf8 100%);
+}
+
+.research-page .research-financing-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(320px, 0.72fr);
+  gap: clamp(28px, 5vw, 60px);
+  align-items: center;
+}
+
+.research-page .research-financing-copy h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.research-page .research-financing-visual {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--bronze);
+  padding: clamp(16px, 2.5vw, 26px);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.research-page .research-financing-visual svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+}
+
+.research-page .finance-spine,
+.research-page .finance-arrows path {
+  fill: none;
+  stroke: var(--bronze);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.research-page .finance-arrows path {
+  marker-end: none;
+}
+
+.research-page .finance-layer rect {
+  fill: rgba(248, 245, 239, 0.82);
+  stroke: var(--navy-2);
+  stroke-width: 1.6;
+}
+
+.research-page .finance-layer:nth-of-type(3) rect,
+.research-page .finance-layer:nth-of-type(4) rect {
+  fill: rgba(217, 231, 232, 0.38);
+}
+
+.research-page .finance-layer-accent rect {
+  fill: rgba(184, 130, 52, 0.14);
+  stroke: var(--bronze-dark);
+}
+
+.research-page .finance-layer text {
+  fill: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  font-weight: 650;
+}
+
 @media print {
   .research-page .framework-card {
     break-inside: avoid;
@@ -3310,6 +3400,14 @@ body.perspective-article-page .back-link {
   .research-page .framework-card:last-child {
     grid-column: auto;
   }
+
+  .research-page .research-financing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-page .research-financing-visual {
+    max-width: 620px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -3353,6 +3451,27 @@ body.perspective-article-page .back-link {
   .research-page .framework-card__title,
   .research-page .framework-card h3 {
     font-size: clamp(1.7rem, 9vw, 2.15rem);
+  }
+
+  .research-page .research-work-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .research-page .research-work-grid .research-work-item {
+    padding: 22px 20px 24px;
+  }
+
+  .research-page .research-work-grid .research-work-item h3 {
+    min-height: 0;
+  }
+
+  .research-page .research-financing-visual {
+    padding: 14px 10px;
+  }
+
+  .research-page .finance-layer text {
+    font-size: 16px;
   }
 }
 /* =====================================================
