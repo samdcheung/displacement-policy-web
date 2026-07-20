@@ -25,6 +25,7 @@ const directories = [
   "blogposts",
   "perspectives",
   "publications",
+  "research",
   "mapping"
 ];
 
