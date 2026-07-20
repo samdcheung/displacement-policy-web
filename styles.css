@@ -3483,6 +3483,33 @@ body.perspective-article-page .back-link {
   line-height: 1.58;
 }
 
+.research-page .research-masthead {
+  color: var(--white);
+  background: linear-gradient(118deg, #082c3a 0%, #123b52 58%, #0e4a67 100%);
+  padding-top: clamp(44px, 4.6vw, 60px);
+  padding-bottom: clamp(44px, 4.6vw, 60px);
+}
+
+.research-page .research-masthead .eyebrow,
+.research-page .research-masthead h1,
+.research-page .research-masthead .subtitle {
+  color: var(--white);
+}
+
+.research-page .research-masthead h1 {
+  max-width: 760px;
+}
+
+.research-page .research-masthead .subtitle {
+  max-width: 680px;
+  opacity: 0.94;
+}
+
+.research-page .research-proposition {
+  padding-top: clamp(42px, 4.8vw, 58px);
+  padding-bottom: clamp(48px, 5vw, 64px);
+}
+
 .research-page .research-areas-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -3638,6 +3665,19 @@ body.perspective-article-page .back-link {
 
 .research-page .framework-detail-section h2 {
   margin-bottom: 18px;
+}
+
+.home-page .home-about .home-section__title {
+  max-width: 21ch;
+}
+
+.home-page .featured-analysis-section .research-agenda__cards {
+  align-items: start;
+}
+
+.home-page .featured-analysis-section .research-card {
+  min-height: 0;
+  height: auto;
 }
 
 @media (max-width: 980px) {
