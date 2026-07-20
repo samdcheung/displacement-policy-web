@@ -1,9 +1,67 @@
 {
   "meta": {
     "title": "Country Profiles",
-    "version": "2026-07-simple-v2"
+    "version": "editorial-workbook",
+    "countryProfileCount": 13
   },
   "countries": [
+    {
+      "country": "Bangladesh",
+      "profileType": "Comparative case",
+      "overview": "Bangladesh is included as a comparative refugee-hosting case, centred on the registration and humanitarian governance architecture for Rohingya refugees.",
+      "mainDisplacementContexts": [
+        "Refugee hosting"
+      ],
+      "institutionalArchitecture": [],
+      "mainGovernancePatterns": [
+        "Humanitarian registration creates administrative visibility but does not by itself establish domestic legal status or inclusion in ordinary public systems."
+      ],
+      "reformOpportunities": [],
+      "priorityPublicSystems": [
+        "Civil registration and identity"
+      ],
+      "keyReferenceIds": [
+        "unhcr-joint-bangladesh-unhcr-verification-gets-underway",
+        "unhcr-rohingya-refugees-receive-identity-documents",
+        "unhcr-bangladesh-registration-faq",
+        "unhcr-operational-data-portal-myanmar-situation"
+      ],
+      "relatedMappingRecordIds": [
+        "bangladesh-unhcr-rohingya-registration"
+      ]
+    },
+    {
+      "country": "Brunei",
+      "profileType": "Regional core",
+      "overview": "Brunei’s displacement-governance profile is shaped less by large-scale displacement response than by the durable legal and administrative exclusion of stateless permanent residents. Nationality rules and the identity-card system determine access to public benefits, land, education and state employment, making civil registration and nationality law the principal governance interface.",
+      "mainDisplacementContexts": [
+        "Statelessness"
+      ],
+      "institutionalArchitecture": [
+        "Nationality and immigration authorities",
+        "Civil registration and identity-card administration",
+        "Education and public-service eligibility systems"
+      ],
+      "mainGovernancePatterns": [
+        "Ascriptive nationality rules",
+        "Durable stateless permanent-resident status",
+        "Administrative visibility without citizenship",
+        "Intergenerational exclusion"
+      ],
+      "reformOpportunities": [
+        "Clarify and publish accessible pathways to nationality, reduce differential access tied to identity-card status, and strengthen safeguards against intergenerational statelessness."
+      ],
+      "priorityPublicSystems": [
+        "Civil registration and identity"
+      ],
+      "keyReferenceIds": [
+        "seap-brunei-statelessness-country-profile",
+        "new-mandala-bruneis-stateless-left-in-confusion"
+      ],
+      "relatedMappingRecordIds": [
+        "brunei-statelessness-nationality-registration"
+      ]
+    },
     {
       "country": "Cambodia",
       "profileType": "Regional core",
@@ -28,7 +86,9 @@
         "Municipal absorption",
         "Project-to-system financing"
       ],
-      "reformOpportunities": "Strengthen registration pathways for mobile and vulnerable households, connect affected household records to social protection and local planning systems, and require post-resettlement service audits for infrastructure-linked displacement.",
+      "reformOpportunities": [
+        "Strengthen registration pathways for mobile and vulnerable households, connect affected household records to social protection and local planning systems, and require post-resettlement service audits for infrastructure-linked displacement."
+      ],
       "priorityPublicSystems": [
         "Housing, land and resettlement"
       ],
@@ -39,6 +99,31 @@
       ],
       "relatedMappingRecordIds": [
         "cambodia-land-law-economic-land-concessions"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "profileType": "Comparative case",
+      "overview": "Colombia is included as a comparative case because its victim-registration and social-protection architecture offers a mature example of linking displacement recognition to public programmes.",
+      "mainDisplacementContexts": [
+        "Internal displacement"
+      ],
+      "institutionalArchitecture": [],
+      "mainGovernancePatterns": [
+        "Rights-bearing registration can connect displaced populations to assistance and reparations, while implementation remains constrained by fiscal and territorial capacity."
+      ],
+      "reformOpportunities": [],
+      "priorityPublicSystems": [
+        "Social protection"
+      ],
+      "keyReferenceIds": [
+        "unidad-para-las-v-ctimas-registro-nico-de-v-ctimas",
+        "unidad-en-l-nea",
+        "unidad-para-las-v-ctimas-official-website",
+        "infopa-lante-explainer-on-the-ruv"
+      ],
+      "relatedMappingRecordIds": [
+        "colombia-registro-unico-victimas"
       ]
     },
     {
@@ -66,7 +151,9 @@
         "Municipal absorption",
         "Project-to-system financing"
       ],
-      "reformOpportunities": "Clarify minimum access standards for refugees, integrate displacement triggers into adaptive social protection, support high-displacement localities through fiscal transfers, and require post-project inclusion tracking in infrastructure portfolios.",
+      "reformOpportunities": [
+        "Clarify minimum access standards for refugees, integrate displacement triggers into adaptive social protection, support high-displacement localities through fiscal transfers, and require post-project inclusion tracking in infrastructure portfolios."
+      ],
       "priorityPublicSystems": [
         "Disaster risk management",
         "Migration and labour",
@@ -77,13 +164,15 @@
         "dtks-portal",
         "siks-ng-portal",
         "world-bank-report-on-improving-data-quality-for-indonesia-s-social-reg",
-        "law-no-24-2007-english-translation-pdf",
-        "preventionweb-summary-of-indonesia-law-no-24-2007"
+        "presidential-instruction-4-2025-dtsen",
+        "skala-lessons-from-regsosek-inputs-to-strengthen-dtsen",
+        "bps-national-single-social-and-economic-data-2025"
       ],
       "relatedMappingRecordIds": [
-        "indonesia-dtks-siks-ng",
+        "indonesia-dtsen",
         "indonesia-law-24-2007-disaster-management",
-        "indonesia-presidential-regulation-125-2016-refugees"
+        "indonesia-presidential-regulation-125-2016-refugees",
+        "indonesia-post-disaster-planned-relocation"
       ]
     },
     {
@@ -109,7 +198,9 @@
         "Municipal absorption",
         "Project-to-system financing"
       ],
-      "reformOpportunities": "Build displacement-sensitive triggers into emerging social protection systems, connect resettlement planning to district delivery budgets, and link affected household records to social and local planning registries.",
+      "reformOpportunities": [
+        "Build displacement-sensitive triggers into emerging social protection systems, connect resettlement planning to district delivery budgets, and link affected household records to social and local planning registries."
+      ],
       "priorityPublicSystems": [
         "Housing, land and resettlement"
       ],
@@ -146,7 +237,9 @@
         "Accountability gaps",
         "State displacement of international registration authority (new, 2026)"
       ],
-      "reformOpportunities": "Establish limited vulnerability-based access protocols, improve civil registration pathways for children at risk of statelessness, and build financing arrangements for urban refugee inclusion.",
+      "reformOpportunities": [
+        "Establish limited vulnerability-based access protocols, improve civil registration pathways for children at risk of statelessness, and build financing arrangements for urban refugee inclusion."
+      ],
       "priorityPublicSystems": [
         "Health"
       ],
@@ -184,7 +277,9 @@
         "Municipal absorption",
         "Accountability gaps"
       ],
-      "reformOpportunities": "Protect minimum public support channels across areas of control, prioritize civil documentation pathways, and develop transition scenarios for future restoration of public systems.",
+      "reformOpportunities": [
+        "Protect minimum public support channels across areas of control, prioritize civil documentation pathways, and develop transition scenarios for future restoration of public systems."
+      ],
       "priorityPublicSystems": [
         "Social protection"
       ],
@@ -222,7 +317,9 @@
         "Municipal absorption",
         "Accountability gaps"
       ],
-      "reformOpportunities": "Embed recurrent displacement support into social protection and local recovery budgets, link evacuation and relocation records to social registries, and strengthen displacement-sensitive intergovernmental transfers.",
+      "reformOpportunities": [
+        "Embed recurrent displacement support into social protection and local recovery budgets, link evacuation and relocation records to social registries, and strengthen displacement-sensitive intergovernmental transfers."
+      ],
       "priorityPublicSystems": [
         "Disaster risk management",
         "Housing, land and resettlement",
@@ -242,6 +339,41 @@
         "philippines-disaster-risk-reduction-management-act",
         "philippines-marawi-rehabilitation-architecture",
         "philippines-migrant-workers-overseas-filipinos-act"
+      ]
+    },
+    {
+      "country": "Singapore",
+      "profileType": "Regional core",
+      "overview": "Singapore’s displacement-related governance is most visible in the regulation and provision of housing for low-wage migrant workers. Following the COVID-19 dormitory crisis, the state expanded statutory standards, introduced a long transition timetable for existing facilities and moved into direct ownership and operation of purpose-built dormitories.",
+      "mainDisplacementContexts": [
+        "Migration and mobility"
+      ],
+      "institutionalArchitecture": [
+        "Ministry of Manpower",
+        "Dormitory licensing and inspection system",
+        "Private dormitory operators",
+        "Government-owned dormitory company",
+        "Public-health authorities"
+      ],
+      "mainGovernancePatterns": [
+        "Employer-linked migrant status",
+        "Private provision under stronger state regulation",
+        "Phased compliance deadlines",
+        "Direct state provision after market failure"
+      ],
+      "reformOpportunities": [
+        "Ensure that improved housing standards are implemented across all dormitory types, align health and housing oversight, and maintain transparent monitoring of worker access, costs and living conditions."
+      ],
+      "priorityPublicSystems": [
+        "Housing, land and resettlement"
+      ],
+      "keyReferenceIds": [
+        "mom-gov-sg-dormitory-transition-scheme-2023",
+        "mom-gov-sg-nest-singapore-pbd-announcement-2022",
+        "mom-mnd-joint-release-pbd-sites-2026"
+      ],
+      "relatedMappingRecordIds": [
+        "singapore-migrant-worker-dormitory-housing-reform"
       ]
     },
     {
@@ -269,7 +401,9 @@
         "Project-to-system financing",
         "Phased/cohort-bounded formalisation (new, 2025-26)"
       ],
-      "reformOpportunities": "Create vulnerability-based access protocols for displaced and stateless groups, map displacement-related costs in social protection and local budgets, and pilot portable entitlements in high-mobility border provinces.",
+      "reformOpportunities": [
+        "Create vulnerability-based access protocols for displaced and stateless groups, map displacement-related costs in social protection and local budgets, and pilot portable entitlements in high-mobility border provinces."
+      ],
       "priorityPublicSystems": [
         "Civil registration and identity",
         "Cross-sector governance",
@@ -289,6 +423,42 @@
         "thailand-civil-registration-statelessness",
         "thailand-refugee-camp-border-assistance-architecture",
         "thailand-cabinet-resolution-statelessness-2024"
+      ]
+    },
+    {
+      "country": "Timor-Leste",
+      "profileType": "Regional core",
+      "overview": "Timor-Leste’s displacement-governance experience is defined by the mass internal displacement associated with the 2006 political-security crisis, the rapid closure of camps through cash-assisted return, and the long-delayed resolution of underlying land and property disputes. The resulting architecture links return, reintegration and land administration but illustrates the consequences of sequencing return before durable property settlement.",
+      "mainDisplacementContexts": [
+        "Development-induced displacement",
+        "Internal displacement"
+      ],
+      "institutionalArchitecture": [
+        "National recovery and return programmes",
+        "Land and property administration",
+        "Local authorities",
+        "Community dispute-resolution mechanisms",
+        "Development-finance institutions"
+      ],
+      "mainGovernancePatterns": [
+        "Rapid camp closure and return",
+        "Cash assistance without prior property resolution",
+        "Long-term residual land disputes",
+        "Legal reform constrained by fragmented implementation"
+      ],
+      "reformOpportunities": [
+        "Connect land-law implementation to accessible adjudication and local dispute resolution, strengthen administrative coordination, and ensure that infrastructure and investment reforms address unresolved displacement-related claims."
+      ],
+      "priorityPublicSystems": [
+        "Housing, land and resettlement"
+      ],
+      "keyReferenceIds": [
+        "odihpn-land-and-displacement-in-timor-leste",
+        "idmc-timor-leste-idps-returned-home-2009",
+        "world-bank-timor-leste-land-of-opportunities-2025"
+      ],
+      "relatedMappingRecordIds": [
+        "timor-leste-land-law-idp-resettlement"
       ]
     },
     {
@@ -314,7 +484,9 @@
         "Project-to-system financing",
         "Accountability gaps"
       ],
-      "reformOpportunities": "Improve portability for mobile households, integrate displacement costs into climate adaptation and urban planning budgets, and track post-project livelihood and inclusion outcomes.",
+      "reformOpportunities": [
+        "Improve portability for mobile households, integrate displacement costs into climate adaptation and urban planning budgets, and track post-project livelihood and inclusion outcomes."
+      ],
       "priorityPublicSystems": [
         "Civil registration and identity"
       ],
@@ -325,56 +497,6 @@
       ],
       "relatedMappingRecordIds": [
         "vietnam-residence-law-household-registration-reform"
-      ]
-    },
-    {
-      "country": "Bangladesh",
-      "profileType": "Comparative case",
-      "overview": "Bangladesh is included as a comparative refugee-hosting case, centred on the registration and humanitarian governance architecture for Rohingya refugees.",
-      "mainDisplacementContexts": [
-        "Refugee hosting"
-      ],
-      "institutionalArchitecture": [],
-      "mainGovernancePatterns": [
-        "Humanitarian registration creates administrative visibility but does not by itself establish domestic legal status or inclusion in ordinary public systems."
-      ],
-      "reformOpportunities": [],
-      "priorityPublicSystems": [
-        "Civil registration and identity"
-      ],
-      "keyReferenceIds": [
-        "unhcr-joint-bangladesh-unhcr-verification-gets-underway",
-        "unhcr-rohingya-refugees-receive-identity-documents",
-        "unhcr-bangladesh-registration-faq",
-        "unhcr-operational-data-portal-myanmar-situation"
-      ],
-      "relatedMappingRecordIds": [
-        "bangladesh-unhcr-rohingya-registration"
-      ]
-    },
-    {
-      "country": "Colombia",
-      "profileType": "Comparative case",
-      "overview": "Colombia is included as a comparative case because its victim-registration and social-protection architecture offers a mature example of linking displacement recognition to public programmes.",
-      "mainDisplacementContexts": [
-        "Internal displacement"
-      ],
-      "institutionalArchitecture": [],
-      "mainGovernancePatterns": [
-        "Rights-bearing registration can connect displaced populations to assistance and reparations, while implementation remains constrained by fiscal and territorial capacity."
-      ],
-      "reformOpportunities": [],
-      "priorityPublicSystems": [
-        "Social protection"
-      ],
-      "keyReferenceIds": [
-        "unidad-para-las-v-ctimas-registro-nico-de-v-ctimas",
-        "unidad-en-l-nea",
-        "unidad-para-las-v-ctimas-official-website",
-        "infopa-lante-explainer-on-the-ruv"
-      ],
-      "relatedMappingRecordIds": [
-        "colombia-registro-unico-victimas"
       ]
     }
   ]

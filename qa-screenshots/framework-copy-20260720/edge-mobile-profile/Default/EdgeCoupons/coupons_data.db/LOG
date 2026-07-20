@@ -1,0 +1,5 @@
+2026/07/20-16:20:04.278 1b50 Creating DB C:\SC Ventures\DisplacementPolicy\displacementpolicy-web\qa-screenshots\framework-copy-20260720\edge-mobile-profile\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/07/20-16:20:04.293 1b50 Reusing MANIFEST C:\SC Ventures\DisplacementPolicy\displacementpolicy-web\qa-screenshots\framework-copy-20260720\edge-mobile-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/07/20-16:20:04.823 6f8c Level-0 table #5: started
+2026/07/20-16:20:04.829 6f8c Level-0 table #5: 683041 bytes OK
+2026/07/20-16:20:04.832 6f8c Delete type=0 #3

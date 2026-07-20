@@ -1,36 +1,50 @@
 {
-  "framework": null,
-  "buildCommand": "npm run build",
-  "outputDirectory": "public",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "routes": [
-    {
-      "src": "/mapping",
-      "dest": "/mapping.html"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/research",
-      "dest": "/research.html"
-    },
-    {
-      "src": "/perspectives",
-      "dest": "/perspectives.html"
-    },
-    {
-      "src": "/about",
-      "dest": "/about.html"
-    },
-    {
-      "src": "/publications",
-      "dest": "/publications.html"
-    },
-    {
-      "src": "/",
-      "dest": "/index.html"
-    }
-  ]
+    "framework":  null,
+    "buildCommand":  "npm run build",
+    "outputDirectory":  "public",
+    "cleanUrls":  true,
+    "trailingSlash":  false,
+    "routes":  [
+                   {
+                       "src":  "/mapping/indonesia-dtks-siks-ng",
+                       "status":  308,
+                       "headers":  {
+                                       "Location":  "/mapping/indonesia-dtsen"
+                                   }
+                   },
+                   {
+                       "src":  "/mapping/indonesia-dtks-siks-ng/",
+                       "status":  308,
+                       "headers":  {
+                                       "Location":  "/mapping/indonesia-dtsen/"
+                                   }
+                   },
+                   {
+                       "src":  "/mapping",
+                       "dest":  "/mapping.html"
+                   },
+                   {
+                       "handle":  "filesystem"
+                   },
+                   {
+                       "src":  "/research",
+                       "dest":  "/research.html"
+                   },
+                   {
+                       "src":  "/perspectives",
+                       "dest":  "/perspectives.html"
+                   },
+                   {
+                       "src":  "/about",
+                       "dest":  "/about.html"
+                   },
+                   {
+                       "src":  "/publications",
+                       "dest":  "/publications.html"
+                   },
+                   {
+                       "src":  "/",
+                       "dest":  "/index.html"
+                   }
+               ]
 }

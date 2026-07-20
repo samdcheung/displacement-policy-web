@@ -29,7 +29,17 @@ function resolveRequestPath(urlPath) {
   }
 
   if (existsSync(filePath) && statSync(filePath).isDirectory()) {
-    return join(filePath, "index.html");
+    const indexPath = join(filePath, "index.html");
+    if (existsSync(indexPath)) {
+      return indexPath;
+    }
+
+    const htmlFallbackPath = `${filePath}.html`;
+    if (existsSync(htmlFallbackPath)) {
+      return htmlFallbackPath;
+    }
+
+    return indexPath;
   }
 
   if (!existsSync(filePath) && !extname(filePath)) {

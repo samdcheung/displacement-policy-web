@@ -1,13 +1,14 @@
 {
-  "name": "displacement-policy-web",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "node scripts/dev-server.mjs",
-    "validate:mapping": "node scripts/validate-mapping-diagnostic.mjs",
-    "build:mapping": "node scripts/build-mapping-pages.mjs",
-    "build:public": "node scripts/build-public-output.mjs",
-    "build": "npm run validate:mapping && npm run build:mapping && npm run build:public"
-  }
+    "name":  "displacement-policy-web",
+    "version":  "1.0.0",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "node scripts/dev-server.mjs",
+                    "export:mapping":  "\"C:\\Users\\samdc\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" scripts/export-mapping-from-workbook.py",
+                    "validate:mapping":  "node scripts/validate-mapping-diagnostic.mjs",
+                    "build:mapping":  "node scripts/build-mapping-pages.mjs",
+                    "build:public":  "node scripts/build-public-output.mjs",
+                    "build":  "npm run validate:mapping \u0026\u0026 npm run build:mapping \u0026\u0026 npm run build:public"
+                }
 }

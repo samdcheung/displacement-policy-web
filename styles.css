@@ -3762,6 +3762,35 @@ body.perspective-article-page .back-link {
   line-height: 1.5;
 }
 
+.research-page .framework-question {
+  margin: clamp(1rem, 2vw, 1.35rem) 0;
+  border-left: 3px solid var(--bronze);
+  padding-left: clamp(1rem, 2vw, 1.25rem);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 1.7vw, 1.7rem);
+  line-height: 1.2;
+}
+
+.research-page .framework-use-list {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.4rem 0 0;
+  padding-left: 1.35rem;
+}
+
+.research-page .framework-use-list li {
+  padding-left: 0.25rem;
+}
+
+.research-page .framework-use-list h3 {
+  margin: 0 0 0.35rem;
+}
+
+.research-page .framework-use-list p {
+  margin: 0;
+}
+
 .home-page .home-about .home-section__title {
   max-width: 21ch;
 }
@@ -3810,6 +3839,14 @@ body.perspective-article-page .back-link {
 
   .research-page .framework-sequence-arrow {
     min-height: 28px;
+  }
+}
+
+@media (max-width: 680px) {
+  .research-page.framework-page .research-masthead h1 {
+    max-width: 13.5ch !important;
+    font-size: clamp(2rem, 8.6vw, 2.35rem) !important;
+    line-height: 1.08 !important;
   }
 }
 
@@ -4343,5 +4380,231 @@ body.perspective-article-page .back-link {
   .research-page .research-product-item {
     max-width: 100%;
     overflow-wrap: anywhere;
+  }
+}
+/* =====================================================
+   Perspective author attribution hierarchy
+===================================================== */
+
+.perspectives-page .perspective-attribution,
+.home-page .home-perspective-attribution {
+  margin-top: 0.8rem;
+}
+
+.perspectives-page .perspective-author,
+.home-page .home-perspective-author {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.perspectives-page .perspective-role,
+.home-page .home-perspective-role {
+  margin: 0.12rem 0 0;
+  color: var(--blue-grey);
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.home-page .home-perspective-attribution {
+  margin-top: 0.4rem;
+}
+
+.home-page .home-perspective-author {
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.home-page .home-perspective-role {
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+/* Keep article titles visually dominant. */
+.perspectives-page .perspective-feature-title + .perspective-attribution,
+.perspectives-page .perspective-title + .perspective-attribution {
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 760px) {
+  .perspectives-page .perspective-author,
+  .home-page .home-perspective-author {
+    font-size: 1rem;
+  }
+
+  .perspectives-page .perspective-role,
+  .home-page .home-perspective-role {
+    font-size: 0.9rem;
+  }
+}
+
+/* =====================================================
+   Framework page — editorial spacing and source treatment
+===================================================== */
+
+.research-page.framework-page .research-section {
+  padding-block: clamp(64px, 6.5vw, 88px);
+}
+
+.research-page.framework-page .framework-opening-section {
+  padding-top: clamp(56px, 5.5vw, 76px);
+}
+
+.research-page.framework-page .research-column {
+  width: min(calc(100% - 48px), 760px);
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.research-page.framework-page .research-column > h2 {
+  margin: 0 0 1.25rem;
+}
+
+.research-page.framework-page .prose {
+  max-width: 72ch;
+}
+
+.research-page.framework-page .prose > p {
+  margin: 0;
+}
+
+.research-page.framework-page .prose > p + p {
+  margin-top: 1rem;
+}
+
+.research-page.framework-page .prose > h3 {
+  margin: 2rem 0 0.55rem;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: var(--type-subsection-title);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.research-page.framework-page .prose > h3 + p {
+  margin-top: 0;
+}
+
+.research-page.framework-page .framework-question {
+  margin: 1.75rem 0;
+  border-left: 3px solid var(--bronze);
+  padding: 0.15rem 0 0.15rem 1.15rem;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  line-height: 1.25;
+}
+
+.research-page.framework-page .framework-function-list {
+  display: grid;
+  gap: 0;
+  margin: 1.75rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.research-page.framework-page .framework-function-item {
+  padding: 1.2rem 0 1.3rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-page.framework-page .framework-function-item h3 {
+  margin: 0 0 0.45rem;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: var(--type-subsection-title);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.research-page.framework-page .framework-function-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+
+.research-page.framework-page .framework-use-list {
+  display: grid;
+  gap: 0;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: framework-step;
+  border-top: 1px solid var(--line);
+}
+
+.research-page.framework-page .framework-use-list li {
+  position: relative;
+  padding: 1.35rem 0 1.4rem 3rem;
+  border-bottom: 1px solid var(--line);
+  counter-increment: framework-step;
+}
+
+.research-page.framework-page .framework-use-list li::before {
+  position: absolute;
+  top: 1.38rem;
+  left: 0;
+  color: var(--bronze-dark);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  content: "0" counter(framework-step);
+}
+
+.research-page.framework-page .framework-use-list h3 {
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: var(--type-subsection-title);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.research-page.framework-page .framework-use-list p {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+
+.research-page.framework-page .framework-sources-section {
+  border-top: 1px solid var(--line);
+}
+
+.research-page.framework-page .framework-sources-section .eyebrow {
+  margin-bottom: 0.7rem;
+}
+
+.research-page.framework-page .framework-sources-list {
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--line);
+}
+
+.research-page.framework-page .framework-sources-list p {
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .research-page.framework-page .research-section {
+    padding-block: 56px;
+  }
+
+  .research-page.framework-page .research-column {
+    width: min(calc(100% - 32px), 760px);
+  }
+
+  .research-page.framework-page .framework-use-list li {
+    padding-left: 2.5rem;
   }
 }

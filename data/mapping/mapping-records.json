@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Country Displacement Governance Diagnostics",
-    "version": "2026-07-simple-v2",
+    "version": "editorial-workbook",
     "description": "A concise mapping of country and comparative governance arrangements, programmes, laws, financing mechanisms and implementation cases.",
-    "recordCount": 23
+    "recordCount": 33
   },
   "records": [
     {
@@ -13,44 +13,49 @@
       "countryRegion": [
         "Thailand"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Health",
       "displacementContext": [
         "Migration and mobility"
       ],
       "instrumentResponseType": "Public programme",
-      "description": "Thailand's migrant health insurance arrangements provide a route for some non-Thai populations to access care through public health facilities outside the citizen universal coverage scheme. The scheme has been shaped by public health, migration management, labour administration, and financing concerns.",
-      "whyItMatters": "This is a key example of functional inclusion: the health system can include displaced or mobile people for sectoral reasons even when the legal system avoids broader recognition. The political economy archetype is sectoral absorption through public health logic: inclusion is feasible where state interests in disease control, hospital financing, and migration management align.",
+      "description": "Thailand's migrant health insurance arrangements provide a route for some non-Thai populations to access care through public health facilities outside the citizen universal coverage scheme. The scheme has been shaped by public health, migration management, labour administration, and financing concerns. Since 2025 the Ministry of Public Health has run a phased enrolment drive through One Stop Service centres combining health checks with insurance purchase, supported by a new Financial Data Hub-Migrant Platform linked to the Health Insurance for Non-Thai People (HINT) digital system, rolling out nationwide by January 2026.",
+      "whyItMatters": "This is a key example of functional inclusion: the health system can include displaced or mobile people for sectoral reasons even when the legal system avoids broader recognition. The political economy archetype is sectoral absorption through public health logic: inclusion is feasible where state interests in disease control, hospital financing, and migration management align. The persistent gap between enrolment and the eligible population (roughly 309,000 insured against a work-permit-holder base above 3 million as of 2024) shows that administrative digitisation alone does not close a coverage gap rooted in cost and enforcement incentives.",
       "referenceIds": [
         "thailand-ministry-of-public-health",
         "migrant-workers-and-migrants-health-insurance-fund",
         "national-health-security-office",
         "who-thailand-migrant-health-page",
-        "implementing-health-insurance-for-migrants-thailand"
-      ],
-      "recordStatus": "Country record"
+        "implementing-health-insurance-for-migrants-thailand",
+        "migrant-times-thailand-speeds-up-health-insurance-enrolment-2025",
+        "migrant-working-group-state-of-right-to-health-report-2025"
+      ]
     },
     {
-      "id": "indonesia-dtks-siks-ng",
-      "slug": "indonesia-dtks-siks-ng",
-      "title": "Indonesia DTKS / SIKS-NG",
+      "id": "indonesia-dtsen",
+      "slug": "indonesia-dtsen",
+      "title": "Indonesia DTSEN (National Socio-Economic Single Data)",
       "countryRegion": [
         "Indonesia"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Social protection",
       "displacementContext": [
         "Internal displacement",
         "Climate and disaster displacement"
       ],
       "instrumentResponseType": "Administrative practice",
-      "description": "DTKS is Indonesia's integrated social welfare data architecture, supported operationally by SIKS-NG and related administrative systems, for identifying and managing poor and vulnerable households across social assistance programmes.",
-      "whyItMatters": "This entry maps the administrative infrastructure beneath social protection. Inclusion depends not only on policy intent but on whether data systems can follow people after displacement.",
+      "description": "DTSEN (Data Tunggal Sosial Ekonomi Nasional / National Socio-Economic Single Data) is Indonesia's consolidated social-economic data architecture, established under Presidential Instruction No. 4 of 2025. It integrates the prior DTKS (Integrated Social Welfare Data), Regsosek (Socio-Economic Registry), and P3KE (Extreme Poverty Targeting Data) into a single national registry, coordinated by Bappenas, BPS, and the Ministry of Social Affairs, for identifying and managing poor and vulnerable households across social assistance programmes.",
+      "whyItMatters": "This entry maps the administrative infrastructure beneath social protection. Consolidating three parallel registries into one is itself a governance signal: inclusion depends not only on policy intent but on whether a single, interoperable data architecture can follow people after displacement, rather than requiring re-registration across separate systems. The political economy archetype is registry consolidation without automatic mobility integration: unifying data systems reduces duplication and targeting error, but does not by itself resolve whether displaced or relocated households remain legible to the systems that determine eligibility.",
       "referenceIds": [
         "indonesia-ministry-of-social-affairs",
         "dtks-portal",
         "siks-ng-portal",
-        "world-bank-report-on-improving-data-quality-for-indonesia-s-social-reg"
-      ],
-      "recordStatus": "Country record"
+        "world-bank-report-on-improving-data-quality-for-indonesia-s-social-reg",
+        "presidential-instruction-4-2025-dtsen",
+        "skala-lessons-from-regsosek-inputs-to-strengthen-dtsen",
+        "bps-national-single-social-and-economic-data-2025"
+      ]
     },
     {
       "id": "philippines-4ps",
@@ -59,6 +64,7 @@
       "countryRegion": [
         "Philippines"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Social protection",
       "displacementContext": [
         "Internal displacement",
@@ -72,8 +78,7 @@
         "republic-act-no-11310-pdf",
         "official-gazette-republic-act-no-11310",
         "philippine-legal-e-library-republic-act-no-11310"
-      ],
-      "recordStatus": "Country record"
+      ]
     },
     {
       "id": "asean-aadmer",
@@ -82,19 +87,20 @@
       "countryRegion": [
         "ASEAN"
       ],
+      "recordStatus": "Regional comparative case",
       "publicSystem": "Disaster risk management",
       "displacementContext": [
         "Climate and disaster displacement"
       ],
       "instrumentResponseType": "Coordination mechanism",
-      "description": "The ASEAN Agreement on Disaster Management and Emergency Response is the region's central legal framework for disaster cooperation. It establishes commitments on disaster risk reduction, preparedness, response, regional assistance, standby arrangements, and cooperation among ASEAN member states.",
-      "whyItMatters": "AADMER shows the strength and limits of regional disaster governance in Southeast Asia. It can mobilize cooperation for emergency response, but it does not itself solve the governance problem of whether disaster-displaced populations remain included after the emergency phase.",
+      "description": "The ASEAN Agreement on Disaster Management and Emergency Response is the region's central legal framework for disaster cooperation. It establishes commitments on disaster risk reduction, preparedness, response, regional assistance, standby arrangements, and cooperation among ASEAN member states. Its implementation is carried forward through successive Work Programmes; the fourth iteration, the AADMER Work Programme 2026-2030, was launched on 15 October 2025 in Phnom Penh, superseding the 2021-2025 programme.",
+      "whyItMatters": "AADMER shows the strength and limits of regional disaster governance in Southeast Asia. It can mobilize cooperation for emergency response, but it does not itself solve the governance problem of whether disaster-displaced populations remain included after the emergency phase. The political economy archetype is regional coordination without national absorption obligation: successive work programmes strengthen operational capability at the regional layer without binding member states to post-emergency inclusion of the displaced.",
       "referenceIds": [
         "aadmer-official-text-pdf",
         "asean-official-website",
+        "asean-aadmer-work-programme-2026-2030",
         "preventionweb-aadmer-work-programme-2021-2025"
-      ],
-      "recordStatus": "Regional comparative case"
+      ]
     },
     {
       "id": "thailand-universal-coverage-scheme",
@@ -103,19 +109,20 @@
       "countryRegion": [
         "Thailand"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Health",
       "displacementContext": [
         "Mixed or cross-cutting"
       ],
       "instrumentResponseType": "Public programme",
-      "description": "Thailand's Universal Coverage Scheme is the tax-financed health coverage arrangement that expanded access to health care for Thai citizens not covered by other public insurance schemes. It is administered through the National Health Security Office and operates through ordinary public health facilities.",
-      "whyItMatters": "The Universal Coverage Scheme is a benchmark for sustainable inclusion because it shows how ordinary public systems can absorb vulnerability through national budgets, provider networks, and entitlement logic. The political economy archetype is universal citizen absorption with categorical exclusion at the border of membership.",
+      "description": "Thailand's Universal Coverage Scheme is the tax-financed health coverage arrangement that expanded access to health care for Thai citizens not covered by other public insurance schemes. It is administered through the National Health Security Office and operates through ordinary public health facilities. A 'Treatment Anywhere' reform, piloted in 12 provinces from January 2024 and rolled out nationwide by the end of that year, allows beneficiaries to access participating facilities anywhere in the country using their national ID card rather than being bound to a registered provider.",
+      "whyItMatters": "The Universal Coverage Scheme is a benchmark for sustainable inclusion because it shows how ordinary public systems can absorb vulnerability through national budgets, provider networks, and entitlement logic. The political economy archetype is universal citizen absorption with categorical exclusion at the border of membership. The 'Treatment Anywhere' reform is analytically significant because it decouples entitlement from registered location, directly addressing the portability failure that displacement-sensitive systems elsewhere in the region still lack.",
       "referenceIds": [
         "national-health-security-office",
         "thailand-ministry-of-public-health",
-        "political-economy-of-thailand-s-tax-financed-universal-coverage-scheme"
-      ],
-      "recordStatus": "Country record"
+        "political-economy-of-thailand-s-tax-financed-universal-coverage-scheme",
+        "nhso-treatment-anywhere-transformation-of-ucs"
+      ]
     },
     {
       "id": "thailand-civil-registration-statelessness",
@@ -124,20 +131,21 @@
       "countryRegion": [
         "Thailand"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Civil registration and identity",
       "displacementContext": [
         "Statelessness"
       ],
       "instrumentResponseType": "Administrative practice",
-      "description": "Thailand has developed a complex set of civil registration, nationality, and legal status mechanisms for stateless and non-citizen populations, including populations in highland and border areas. Recent policy developments have accelerated pathways to legal status and nationality for large numbers of registered stateless people.",
-      "whyItMatters": "This framework is central to displacement governance because legal identity is the gateway to ordinary systems. It demonstrates that inclusion can begin administratively before full citizenship, but also that partial recognition can reproduce layered exclusion.",
+      "description": "Thailand has developed a complex set of civil registration, nationality, and legal status mechanisms for stateless and non-citizen populations, including populations in highland and border areas. A 29 October 2024 Cabinet Resolution accelerated pathways to permanent residency and nationality for nearly half a million registered stateless people; implementation guidelines issued in June 2025 cut processing times from 270 to 5 days for status determination and from 180 to 5 days for nationality, and by December 2025 more than 100,000 cases had been resolved.",
+      "whyItMatters": "This framework is central to displacement governance because legal identity is the gateway to ordinary systems. It demonstrates that inclusion can begin administratively before full citizenship, but also that partial recognition can reproduce layered exclusion. The 2024-2025 acceleration is the clearest recent evidence that registry-mediated statelessness resolution can move at speed once political will and administrative capacity align; the durability question, addressed in the companion Cabinet Resolution entry, is whether the accelerated criteria are extended past their current sunset date.",
       "referenceIds": [
         "unhcr-thailand-statelessness-country-page",
         "unhcr-thailand-resolution-of-statelessness-update",
         "unhcr-press-release-on-thai-cabinet-statelessness-resolution",
-        "unicef-and-unhcr-on-childhood-statelessness-in-thailand"
-      ],
-      "recordStatus": "Country record"
+        "unicef-and-unhcr-on-childhood-statelessness-in-thailand",
+        "unhcr-thailand-resolves-legal-status-of-over-100000-stateless-people-dec-2025"
+      ]
     },
     {
       "id": "indonesia-law-24-2007-disaster-management",
@@ -146,21 +154,22 @@
       "countryRegion": [
         "Indonesia"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Disaster risk management",
       "displacementContext": [
         "Internal displacement",
         "Climate and disaster displacement"
       ],
       "instrumentResponseType": "Law or regulation",
-      "description": "Law No. 24 of 2007 is Indonesia's primary legal framework for disaster management.",
-      "whyItMatters": "This law is important because Indonesia has sophisticated disaster governance, yet displacement may still become administratively discontinuous after emergency response. The political economy archetype is event-based recognition with post-emergency discontinuity.",
+      "description": "Law No. 24 of 2007 is Indonesia's primary legal framework for disaster management, implemented operationally through BNPB (national) and BPBD (regional) agencies under Government Regulation No. 21/2008.",
+      "whyItMatters": "This law is important because Indonesia has sophisticated disaster governance, yet displacement may still become administratively discontinuous after emergency response. The political economy archetype is event-based recognition with post-emergency discontinuity. Recent legal-academic literature (2025-2026) has proposed reformulating BNPB's statutory mandate toward proactive mitigation rather than reactive response, but no amendment has been enacted as of mid-2026.",
       "referenceIds": [
         "law-no-24-2007-english-translation-pdf",
         "preventionweb-summary-of-indonesia-law-no-24-2007",
         "bnpb-official-website",
-        "analysis-of-disaster-emergency-law-in-indonesia"
-      ],
-      "recordStatus": "Country record"
+        "analysis-of-disaster-emergency-law-in-indonesia",
+        "reformulating-bnpb-legal-institutional-mandate-2025"
+      ]
     },
     {
       "id": "philippines-disaster-risk-reduction-management-act",
@@ -169,20 +178,21 @@
       "countryRegion": [
         "Philippines"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Disaster risk management",
       "displacementContext": [
         "Internal displacement",
         "Climate and disaster displacement"
       ],
       "instrumentResponseType": "Law or regulation",
-      "description": "Republic Act No. 10121 is the Philippines' Disaster Risk Reduction and Management Act.",
-      "whyItMatters": "The Philippines has one of the region's most developed disaster governance frameworks, but disaster displacement still exposes local fiscal and administrative capacity constraints. The political economy archetype is decentralized disaster governance with local fiscal exposure.",
+      "description": "Republic Act No. 10121 is the Philippines' Disaster Risk Reduction and Management Act. A long-pending bill to establish a standalone Department of Disaster Resilience, and separate bills to formalise youth and volunteer representation on DRRM councils, remain before Congress as of mid-2026 without enactment.",
+      "whyItMatters": "The Philippines has one of the region's most developed disaster governance frameworks, but disaster displacement still exposes local fiscal and administrative capacity constraints. The political economy archetype is decentralized disaster governance with local fiscal exposure. The persistence of the Department of Disaster Resilience bill across multiple Congresses without passage is itself evidence of the archetype: institutional upgrading is politically popular in principle but stalls once it implies reallocating standing authority from the NDRRMC/OCD structure.",
       "referenceIds": [
         "republic-act-no-10121-text",
         "philippine-e-library-republic-act-no-10121",
-        "ndrrmc-official-website"
-      ],
-      "recordStatus": "Country record"
+        "ndrrmc-official-website",
+        "asean-magazine-community-based-drrm-philippines-2025"
+      ]
     },
     {
       "id": "philippines-marawi-rehabilitation-architecture",
@@ -191,20 +201,23 @@
       "countryRegion": [
         "Philippines"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Housing, land and resettlement",
       "displacementContext": [
         "Internal displacement"
       ],
       "instrumentResponseType": "Institutional arrangement",
-      "description": "The Marawi rehabilitation architecture refers to the inter-agency recovery, reconstruction, and rehabilitation arrangements established after the 2017 Marawi siege, including Task Force Bangon Marawi and subsequent national and Bangsamoro-level recovery initiatives.",
-      "whyItMatters": "Marawi is a critical Southeast Asian case of conflict-related urban displacement. It shows that durable solutions depend not only on ending hostilities but on land, housing, compensation, infrastructure, local governance, and trust.",
+      "description": "The Marawi rehabilitation architecture refers to the inter-agency recovery, reconstruction, and rehabilitation arrangements established after the 2017 Marawi siege, including the former Task Force Bangon Marawi, the Bangsamoro Government's own Marawi Rehabilitation Program (MRP), and the Bangsamoro Transition Authority's Special Committee on Marawi Recovery, Reconstruction and Rehabilitation, which now leads oversight. As of early 2026, the Reconstruction and Development Plan for a Greater Marawi Stage 2 infrastructure package stood at roughly 20 percent completion, with its cost raised from PHP 7.52 billion to PHP 9.51 billion and its timeline extended toward March 2028. The Marawi Compensation Board has awarded over PHP 2 billion to more than 1,200 claimants, and BARMM's construction-materials-assistance programme continues to process new batches of displaced households.",
+      "whyItMatters": "Marawi is a critical Southeast Asian case of conflict-related urban displacement. It shows that durable solutions depend not only on ending hostilities but on land, housing, compensation, infrastructure, local governance, and trust. Nine years on, the architecture illustrates a recurring pattern: visible infrastructure completion is used as the public measure of recovery while claimant-level compensation and return remain slower and less legible. The political economy archetype is infrastructure-led recovery with deferred compensation: reconstruction financing and metrics reward built assets over the harder, slower work of resolving individual claims and restoring livelihoods.",
       "referenceIds": [
         "department-of-finance-bangon-marawi-rehabilitation-pledges",
         "bangon-marawi-presentation-hosted-by-national-economic-and-development",
         "idmc-philippines-six-years-after-marawi-conflict",
-        "iom-marawi-stories-of-escape-loss-and-hope"
-      ],
-      "recordStatus": "Country record"
+        "iom-marawi-stories-of-escape-loss-and-hope",
+        "pco-marawi-rehabilitation-acceleration-order-2026",
+        "bangsamoro-gov-marawi-rehab-oversight-hearings-2025",
+        "peace-news-network-nine-years-after-marawi-2026"
+      ]
     },
     {
       "id": "malaysia-foreign-worker-health-protection-scheme",
@@ -213,19 +226,20 @@
       "countryRegion": [
         "Malaysia"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Health",
       "displacementContext": [
         "Migration and mobility"
       ],
       "instrumentResponseType": "Public programme",
-      "description": "Malaysia has used employment-linked insurance and health financing arrangements for foreign workers, alongside public hospital charging rules and migrant worker administration. These mechanisms sit at the intersection of labour migration, health financing, and immigration control.",
-      "whyItMatters": "Malaysia illustrates a different form of sectoral inclusion from Thailand: health access is more closely tied to employment and migration control than to universal public health logic. The political economy archetype is employment-linked containment of health costs.",
+      "description": "Malaysia has used employment-linked insurance and health financing arrangements for foreign workers, alongside public hospital charging rules and migrant worker administration. The core instrument, the Foreign Worker Hospitalisation and Surgical Scheme (SKHPPA), remains a compulsory employer-arranged commercial insurance product providing cashless admission to government hospitals on a third-class basis, separate from and compulsory alongside SOCSO coverage.",
+      "whyItMatters": "Malaysia illustrates a different form of sectoral inclusion from Thailand: health access is more closely tied to employment and migration control than to universal public health logic. The political economy archetype is employment-linked containment of health costs: coverage exists to shield employers and public hospitals from cost exposure, not to integrate migrants into the national health system on citizen-equivalent terms.",
       "referenceIds": [
         "malaysia-ministry-of-health",
         "malaysia-immigration-department",
-        "ilo-malaysia-labour-migration-resources"
-      ],
-      "recordStatus": "Country record"
+        "ilo-malaysia-labour-migration-resources",
+        "skhppa-product-disclosure-scheme-overview"
+      ]
     },
     {
       "id": "myanmar-maternal-child-cash-transfer",
@@ -234,21 +248,23 @@
       "countryRegion": [
         "Myanmar"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Social protection",
       "displacementContext": [
         "Internal displacement",
         "Climate and disaster displacement"
       ],
       "instrumentResponseType": "Public programme",
-      "description": "Myanmar's Maternal and Child Cash Transfer programme was developed as a nutrition-sensitive social protection intervention focused on the first 1,000 days of life. It provided cash support to pregnant women and mothers of young children, with implementation and financing support evolving over time.",
-      "whyItMatters": "The MCCT demonstrates that social protection can generate durable welfare benefits, but it also shows why displacement-sensitive systems need portability, crisis financing, and protected administrative capacity. The political economy archetype is nascent social protection under crisis stress.",
+      "description": "Myanmar's original Maternal and Child Cash Transfer (MCCT) programme was a Department of Social Welfare initiative, financed in part through a World Bank project, providing cash support to pregnant women and mothers of young children during the first 1,000 days of life. Government-led implementation and World Bank financing have been substantially disrupted since the February 2021 coup, and Australian government reporting as of April 2025 describes the original programme in the past tense. Since June 2021, UNICEF and partners have run a related but distinct maternal and child cash transfer scheme targeting poor, conflict-affected families in urban areas including Yangon and Mandalay townships, funded through humanitarian rather than development channels.",
+      "whyItMatters": "The MCCT demonstrates that social protection can generate durable welfare benefits, but it also shows why displacement-sensitive systems need portability, crisis financing, and protected administrative capacity. The political economy archetype has shifted from nascent social protection under crisis stress to humanitarian substitution for a collapsed public system: what began as a government-owned, donor-supported national programme has fragmented into narrower, externally financed humanitarian cash assistance operating in parallel to a state that can no longer be relied on as implementing partner across most of the country.",
       "referenceIds": [
         "world-bank-press-release-on-myanmar-mcct-financing",
         "world-bank-project-document-text",
         "journal-of-nutrition-study-on-sustained-mcct-benefits",
-        "save-the-children-igc-presentation-on-mcct"
-      ],
-      "recordStatus": "Country record"
+        "save-the-children-igc-presentation-on-mcct",
+        "dfat-myanmar-country-information-report-2025",
+        "unicef-myanmar-cash-transfers-lift-poor-families-2025"
+      ]
     },
     {
       "id": "bangladesh-unhcr-rohingya-registration",
@@ -257,20 +273,22 @@
       "countryRegion": [
         "Bangladesh"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Civil registration and identity",
       "displacementContext": [
         "Refugee hosting"
       ],
       "instrumentResponseType": "Administrative practice",
-      "description": "The Government of Bangladesh and UNHCR have implemented joint verification and registration processes for Rohingya refugees, including biometric identity management and issuance of identity documents for assistance, protection, and population management in Cox's Bazar.",
-      "whyItMatters": "This is a central case for displacement governance because data inclusion does not equal system inclusion. Refugees may be highly visible to humanitarian systems while remaining outside national membership and durable solutions.",
+      "description": "The Government of Bangladesh and UNHCR have implemented joint verification and registration processes for Rohingya refugees, including biometric identity management and issuance of family and identity documents for assistance, protection, and population management in Cox's Bazar. Renewed violence in Rakhine State since late 2023 has driven a new wave of arrivals; under improved data processing modalities begun in January 2025, roughly 150,000 new arrivals were biometrically registered between December 2024 and March 2026, bringing the total registered population to approximately 1.19 million. In April 2025 Myanmar authorities for the first time confirmed a list of 180,000 Rohingya as eligible for return, though no repatriation has followed amid continued conflict in Rakhine.",
+      "whyItMatters": "This is a central case for displacement governance because data inclusion does not equal system inclusion. Refugees may be highly visible to humanitarian systems while remaining outside national membership and durable solutions. The 2024-2026 arrivals surge, alongside a first-ever Myanmar-confirmed repatriation eligibility list that has produced no actual returns, sharpens the political economy archetype of registration without resolution: administrative capacity to identify and count refugees has steadily improved, while the political conditions for return, local integration, or third-country solutions have not.",
       "referenceIds": [
         "unhcr-joint-bangladesh-unhcr-verification-gets-underway",
         "unhcr-rohingya-refugees-receive-identity-documents",
         "unhcr-bangladesh-registration-faq",
-        "unhcr-operational-data-portal-myanmar-situation"
-      ],
-      "recordStatus": "Country record"
+        "unhcr-operational-data-portal-myanmar-situation",
+        "unhcr-bangladesh-improved-data-processing-modalities-faq-2026",
+        "rohingya-response-2025-26-joint-response-plan"
+      ]
     },
     {
       "id": "indonesia-presidential-regulation-125-2016-refugees",
@@ -279,20 +297,21 @@
       "countryRegion": [
         "Indonesia"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Migration and labour",
       "displacementContext": [
         "Refugee hosting"
       ],
       "instrumentResponseType": "Law or regulation",
-      "description": "Presidential Regulation No. 125/2016 on the Handling of Refugees from Abroad provides Indonesia's principal administrative framework for dealing with foreign refugees.",
-      "whyItMatters": "The regulation is one of Southeast Asia's clearest examples of administrative refugee governance without accession to the 1951 Refugee Convention. The political economy archetype is humanitarian containment through administrative coordination: refugees are managed and assisted, but not absorbed into national membership or welfare systems.",
+      "description": "Presidential Regulation No. 125/2016 on the Handling of Refugees from Abroad provides Indonesia's principal administrative framework for dealing with foreign refugees. The regulation remains unamended; Indonesia has still not acceded to the 1951 Refugee Convention or its 1967 Protocol.",
+      "whyItMatters": "The regulation is one of Southeast Asia's clearest examples of administrative refugee governance without accession to the 1951 Refugee Convention. The political economy archetype is humanitarian containment through administrative coordination: refugees are managed and assisted, but not absorbed into national membership or welfare systems. Recent academic commentary continues to characterise the regulation's decade in force as a stalemate rather than a pathway toward legal status.",
       "referenceIds": [
         "unhcr-english-translation-of-presidential-regulation-no-125-2016",
         "indonesia-cabinet-secretariat-note-on-regulation-no-125-2016",
         "refworld-entry-on-regulation-no-125-2016",
-        "unhcr-rights-mapping-and-analysis-platform-entry"
-      ],
-      "recordStatus": "Country record"
+        "unhcr-rights-mapping-and-analysis-platform-entry",
+        "cilis-stalemate-refugees-in-indonesia-pr-125-2025"
+      ]
     },
     {
       "id": "thailand-refugee-camp-border-assistance-architecture",
@@ -301,19 +320,22 @@
       "countryRegion": [
         "Thailand"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Cross-sector governance",
       "displacementContext": [
         "Refugee hosting"
       ],
       "instrumentResponseType": "Institutional arrangement",
-      "description": "Thailand has hosted refugees from Myanmar for decades in temporary shelters along the border. The architecture combines Thai administrative control, humanitarian assistance, UNHCR protection engagement, NGO service delivery, and restrictions on movement and formal integration.",
-      "whyItMatters": "This is a defining Southeast Asian case of protracted refugee governance. The political economy archetype is territorial humanitarian containment: refugees are protected and assisted in bounded spaces while broader legal and fiscal inclusion is avoided.",
+      "description": "Thailand has hosted refugees from Myanmar for decades in nine temporary shelters along the border, combining Thai administrative control, humanitarian assistance, UNHCR protection engagement, NGO service delivery, and restrictions on movement and formal integration. Abrupt US and other donor funding withdrawals from early 2025 forced The Border Consortium, the International Rescue Committee, and other partners to cease or sharply cut food and medical assistance by 31 July 2025, affecting over 100,000 refugees and disrupting the M-Fund migrant health scheme. In response, Thailand issued legal work permits to camp residents for the first time from October 2025 and adopted a three-stage strategy moving from emergency funding toward employment-based self-reliance and eventual camp closure, with an indicative timeline closing or transitioning two sites by 2027 and the remainder by 2029. A joint government-UNHCR verification in mid-2026 recorded roughly 80,000 residents across the nine sites, and a 2026-2030 transition appeal was seeking further funding as of mid-2026.",
+      "whyItMatters": "This is a defining Southeast Asian case of protracted refugee governance, and its 2025-2026 trajectory is the sharpest inflection point in the region: the collapse of the aid model that sustained territorial containment has forced Thailand to begin dismantling that containment through employment access rather than through rights-based reform. The political economy archetype is shifting from territorial humanitarian containment to donor-collapse-driven local integration: work permits and camp closure are being adopted not as a protection upgrade but as a fiscal and administrative necessity once external financing of the containment model became unreliable.",
       "referenceIds": [
         "unhcr-thailand-statelessness-country-page",
         "unhcr-thailand-registration-and-documents-page",
-        "unhcr-rights-mapping-and-analysis-platform-thailand"
-      ],
-      "recordStatus": "Country record"
+        "unhcr-rights-mapping-and-analysis-platform-thailand",
+        "hrw-thailand-aid-cuts-put-myanmar-refugees-at-grave-risk-2025",
+        "mizzima-un-humanitarian-groups-seek-64-million-myanmar-refugees-thailand-2026",
+        "save-the-children-education-thailand-myanmar-border-breaking-point-2026"
+      ]
     },
     {
       "id": "philippines-migrant-workers-overseas-filipinos-act",
@@ -322,19 +344,20 @@
       "countryRegion": [
         "Philippines"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Migration and labour",
       "displacementContext": [
         "Migration and mobility"
       ],
       "instrumentResponseType": "Law or regulation",
-      "description": "Republic Act No. 8042, as amended by Republic Act No.",
-      "whyItMatters": "The law is important for displacement governance because it shows a strong model of mobility-related state responsibility beyond territory. The political economy archetype is citizenship-based transnational protection: the state protects nationals abroad more robustly than many systems protect non-citizens within their territory.",
+      "description": "Republic Act No. 8042, as amended by Republic Act No. 10022 and subsequently by Republic Act No. 11641 (2021), which created the Department of Migrant Workers (DMW) as the lead agency for overseas Filipino worker protection, absorbing the functions of the former Philippine Overseas Employment Administration.",
+      "whyItMatters": "The law is important for displacement governance because it shows a strong model of mobility-related state responsibility beyond territory. The political economy archetype is citizenship-based transnational protection: the state protects nationals abroad more robustly than many systems protect non-citizens within their territory. The 2021 consolidation into a single cabinet-level department is itself evidence of the archetype's institutional weight: protection of citizens abroad commands a dedicated ministry, a level of institutional investment rarely extended to non-citizens inside the country.",
       "referenceIds": [
         "philippine-e-library-republic-act-no-10022",
         "republic-act-no-8042-legal-text",
-        "university-of-minnesota-human-rights-library-republic-act-no-10022"
-      ],
-      "recordStatus": "Country record"
+        "university-of-minnesota-human-rights-library-republic-act-no-10022",
+        "republic-act-no-11641-department-of-migrant-workers"
+      ]
     },
     {
       "id": "vietnam-residence-law-household-registration-reform",
@@ -343,19 +366,20 @@
       "countryRegion": [
         "Vietnam"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Civil registration and identity",
       "displacementContext": [
         "Migration and mobility"
       ],
       "instrumentResponseType": "Law or regulation",
-      "description": "Vietnam's 2020 Residence Law and related reforms shifted residence management away from paper household registration books toward electronic residence data and national population databases. The reform changes how citizens prove residence and identity for administrative purposes.",
-      "whyItMatters": "Residence registration is a core governance layer in the displacement continuum. Reform can improve portability, but digitalization does not automatically solve exclusion if service access remains tied to local registration.",
+      "description": "Vietnam's 2020 Residence Law and related reforms shifted residence management away from paper household registration books toward electronic residence data and national population databases. Decree No. 154/2024/ND-CP, effective from January 2025, replaced the previous implementing decree and updated procedures for registering and confirming residence electronically.",
+      "whyItMatters": "Residence registration is a core governance layer in the displacement continuum. Reform can improve portability, but digitalization does not automatically solve exclusion if service access remains tied to local registration. The continued issuance of updated implementing decrees five years after the paper-book abolition suggests the transition to a fully portable, database-driven residence system is still an administrative work in progress rather than a completed reform.",
       "referenceIds": [
         "law-on-residence-68-2020-qh14-english-text",
         "vietnam-law-magazine-management-of-citizen-residence-to-be-digitalized",
-        "vietnamnet-online-residence-registration"
-      ],
-      "recordStatus": "Country record"
+        "vietnamnet-online-residence-registration",
+        "viet-an-law-decree-154-2024-residence-law-guidance"
+      ]
     },
     {
       "id": "cambodia-land-law-economic-land-concessions",
@@ -364,19 +388,20 @@
       "countryRegion": [
         "Cambodia"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Housing, land and resettlement",
       "displacementContext": [
         "Development-induced displacement"
       ],
       "instrumentResponseType": "Law or regulation",
-      "description": "Cambodia's 2001 Land Law establishes the legal framework for land ownership, possession, state land, concessions, and related land administration. It is central to understanding development-induced displacement, land conflict, economic concessions, and tenure security.",
-      "whyItMatters": "Cambodia is a key case for development-induced displacement in Southeast Asia. The political economy archetype is land formalization under investment pressure: formal law can protect some claims while making unregistered or politically weak communities vulnerable.",
+      "description": "Cambodia's 2001 Land Law establishes the legal framework for land ownership, possession, state land, concessions, and related land administration, operating alongside Sub-Decree 146 on Economic Land Concessions and the Law on Investment (as amended in 2021). It is central to understanding development-induced displacement, land conflict, economic concessions, and tenure security. A draft new land law intended to replace the 2001 Land Law has been under development since at least 2023 but had not been enacted as of mid-2026.",
+      "whyItMatters": "Cambodia is a key case for development-induced displacement in Southeast Asia. The political economy archetype is land formalization under investment pressure: formal law can protect some claims while making unregistered or politically weak communities vulnerable. The multi-year stall on the draft replacement law is itself informative: land law reform in Cambodia moves slowly relative to the pace of concession-driven displacement, leaving the 2001 framework as the operative regime well after its limitations were identified.",
       "referenceIds": [
         "cambodia-land-law-english-pdf",
         "council-for-the-development-of-cambodia-land",
-        "open-development-cambodia-land-law-2001"
-      ],
-      "recordStatus": "Country record"
+        "open-development-cambodia-land-law-2001",
+        "manhattansez-land-investment-cambodia-2026-rules"
+      ]
     },
     {
       "id": "lao-pdr-compensation-resettlement-development-projects",
@@ -385,19 +410,21 @@
       "countryRegion": [
         "Lao PDR"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Housing, land and resettlement",
       "displacementContext": [
         "Development-induced displacement"
       ],
       "instrumentResponseType": "Law or regulation",
-      "description": "Lao PDR's Decree on Compensation and Resettlement Management in Development Projects sets principles and rules for compensating losses and managing resettlement activities for people affected by development projects.",
-      "whyItMatters": "Lao PDR is a central case for hydropower, infrastructure, and development-induced displacement. The political economy archetype is project-led resettlement with livelihood restoration risk.",
+      "description": "Lao PDR's Decree No. 84 on Compensation and Resettlement Management in Development Projects (2016) sets principles and rules for compensating losses and managing resettlement activities for people affected by development projects, including the country's extensive Mekong mainstream and tributary hydropower programme. Implementation has continued to surface accountability gaps: a 2024 provincial investigation found that several million dollars earmarked for survivors of the 2018 Xe Pian-Xe Namnoy dam collapse had been misappropriated by local officials, and resettlement compensation for villages affected by the Pak Beng Dam remained unresolved even as construction proceeded under a signed power purchase agreement.",
+      "whyItMatters": "Lao PDR is a central case for hydropower, infrastructure, and development-induced displacement. The political economy archetype is project-led resettlement with livelihood restoration risk. Recent implementation cases sharpen this: the decree establishes rights and procedures on paper, but weak sub-national financial oversight and project timelines that outrun resettlement planning mean compensation delivery remains the binding constraint, not the legal framework itself.",
       "referenceIds": [
         "decree-no-84-on-compensation-and-resettlement-management-in-developmen",
         "land-portal-entry-on-lao-pdr-compensation-and-resettlement-decree",
-        "world-bank-resettlement-policy-framework-referencing-decree-84"
-      ],
-      "recordStatus": "Country record"
+        "world-bank-resettlement-policy-framework-referencing-decree-84",
+        "rfa-laos-governor-dam-collapse-compensation-missing-2024",
+        "rfa-laos-pak-beng-dam-power-agreement-compensation-unresolved-2023"
+      ]
     },
     {
       "id": "thailand-cabinet-resolution-statelessness-2024",
@@ -406,20 +433,23 @@
       "countryRegion": [
         "Thailand"
       ],
+      "recordStatus": "Country record",
       "publicSystem": "Civil registration and identity",
       "displacementContext": [
         "Statelessness"
       ],
       "instrumentResponseType": "Policy or strategy",
-      "description": "Thailand's Cabinet resolution on statelessness created accelerated pathways to permanent residency and nationality for large numbers of registered stateless people. It builds on Thailand's longer civil registration and nationality architecture for people without recognized nationality.",
-      "whyItMatters": "This entry shows the positive side of registry-mediated inclusion. Statelessness can be reduced when the state uses administrative records to resolve legal membership.",
+      "description": "Thailand's 29 October 2024 Cabinet Resolution created accelerated pathways to permanent residency and nationality for approximately 484,000 registered stateless people, of whom roughly 335,000-340,000 longtime residents and recognised ethnic minorities are eligible for permanent residence and over 140,000 of their Thailand-born children are eligible for nationality. A Ministry of Interior Notification implementing the 5-day processing criteria took effect 30 June 2025; by December 2025 UNHCR reported over 100,000 cases resolved, including more than 12,000 nationality grants. The Notification is time-limited and set to expire 30 June 2026 unless extended; as of April 2026 Thailand's Human Rights Commissioner had proposed an extension, with implementation continuing at the provincial level (an outreach event was held in Ubon Ratchathani in March 2026) while the extension decision remained pending.",
+      "whyItMatters": "This entry shows the positive side of registry-mediated inclusion. Statelessness can be reduced when the state uses administrative records to resolve legal membership. The political economy archetype is time-bounded administrative generosity: the Cabinet Resolution demonstrates that mass statelessness resolution is administratively achievable at speed once ordered from the centre, but the accelerated criteria were issued as a renewable one-year notification rather than a permanent rule change, leaving the durability of the entire resolution contingent on a series of future Cabinet decisions to extend it.",
       "referenceIds": [
         "unhcr-press-release-on-thai-cabinet-statelessness-resolution",
         "unhcr-thailand-resolution-of-statelessness-update",
         "unhcr-thailand-statelessness-page",
-        "unicef-and-unhcr-on-childhood-statelessness-in-thailand-2"
-      ],
-      "recordStatus": "Country record"
+        "unicef-and-unhcr-on-childhood-statelessness-in-thailand-2",
+        "unhcr-thailand-resolves-legal-status-of-over-100000-stateless-people-dec-2025",
+        "khaosod-english-thailand-tackles-statelessness-faster-citizenship-2025",
+        "prachatai-human-rights-commissioner-proposes-extension-2026"
+      ]
     },
     {
       "id": "humanitarian-cash-transfer-systems-parallel-social-protection",
@@ -428,6 +458,7 @@
       "countryRegion": [
         "Global"
       ],
+      "recordStatus": "Regional comparative case",
       "publicSystem": "Social protection",
       "displacementContext": [
         "Refugee hosting",
@@ -435,14 +466,13 @@
       ],
       "instrumentResponseType": "Implementation case",
       "description": "Humanitarian cash transfer systems provide cash or voucher assistance to crisis-affected populations, including refugees and IDPs. They often use humanitarian targeting, payment providers, beneficiary databases, complaints systems, and donor-funded programme cycles.",
-      "whyItMatters": "Humanitarian cash is one of the most practical interfaces between emergency response and social protection. The political economy archetype is parallel assistance with alignment potential: it can either reinforce humanitarian residualism or help build pathways into ordinary systems.",
+      "whyItMatters": "Humanitarian cash is one of the most practical interfaces between emergency response and social protection. The political economy archetype is parallel assistance with alignment potential: it can either reinforce humanitarian residualism or help build pathways into ordinary systems. The 2025 collapse of US and other bilateral humanitarian funding, visible concretely in the Thailand-Myanmar border case elsewhere in this dataset, is a live stress test of this archetype: donor-funded parallel cash systems that never built alignment pathways into national systems have proven abruptly reversible.",
       "referenceIds": [
         "calp-network",
         "unhcr-cash-assistance-overview",
         "wfp-cash-transfers",
         "oecd-social-protection-for-the-forcibly-displaced"
-      ],
-      "recordStatus": "Regional comparative case"
+      ]
     },
     {
       "id": "world-bank-ida-window-host-communities-refugees",
@@ -451,19 +481,21 @@
       "countryRegion": [
         "Global"
       ],
+      "recordStatus": "Regional comparative case",
       "publicSystem": "Public and development finance",
       "displacementContext": [
         "Refugee hosting"
       ],
       "instrumentResponseType": "Financing arrangement",
-      "description": "The World Bank IDA Window for Host Communities and Refugees provides dedicated concessional financing to eligible low-income countries hosting significant refugee populations. It supports medium- to long-term development opportunities for refugees and host communities.",
-      "whyItMatters": "The window is central to fiscal architecture because it recognizes that host countries incur development costs when hosting refugees. The political economy archetype is conditional fiscal absorption: development finance can make inclusion more feasible, but only where host-state policy and project systems align.",
+      "description": "The World Bank IDA Window for Host Communities and Refugees (WHR) provides dedicated concessional financing to eligible low-income countries hosting significant refugee populations. It supports medium- to long-term development opportunities for refugees and host communities. Under IDA20, $2.4 billion was allocated and the Bank reported policy reforms supported in 12 of 17 IDA-eligible countries. During IDA21 negotiations (2024-2025), proposals under the Bank's 'SimplifIDA' agenda considered merging the WHR into a broader Regional and Global Solutions Window; the WHR instead retained its ring-fenced allocation of at least $2.4 billion and its distinct eligibility criteria going into IDA21.",
+      "whyItMatters": "The window is central to fiscal architecture because it recognizes that host countries incur development costs when hosting refugees. The political economy archetype is conditional fiscal absorption: development finance can make inclusion more feasible, but only where host-state policy and project systems align. The WHR's survival of the SimplifIDA consolidation push is analytically significant: ring-fenced, purpose-specific financing instruments face real institutional pressure to be absorbed into broader windows, and the fact that refugee-specific financing held its dedicated status is evidence of sustained donor and advocacy coalition strength behind the instrument, not an automatic outcome.",
       "referenceIds": [
         "world-bank-ida-window-for-host-communities-and-refugees",
         "world-bank-factsheet-10-things-to-know-about-whr",
-        "ida18-regional-sub-window-for-refugees-and-host-communities"
-      ],
-      "recordStatus": "Regional comparative case"
+        "ida18-regional-sub-window-for-refugees-and-host-communities",
+        "cgd-whr-survives-simplifida-2025",
+        "world-bank-forced-displacement-topic-page-ida20-results"
+      ]
     },
     {
       "id": "global-concessional-financing-facility",
@@ -472,20 +504,21 @@
       "countryRegion": [
         "Global"
       ],
+      "recordStatus": "Regional comparative case",
       "publicSystem": "Public and development finance",
       "displacementContext": [
         "Refugee hosting"
       ],
       "instrumentResponseType": "Financing arrangement",
-      "description": "The Global Concessional Financing Facility supports middle-income countries impacted by refugee influxes by using donor contributions to reduce the cost of multilateral development bank loans for projects benefiting refugees and host communities.",
-      "whyItMatters": "The GCFF is a key instrument for the fiscal architecture of displacement because it addresses the mismatch between refugee-hosting costs and middle-income countries' financing terms. The political economy archetype is subsidized sovereign borrowing for refugee-hosting externalities.",
+      "description": "The Global Concessional Financing Facility supports middle-income countries impacted by refugee influxes by using donor contributions to reduce the cost of multilateral development bank loans for projects benefiting refugees and host communities. As of its most recent progress reporting the GCFF has provided approximately $1.1 billion in grants, enabling over $8.8 billion in concessional loans across seven benefiting countries (Armenia, Colombia, Costa Rica, Ecuador, Jordan, Lebanon, and Moldova), reaching approximately 17.3 million beneficiaries. New donor contributions were confirmed from Denmark ($12.5 million) and Norway ($1.1 million) in December 2025.",
+      "whyItMatters": "The GCFF is a key instrument for the fiscal architecture of displacement because it addresses the mismatch between refugee-hosting costs and middle-income countries' financing terms. The political economy archetype is subsidized sovereign borrowing for refugee-hosting externalities. Continued donor replenishment through late 2025 indicates the instrument retains active political support even as broader humanitarian and development financing has come under pressure elsewhere in the region.",
       "referenceIds": [
         "global-concessional-financing-facility-official-website",
         "gcff-about-us",
         "world-bank-fif-trustee-gcff-page",
-        "world-bank-results-feature-on-gcff"
-      ],
-      "recordStatus": "Regional comparative case"
+        "world-bank-results-feature-on-gcff",
+        "gcff-about-us-cumulative-results-2026"
+      ]
     },
     {
       "id": "colombia-registro-unico-victimas",
@@ -494,20 +527,247 @@
       "countryRegion": [
         "Colombia"
       ],
+      "recordStatus": "Comparative case",
       "publicSystem": "Social protection",
       "displacementContext": [
         "Internal displacement"
       ],
       "instrumentResponseType": "Administrative practice",
-      "description": "The Registro Único de Víctimas is Colombia's official registry of people recognized as victims of the armed conflict. It functions as a gateway to humanitarian assistance, compensation, reparations, and public programmes administered through the Victims Unit and related institutions.",
-      "whyItMatters": "Colombia is one of the clearest examples of registry-mediated displacement governance. Recognition creates a pathway to rights and services, but also exposes the gap between legal inclusion and fiscal/administrative delivery.",
+      "description": "The Registro Único de Víctimas is Colombia's official registry of people recognized as victims of the armed conflict. It functions as a gateway to humanitarian assistance, compensation, reparations, and public programmes administered through the Victims Unit and related institutions. As of the Unidad para las Víctimas' 2025 accountability report, the registry held over 10.2 million total registered victims, including 586,900 new inclusions during 2025 alone and, per the government's own accounting, 8.9 million people registered specifically for forced-displacement events as of December 2025 - a figure roughly 1.7 million higher than IDMC's independent estimate of the currently-displaced population, reflecting the RUV's cumulative design (registrants are not removed once they exit vulnerability).",
+      "whyItMatters": "Colombia is one of the clearest examples of registry-mediated displacement governance. Recognition creates a pathway to rights and services, but also exposes the gap between legal inclusion and fiscal/administrative delivery. The persistent, large gap between cumulative RUV registration and independently estimated current displacement is itself the analytical point: a registry built to preserve entitlement rather than to track present status will always overstate the live caseload, which is a design feature for rights protection but a complication for fiscal planning.",
       "referenceIds": [
         "unidad-para-las-v-ctimas-registro-nico-de-v-ctimas",
         "unidad-en-l-nea",
         "unidad-para-las-v-ctimas-official-website",
-        "infopa-lante-explainer-on-the-ruv"
+        "infopa-lante-explainer-on-the-ruv",
+        "unidad-victimas-rendicion-cuentas-2025",
+        "unidad-victimas-cifras-grid-2026-comparison"
+      ]
+    },
+    {
+      "id": "timor-leste-land-law-idp-resettlement",
+      "slug": "timor-leste-land-law-idp-resettlement",
+      "title": "Timor-Leste Land Law and Post-Crisis IDP Resettlement Architecture",
+      "countryRegion": [
+        "Timor-Leste"
       ],
-      "recordStatus": "Comparative case"
+      "recordStatus": "Country record",
+      "publicSystem": "Housing, land and resettlement",
+      "displacementContext": [
+        "Internal displacement",
+        "Development-induced displacement"
+      ],
+      "instrumentResponseType": "Law or regulation",
+      "description": "Following the 2006 political-security crisis that displaced up to 150,000 people, Timor-Leste's government pursued a cash-for-return programme to close all 65 IDP camps by 2009 under the National Recovery Strategy 'Hamutuk Hari'i Futuru,' choosing to promote return ahead of resolving the underlying property disputes that had contributed to displacement. Those land questions remained legally unresolved for nearly two decades until the enactment in 2025 of a new Land Law (the Special Regime for the Ownership of Immovable Property), which the government has framed as foundational to investment and development.",
+      "whyItMatters": "Timor-Leste is a rare completed case of mass IDP return in Southeast Asia, and its sequencing choice is the analytical point. The political economy archetype is return without resolution: prioritising rapid camp closure over property adjudication produced a durable-looking outcome on displacement statistics while leaving land conflict as the residual, multi-decade governance problem. A September 2025 World Bank assessment found that, even with the new law's legal foundations in place, fragmented land administration continues to constrain implementation - the pattern seen across the dataset in which passing a law is necessary but not sufficient for institutional absorption.",
+      "referenceIds": [
+        "odihpn-land-and-displacement-in-timor-leste",
+        "idmc-timor-leste-idps-returned-home-2009",
+        "timor-leste-government-land-law-enactment-2026",
+        "world-bank-timor-leste-land-of-opportunities-2025",
+        "ictj-brookings-2006-displacement-crisis-case-study"
+      ]
+    },
+    {
+      "id": "brunei-statelessness-nationality-registration",
+      "slug": "brunei-statelessness-nationality-registration",
+      "title": "Brunei Nationality Law and Permanent Resident Statelessness Architecture",
+      "countryRegion": [
+        "Brunei"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Civil registration and identity",
+      "displacementContext": [
+        "Statelessness"
+      ],
+      "instrumentResponseType": "Law or regulation",
+      "description": "Brunei's Nationality Act (1961, amended 1984 and 2002) restricts automatic citizenship largely to persons accepted as belonging to one of the recognised indigenous Malay racial groups. Long-term residents outside these groups, including ethnic Chinese families resident for generations (around 15 percent of the population), typically hold permanent resident rather than citizen status. Status is administered through a colour-coded identity card system - yellow for citizens, red/purple for stateless permanent residents, green for foreigners - that governs access to education, telecommunications, government scholarships, land ownership, and civil service employment. Brunei has not ratified the 1954 or 1961 statelessness conventions, nor the 1951 Refugee Convention.",
+      "whyItMatters": "Brunei is an outlier case for this dataset's statelessness entries because exclusion here is not a registration gap awaiting administrative resolution, as in Thailand, but a designed and stable output of the nationality law itself. The political economy archetype is ascriptive citizenship as durable administrative exclusion: the identity-card colour system makes statelessness legible, permanent, and intergenerational rather than transitional, with no equivalent to Thailand's cabinet-driven acceleration mechanism on the horizon.",
+      "referenceIds": [
+        "seap-brunei-statelessness-country-profile",
+        "new-mandala-bruneis-stateless-left-in-confusion"
+      ]
+    },
+    {
+      "id": "singapore-migrant-worker-dormitory-housing-reform",
+      "slug": "singapore-migrant-worker-dormitory-housing-reform",
+      "title": "Singapore Migrant Worker Dormitory Standards and Housing Reform",
+      "countryRegion": [
+        "Singapore"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Housing, land and resettlement",
+      "displacementContext": [
+        "Migration and mobility"
+      ],
+      "instrumentResponseType": "Institutional arrangement",
+      "description": "Singapore regulates migrant worker housing through the Foreign Employee Dormitories Act, whose coverage was expanded in April 2023 to around 1,500 dormitories with seven or more beds. Following COVID-19 outbreaks that exposed severe overcrowding risk in worker dormitories, the Ministry of Manpower introduced New Dormitory Standards (2021) and a Dormitory Transition Scheme moving roughly 900-1,000 existing dormitories to improved interim standards by 2030, ahead of full compliance by 2040. The Ministry has also begun directly building and owning Purpose-Built Dormitories through a new corporate entity, NEST Singapore Limited, the first wholly government-owned dormitory (NESST Tukang) opening in 2026, with further sites released under the Government Land Sales Programme through 2026.",
+      "whyItMatters": "Singapore illustrates a distinct regional pathway from the employer-insurance model seen in Malaysia. The political economy archetype is state re-entry into direct provision after market failure: worker housing was built almost entirely through private commercial dormitory operators, and the pandemic's public-health cost of leaving that housing stock unregulated pushed a high-capacity state to move incrementally into direct ownership and operation of a segment of it, rather than relying solely on employer obligations and market supply.",
+      "referenceIds": [
+        "mom-gov-sg-dormitory-transition-scheme-2023",
+        "mom-gov-sg-nest-singapore-pbd-announcement-2022",
+        "mom-mnd-joint-release-pbd-sites-2026",
+        "bloomberg-singapore-dormitory-tests-pledge-2026",
+        "dasl-worker-dormitories-singapore-h2-2024-industry-report"
+      ]
+    },
+    {
+      "id": "myanmar-idp-cccm-cluster-governance",
+      "slug": "myanmar-idp-cccm-cluster-governance",
+      "title": "Myanmar Internal Displacement and the Camp Coordination and Camp Management Cluster",
+      "countryRegion": [
+        "Myanmar"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Cross-sector governance",
+      "displacementContext": [
+        "Internal displacement",
+        "Mixed or cross-cutting"
+      ],
+      "instrumentResponseType": "Coordination mechanism",
+      "description": "Since the February 2021 military takeover, conflict-driven internal displacement in Myanmar has surged to an estimated 3.6 million people in 2025, with projections toward 4 million in 2026; only around 15 percent live in formal camps, the remainder in informal sites, collective centres, or makeshift shelter. In the absence of a functioning state-led displacement governance system across most of the country, the IOM-led Camp Coordination and Camp Management (CCCM) Cluster provides the operative coordination architecture, deploying mobile teams to support site governance, service monitoring, and complaints mechanisms. The March 2025 earthquake added a further, disaster-driven layer of displacement onto the conflict caseload, with the UN describing Myanmar's crisis in December 2025 as having become 'almost invisible' amid shrinking donor attention.",
+      "whyItMatters": "Myanmar is the dataset's clearest limiting case of governance absorption capacity. The political economy archetype is humanitarian cluster substitution for fragmented sovereignty: where every other entry in this dataset assumes some form of national institutional architecture that displacement governance can, in principle, run through, Myanmar's post-coup fragmentation means the international humanitarian cluster system itself has become the closest available substitute for a governance architecture - a structurally more precarious foundation than anywhere else mapped here, and one entirely dependent on humanitarian funding levels that are themselves falling.",
+      "referenceIds": [
+        "un-news-myanmar-almost-invisible-crisis-2025",
+        "iom-myanmar-crisis-response-plan-2026",
+        "ocha-myanmar-global-humanitarian-overview-2025",
+        "cccm-cluster-myanmar-country-page",
+        "unhcr-myanmar-global-appeal-2026-situation-overview"
+      ]
+    },
+    {
+      "id": "vietnam-mekong-delta-climate-resettlement",
+      "slug": "vietnam-mekong-delta-climate-resettlement",
+      "title": "Vietnam Mekong Delta Climate-Resilient Development and Planned Relocation Programme",
+      "countryRegion": [
+        "Vietnam"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Housing, land and resettlement",
+      "displacementContext": [
+        "Climate and disaster displacement",
+        "Development-induced displacement"
+      ],
+      "instrumentResponseType": "Policy or strategy",
+      "description": "Resolution No. 120/NQ-CP (2017) sets the government's overarching strategy for climate-resilient, nature-based development of the Mekong Delta, explicitly directing the rearrangement of population and relocation of housing along rivers, canals, and eroding coastlines. It has been implemented through the subsequent Mekong Delta Regional Masterplan and World Bank-financed projects such as Mekong Delta Integrated Climate Resilience and Sustainable Livelihoods (MD-ICRSL), which have relocated households from riverbank erosion and flood-prone areas across multiple provinces over the past decade, with implementation continuing under the current planning cycle through 2025 and beyond.",
+      "whyItMatters": "Vietnam offers the dataset's clearest instance of climate-driven, as opposed to investment-driven, planned relocation. The political economy archetype is hazard-avoidance relocation without livelihood restoration: independent evaluations of completed sites in provinces such as Long An and Dong Thap find that while resettled households are moved out of physical danger, most report decreased income and increased debt afterward, because the programme addresses exposure to hazard but not the loss of livelihood assets and social networks tied to the original location. The driver differs from Lao PDR's or Cambodia's development-induced cases - hazard rather than investment demand for the land - yet the livelihood outcome is structurally similar.",
+      "referenceIds": [
+        "un-migration-network-resolution-120-nq-cp-mekong-delta",
+        "baochinhphu-resolution-120-three-year-implementation-review",
+        "world-bank-md-icrsl-resettlement-action-plan-kien-giang",
+        "brookings-planned-relocations-mekong-delta-vietnam",
+        "haskoning-mekong-delta-regional-masterplan"
+      ]
+    },
+    {
+      "id": "bangsamoro-idp-rights-act",
+      "slug": "bangsamoro-idp-rights-act",
+      "title": "Bangsamoro Autonomy Act No. 62 - Rights of Internally Displaced Persons Act",
+      "countryRegion": [
+        "Philippines"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Cross-sector governance",
+      "displacementContext": [
+        "Internal displacement"
+      ],
+      "instrumentResponseType": "Law or regulation",
+      "description": "Bangsamoro Autonomy Act No. 62 (2024), the Rights of Internally Displaced Persons of the Bangsamoro Autonomous Region Act, is a rights-based legal framework for IDPs across BARMM, distinct from and broader than the Marawi-specific rehabilitation architecture elsewhere in this dataset. Its Implementing Rules and Regulations, led by the Ministry of Social Services and Development, were signed on 5 March 2025, formally operationalising the law for the region's ongoing caseload of conflict and clan-related (rido) displacement beyond Marawi.",
+      "whyItMatters": "BAA No. 62 is, to date, one of the only subnational rights-based IDP laws in Southeast Asia, and it exists because the national government has not enacted an equivalent nationwide law despite a long-pending bill before Congress. The political economy archetype is subnational legal advancement ahead of national framework: an autonomous region with its own legislative capacity and a concentrated, visible displacement caseload has moved faster on formal IDP rights recognition than the national government has for the country as a whole, producing a fragmented legal landscape where protection depends on which jurisdiction a person is displaced within.",
+      "referenceIds": [
+        "unhcr-philippines-stronger-protection-idps-bangsamoro-2025",
+        "iag-bangsamoro-transition-authority-six-year-review-2025",
+        "un-peacebuilding-step-barmm-community-reintegration"
+      ]
+    },
+    {
+      "id": "cambodia-ethnic-vietnamese-statelessness-documentation",
+      "slug": "cambodia-ethnic-vietnamese-statelessness-documentation",
+      "title": "Cambodia Ethnic Vietnamese Statelessness and Digital Identity Architecture",
+      "countryRegion": [
+        "Cambodia"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Civil registration and identity",
+      "displacementContext": [
+        "Statelessness"
+      ],
+      "instrumentResponseType": "Administrative practice",
+      "description": "Cambodia's ethnic Vietnamese population, many resident for three to seven generations, remains the country's largest stateless group, documented through a colloquial 'Yellow Card' permanent-resident status rather than citizenship. Cambodia's National Strategic Plan of Identification (2017-2026) and a June 2023 Law on Civil Registration, Vital Statistics, and Identity (in force from 2024) aim to build a universal digital identity system, but studies of implementation find that fewer than 10 percent of surveyed ethnic Vietnamese hold identity cards and fewer than 5 percent hold birth certificates, with local officials frequently conflating birth registration with conferral of nationality and denying documentation on that basis.",
+      "whyItMatters": "This is the sharpest illustration in the dataset of a distinction central to the platform's own framework: digitisation of identity infrastructure does not by itself resolve exclusion, and can harden it. Recent scholarship (2025) frames Cambodia's digital identity rollout as producing 'digital non-citizens' - the political economy archetype is precision exclusion through digital identity infrastructure: a modern, internationally-financed identification system can encode existing discretionary exclusion into its data architecture as effectively as it could, in principle, resolve it, with the outcome depending entirely on implementation choices invisible at the level of the enabling law.",
+      "referenceIds": [
+        "seap-cambodia-statelessness-country-profile",
+        "minority-rights-group-ethnic-vietnamese-cambodia",
+        "wpm-cambodia-mapping-statelessness-2024-report",
+        "tandfonline-making-digital-non-citizens-cambodia-2025"
+      ]
+    },
+    {
+      "id": "thailand-social-security-fund-migrant-coverage",
+      "slug": "thailand-social-security-fund-migrant-coverage",
+      "title": "Thailand Social Security Fund Coverage for Migrant Workers",
+      "countryRegion": [
+        "Thailand"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Migration and labour",
+      "displacementContext": [
+        "Migration and mobility"
+      ],
+      "instrumentResponseType": "Public programme",
+      "description": "Thailand's Social Security Fund (SSF), administered by the Social Security Office under the Social Security Act B.E. 2533 (1990), is the compulsory formal-sector scheme covering healthcare, unemployment, maternity, disability, and pensions, and is legally available to migrant workers with valid work permits under Article 33. In practice only around 25 percent of Thailand's roughly four million registered migrant workers are actually enrolled, due to registration and data-integration gaps; migrant domestic workers are structurally excluded from Article 33 coverage by occupational classification and can access only the more limited Migrant Health Insurance Scheme, while the voluntary Article 40 scheme is restricted to Thai nationals only.",
+      "whyItMatters": "This entry sits alongside Thailand's Migrant Health Insurance Scheme entry in this dataset but exposes a different governance layer: formal entitlement exists in law, but enforcement and data-integration capacity determine whether it is realised. The political economy archetype is eligibility on paper without enforcement capacity: unlike MHIS, which was purpose-built for those outside formal employment, the SSF nominally extends full social insurance to migrant workers on equal terms with citizens, yet occupational carve-outs and weak registration data mean three-quarters of eligible migrants remain outside the very system designed to include them.",
+      "referenceIds": [
+        "iom-thailand-social-protection-diagnostic-review",
+        "ilo-thai-employers-piloting-social-protection-migrant-2026",
+        "iom-thailand-enhancing-social-protection-migrant-domestic-workers",
+        "thailawonline-social-security-thailand-2026-updates"
+      ]
+    },
+    {
+      "id": "asean-consensus-migrant-workers-rights",
+      "slug": "asean-consensus-migrant-workers-rights",
+      "title": "ASEAN Consensus on the Protection and Promotion of the Rights of Migrant Workers",
+      "countryRegion": [
+        "ASEAN"
+      ],
+      "recordStatus": "Regional comparative case",
+      "publicSystem": "Migration and labour",
+      "displacementContext": [
+        "Migration and mobility"
+      ],
+      "instrumentResponseType": "Policy or strategy",
+      "description": "The ASEAN Consensus on the Protection and Promotion of the Rights of Migrant Workers, signed by ASEAN leaders in 2017 building on the 2007 Cebu Declaration, sets general principles and rights for migrant workers and their families across the region. Its 2018-2025 Action Plan has been supplemented by three further non-binding instruments - the ASEAN Declaration on Portability of Social Security Benefits for Migrant Workers, the Declaration on Protection of Migrant Workers and Family Members in Crisis Situations, and the Declaration on Placement and Protection of Migrant Fishers - alongside ASEAN member states' own self-assessments of implementation progress.",
+      "whyItMatters": "Academic assessment as recent as November 2025 characterises the Consensus, like the Cebu Declaration before it, as carrying no legal force and establishing no enforcement mechanism, a direct product of the consensus-and-non-interference 'ASEAN Way' that distinguishes the bloc's approach from binding regional frameworks elsewhere. The political economy archetype is declarative regionalism without enforcement mechanism: successive instruments expand the written scope of migrant worker rights commitments without ever creating a body that can compel a member state to honour them, leaving implementation entirely dependent on each state's own domestic political will.",
+      "referenceIds": [
+        "asean-consensus-protection-promotion-rights-migrant-workers-official-text",
+        "ilo-asean-leaders-sign-consensus-2017",
+        "asean-strengthens-cooperation-protection-migrant-workers-2023",
+        "researchgate-asean-migrant-rights-policy-dilemma-deadlock-2025"
+      ]
+    },
+    {
+      "id": "indonesia-post-disaster-planned-relocation",
+      "slug": "indonesia-post-disaster-planned-relocation",
+      "title": "Indonesia Post-Disaster Planned Relocation Programmes (Palu and Mount Semeru)",
+      "countryRegion": [
+        "Indonesia"
+      ],
+      "recordStatus": "Country record",
+      "publicSystem": "Housing, land and resettlement",
+      "displacementContext": [
+        "Climate and disaster displacement",
+        "Internal displacement"
+      ],
+      "instrumentResponseType": "Implementation case",
+      "description": "Following the September 2018 Palu earthquake, tsunami, and liquefaction disaster, which displaced roughly 170,000 people, the Indonesian government relocated communities from high-risk liquefaction and tsunami zones to new permanent housing, establishing a dedicated land task force to resolve overlapping claims on relocation sites. A comparable programme followed the December 2021 Mount Semeru eruption, which displaced nearly 10,000 people; the government's flagship Bumi Semeru Damai relocation site in Lumajang Regency built 1,951 permanent housing units, of which 751 remained unoccupied as of January 2025 according to local government data, with a 2025 household survey of returnees citing housing dissatisfaction and place attachment as key drivers of return to origin areas.",
+      "whyItMatters": "Indonesia demonstrates real technical and financial capacity to build large-scale replacement housing quickly after disasters, which distinguishes it from Lao PDR or Cambodia, where construction financing itself is the binding constraint. The political economy archetype is infrastructure-complete, occupancy-incomplete resettlement: the recurring pattern across Palu and Semeru, physically completed housing with substantial unoccupied stock years later, shows that construction capacity does not by itself secure durable relocation outcomes when livelihood restoration, land tenure, and social and cultural attachment to the place of origin are not addressed with equal investment.",
+      "referenceIds": [
+        "world-bank-blog-three-years-lessons-central-sulawesi-recovery",
+        "sciencedirect-return-migration-mount-semeru-relocation-2026",
+        "researchgate-residential-preferences-post-disaster-palu",
+        "sdgs-review-relocation-policy-petobo-village-2025"
+      ]
     }
   ]
 }
