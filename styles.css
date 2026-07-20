@@ -1149,10 +1149,10 @@ h3 {
 }
 
 .mapping-project-hero {
-  min-height: clamp(340px, 42vw, 460px);
+  min-height: clamp(340px, 42vw, 460px) !important;
   display: flex;
   align-items: center;
-  padding: clamp(54px, 7vw, 82px) 0;
+  padding: clamp(54px, 7vw, 82px) 0 !important;
   color: var(--white);
   background:
     linear-gradient(
@@ -1160,7 +1160,7 @@ h3 {
       var(--navy) 0%,
       var(--navy-2) 62%,
       #123f52 100%
-    );
+    ) !important;
 }
 
 .mapping-project-hero .eyebrow {
@@ -1168,17 +1168,17 @@ h3 {
 }
 
 .mapping-project-hero h1 {
-  max-width: 780px;
-  margin-bottom: 14px;
+  max-width: 780px !important;
+  margin-bottom: 14px !important;
   color: var(--white);
-  font-size: clamp(2.45rem, 5vw, 4.1rem);
-  line-height: 1;
+  font-size: clamp(2.45rem, 5vw, 4.1rem) !important;
+  line-height: 1 !important;
 }
 
 .mapping-project-hero .subtitle {
-  max-width: 700px;
+  max-width: 700px !important;
   margin-bottom: 0;
-  color: rgba(255,255,255,.86);
+  color: rgba(255,255,255,.86) !important;
 }
 
 .about-column {
@@ -3025,27 +3025,6 @@ body.perspective-article-page .back-link {
 }
 
 /* Research agenda rewrite and framework cards */
-.research-page .research-masthead {
-  min-height: auto;
-  padding-top: clamp(58px, 5.2vw, 68px);
-  padding-bottom: clamp(58px, 5.2vw, 68px);
-}
-
-.research-page .research-masthead .eyebrow {
-  margin-bottom: 12px;
-}
-
-.research-page .research-masthead h1 {
-  margin-bottom: 0;
-  line-height: 1.05;
-}
-
-.research-page .research-masthead .subtitle {
-  max-width: 620px;
-  margin-top: clamp(14px, 1.6vw, 18px);
-  line-height: 1.45;
-}
-
 .research-page .research-section {
   padding-top: clamp(72px, 7vw, 88px);
   padding-bottom: clamp(72px, 7vw, 88px);
@@ -3319,75 +3298,6 @@ body.perspective-article-page .back-link {
   min-height: 3.9rem;
 }
 
-.research-page .research-financing-section {
-  background: linear-gradient(135deg, #f3efe7 0%, #fffdf8 100%);
-}
-
-.research-page .research-financing-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 0.88fr) minmax(320px, 0.72fr);
-  gap: clamp(28px, 5vw, 60px);
-  align-items: center;
-}
-
-.research-page .research-financing-copy h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
-}
-
-.research-page .research-financing-visual {
-  display: grid;
-  place-items: center;
-  min-width: 0;
-  margin: 0;
-  border: 1px solid var(--line);
-  border-top: 3px solid var(--bronze);
-  padding: clamp(16px, 2.5vw, 26px);
-  background: rgba(255, 255, 255, 0.62);
-}
-
-.research-page .research-financing-visual svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 520px;
-}
-
-.research-page .finance-spine,
-.research-page .finance-arrows path {
-  fill: none;
-  stroke: var(--bronze);
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.research-page .finance-arrows path {
-  marker-end: none;
-}
-
-.research-page .finance-layer rect {
-  fill: rgba(248, 245, 239, 0.82);
-  stroke: var(--navy-2);
-  stroke-width: 1.6;
-}
-
-.research-page .finance-layer:nth-of-type(3) rect,
-.research-page .finance-layer:nth-of-type(4) rect {
-  fill: rgba(217, 231, 232, 0.38);
-}
-
-.research-page .finance-layer-accent rect {
-  fill: rgba(184, 130, 52, 0.14);
-  stroke: var(--bronze-dark);
-}
-
-.research-page .finance-layer text {
-  fill: var(--ink);
-  font-family: var(--sans);
-  font-size: 17px;
-  font-weight: 650;
-}
-
 @media print {
   .research-page .framework-card {
     break-inside: avoid;
@@ -3434,13 +3344,6 @@ body.perspective-article-page .back-link {
     grid-column: auto;
   }
 
-  .research-page .research-financing-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .research-page .research-financing-visual {
-    max-width: 620px;
-  }
 }
 
 @media (max-width: 680px) {
@@ -3499,13 +3402,6 @@ body.perspective-article-page .back-link {
     min-height: 0;
   }
 
-  .research-page .research-financing-visual {
-    padding: 14px 10px;
-  }
-
-  .research-page .finance-layer text {
-    font-size: 16px;
-  }
 }
 
 /* Research page locked-copy structure */
@@ -3514,38 +3410,6 @@ body.perspective-article-page .back-link {
   color: var(--ink);
   font-size: clamp(1.08rem, 1.4vw, 1.22rem);
   line-height: 1.58;
-}
-
-.research-page .research-masthead {
-  color: var(--white);
-  min-height: clamp(340px, 42vw, 460px);
-  padding: clamp(54px, 7vw, 82px) 0;
-  background:
-    linear-gradient(
-      125deg,
-      var(--navy) 0%,
-      var(--navy-2) 62%,
-      #123f52 100%
-    );
-}
-
-.research-page .research-masthead .eyebrow,
-.research-page .research-masthead h1,
-.research-page .research-masthead .subtitle {
-  color: var(--white);
-}
-
-.research-page .research-masthead h1 {
-  max-width: 780px;
-  margin-bottom: 14px;
-  font-size: clamp(2.45rem, 5vw, 4.1rem);
-  line-height: 1;
-}
-
-.research-page .research-masthead .subtitle {
-  max-width: 700px;
-  color: rgba(255,255,255,.86);
-  opacity: 1;
 }
 
 .research-page .framework-provenance {
@@ -3591,7 +3455,7 @@ body.perspective-article-page .back-link {
 
 .research-page .research-area-card h3,
 .research-page .framework-summary-card h3,
-.research-page .research-product-card h3,
+.research-page .research-product-item h3,
 .research-page .research-mapping-section h3 {
   margin: 0 0 12px;
   color: var(--ink);
@@ -3621,8 +3485,7 @@ body.perspective-article-page .back-link {
   margin-top: 28px;
 }
 
-.research-page .framework-summary-card,
-.research-page .research-product-card {
+.research-page .framework-summary-card {
   min-width: 0;
   border: 1px solid var(--line);
   padding: 22px 24px;
@@ -3634,7 +3497,7 @@ body.perspective-article-page .back-link {
 }
 
 .research-page .framework-summary-card p,
-.research-page .research-product-card p {
+.research-page .research-product-item p {
   margin: 0;
   color: var(--muted);
   font-size: 0.96rem;
@@ -3645,19 +3508,20 @@ body.perspective-article-page .back-link {
   margin-top: 10px;
 }
 
-.research-page .research-products-grid {
+.research-page .research-products-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(16px, 2vw, 22px);
-  margin-top: 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(36px, 6vw, 72px);
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
 }
 
-.research-page .research-product-card--principal {
-  border-top: 3px solid var(--bronze);
-  background: rgba(248, 245, 239, 0.56);
+.research-page .research-product-item {
+  min-width: 0;
+  padding: 20px 0 22px;
+  border-bottom: 1px solid var(--line);
 }
 
-.research-page .research-dimensions-section .prose,
 .research-page .research-purpose-section .prose {
   border-left: 3px solid var(--bronze);
   padding-left: clamp(18px, 3vw, 26px);
@@ -3907,7 +3771,7 @@ body.perspective-article-page .back-link {
 @media (max-width: 980px) {
   .research-page .research-areas-grid,
   .research-page .framework-summary-grid,
-  .research-page .research-products-grid,
+  .research-page .research-products-list,
   .research-page .framework-sequence,
   .research-page .research-framework-layout,
   .research-page .research-framework-layout--reverse {
@@ -3953,14 +3817,13 @@ body.perspective-article-page .back-link {
 
   .research-page .research-areas-grid,
   .research-page .framework-summary-grid,
-  .research-page .research-products-grid {
+  .research-page .research-products-list {
     gap: 18px;
     margin-top: 24px;
   }
 
   .research-page .research-area-card,
   .research-page .framework-summary-card,
-  .research-page .research-product-card,
   .research-page .framework-sequence-card,
   .research-page .framework-use-step {
     width: 100%;
@@ -3968,7 +3831,12 @@ body.perspective-article-page .back-link {
     padding: 20px;
   }
 
-  .research-page .research-dimensions-section .prose,
+  .research-page .research-product-item {
+    width: 100%;
+    min-width: 0;
+    padding: 18px 0 20px;
+  }
+
   .research-page .research-purpose-section .prose {
     padding-left: 18px;
   }
@@ -4009,14 +3877,14 @@ body.perspective-article-page .back-link {
   }
 
   .mapping-project-hero {
-    min-height: clamp(300px, 76vw, 380px);
-    padding-top: 52px;
-    padding-bottom: 52px;
+    min-height: clamp(300px, 76vw, 380px) !important;
+    padding-top: 52px !important;
+    padding-bottom: 52px !important;
   }
 
   .mapping-project-hero h1 {
-    font-size: clamp(2rem, 10vw, 2.55rem);
-    overflow-wrap: anywhere;
+    font-size: clamp(2rem, 10vw, 2.55rem) !important;
+    overflow-wrap: anywhere !important;
   }
 }
 /* =====================================================
