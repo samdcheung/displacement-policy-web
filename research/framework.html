@@ -38,6 +38,50 @@
   }
 }
 </script>
+
+<style>
+/* Framework analytical visuals */
+.framework-visual-block {
+  width: min(calc(100% - 44px), 1040px);
+  max-width: 1040px;
+  margin: clamp(2rem, 4vw, 3.25rem) auto;
+}
+.framework-visual-block img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.framework-visual-block figcaption {
+  max-width: 72ch;
+  margin: 0.8rem auto 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.framework-continuum-visual {
+  margin-top: clamp(2.25rem, 4vw, 3.5rem);
+  margin-bottom: clamp(2.75rem, 5vw, 4rem);
+}
+.framework-functions-visual {
+  margin-top: clamp(1.75rem, 3vw, 2.5rem);
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+}
+@media (max-width: 760px) {
+  .framework-visual-block {
+    width: calc(100% - 32px);
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .framework-visual-block img {
+    min-width: 760px;
+  }
+  .framework-functions-visual img {
+    min-width: 700px;
+  }
+}
+</style>
 </head>
 <body class="research-page framework-page">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -81,6 +125,11 @@
 </div>
 </div>
 </section>
+
+<figure class="framework-visual-block framework-continuum-visual">
+<img src="/assets/images/displacement-continuum-framework.svg" alt="Diagram showing a continuous displacement pathway crossing categorical, temporal and territorial fault lines where institutional responsibility can fragment." loading="lazy" decoding="async"/>
+<figcaption>The displacement continuum contrasts the continuity of lived displacement with the institutional thresholds at which responsibility, eligibility, services and financing can break down.</figcaption>
+</figure>
 
 <section class="section section-paper research-section" aria-labelledby="continuum-title">
 <div class="container research-column">
@@ -148,6 +197,10 @@
 <h2 id="framework-works-title">How the Framework Works</h2>
 <div class="prose">
 <p>The three elements perform distinct but connected analytical functions.</p>
+
+<figure class="framework-visual-block framework-functions-visual">
+<img src="/assets/images/framework-analytical-functions.svg" alt="Diagram showing the displacement continuum as governance diagnostic, sustainable inclusion as direction of reform, and political economy as analysis of persistence and feasibility." loading="lazy" decoding="async"/>
+</figure>
 
 <div class="framework-function-list">
 <div class="framework-function-item">

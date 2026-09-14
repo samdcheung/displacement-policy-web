@@ -1797,9 +1797,9 @@ body.perspective-article-page main {
 
 body.perspective-article-page .page-masthead {
   margin: 0;
-  padding: clamp(3.75rem, 7vw, 6.5rem) 0 clamp(2.25rem, 4.5vw, 3.75rem);
+  padding: clamp(3rem, 6vw, 5.25rem) 0 clamp(2.1rem, 4vw, 3.2rem);
   border-bottom: 1px solid rgba(8, 23, 35, 0.12);
-  background: linear-gradient(180deg, #f5f0e7 0%, #f0e9dd 100%);
+  background: #f4f1eb;
 }
 
 body.perspective-article-page .page-masthead .container {
@@ -1810,7 +1810,7 @@ body.perspective-article-page .page-masthead .container {
 
 body.perspective-article-page .page-masthead h1 {
   margin-bottom: clamp(1rem, 2vw, 1.35rem);
-  font-size: clamp(2.55rem, 5vw, 5rem);
+  font-size: clamp(2.45rem, 4.6vw, 4.65rem);
   line-height: 1.01;
   overflow-wrap: normal;
   word-break: normal;
@@ -1825,6 +1825,13 @@ body.perspective-article-page .page-masthead .lede {
   line-height: 1.62;
 }
 
+body.perspective-article-page .article-header-meta {
+  max-width: 720px;
+  margin-top: clamp(1.45rem, 3vw, 2.1rem);
+  padding-top: clamp(1rem, 2vw, 1.25rem);
+  border-top: 1px solid rgba(8, 23, 35, 0.16);
+}
+
 body.perspective-article-page .page-content {
   padding-top: clamp(2rem, 4vw, 3rem);
   padding-bottom: clamp(4rem, 7vw, 6rem);
@@ -1833,8 +1840,8 @@ body.perspective-article-page .page-content {
 body.perspective-article-page .page-content > .container,
 body.perspective-article-page .narrow-content,
 body.perspective-article-page .perspective-essay,
-body.perspective-article-page .content-intro,
 body.perspective-article-page .prose,
+body.perspective-article-page .author-footer,
 body.perspective-article-page .back-link {
   width: min(calc(100% - 2rem), 700px);
   max-width: 700px;
@@ -1845,36 +1852,29 @@ body.perspective-article-page .perspective-essay {
   display: block;
 }
 
-body.perspective-article-page .content-intro {
-  margin-bottom: clamp(1.9rem, 3vw, 2.65rem);
-  padding: 1rem 0 0 1.15rem;
-  border-left: 2px solid rgba(184, 130, 52, 0.42);
-  border-top: 1px solid rgba(8, 23, 35, 0.12);
+body.perspective-article-page .article-author-name {
+  margin: 0;
+  color: rgba(8, 23, 35, 0.92);
+  font-size: clamp(1.02rem, 0.95rem + 0.24vw, 1.16rem);
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+body.perspective-article-page .article-author-role {
+  margin: 0.28rem 0 0;
+  color: var(--muted, #4f5d5d);
+  font-size: 0.94rem;
+  line-height: 1.5;
 }
 
 body.perspective-article-page .article-meta {
-  margin: 0;
-  color: rgba(8, 23, 35, 0.78);
-  font-size: 0.82rem;
+  margin: 0.62rem 0 0;
+  color: rgba(8, 23, 35, 0.7);
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 1.5;
   text-transform: uppercase;
-}
-
-body.perspective-article-page .article-author-note {
-  margin: 0.7rem 0 0;
-  color: var(--muted, #4f5d5d);
-  font-size: 0.96rem;
-  font-style: italic;
-  line-height: 1.65;
-}
-
-body.perspective-article-page .article-note {
-  margin: 0.9rem 0 0;
-  color: rgba(79, 93, 93, 0.88);
-  font-size: 0.95rem;
-  line-height: 1.62;
 }
 
 body.perspective-article-page .prose {
@@ -1892,11 +1892,14 @@ body.perspective-article-page .prose p {
 }
 
 body.perspective-article-page .pull-quote {
-  margin: clamp(2rem, 4vw, 2.8rem) 0;
+  width: min(calc(100vw - 2rem), 820px);
+  margin: clamp(2.35rem, 5vw, 3.6rem) 0 clamp(2.35rem, 5vw, 3.6rem) 50%;
   padding: clamp(1.15rem, 2.5vw, 1.55rem) 0 clamp(1.15rem, 2.5vw, 1.55rem) clamp(1rem, 2vw, 1.35rem);
   border-left: 3px solid rgba(184, 130, 52, 0.55);
   border-top: 1px solid rgba(8, 23, 35, 0.1);
   border-bottom: 1px solid rgba(8, 23, 35, 0.1);
+  background: rgba(184, 130, 52, 0.045);
+  transform: translateX(-50%);
 }
 
 body.perspective-article-page .pull-quote p {
@@ -1909,8 +1912,106 @@ body.perspective-article-page .pull-quote p {
   line-height: 1.24;
 }
 
+body.perspective-article-page .perspective-figure {
+  margin: 2.25rem 0 2.5rem;
+}
+
+body.perspective-article-page .perspective-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+body.perspective-article-page .perspective-figure figcaption {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 body.perspective-article-page .back-link {
   margin-top: clamp(2.5rem, 5vw, 4rem);
+}
+
+body.perspective-article-page .author-footer {
+  margin-top: clamp(2.75rem, 5vw, 4rem);
+  padding-top: clamp(1rem, 2vw, 1.25rem);
+  border-top: 1px solid rgba(8, 23, 35, 0.14);
+}
+
+body.perspective-article-page .author-footer-label {
+  margin: 0 0 0.55rem;
+  color: rgba(8, 23, 35, 0.58);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+body.perspective-article-page .author-footer-name {
+  margin: 0;
+  color: rgba(8, 23, 35, 0.9);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+body.perspective-article-page .author-footer-role,
+body.perspective-article-page .author-footer-bio {
+  margin: 0.25rem 0 0;
+  color: rgba(79, 93, 93, 0.9);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+body.perspective-article-page .author-footer-with-photo {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 1.35rem);
+  align-items: start;
+}
+
+body.perspective-article-page .author-footer-photo {
+  display: block;
+  overflow: hidden;
+  width: 92px;
+  height: 92px;
+  aspect-ratio: 1 / 1;
+  border: 1px solid rgba(8, 23, 35, 0.16);
+  border-radius: 50%;
+  background: var(--paper);
+}
+
+body.perspective-article-page .author-footer-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 28%;
+}
+
+body.perspective-article-page .author-footer-photo--elizabeth img {
+  object-position: 50% 28%;
+}
+
+body.perspective-article-page .author-footer-photo--inah img {
+  object-position: 48% 34%;
+  transform: scale(1.16);
+}
+
+body.perspective-article-page .author-footer-photo--peter img {
+  object-position: 50% 22%;
+  transform: scale(1.18);
+}
+
+body.perspective-article-page .author-footer-photo--samuel img {
+  object-position: 48% 28%;
+}
+
+body.perspective-article-page .author-footer-copy > :first-child {
+  margin-top: 0;
 }
 
 /* =====================================================
@@ -2192,14 +2293,9 @@ body.perspective-article-page .back-link {
     text-wrap: normal;
   }
 
-  body.perspective-article-page .content-intro {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 0.9rem;
-  }
-
   body.perspective-article-page .perspective-essay,
   body.perspective-article-page .prose,
+  body.perspective-article-page .author-footer,
   body.perspective-article-page .back-link {
     width: 100%;
     max-width: 100%;
@@ -2211,12 +2307,23 @@ body.perspective-article-page .back-link {
   }
 
   body.perspective-article-page .pull-quote {
+    width: 100%;
     margin: 1.7rem 0;
     padding: 1rem 0 1rem 0.9rem;
+    transform: none;
   }
 
   body.perspective-article-page .pull-quote p {
     font-size: clamp(1.32rem, 7vw, 1.65rem);
+  }
+
+  body.perspective-article-page .author-footer-with-photo {
+    grid-template-columns: 92px minmax(0, 1fr);
+  }
+
+  body.perspective-article-page .author-footer-photo {
+    width: 92px;
+    height: 92px;
   }
 }
 
@@ -2704,13 +2811,13 @@ body.perspective-article-page .back-link {
 
 .perspectives-page .perspectives-feature {
   padding-top: 0;
-  padding-bottom: clamp(2.75rem, 5vw, 4.25rem);
+  padding-bottom: 0;
 }
 
 .perspectives-page .perspective-feature-card {
   display: grid;
   gap: clamp(1.75rem, 4vw, 3rem);
-  padding: clamp(2rem, 4vw, 3rem) 0 clamp(2.2rem, 5vw, 3.5rem);
+  padding: clamp(2.75rem, 5vw, 4.25rem) 0;
   border-top: 2px solid var(--bronze);
   border-bottom: 1px solid var(--line);
 }
@@ -2826,7 +2933,7 @@ body.perspective-article-page .back-link {
 }
 
 .perspectives-page .perspectives-latest {
-  padding-top: 0;
+  padding-top: clamp(2.75rem, 5vw, 4.25rem);
   padding-bottom: clamp(3rem, 6vw, 5rem);
 }
 
@@ -3120,6 +3227,7 @@ body.perspective-article-page .back-link {
 .research-page #cross-cutting-lenses,
 .research-page #reform-pathways,
 .research-page #policy-application,
+.research-page #flagship-research-programme,
 .research-page #research-outputs {
   scroll-margin-top: 110px;
 }
@@ -3463,6 +3571,7 @@ body.perspective-article-page .back-link {
 .research-page .research-area-card h3,
 .research-page .framework-summary-card h3,
 .research-page .research-product-item h3,
+.research-page .research-flagship-section h3,
 .research-page .research-mapping-section h3 {
   margin: 0 0 12px;
   color: var(--ink);
@@ -3532,6 +3641,10 @@ body.perspective-article-page .back-link {
 .research-page .research-purpose-section .prose {
   border-left: 3px solid var(--bronze);
   padding-left: clamp(18px, 3vw, 26px);
+}
+
+.research-page .research-flagship-section h3 {
+  margin-top: 18px;
 }
 
 .research-page .research-mapping-section h3 {
@@ -4637,5 +4750,10 @@ body.perspective-article-page .back-link {
     overflow-wrap: normal !important;
     word-break: normal !important;
     hyphens: none !important;
+  }
+
+  .perspectives-page .editorial-masthead h1 {
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
   }
 }

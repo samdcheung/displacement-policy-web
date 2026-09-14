@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Three analytical functions</title>
+<desc id="desc">Displacement Continuum, Sustainable Inclusion and Political Economy shown as three connected analytical functions.</desc>
+<rect width="1200" height="420" fill="#faf9f6"/>
+<g stroke="#d8d1c5" stroke-width="1.4" fill="none">
+  <path d="M70 66h290"/><path d="M840 66h290"/>
+</g>
+<g fill="#b88234"><circle cx="52" cy="66" r="4"/><circle cx="1148" cy="66" r="4"/></g>
+<text x="600" y="72" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.4" fill="#081723">ANALYTICAL FUNCTIONS</text>
+<g>
+  <circle cx="240" cy="180" r="82" fill="#082f3f"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M178 180c42-20 73 20 112 0 28-14 49 8 56 3" stroke="#f2eee6" stroke-width="2"/>
+    <path d="M180 194c40-18 74 18 112-1 28-14 47 8 55 4" stroke="#b88234" stroke-width="1.5"/>
+    <path d="M178 165c42-19 74 18 113-1 27-13 47 8 54 4" stroke="#486a73" stroke-width="1.5"/>
+  </g>
+  <circle cx="212" cy="181" r="5" fill="#faf9f6"/><circle cx="240" cy="176" r="5" fill="#faf9f6"/><circle cx="270" cy="185" r="8" fill="none" stroke="#b88234" stroke-width="3"/><circle cx="304" cy="176" r="5" fill="#faf9f6"/>
+
+  <circle cx="600" cy="180" r="82" fill="#416c7a"/>
+  <polygon points="600,122 650,151 650,209 600,238 550,209 550,151" fill="none" stroke="#f2eee6" stroke-width="2"/>
+  <circle cx="600" cy="180" r="40" fill="none" stroke="#b88234" stroke-width="1.5" opacity=".8"/>
+  <circle cx="600" cy="180" r="5" fill="#f2eee6"/>
+  <line x1="600" y1="122" x2="600" y2="238" stroke="#f2eee6" stroke-width="1.5"/>
+  <line x1="550" y1="151" x2="650" y2="209" stroke="#f2eee6" stroke-width="1.5"/>
+  <line x1="650" y1="151" x2="550" y2="209" stroke="#f2eee6" stroke-width="1.5"/>
+
+  <circle cx="960" cy="180" r="82" fill="#8e9ca2"/>
+  <g stroke="#f2eee6" stroke-width="1.6">
+    <line x1="915" y1="148" x2="945" y2="170"/><line x1="945" y1="170" x2="984" y2="143"/><line x1="945" y1="170" x2="956" y2="204"/><line x1="984" y1="143" x2="1010" y2="177"/><line x1="956" y1="204" x2="1010" y2="177"/><line x1="956" y1="204" x2="986" y2="220"/>
+  </g>
+  <g fill="#082f3f"><circle cx="915" cy="148" r="6"/><circle cx="945" cy="170" r="6"/><circle cx="956" cy="204" r="6"/><circle cx="986" cy="220" r="6"/></g>
+  <g fill="#b88234"><circle cx="984" cy="143" r="6"/><circle cx="1010" cy="177" r="6"/></g>
+</g>
+<g stroke="#b88234" stroke-width="1.5" fill="none">
+  <path d="M334 180h92"/><path d="M414 172l12 8-12 8"/>
+  <path d="M694 180h92"/><path d="M774 172l12 8-12 8"/>
+</g>
+<g font-family="Georgia,Times New Roman,serif" font-size="24" fill="#081723" text-anchor="middle">
+  <text x="240" y="310">Displacement Continuum</text>
+  <text x="600" y="310">Sustainable Inclusion</text>
+  <text x="960" y="310">Political Economy</text>
+</g>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.8" fill="#b88234" text-anchor="middle">
+  <text x="240" y="337">GOVERNANCE DIAGNOSTIC</text><text x="600" y="337">DIRECTION OF REFORM</text><text x="960" y="337">PERSISTENCE &amp; FEASIBILITY</text>
+</g>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#4f5d5d" text-anchor="middle">
+  <text x="240" y="370">Where responsibility breaks</text><text x="600" y="370">What continuity requires</text><text x="960" y="370">Why fragmentation persists</text>
+</g>
+</svg>
