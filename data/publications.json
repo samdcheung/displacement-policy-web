@@ -1,5 +1,18 @@
 [
     {
+        "slug":  "financing-displacement-governance",
+        "status":  "published",
+        "publishedDate":  "2026-09-30",
+        "type":  "Policy Brief No. 5",
+        "series":  "Governing Displacement",
+        "title":  "Financing Displacement Governance",
+        "summary":  "From fiscal diagnosis to sustainable inclusion.",
+        "date":  "September 2026",
+        "href":  "/publications/financing-displacement-governance",
+        "image":  "/images/publications/governing-displacement-brief-5.png",
+        "imageAlt":  "Financing Displacement Governance - Governing Displacement Policy Brief No. 5"
+    },
+    {
         "slug":  "fiscal-architecture-of-displacement",
         "status":  "published",
         "publishedDate":  "2026-06-04",
