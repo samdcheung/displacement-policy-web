@@ -4075,6 +4075,34 @@ body.perspective-article-page .author-footer-copy > :first-child {
   padding-block: clamp(48px, 5vw, 72px);
 }
 
+.home-page .home-scope-indicator {
+  border-bottom: 1px solid var(--line);
+  background: var(--white);
+}
+
+.home-page .home-scope-indicator__inner {
+  padding-block: clamp(20px, 2.6vw, 32px);
+}
+
+.home-page .home-scope-indicator__heading {
+  margin: 0 0 0.45rem;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 760;
+  letter-spacing: 0.08em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.home-page .home-scope-indicator__terms {
+  max-width: 74ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  line-height: 1.75;
+}
+
 .home-page .compact-hero .hero-copy-inner.site-container {
   width: min(calc(100% - 48px), 1200px) !important;
   max-width: 1200px !important;
