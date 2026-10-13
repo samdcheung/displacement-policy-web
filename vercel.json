@@ -39,6 +39,10 @@
                        "dest":  "/about.html"
                    },
                    {
+                       "src":  "/samuel-cheung",
+                       "dest":  "/samuel-cheung.html"
+                   },
+                   {
                        "src":  "/publications",
                        "dest":  "/publications.html"
                    },

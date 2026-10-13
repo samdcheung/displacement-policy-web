@@ -13,6 +13,7 @@ const obsoleteSitemapPaths = new Set([
 
 const rootFiles = [
   "index.html",
+  "samuel-cheung.html",
   "about.html",
   "research.html",
   "perspectives.html",
