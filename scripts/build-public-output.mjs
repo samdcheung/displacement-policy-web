@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, rm, stat, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -172,5 +172,28 @@ if (isProduction) {
 }
 
 await writeSitemap(perspectives);
+
+// Keep preview deployments out of search without changing production metadata.
+if (process.env.VERCEL_ENV === "preview") {
+  const previewOrigin = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "";
+  async function protectPreview(directory) {
+    for (const entry of await readdir(directory, { withFileTypes: true })) {
+      const path = resolve(directory, entry.name);
+      if (entry.isDirectory()) await protectPreview(path);
+      else if (entry.name.endsWith(".html")) {
+        let html = await readFile(path, "utf8");
+        html = html.replace(/<meta\b(?=[^>]*\bname=["']robots["'])[^>]*>/gi, "");
+        html = html.replace(/<head\b[^>]*>/i, '$&<meta name="robots" content="noindex, nofollow">');
+        html = html.replace(/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/gi,
+          tag => previewOrigin ? tag.replace(/href=["']https:\/\/displacementpolicy\.org([^"']*)["']/i,
+            (_, route) => `href="${previewOrigin}${route}"`) : "");
+        await writeFile(path, html);
+      }
+    }
+  }
+  await protectPreview(outDir);
+  await writeFile(resolve(outDir, "robots.txt"), "User-agent: *\nDisallow: /\n");
+  await writeFile(resolve(outDir, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>\n');
+}
 
 console.log("Built Vercel public output directory.");
