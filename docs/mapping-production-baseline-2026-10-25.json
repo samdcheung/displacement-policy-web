@@ -1,0 +1,1911 @@
+{
+  "capturedAt": "2026-10-25",
+  "productionDeploymentId": "dpl_Bd7QEHJ2sGgwsefskKgNV6usHWdY",
+  "productionGitSha": "d9676275dd56f5cf341229c57412b480e86a3d76",
+  "productionGitDirty": true,
+  "counts": {
+    "records": 33,
+    "references": 218,
+    "countryProfiles": 13
+  },
+  "routes": [
+    {
+      "path": "/mapping",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping",
+      "sha256": "49586f8ba574a423334dd96606f725a19dc5dd48b310f763bc5dfb0b66629b0e",
+      "bytes": 280446
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/sitemap.xml",
+      "sha256": "94d10c2d1f185b8fe4a001bbd8118ab4a87fffcbf948aadb6375c9afd7f7a23a",
+      "bytes": 5208
+    },
+    {
+      "path": "/data/mapping/mapping-records.json",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/data/mapping/mapping-records.json",
+      "sha256": "09d6deefca3bc430a8af25e514efabcc5430ed1171dc0d3ec9103b9adb0483ca",
+      "bytes": 69145
+    },
+    {
+      "path": "/data/mapping/mapping-references.json",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/data/mapping/mapping-references.json",
+      "sha256": "7d1042ec3892478d056944ab05df74c436dfb1127c43026cbffb5d3d6b54f853",
+      "bytes": 210867
+    },
+    {
+      "path": "/data/mapping/mapping-country-profiles.json",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/data/mapping/mapping-country-profiles.json",
+      "sha256": "1125608af8f6f56718ff7ae930d341ba0a34767c55ab13db54ee85213a09eae4",
+      "bytes": 24172
+    },
+    {
+      "path": "/mapping/aalco-bangkok-principles",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/aalco-bangkok-principles"
+    },
+    {
+      "path": "/mapping/adb-safeguards-environmental-social-framework",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/adb-safeguards-environmental-social-framework"
+    },
+    {
+      "path": "/mapping/asean-aadmer",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/asean-aadmer",
+      "sha256": "4c7ac86e342116c0e18015d6cc1a71844156050afb9db739a723b1ad7d7edca0",
+      "bytes": 14719
+    },
+    {
+      "path": "/mapping/asean-consensus-migrant-workers-rights",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/asean-consensus-migrant-workers-rights",
+      "sha256": "57d5896d82ac9407b5c588fa33b8b710251d841c91521cfb85bbf4c723f52554",
+      "bytes": 15999
+    },
+    {
+      "path": "/mapping/asean-declaration-rights-migrant-workers",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/asean-declaration-rights-migrant-workers"
+    },
+    {
+      "path": "/mapping/asean-five-point-consensus-myanmar",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/asean-five-point-consensus-myanmar"
+    },
+    {
+      "path": "/mapping/bangladesh-unhcr-rohingya-registration",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/bangladesh-unhcr-rohingya-registration",
+      "sha256": "9710cbfc4a9a923bcfde0b22b1910d285bc137605182df9eeedad6f1354dbd32",
+      "bytes": 17246
+    },
+    {
+      "path": "/mapping/bangsamoro-idp-rights-act",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/bangsamoro-idp-rights-act",
+      "sha256": "526af6f6bc539631da94a3cb1b4aba063d4e3f68b913bc3bc7e7258c783a3c7c",
+      "bytes": 14824
+    },
+    {
+      "path": "/mapping/brunei-statelessness-nationality-registration",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/brunei-statelessness-nationality-registration",
+      "sha256": "7a39e8b12135571d3e3c73a0680072d441058b6908a2d7001c775d8ef342b26a",
+      "bytes": 14999
+    },
+    {
+      "path": "/mapping/cambodia-ethnic-vietnamese-statelessness-documentation",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/cambodia-ethnic-vietnamese-statelessness-documentation",
+      "sha256": "0e25ec547df8e9c582003cb6d592db644fadb500fe8e9b6e5f1bb859f69e530b",
+      "bytes": 16160
+    },
+    {
+      "path": "/mapping/cambodia-land-law-economic-land-concessions",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/cambodia-land-law-economic-land-concessions",
+      "sha256": "1fc8496fef24fd53b8e64bc0aea3336ccc0e881c0ab304e3955c1369b512a964",
+      "bytes": 14807
+    },
+    {
+      "path": "/mapping/colombia-registro-unico-victimas",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/colombia-registro-unico-victimas",
+      "sha256": "3de3e90091387320c702de3435ce78fab1ff77884cbf620e74bddb2f405fb6fd",
+      "bytes": 16665
+    },
+    {
+      "path": "/mapping/global-compact-on-refugees",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/global-compact-on-refugees"
+    },
+    {
+      "path": "/mapping/global-compact-safe-orderly-regular-migration",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/global-compact-safe-orderly-regular-migration"
+    },
+    {
+      "path": "/mapping/global-concessional-financing-facility",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/global-concessional-financing-facility",
+      "sha256": "1c3bf188ca80ec9c9f0435c9837f79f83faa67cd79e53ae031178a470a9349c6",
+      "bytes": 15446
+    },
+    {
+      "path": "/mapping/guiding-principles-internal-displacement",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/guiding-principles-internal-displacement"
+    },
+    {
+      "path": "/mapping/humanitarian-cash-transfer-systems-parallel-social-protection",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/humanitarian-cash-transfer-systems-parallel-social-protection",
+      "sha256": "383de4fcd3d561bd3fd1c07913884b5cb0c2a9e88258cbe1166d40aa76aa82d9",
+      "bytes": 13769
+    },
+    {
+      "path": "/mapping/iasc-framework-durable-solutions-idps",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/iasc-framework-durable-solutions-idps"
+    },
+    {
+      "path": "/mapping/ifc-performance-standard-5",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/ifc-performance-standard-5"
+    },
+    {
+      "path": "/mapping/indonesia-dtks-siks-ng",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/indonesia-dtsen",
+      "sha256": "a3def3539a9974f42316adb7e3ab0cbd339602e4b1d2b149cebfd53e97837017",
+      "bytes": 16237
+    },
+    {
+      "path": "/mapping/indonesia-dtsen",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/indonesia-dtsen",
+      "sha256": "a3def3539a9974f42316adb7e3ab0cbd339602e4b1d2b149cebfd53e97837017",
+      "bytes": 16237
+    },
+    {
+      "path": "/mapping/indonesia-law-24-2007-disaster-management",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/indonesia-law-24-2007-disaster-management",
+      "sha256": "2a864c8453186619a4f29110d01bd6b1e97183be412d68e6b6a19106611128fb",
+      "bytes": 13771
+    },
+    {
+      "path": "/mapping/indonesia-post-disaster-planned-relocation",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/indonesia-post-disaster-planned-relocation",
+      "sha256": "791989c8787c859a548a31fc221cf5b5e113a56a60647b83041ea13e2a44b1f6",
+      "bytes": 16447
+    },
+    {
+      "path": "/mapping/indonesia-presidential-regulation-125-2016-refugees",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/indonesia-presidential-regulation-125-2016-refugees",
+      "sha256": "d16ac03823bdb4b60e03d866a80b34ecada0793594dabd57552189bacc2b297b",
+      "bytes": 14765
+    },
+    {
+      "path": "/mapping/kampala-convention",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/kampala-convention"
+    },
+    {
+      "path": "/mapping/lao-pdr-compensation-resettlement-development-projects",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/lao-pdr-compensation-resettlement-development-projects",
+      "sha256": "0ee385caeb5827d7eda2d906972ec47bb9487a6838b7d9b8ee61f3eb01c951f7",
+      "bytes": 16624
+    },
+    {
+      "path": "/mapping/malaysia-foreign-worker-health-protection-scheme",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/malaysia-foreign-worker-health-protection-scheme",
+      "sha256": "7640bbfd8c59786eb8e81cd5b7f76e09e3cc86198dc6e64da7645c7aeb93af25",
+      "bytes": 14230
+    },
+    {
+      "path": "/mapping/methodology",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/methodology",
+      "sha256": "57348ffce0c5b7a23fa159eb08152155801d5268665bd72b8e9890c113c88ac2",
+      "bytes": 10508
+    },
+    {
+      "path": "/mapping/myanmar-idp-cccm-cluster-governance",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/myanmar-idp-cccm-cluster-governance",
+      "sha256": "bb79bc38f29f5164a60a240fcf163ff22df6a6abe3589676083cb7e7000f6ddb",
+      "bytes": 17083
+    },
+    {
+      "path": "/mapping/myanmar-maternal-child-cash-transfer",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/myanmar-maternal-child-cash-transfer",
+      "sha256": "cb74148cc4c2683d89318d9cdb70993acab01f3f3d9a8ae3eddaf30f88efb7d9",
+      "bytes": 16826
+    },
+    {
+      "path": "/mapping/oecd-social-protection-for-forcibly-displaced",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/oecd-social-protection-for-forcibly-displaced"
+    },
+    {
+      "path": "/mapping/philippines-4ps",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/philippines-4ps",
+      "sha256": "2bfeb904b657b4b06f9459d962ff5b32cbd1058d92547d77e4608e48769f5148",
+      "bytes": 13003
+    },
+    {
+      "path": "/mapping/philippines-disaster-risk-reduction-management-act",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/philippines-disaster-risk-reduction-management-act",
+      "sha256": "0d8bb7647fb2bcbc8879611dba59f554774f3cd4c93d9d58b0fc8e3c8af32d29",
+      "bytes": 13655
+    },
+    {
+      "path": "/mapping/philippines-marawi-rehabilitation-architecture",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/philippines-marawi-rehabilitation-architecture",
+      "sha256": "2a19a13ffbc0f68c09ae3918df006c981222fad98ff13ac5d4f50b8f8a4fe312",
+      "bytes": 18179
+    },
+    {
+      "path": "/mapping/philippines-migrant-workers-overseas-filipinos-act",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/philippines-migrant-workers-overseas-filipinos-act",
+      "sha256": "c52e26180b20413a8b605257be5beb4f72896de3040f33b5d9c93dffb1a30953",
+      "bytes": 13795
+    },
+    {
+      "path": "/mapping/platform-disaster-displacement-nansen-protection-agenda",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/platform-disaster-displacement-nansen-protection-agenda"
+    },
+    {
+      "path": "/mapping/references",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references",
+      "sha256": "3c8e5cd492a84ff7f3821043fcee4bebade9a6ab406e1063f4d575e9905edee0",
+      "bytes": 187061
+    },
+    {
+      "path": "/mapping/references/2024-action-agenda-progress-report",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/2024-action-agenda-progress-report",
+      "sha256": "5100d819497d179cbda1313b481e348477128e00eb2b72224dfc85615ca73822",
+      "bytes": 10913
+    },
+    {
+      "path": "/mapping/references/aadmer-official-text-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/aadmer-official-text-pdf",
+      "sha256": "765337f9658064db244bc5deb922642afbcdfb410e64ecbb1fb3f40167a143ae",
+      "bytes": 12475
+    },
+    {
+      "path": "/mapping/references/aalco-final-text-of-the-bangkok-principles",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/aalco-final-text-of-the-bangkok-principles",
+      "sha256": "c4ee72f8102ff9ed377e4e418ea6a0299493ea9ab8044dfc3bcc67ade1630225",
+      "bytes": 10888
+    },
+    {
+      "path": "/mapping/references/aalco-official-website",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/aalco-official-website",
+      "sha256": "a6508f8213b4f2b8f6c916dbd2296130417d179f9383bed313763d04d3b5950c",
+      "bytes": 10708
+    },
+    {
+      "path": "/mapping/references/action-agenda-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/action-agenda-pdf",
+      "sha256": "528146a33ca4acd2aea2e2895256574a166eb770161a0f208ba988f754a19f06",
+      "bytes": 10837
+    },
+    {
+      "path": "/mapping/references/adaptive-social-protection-building-resilience-to-shocks-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/adaptive-social-protection-building-resilience-to-shocks-pdf",
+      "sha256": "04bdc45760bf26c9abcc531737fa13b0dbb06784258f0f68f7f9737cf9a256ae",
+      "bytes": 11078
+    },
+    {
+      "path": "/mapping/references/adb-environmental-and-social-framework",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/adb-environmental-and-social-framework",
+      "sha256": "843ec1dec35d8def5d8120ac61203f731591ee9498600a1515a23da86112b185",
+      "bytes": 11010
+    },
+    {
+      "path": "/mapping/references/adb-environmental-and-social-requirements",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/adb-environmental-and-social-requirements",
+      "sha256": "674ee7202b69bb403dc80ad6eb8acae364683e19f3f0ee5ff4b7d5801115b0ba",
+      "bytes": 10997
+    },
+    {
+      "path": "/mapping/references/adb-safeguard-policy-statement",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/adb-safeguard-policy-statement",
+      "sha256": "6d376a0377272fdddd36274b1e46784a907eb3ad30af68b03ca73f0d4b36c6e3",
+      "bytes": 10923
+    },
+    {
+      "path": "/mapping/references/african-union-kampala-convention-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/african-union-kampala-convention-pdf",
+      "sha256": "df1a8d9335e1f4aabc7915726ae8f22ccd1837ffb3c61c9de0d5321fac6cebfa",
+      "bytes": 10733
+    },
+    {
+      "path": "/mapping/references/african-union-treaties-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/african-union-treaties-page",
+      "sha256": "f52d684cfa20f52b114bb979b01b78761df0fceab67d8746ccb9b95c98134a9b",
+      "bytes": 10610
+    },
+    {
+      "path": "/mapping/references/analysis-of-disaster-emergency-law-in-indonesia",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/analysis-of-disaster-emergency-law-in-indonesia",
+      "sha256": "94cf9daaa50177ce009e0972a366aebd1db836cbcfda3535d403d6ceb524de3f",
+      "bytes": 12334
+    },
+    {
+      "path": "/mapping/references/ap-r2p-report-on-asean-and-the-myanmar-humanitarian-crisis",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ap-r2p-report-on-asean-and-the-myanmar-humanitarian-crisis",
+      "sha256": "a03cb3f184c3e9015728ba533621b2b4642cbe9960bfa8c8ae8566a6b18c88d4",
+      "bytes": 10970
+    },
+    {
+      "path": "/mapping/references/asean-aadmer-work-programme-2026-2030",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/asean-aadmer-work-programme-2026-2030",
+      "sha256": "eceb024c5f5dfe44b50c0bd6f85868f73f073890438f11812e65aefb52908af6",
+      "bytes": 12554
+    },
+    {
+      "path": "/mapping/references/asean-chairman-s-statement-on-the-leaders-meeting-24-april-2021",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/asean-chairman-s-statement-on-the-leaders-meeting-24-april-2021",
+      "sha256": "c58de47355620cb27b3ca7d33b0309d5885fe58a904238d938012425203d309a",
+      "bytes": 11053
+    },
+    {
+      "path": "/mapping/references/asean-consensus-protection-promotion-rights-migrant-workers-official-text",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/asean-consensus-protection-promotion-rights-migrant-workers-official-text",
+      "sha256": "09c88acbd82f392522e9daf952a22085d0da84df8dda3b9d96251cee17856470",
+      "bytes": 13229
+    },
+    {
+      "path": "/mapping/references/asean-declaration-on-migrant-workers-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/asean-declaration-on-migrant-workers-pdf",
+      "sha256": "82fa96136654bbcf79fce134f451b04e36c8be2bf4c89859927a0ee71d7fd1ee",
+      "bytes": 11067
+    },
+    {
+      "path": "/mapping/references/asean-magazine-community-based-drrm-philippines-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/asean-magazine-community-based-drrm-philippines-2025",
+      "sha256": "8c963ba2e20ab779d5c76533a1af251a05c0794ad31fc46def14ba52fe37add1",
+      "bytes": 12397
+    },
+    {
+      "path": "/mapping/references/asean-official-website",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/asean-official-website",
+      "sha256": "1e1ead22c3765da5aca5a6221d736bb01ebc0cae279ae55dd27eccb03d8cb0a3",
+      "bytes": 12978
+    },
+    {
+      "path": "/mapping/references/asean-strengthens-cooperation-protection-migrant-workers-2023",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/asean-strengthens-cooperation-protection-migrant-workers-2023",
+      "sha256": "3a84f786de11322ea2b7ba245727da67c4b2b742c8e75bd4dc5cdc6d041b52dc",
+      "bytes": 13128
+    },
+    {
+      "path": "/mapping/references/bangon-marawi-presentation-hosted-by-national-economic-and-development",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/bangon-marawi-presentation-hosted-by-national-economic-and-development",
+      "sha256": "fc2ec58e588262985e4c38309e346e665054d8be82400ab5d5616d5bbcf253c0",
+      "bytes": 13366
+    },
+    {
+      "path": "/mapping/references/bangsamoro-gov-marawi-rehab-oversight-hearings-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/bangsamoro-gov-marawi-rehab-oversight-hearings-2025",
+      "sha256": "24fe1d888bec11ec80d291996a0bb5234e407cfc073361f0a637287b0ff9ef64",
+      "bytes": 13254
+    },
+    {
+      "path": "/mapping/references/baochinhphu-resolution-120-three-year-implementation-review",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/baochinhphu-resolution-120-three-year-implementation-review",
+      "sha256": "95f082ea6e9bbfcbe1d2b94c9fe5ddf14cd1196c9516126645e69787cd3c461a",
+      "bytes": 13442
+    },
+    {
+      "path": "/mapping/references/bloomberg-singapore-dormitory-tests-pledge-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/bloomberg-singapore-dormitory-tests-pledge-2026",
+      "sha256": "19a80d84d12e7b3641d12cf9646327fe033b935e43504dc48ae92279082fa9ac",
+      "bytes": 13068
+    },
+    {
+      "path": "/mapping/references/bnpb-official-website",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/bnpb-official-website",
+      "sha256": "16b2dc85d086747e89c2131a61bc7289a45adfb42939c426c483131b13b75ecf",
+      "bytes": 12138
+    },
+    {
+      "path": "/mapping/references/bps-national-single-social-and-economic-data-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/bps-national-single-social-and-economic-data-2025",
+      "sha256": "832e0b3683074546b5df65bba61d8672fbbf743b902f9b77f53fb380084be7d2",
+      "bytes": 12850
+    },
+    {
+      "path": "/mapping/references/brookings-planned-relocations-mekong-delta-vietnam",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/brookings-planned-relocations-mekong-delta-vietnam",
+      "sha256": "9963c4176f2d8bcb46ebfa96c2b02de32df13037ec99cc9da6a842fbe7ee1877",
+      "bytes": 13398
+    },
+    {
+      "path": "/mapping/references/calp-network",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/calp-network",
+      "sha256": "75e9a2ffbfbec16a4b3b63ba64578f87e1ea3515593686d912e5d8cd2c65f604",
+      "bytes": 12333
+    },
+    {
+      "path": "/mapping/references/cambodia-land-law-english-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/cambodia-land-law-english-pdf",
+      "sha256": "5a7ebdddb18a9daa8dda2491404ac9f01be0ef5a73f6c4aec1a83af1f5dae735",
+      "bytes": 12617
+    },
+    {
+      "path": "/mapping/references/cccm-cluster-myanmar-country-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/cccm-cluster-myanmar-country-page",
+      "sha256": "265e4176f2268d25782c2ddbed915a272f93ecb99fab3640a3762bed3e06cdd6",
+      "bytes": 13223
+    },
+    {
+      "path": "/mapping/references/cgd-whr-survives-simplifida-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/cgd-whr-survives-simplifida-2025",
+      "sha256": "815e3e76ef8c0876a3d6691e9413134d402092770e679989d17b3649588c80ea",
+      "bytes": 13138
+    },
+    {
+      "path": "/mapping/references/cilis-stalemate-refugees-in-indonesia-pr-125-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/cilis-stalemate-refugees-in-indonesia-pr-125-2025",
+      "sha256": "4ba5a4401adcc26ca48d70fb1a6459a0ac63cc19dd30b7cc9078a306b6389c89",
+      "bytes": 12670
+    },
+    {
+      "path": "/mapping/references/council-for-the-development-of-cambodia-land",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/council-for-the-development-of-cambodia-land",
+      "sha256": "c9cbf61aefa9fc494460ec319cfc6e4e313faa5b4429b93578fb1e9a0d28aa80",
+      "bytes": 12643
+    },
+    {
+      "path": "/mapping/references/dasl-worker-dormitories-singapore-h2-2024-industry-report",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/dasl-worker-dormitories-singapore-h2-2024-industry-report",
+      "sha256": "4e7598c6dad558962b8c8f54f9dbf933628b9ca7bafa18044f062c1e81aea1ec",
+      "bytes": 13096
+    },
+    {
+      "path": "/mapping/references/decree-no-84-on-compensation-and-resettlement-management-in-developmen",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/decree-no-84-on-compensation-and-resettlement-management-in-developmen",
+      "sha256": "68e0a188814c2266d10297a967d2d98e4a2a5a4da6b536a75eece9e4e0eb3de3",
+      "bytes": 13194
+    },
+    {
+      "path": "/mapping/references/department-of-finance-bangon-marawi-rehabilitation-pledges",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/department-of-finance-bangon-marawi-rehabilitation-pledges",
+      "sha256": "04a13ad5243b74f0d36fe6926986004889341ddc454566da13358e071d1f6cd7",
+      "bytes": 13253
+    },
+    {
+      "path": "/mapping/references/dfat-myanmar-country-information-report-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/dfat-myanmar-country-information-report-2025",
+      "sha256": "23ccb2c52d63ed50699836bd9a7f1ac205dec0b780ed5b7dda2a54d06c2bb0e9",
+      "bytes": 12999
+    },
+    {
+      "path": "/mapping/references/dswd-pantawid-pamilyang-pilipino-program",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/dswd-pantawid-pamilyang-pilipino-program",
+      "sha256": "32e51e7ec263930047ce2619f66426b67a4a1573ebafba803df9e66ee31057d1",
+      "bytes": 11972
+    },
+    {
+      "path": "/mapping/references/dtks-portal",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/dtks-portal",
+      "sha256": "e3d96417578ca7a481108673169547917de58eeb1785adac9439161caf68530a",
+      "bytes": 12451
+    },
+    {
+      "path": "/mapping/references/ess5-fact-sheet-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ess5-fact-sheet-pdf",
+      "sha256": "f7122966f8df119728701d0a797c2f097695f08ca577f2ef86bcfad4f8dfd447",
+      "bytes": 10687
+    },
+    {
+      "path": "/mapping/references/gcff-about-us",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/gcff-about-us",
+      "sha256": "3a8bb3d39c4c29b5da4d0074e1b195e731eb1b1d3c78151682ee4e8842666206",
+      "bytes": 12505
+    },
+    {
+      "path": "/mapping/references/gcff-about-us-cumulative-results-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/gcff-about-us-cumulative-results-2026",
+      "sha256": "c559ebd53f85a6224e3e6556df8a3836da9cbf0963fd3a8ec6ddded504ae54c1",
+      "bytes": 12587
+    },
+    {
+      "path": "/mapping/references/global-compact-for-migration-final-draft-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/global-compact-for-migration-final-draft-pdf",
+      "sha256": "3a455790f18f6221c8478bdbd3f5b6a2f663edbacdfdf21eb18e9d7adf93195c",
+      "bytes": 10963
+    },
+    {
+      "path": "/mapping/references/global-compact-on-refugees-official-platform",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/global-compact-on-refugees-official-platform",
+      "sha256": "5533383a2b3a5f16f2bd330e6705974ffdfb69c55e648ad8c4e8104e8380fd9a",
+      "bytes": 10838
+    },
+    {
+      "path": "/mapping/references/global-compact-on-refugees-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/global-compact-on-refugees-pdf",
+      "sha256": "4de73907a21a8b582c52c3ecf301e6450b1b88865246ac20db7c83a1d1395309",
+      "bytes": 10823
+    },
+    {
+      "path": "/mapping/references/global-concessional-financing-facility-official-website",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/global-concessional-financing-facility-official-website",
+      "sha256": "e889fb2e57bae313216faafc8c944aca742476ca3c4b37ea217f17c8ac856518",
+      "bytes": 12748
+    },
+    {
+      "path": "/mapping/references/haskoning-mekong-delta-regional-masterplan",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/haskoning-mekong-delta-regional-masterplan",
+      "sha256": "cab88425f1b3380d29ccf3c645da64981124610681a4e00e07e47f60554232ae",
+      "bytes": 13271
+    },
+    {
+      "path": "/mapping/references/hrw-thailand-aid-cuts-put-myanmar-refugees-at-grave-risk-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/hrw-thailand-aid-cuts-put-myanmar-refugees-at-grave-risk-2025",
+      "sha256": "a563925e6fba737b96e955178634d6adf7c18d93c6c2a8b9fdd633af9cf99ef8",
+      "bytes": 13533
+    },
+    {
+      "path": "/mapping/references/iag-bangsamoro-transition-authority-six-year-review-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iag-bangsamoro-transition-authority-six-year-review-2025",
+      "sha256": "20a4b408c896f83ef6e6463eb28fb9b92b07ef2b4bd9d974fff42915cea6a1de",
+      "bytes": 12953
+    },
+    {
+      "path": "/mapping/references/iasc-durable-solutions-framework-final-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iasc-durable-solutions-framework-final-pdf",
+      "sha256": "ed37094a6ae43b8a4e4c41a537dc4ad3bba8c23fd8d13b03c62a1f16918e7142",
+      "bytes": 11119
+    },
+    {
+      "path": "/mapping/references/iasc-durable-solutions-framework-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iasc-durable-solutions-framework-pdf",
+      "sha256": "37050d27fb370fba65afbbce0acb3fed9c6f484900bfa21809320ae9ec1800e5",
+      "bytes": 11099
+    },
+    {
+      "path": "/mapping/references/ictj-brookings-2006-displacement-crisis-case-study",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ictj-brookings-2006-displacement-crisis-case-study",
+      "sha256": "f5cd4c83acb673d3c802489f58803d120bcfaf869a49a009c8b2aaa9d10941c5",
+      "bytes": 13149
+    },
+    {
+      "path": "/mapping/references/ida18-regional-sub-window-for-refugees-and-host-communities",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ida18-regional-sub-window-for-refugees-and-host-communities",
+      "sha256": "e77aea10744ca96ff75e731e0d2fecab2774359ebcfcd97795613d52daa288ae",
+      "bytes": 13182
+    },
+    {
+      "path": "/mapping/references/idmc-philippines-six-years-after-marawi-conflict",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/idmc-philippines-six-years-after-marawi-conflict",
+      "sha256": "133a05ab89e691806df960db36a1a11aeffb047e00e0f351e8c10b21d9005c70",
+      "bytes": 13228
+    },
+    {
+      "path": "/mapping/references/idmc-publication-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/idmc-publication-page",
+      "sha256": "963f2ffc99c20c96c1b88556988ad0da514c30309092f8e421b9bf0f0dc32ebf",
+      "bytes": 10801
+    },
+    {
+      "path": "/mapping/references/idmc-timor-leste-idps-returned-home-2009",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/idmc-timor-leste-idps-returned-home-2009",
+      "sha256": "95cb18b769df83f40e3ccbefdd2f8528d72445f9eb7e2bfbe67bd305516ce356",
+      "bytes": 13095
+    },
+    {
+      "path": "/mapping/references/ieg-evaluation-on-adaptive-social-protection-in-crisis-response",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ieg-evaluation-on-adaptive-social-protection-in-crisis-response",
+      "sha256": "740ac090271905bd45ea3d3f5855eedf2622cc3b4a8eaebc2403348e0638d412",
+      "bytes": 11085
+    },
+    {
+      "path": "/mapping/references/ifc-guidance-note-5-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ifc-guidance-note-5-pdf",
+      "sha256": "beeb2d1bc05ba47dfdf496911debd69926d4917a0a5245dcb287f728cd2e6fe7",
+      "bytes": 10717
+    },
+    {
+      "path": "/mapping/references/ifc-performance-standard-5-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ifc-performance-standard-5-page",
+      "sha256": "b703bc080ffdcca4a708d59ad1d08cd90684fb96a74d327b561006e4a84d9ef5",
+      "bytes": 10755
+    },
+    {
+      "path": "/mapping/references/ifc-performance-standard-5-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ifc-performance-standard-5-pdf",
+      "sha256": "c689594f37a70fb1d2151b2c93d10c7e8b8e0d15a7a3c044b168b05a8972dd88",
+      "bytes": 10761
+    },
+    {
+      "path": "/mapping/references/ifc-performance-standards-overview",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ifc-performance-standards-overview",
+      "sha256": "588420887ea8d8bc0e74fba8e445ec038c0225db5a6afbabeefa6644679f1f9a",
+      "bytes": 10772
+    },
+    {
+      "path": "/mapping/references/ilo-asean-leaders-sign-consensus-2017",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ilo-asean-leaders-sign-consensus-2017",
+      "sha256": "350fe39b040f38afa78a31a010c5078f073b27352440a9c7b9e9a3b57746087b",
+      "bytes": 13049
+    },
+    {
+      "path": "/mapping/references/ilo-malaysia-labour-migration-resources",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ilo-malaysia-labour-migration-resources",
+      "sha256": "708294b9d6a4fd321d69b36e28cac20aa3790f20b55406417e267e4ff926e273",
+      "bytes": 12402
+    },
+    {
+      "path": "/mapping/references/ilo-thai-employers-piloting-social-protection-migrant-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ilo-thai-employers-piloting-social-protection-migrant-2026",
+      "sha256": "943ab935adc2e58d35f6a6e4a7e1d0e9d7766e994880e0c02e4c232756886c8f",
+      "bytes": 13153
+    },
+    {
+      "path": "/mapping/references/implementing-health-insurance-for-migrants-thailand",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/implementing-health-insurance-for-migrants-thailand",
+      "sha256": "6c7b0f8ff8971af56198bf376857c9657fcbd8b871d15845bfe3ff3d3d8a9c3a",
+      "bytes": 12777
+    },
+    {
+      "path": "/mapping/references/indonesia-cabinet-secretariat-note-on-regulation-no-125-2016",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/indonesia-cabinet-secretariat-note-on-regulation-no-125-2016",
+      "sha256": "06539b0de2f037b3789e1e5769c422b87aca009afbdd48f3670ef5190c2c1008",
+      "bytes": 12674
+    },
+    {
+      "path": "/mapping/references/indonesia-ministry-of-social-affairs",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/indonesia-ministry-of-social-affairs",
+      "sha256": "c8eaecf1be47bc52e09cad98351ea18c4cc7e3b2ddd28ffba0afeb98d2378d6c",
+      "bytes": 12596
+    },
+    {
+      "path": "/mapping/references/infopa-lante-explainer-on-the-ruv",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/infopa-lante-explainer-on-the-ruv",
+      "sha256": "5b1bb8c5852d0af24e38332faf204a15d8d0a86b07d3a99270f76866680d7f3f",
+      "bytes": 12779
+    },
+    {
+      "path": "/mapping/references/instrument-aalco-bangkok-principles",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-aalco-bangkok-principles",
+      "sha256": "ffefc0aa05edf3e99b8a1a26912f3bc6e3e1415ff596e785b2f4cfa7f200f47f",
+      "bytes": 12668
+    },
+    {
+      "path": "/mapping/references/instrument-adb-safeguards-environmental-social-framework",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-adb-safeguards-environmental-social-framework",
+      "sha256": "a382e161d4f15680b1269a99852e39c9a384eb30a2a8ebbff8cd1e06b1022a94",
+      "bytes": 12135
+    },
+    {
+      "path": "/mapping/references/instrument-asean-declaration-rights-migrant-workers",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-asean-declaration-rights-migrant-workers",
+      "sha256": "64e3c34eb5d888f3938714c3e94600ec1548d0d6c14c1d29219de930f5c1e381",
+      "bytes": 12340
+    },
+    {
+      "path": "/mapping/references/instrument-asean-five-point-consensus-myanmar",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-asean-five-point-consensus-myanmar",
+      "sha256": "f3b8a860bba2a62ebdd350c855aea153080694077ad9946f28fdbb97c0cc603a",
+      "bytes": 12040
+    },
+    {
+      "path": "/mapping/references/instrument-global-compact-on-refugees",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-global-compact-on-refugees",
+      "sha256": "57161a5184109f1539b79c23007f3ebb77c860773cc5f575c13f7bddb63dd730",
+      "bytes": 12073
+    },
+    {
+      "path": "/mapping/references/instrument-global-compact-safe-orderly-regular-migration",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-global-compact-safe-orderly-regular-migration",
+      "sha256": "ab360ea091231e45d97bed335504e44d6180d7093f4789a8e65c183ed20b882f",
+      "bytes": 12092
+    },
+    {
+      "path": "/mapping/references/instrument-guiding-principles-internal-displacement",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-guiding-principles-internal-displacement",
+      "sha256": "925418d5519175d1e9c96fcceb790118fff2e23ddc54301649a7160a264a7171",
+      "bytes": 12408
+    },
+    {
+      "path": "/mapping/references/instrument-iasc-framework-durable-solutions-idps",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-iasc-framework-durable-solutions-idps",
+      "sha256": "660193b2adc03827eb5b9d055d73d1e8067c47dc1003cb52834e8467fcfba2cd",
+      "bytes": 11755
+    },
+    {
+      "path": "/mapping/references/instrument-ifc-performance-standard-5",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-ifc-performance-standard-5",
+      "sha256": "2c6e6a978f258c3054351755f7479c3112066e468eb329d919224f7fd5cd325b",
+      "bytes": 12114
+    },
+    {
+      "path": "/mapping/references/instrument-kampala-convention",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-kampala-convention",
+      "sha256": "b2a6dda2a89f126db33a90da622319fedea603b3509a4e55695323447edd7b5d",
+      "bytes": 11834
+    },
+    {
+      "path": "/mapping/references/instrument-oecd-social-protection-for-forcibly-displaced",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-oecd-social-protection-for-forcibly-displaced",
+      "sha256": "c5f9553c104053e31cd46527d04cd8c24bbf7455d99c515c22b5c5cc8cd5e1f1",
+      "bytes": 12114
+    },
+    {
+      "path": "/mapping/references/instrument-platform-disaster-displacement-nansen-protection-agenda",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-platform-disaster-displacement-nansen-protection-agenda",
+      "sha256": "e556c1748fe1548ea96c79d8552741ced0618cbe07ad909159a08db285813675",
+      "bytes": 11831
+    },
+    {
+      "path": "/mapping/references/instrument-sendai-framework-disaster-risk-reduction",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-sendai-framework-disaster-risk-reduction",
+      "sha256": "543aa267487bb78932422bb019e3ba4c78063c8906dad79990a41daa8136387d",
+      "bytes": 11901
+    },
+    {
+      "path": "/mapping/references/instrument-un-action-agenda-internal-displacement",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-un-action-agenda-internal-displacement",
+      "sha256": "692a23f60e05e88aa5c8a3e984c461938a6d69ab3c64dce73db51bccbb7b28c2",
+      "bytes": 12332
+    },
+    {
+      "path": "/mapping/references/instrument-unhcr-registration-humanitarian-identity-infrastructure",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-unhcr-registration-humanitarian-identity-infrastructure",
+      "sha256": "690c8ae442264cf8778092e889ff7933131cdd432dc06795735a8c027f1408cf",
+      "bytes": 11573
+    },
+    {
+      "path": "/mapping/references/instrument-world-bank-adaptive-social-protection-framework",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-world-bank-adaptive-social-protection-framework",
+      "sha256": "873a2a9d5c9c899f40f9a2488c22f4c04a016e1415805956ef7d1fa64a0e386c",
+      "bytes": 11952
+    },
+    {
+      "path": "/mapping/references/instrument-world-bank-ess5",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/instrument-world-bank-ess5",
+      "sha256": "1db63c760afb7e7178eb2c792044158db2881a9205ddda82ba9692c66d7f40a9",
+      "bytes": 11981
+    },
+    {
+      "path": "/mapping/references/iom-global-compact-for-migration-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iom-global-compact-for-migration-page",
+      "sha256": "46d89b065d80a12c9507536ec16b795e3c09552f2b5c666c3e59ed28942bbbfc",
+      "bytes": 10915
+    },
+    {
+      "path": "/mapping/references/iom-marawi-stories-of-escape-loss-and-hope",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iom-marawi-stories-of-escape-loss-and-hope",
+      "sha256": "c677db8b3a6d465532ca064c0ed465dd5d182f4e314cbef86d294fb4cdfc6974",
+      "bytes": 13172
+    },
+    {
+      "path": "/mapping/references/iom-myanmar-crisis-response-plan-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iom-myanmar-crisis-response-plan-2026",
+      "sha256": "b776e75b6c06a9b82abf160d9653f01a04503f37952bef46c8eded1b3c83c14e",
+      "bytes": 13316
+    },
+    {
+      "path": "/mapping/references/iom-page-on-platform-on-disaster-displacement",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iom-page-on-platform-on-disaster-displacement",
+      "sha256": "ca7fc85ed2d36f26bc042d758afab6dc546fe8ee1c0b66b329fce69a4a5dca9f",
+      "bytes": 11029
+    },
+    {
+      "path": "/mapping/references/iom-thailand-enhancing-social-protection-migrant-domestic-workers",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iom-thailand-enhancing-social-protection-migrant-domestic-workers",
+      "sha256": "377aab4e631751643952d2e7fa5574d6753d1a7cff251b6327f336e1a1b04887",
+      "bytes": 13184
+    },
+    {
+      "path": "/mapping/references/iom-thailand-social-protection-diagnostic-review",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/iom-thailand-social-protection-diagnostic-review",
+      "sha256": "291f872ccfd569886b8c9d517abdcfd97ef6d51d61db16af7687e819ad2a7228",
+      "bytes": 13078
+    },
+    {
+      "path": "/mapping/references/journal-of-nutrition-study-on-sustained-mcct-benefits",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/journal-of-nutrition-study-on-sustained-mcct-benefits",
+      "sha256": "4e96c4c429b1d12e6ce6e54b6b8a607cd2eadc7677dc3d59283f1757a1115ea7",
+      "bytes": 12984
+    },
+    {
+      "path": "/mapping/references/khaosod-english-thailand-tackles-statelessness-faster-citizenship-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/khaosod-english-thailand-tackles-statelessness-faster-citizenship-2025",
+      "sha256": "c001fed6fb9abeed2362e6fe52f9003d4e337dcccdb3d7499e06f82e418d7b50",
+      "bytes": 13373
+    },
+    {
+      "path": "/mapping/references/land-portal-entry-on-lao-pdr-compensation-and-resettlement-decree",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/land-portal-entry-on-lao-pdr-compensation-and-resettlement-decree",
+      "sha256": "87746ceb7079133f3df45efaeaca0f20a5ac520d122e045c3d5ee0f65413da32",
+      "bytes": 13128
+    },
+    {
+      "path": "/mapping/references/law-no-24-2007-english-translation-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/law-no-24-2007-english-translation-pdf",
+      "sha256": "f8ad85db613dcfcebe8ffee458b497ad4f9e3435b205396bb5c108a3dd2f6851",
+      "bytes": 12263
+    },
+    {
+      "path": "/mapping/references/law-on-residence-68-2020-qh14-english-text",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/law-on-residence-68-2020-qh14-english-text",
+      "sha256": "59dcd9d5023eace47888b89cfea043a9aa2a69587fc4da22ac8734a32df1c04d",
+      "bytes": 12457
+    },
+    {
+      "path": "/mapping/references/malaysia-immigration-department",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/malaysia-immigration-department",
+      "sha256": "c562ac90c839b7a04795351d704f71486c5de5d113fcda47976d0323dccd4e36",
+      "bytes": 12285
+    },
+    {
+      "path": "/mapping/references/malaysia-ministry-of-health",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/malaysia-ministry-of-health",
+      "sha256": "d09ebfa45c3b36585fd41cd048327dd3767878fd7325ca0adfb4322cc5402e3e",
+      "bytes": 12261
+    },
+    {
+      "path": "/mapping/references/manhattansez-land-investment-cambodia-2026-rules",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/manhattansez-land-investment-cambodia-2026-rules",
+      "sha256": "7ad6d042f15caf35cefd0ac41702f3c94710d90c6735fe108bc8fe0f90738c17",
+      "bytes": 12698
+    },
+    {
+      "path": "/mapping/references/migrant-times-thailand-speeds-up-health-insurance-enrolment-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/migrant-times-thailand-speeds-up-health-insurance-enrolment-2025",
+      "sha256": "99d4679053671526d06c4a944c16d1c0704e72418d2f01a133ab5c3c678d9dca",
+      "bytes": 12898
+    },
+    {
+      "path": "/mapping/references/migrant-workers-and-migrants-health-insurance-fund",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/migrant-workers-and-migrants-health-insurance-fund",
+      "sha256": "e985ee791d7fac94e6ff25043e455c2875f491c0e556213617eafe1b42ab861e",
+      "bytes": 12732
+    },
+    {
+      "path": "/mapping/references/migrant-working-group-state-of-right-to-health-report-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/migrant-working-group-state-of-right-to-health-report-2025",
+      "sha256": "b60187deb4c46c36598e48d2f0abd25773466a8081985ab105c2d4e708023acc",
+      "bytes": 12891
+    },
+    {
+      "path": "/mapping/references/minority-rights-group-ethnic-vietnamese-cambodia",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/minority-rights-group-ethnic-vietnamese-cambodia",
+      "sha256": "3b497cd989494753f49ef2c4dffab44bf7a1c6c944a40c18af7c861aa5150a62",
+      "bytes": 13187
+    },
+    {
+      "path": "/mapping/references/mizzima-un-humanitarian-groups-seek-64-million-myanmar-refugees-thailand-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/mizzima-un-humanitarian-groups-seek-64-million-myanmar-refugees-thailand-2026",
+      "sha256": "ec68ecafd3a869bf2b6df8d0dc958fa9ee4b89190bdf7343932b1f1f5a1fa9d2",
+      "bytes": 13503
+    },
+    {
+      "path": "/mapping/references/mom-gov-sg-dormitory-transition-scheme-2023",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/mom-gov-sg-dormitory-transition-scheme-2023",
+      "sha256": "bbc49e90a49a338f713847d4c3c37fa279451570e36b5b6f1ae0f1a02839cf04",
+      "bytes": 12998
+    },
+    {
+      "path": "/mapping/references/mom-gov-sg-nest-singapore-pbd-announcement-2022",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/mom-gov-sg-nest-singapore-pbd-announcement-2022",
+      "sha256": "6066bfaffe907d5341284e885951726aff2bdeb54fb5a51c3c445b894453f140",
+      "bytes": 13157
+    },
+    {
+      "path": "/mapping/references/mom-mnd-joint-release-pbd-sites-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/mom-mnd-joint-release-pbd-sites-2026",
+      "sha256": "4da3dd2f9d5976e24c8484c57f92e8a94c8912c29b1971cbf302f62fcf1832b1",
+      "bytes": 13118
+    },
+    {
+      "path": "/mapping/references/nansen-initiative-protection-agenda-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/nansen-initiative-protection-agenda-pdf",
+      "sha256": "607059f66680b4fd6ac1b31ff962c813df1f4a7f66beffe6d9b81afbedb15086",
+      "bytes": 11011
+    },
+    {
+      "path": "/mapping/references/national-health-security-office",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/national-health-security-office",
+      "sha256": "df26fc4530e1c81bc00d481f2e58d1f429e7485eb7286dc9f68ea0ef77b1a3aa",
+      "bytes": 14619
+    },
+    {
+      "path": "/mapping/references/ndrrmc-official-website",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ndrrmc-official-website",
+      "sha256": "fa21d14eb4caf6390974d07f024b2375578d1fc49e042722f3b8d5699781d9c3",
+      "bytes": 12420
+    },
+    {
+      "path": "/mapping/references/new-mandala-bruneis-stateless-left-in-confusion",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/new-mandala-bruneis-stateless-left-in-confusion",
+      "sha256": "d043d96fee49f2958f9fe90df0698d38828156b2a78fab8dd85aeea199f6904d",
+      "bytes": 12988
+    },
+    {
+      "path": "/mapping/references/nhso-treatment-anywhere-transformation-of-ucs",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/nhso-treatment-anywhere-transformation-of-ucs",
+      "sha256": "da7a1afe238e3d865dff0edbde99f0b8741949128db0712766e74924f2e21520",
+      "bytes": 12697
+    },
+    {
+      "path": "/mapping/references/nus-centre-for-international-law-copy-of-the-declaration",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/nus-centre-for-international-law-copy-of-the-declaration",
+      "sha256": "d4351fe6c485ea1f4a66b86543b593715d9a80b99df38c703631d3633cc3de5c",
+      "bytes": 11121
+    },
+    {
+      "path": "/mapping/references/ocha-guiding-principles-on-internal-displacement",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ocha-guiding-principles-on-internal-displacement",
+      "sha256": "46baa1b4cdd837b9ad2ccaa27a1b7d3c9d258cb38c150fab86546b288d21f1da",
+      "bytes": 10939
+    },
+    {
+      "path": "/mapping/references/ocha-myanmar-global-humanitarian-overview-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ocha-myanmar-global-humanitarian-overview-2025",
+      "sha256": "4d3ed854eac9dc0e3961976f08f714dd7cad2678470ec881870e4d87e429a600",
+      "bytes": 13348
+    },
+    {
+      "path": "/mapping/references/odihpn-land-and-displacement-in-timor-leste",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/odihpn-land-and-displacement-in-timor-leste",
+      "sha256": "ccdc01e74b25c576b05bcfb464a52116b202f27b4c34bd9962b05f2328936fdb",
+      "bytes": 13037
+    },
+    {
+      "path": "/mapping/references/oecd-paper-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/oecd-paper-pdf",
+      "sha256": "87fae6ad59892eaa409c1a174dcbd616c6c238bd2cf56fab62f565efb81b878a",
+      "bytes": 10879
+    },
+    {
+      "path": "/mapping/references/oecd-social-protection-for-the-forcibly-displaced",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/oecd-social-protection-for-the-forcibly-displaced",
+      "sha256": "05f22ee7c1bfcb6837b133a9a7168e8b5f926a0ca283e77e0dc9356444b1bed8",
+      "bytes": 12868
+    },
+    {
+      "path": "/mapping/references/official-gazette-republic-act-no-11310",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/official-gazette-republic-act-no-11310",
+      "sha256": "64e510fb6529180da5aeebca1b7b5406412857700ed74df16cec1431e01ca690",
+      "bytes": 12019
+    },
+    {
+      "path": "/mapping/references/ohchr-page-on-the-global-compact-for-migration",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/ohchr-page-on-the-global-compact-for-migration",
+      "sha256": "9911c236fe692bf83f2d56511723ed331984fa6bd503da1ab5c9a03e82e35105",
+      "bytes": 10982
+    },
+    {
+      "path": "/mapping/references/open-development-cambodia-land-law-2001",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/open-development-cambodia-land-law-2001",
+      "sha256": "8da262c438b82c8eb242488f60e20b6204e9147fdba123f5b40193d688cf3de2",
+      "bytes": 12668
+    },
+    {
+      "path": "/mapping/references/pco-marawi-rehabilitation-acceleration-order-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/pco-marawi-rehabilitation-acceleration-order-2026",
+      "sha256": "d3469c07b887fedd454b868d8eb0eed5cfdf8a46a51f4791c4e58065394fa55b",
+      "bytes": 13296
+    },
+    {
+      "path": "/mapping/references/peace-news-network-nine-years-after-marawi-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/peace-news-network-nine-years-after-marawi-2026",
+      "sha256": "7afa88391c02d9a1fa1e261797bb36cf37588cc4311d2229d7308a2296a1959a",
+      "bytes": 13213
+    },
+    {
+      "path": "/mapping/references/philippine-e-library-republic-act-no-10022",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/philippine-e-library-republic-act-no-10022",
+      "sha256": "cffde6a935a401dc8f18cd7510523ec90728feea8343155193c33f86041fa071",
+      "bytes": 12493
+    },
+    {
+      "path": "/mapping/references/philippine-e-library-republic-act-no-10121",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/philippine-e-library-republic-act-no-10121",
+      "sha256": "537c0a20c33cdcd5f01be851a5bbe51770274a5ac890f83eac4a3294ccd57c02",
+      "bytes": 12591
+    },
+    {
+      "path": "/mapping/references/philippine-legal-e-library-republic-act-no-11310",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/philippine-legal-e-library-republic-act-no-11310",
+      "sha256": "2d714988ad321d5fc9edd32a4ed346820f76d51d7397ba1aa15aad87f8cb101f",
+      "bytes": 12074
+    },
+    {
+      "path": "/mapping/references/platform-on-disaster-displacement-official-website",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/platform-on-disaster-displacement-official-website",
+      "sha256": "5ea5a6f4180f2d76f54f541b621bad93314418c0119497f5664ebc9ba4ebbbe0",
+      "bytes": 10992
+    },
+    {
+      "path": "/mapping/references/political-economy-of-thailand-s-tax-financed-universal-coverage-scheme",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/political-economy-of-thailand-s-tax-financed-universal-coverage-scheme",
+      "sha256": "f8007871de594f9651e4410d0174b2adafc4b8997f3f82c4962bc560ece089b3",
+      "bytes": 12765
+    },
+    {
+      "path": "/mapping/references/prachatai-human-rights-commissioner-proposes-extension-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/prachatai-human-rights-commissioner-proposes-extension-2026",
+      "sha256": "3bb39e93185152a2508409a991f7df6536435ecea06bb412d84214ff9368f7c5",
+      "bytes": 13234
+    },
+    {
+      "path": "/mapping/references/presidential-instruction-4-2025-dtsen",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/presidential-instruction-4-2025-dtsen",
+      "sha256": "53fc90fad16c60199153159baf182efa5f2e6507d81354fd12f7a21332b6d9a1",
+      "bytes": 12848
+    },
+    {
+      "path": "/mapping/references/preventionweb-aadmer-work-programme-2021-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/preventionweb-aadmer-work-programme-2021-2025",
+      "sha256": "dc8589648d5924457408f84ad3c34bca38b01471f49d374af3fe0c28a892ffcd",
+      "bytes": 12694
+    },
+    {
+      "path": "/mapping/references/preventionweb-summary-of-indonesia-law-no-24-2007",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/preventionweb-summary-of-indonesia-law-no-24-2007",
+      "sha256": "a4435a2b0eb7dd41109b17c3ac3327e958a639630c04df60eeb4921150b1ab46",
+      "bytes": 12413
+    },
+    {
+      "path": "/mapping/references/reformulating-bnpb-legal-institutional-mandate-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/reformulating-bnpb-legal-institutional-mandate-2025",
+      "sha256": "f9bc1a9dad34c224a2cc686b4c4233c18b74ac36a2d28a3dda3124c578b4c5dd",
+      "bytes": 12351
+    },
+    {
+      "path": "/mapping/references/refworld-entry-on-regulation-no-125-2016",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/refworld-entry-on-regulation-no-125-2016",
+      "sha256": "d12ab501d67e9cb0ee3e494ebe007b8c22da30c8ed90d4868113cbf96b34a749",
+      "bytes": 12499
+    },
+    {
+      "path": "/mapping/references/refworld-entry-on-the-bangkok-principles",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/refworld-entry-on-the-bangkok-principles",
+      "sha256": "7eea56000ee5d5a95d1843abe7988bc83d141e132faecdc6323a2c19d2bb96ed",
+      "bytes": 10833
+    },
+    {
+      "path": "/mapping/references/reliefweb-publication-entry",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/reliefweb-publication-entry",
+      "sha256": "7ef889f818604d4034f181e258458f15822206d7e3e8a4bbb9b3b009d65ded1f",
+      "bytes": 10961
+    },
+    {
+      "path": "/mapping/references/republic-act-no-10121-text",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/republic-act-no-10121-text",
+      "sha256": "05c07eb0f6d964c29bf6273505ca6d6a53a46a8b007c5ee383c24c268e88dcf0",
+      "bytes": 12476
+    },
+    {
+      "path": "/mapping/references/republic-act-no-11310-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/republic-act-no-11310-pdf",
+      "sha256": "437cfe39e0495d4cfe2d35327319459a801b666b14740fdd8321de9708e65725",
+      "bytes": 11937
+    },
+    {
+      "path": "/mapping/references/republic-act-no-11641-department-of-migrant-workers",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/republic-act-no-11641-department-of-migrant-workers",
+      "sha256": "49061f7e4b3747b1295fea802b4e45e9f6c970954ca34aba8eb40e9205889384",
+      "bytes": 12322
+    },
+    {
+      "path": "/mapping/references/republic-act-no-8042-legal-text",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/republic-act-no-8042-legal-text",
+      "sha256": "54ddc7f8eaed80639a836a5c15ad71f0f94499dfa570f1311bdc252b23ef23ba",
+      "bytes": 12438
+    },
+    {
+      "path": "/mapping/references/researchgate-asean-migrant-rights-policy-dilemma-deadlock-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/researchgate-asean-migrant-rights-policy-dilemma-deadlock-2025",
+      "sha256": "ea0b3b10f0c381bce8b450e1837e9860e083c3872bfce2176da9e2f2e9cf1379",
+      "bytes": 13210
+    },
+    {
+      "path": "/mapping/references/researchgate-residential-preferences-post-disaster-palu",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/researchgate-residential-preferences-post-disaster-palu",
+      "sha256": "b6008c370358e9bcec75de5a68ad113802797c3592ebd5ab8c67c00ced0fc7bc",
+      "bytes": 13370
+    },
+    {
+      "path": "/mapping/references/rfa-laos-governor-dam-collapse-compensation-missing-2024",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/rfa-laos-governor-dam-collapse-compensation-missing-2024",
+      "sha256": "7a757e7ad960695c7ed58f6adb891c00a2770d136f4e6b52bd31b99e3c0f11bf",
+      "bytes": 13053
+    },
+    {
+      "path": "/mapping/references/rfa-laos-pak-beng-dam-power-agreement-compensation-unresolved-2023",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/rfa-laos-pak-beng-dam-power-agreement-compensation-unresolved-2023",
+      "sha256": "3a5216de49b0df31f1b6ab7d5efd0bf329a437b3c991643f17f3ee4dd082f4fa",
+      "bytes": 13113
+    },
+    {
+      "path": "/mapping/references/right-to-education-resource-page-on-kampala-convention",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/right-to-education-resource-page-on-kampala-convention",
+      "sha256": "ae0cb16f5ad1df8c5672f1d340d45c1579bae133438240f675e72429a3f88b6d",
+      "bytes": 10908
+    },
+    {
+      "path": "/mapping/references/rohingya-response-2025-26-joint-response-plan",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/rohingya-response-2025-26-joint-response-plan",
+      "sha256": "14a8813a027437fcfe0b6715a7b4acf4a9972398965db4f580101992dc0f45fb",
+      "bytes": 13040
+    },
+    {
+      "path": "/mapping/references/save-the-children-education-thailand-myanmar-border-breaking-point-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/save-the-children-education-thailand-myanmar-border-breaking-point-2026",
+      "sha256": "127c6484f8036f77a7c4c88d1a83c622a73309628e067cd7e1be4d98c3b50854",
+      "bytes": 13560
+    },
+    {
+      "path": "/mapping/references/save-the-children-igc-presentation-on-mcct",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/save-the-children-igc-presentation-on-mcct",
+      "sha256": "c57b38f0c09e73fc973560991ee2da05838fb8c478cc6d6049c339cf91554553",
+      "bytes": 12947
+    },
+    {
+      "path": "/mapping/references/sciencedirect-return-migration-mount-semeru-relocation-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/sciencedirect-return-migration-mount-semeru-relocation-2026",
+      "sha256": "cdef67ac5f9c735fde5b6f9f0551a5547917e201543289e55b2bb798f6c15dd2",
+      "bytes": 13361
+    },
+    {
+      "path": "/mapping/references/sdgs-review-relocation-policy-petobo-village-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/sdgs-review-relocation-policy-petobo-village-2025",
+      "sha256": "35ee21fbd2f2a347330c9cc63d2609a20126b02255b60b910975b303d97e5c78",
+      "bytes": 13286
+    },
+    {
+      "path": "/mapping/references/seap-brunei-statelessness-country-profile",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/seap-brunei-statelessness-country-profile",
+      "sha256": "43a608977b0be19ef170c1cbf3311d5dde130d63c73e8c9fd85c7720aa0e6db2",
+      "bytes": 12965
+    },
+    {
+      "path": "/mapping/references/seap-cambodia-statelessness-country-profile",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/seap-cambodia-statelessness-country-profile",
+      "sha256": "2ad68ee367efe986b8ded3e20f3a78e3b3c6192eeb6ed5ab5ea8204b9800576e",
+      "bytes": 13168
+    },
+    {
+      "path": "/mapping/references/sendai-framework-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/sendai-framework-pdf",
+      "sha256": "f50f3875b6745a76d05039027cea6dd9f827f5ad583d3e872081834216eb6200",
+      "bytes": 10738
+    },
+    {
+      "path": "/mapping/references/siks-ng-portal",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/siks-ng-portal",
+      "sha256": "c8d48d35392f5bbd252a45fa87fd9342447399185886b0d82bcd2902ba9b9f73",
+      "bytes": 12469
+    },
+    {
+      "path": "/mapping/references/skala-lessons-from-regsosek-inputs-to-strengthen-dtsen",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/skala-lessons-from-regsosek-inputs-to-strengthen-dtsen",
+      "sha256": "b9ae2796fc5c63517e4be1785d409561f58774805de473ff852f6e0cfb99e5c3",
+      "bytes": 12942
+    },
+    {
+      "path": "/mapping/references/skhppa-product-disclosure-scheme-overview",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/skhppa-product-disclosure-scheme-overview",
+      "sha256": "b74fbd7c8b0038ef71bb6fbfab39f43180fe3d6d75a3481c93ae2b7806e8328c",
+      "bytes": 12428
+    },
+    {
+      "path": "/mapping/references/tandfonline-making-digital-non-citizens-cambodia-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/tandfonline-making-digital-non-citizens-cambodia-2025",
+      "sha256": "394e08d038688eccf2071f9162d65a3333abe54ac700d53208408f393e1f1b01",
+      "bytes": 13230
+    },
+    {
+      "path": "/mapping/references/thailand-ministry-of-public-health",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/thailand-ministry-of-public-health",
+      "sha256": "29e51ebc99fb6cdc56bf8c96aa240ebf520898b56374c224f456f2e39653e164",
+      "bytes": 14637
+    },
+    {
+      "path": "/mapping/references/thailawonline-social-security-thailand-2026-updates",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/thailawonline-social-security-thailand-2026-updates",
+      "sha256": "208058c47b091d58385ac91b462fd33768311674346ecfc944cac677b92d9c6b",
+      "bytes": 12818
+    },
+    {
+      "path": "/mapping/references/timor-leste-government-land-law-enactment-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/timor-leste-government-land-law-enactment-2026",
+      "sha256": "2ad5523f7171cf595772a38fc717785cec8ccda1202adb4f3c756afd03321845",
+      "bytes": 13055
+    },
+    {
+      "path": "/mapping/references/un-action-agenda-on-internal-displacement-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/un-action-agenda-on-internal-displacement-page",
+      "sha256": "75390bc5e958f0851df5a9fa2a632cb60bf02a3a3742e06c7bef576ffec3100a",
+      "bytes": 10955
+    },
+    {
+      "path": "/mapping/references/un-digital-library-record",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/un-digital-library-record",
+      "sha256": "8a853b25aad4d5cfcd48690ed7b570b4dbb6ce573329a2a5903ccf142f4c8a8c",
+      "bytes": 10756
+    },
+    {
+      "path": "/mapping/references/un-migration-network-resolution-120-nq-cp-mekong-delta",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/un-migration-network-resolution-120-nq-cp-mekong-delta",
+      "sha256": "e38a1100e34e41c9b3e6ef68b4acc6debd7dbcd1d9c89460ea43f154d199df09",
+      "bytes": 13409
+    },
+    {
+      "path": "/mapping/references/un-news-myanmar-almost-invisible-crisis-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/un-news-myanmar-almost-invisible-crisis-2025",
+      "sha256": "84e0fe9f39e7a5c2b3bed76406d6e4d19641f99c3cfe72a6efdd33a9f468220e",
+      "bytes": 13307
+    },
+    {
+      "path": "/mapping/references/un-peacebuilding-step-barmm-community-reintegration",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/un-peacebuilding-step-barmm-community-reintegration",
+      "sha256": "c5f01d07a656f9502118767ad0a51bcee33f22b72415de8dc3fdc6628f041333",
+      "bytes": 12906
+    },
+    {
+      "path": "/mapping/references/undrr-sendai-framework-publication-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/undrr-sendai-framework-publication-page",
+      "sha256": "8df0c313bcecec787f24de0fc22e841a9712ea73562708e9370af8cf7dfb0660",
+      "bytes": 10859
+    },
+    {
+      "path": "/mapping/references/undrr-what-is-the-sendai-framework",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/undrr-what-is-the-sendai-framework",
+      "sha256": "adda4c0a866e7eb1c0053240617e0062047180d396212f47eb651c952d92b8a6",
+      "bytes": 10826
+    },
+    {
+      "path": "/mapping/references/unhcr-bangladesh-improved-data-processing-modalities-faq-2026",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-bangladesh-improved-data-processing-modalities-faq-2026",
+      "sha256": "a9ad6d70e6f5fe2426b69283782a4beb48e6fef9bc9f9face222c3506f97a06c",
+      "bytes": 13272
+    },
+    {
+      "path": "/mapping/references/unhcr-bangladesh-registration-faq",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-bangladesh-registration-faq",
+      "sha256": "7906957651078c9833f047e6d230ed8e922692ceb3cb68d4222f0c7f223e1162",
+      "bytes": 13115
+    },
+    {
+      "path": "/mapping/references/unhcr-cash-assistance-overview",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-cash-assistance-overview",
+      "sha256": "ae2a742eadc5135bdf99be955a1b2520855d6f7798c528cd6faf02539daeea7d",
+      "bytes": 12498
+    },
+    {
+      "path": "/mapping/references/unhcr-english-translation-of-presidential-regulation-no-125-2016",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-english-translation-of-presidential-regulation-no-125-2016",
+      "sha256": "52a5cb4316c070cfdde6725912d2c9bb4d54045d0f3956dbedb2cd92ea5ab222",
+      "bytes": 12695
+    },
+    {
+      "path": "/mapping/references/unhcr-global-compact-on-refugees-booklet",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-global-compact-on-refugees-booklet",
+      "sha256": "4340c6a412b764cd444979fe4bc3c8e006b127e3b0661f5d11ad799544483458",
+      "bytes": 10819
+    },
+    {
+      "path": "/mapping/references/unhcr-hosted-copy-of-iasc-framework",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-hosted-copy-of-iasc-framework",
+      "sha256": "2006dd5ba54d0c3580b5425db3e9c44a8986359657b82b779ab53ce81c59dcf9",
+      "bytes": 10949
+    },
+    {
+      "path": "/mapping/references/unhcr-joint-bangladesh-unhcr-verification-gets-underway",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-joint-bangladesh-unhcr-verification-gets-underway",
+      "sha256": "951736a09863b9b5086321de7c0571c88b7baa4a8a6bfa364d7ce81c118b790e",
+      "bytes": 13162
+    },
+    {
+      "path": "/mapping/references/unhcr-myanmar-global-appeal-2026-situation-overview",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-myanmar-global-appeal-2026-situation-overview",
+      "sha256": "d657b3042d1f98e0fea68a2a78a3da7f596aeacdbb346d81c35d89b05bf9800f",
+      "bytes": 13389
+    },
+    {
+      "path": "/mapping/references/unhcr-operational-data-portal",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-operational-data-portal",
+      "sha256": "5a0fa0fd984e762e06e7d266f44288d83a4ad4826b4a7f24edec3e0d15797c98",
+      "bytes": 10788
+    },
+    {
+      "path": "/mapping/references/unhcr-operational-data-portal-myanmar-situation",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-operational-data-portal-myanmar-situation",
+      "sha256": "18f5da4642a43ab11744a285ac8a99441c746bb68d67468e778c9abf2c85f9bb",
+      "bytes": 13052
+    },
+    {
+      "path": "/mapping/references/unhcr-philippines-stronger-protection-idps-bangsamoro-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-philippines-stronger-protection-idps-bangsamoro-2025",
+      "sha256": "fb24a3352b49199e34ae049d54c6082aa51bcce0fd3b66f028a63c8d6edbeab9",
+      "bytes": 12968
+    },
+    {
+      "path": "/mapping/references/unhcr-press-release-on-thai-cabinet-statelessness-resolution",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-press-release-on-thai-cabinet-statelessness-resolution",
+      "sha256": "2da002f90d9feb181a5ea63d5032fd9d4eb12285931e7f89fb3083b9ca430446",
+      "bytes": 15407
+    },
+    {
+      "path": "/mapping/references/unhcr-registration-and-identity-management-guidance",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-registration-and-identity-management-guidance",
+      "sha256": "e3cd9951e8de3fe3b9e688b81d33a063dbee8a95d4374fd2e208affbb7f7c45b",
+      "bytes": 10941
+    },
+    {
+      "path": "/mapping/references/unhcr-rights-mapping-and-analysis-platform-entry",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-rights-mapping-and-analysis-platform-entry",
+      "sha256": "0b37870329ca9444f472d50f6f0dade2270e180f38bd8cb7372680f9b22fcc69",
+      "bytes": 12510
+    },
+    {
+      "path": "/mapping/references/unhcr-rights-mapping-and-analysis-platform-thailand",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-rights-mapping-and-analysis-platform-thailand",
+      "sha256": "1f1048714835a94595f2b1a479f5d12369826dae16358d9756424c29afd2c525",
+      "bytes": 13368
+    },
+    {
+      "path": "/mapping/references/unhcr-rohingya-refugees-receive-identity-documents",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-rohingya-refugees-receive-identity-documents",
+      "sha256": "31f97191be5da586d95f0181bf402fe034bbdf2c974317ad834e2dc19424f05f",
+      "bytes": 13129
+    },
+    {
+      "path": "/mapping/references/unhcr-thailand-registration-and-documents-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-thailand-registration-and-documents-page",
+      "sha256": "03c3d4f92988e067b3f632d4d7fc55ff9cf7861ea8638baa05b5e4685d5a617c",
+      "bytes": 13609
+    },
+    {
+      "path": "/mapping/references/unhcr-thailand-resolution-of-statelessness-update",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-thailand-resolution-of-statelessness-update",
+      "sha256": "fa0df494d8f103c0e0b98498db6b56bc11b3af0dbe11a92240018576146c481e",
+      "bytes": 15318
+    },
+    {
+      "path": "/mapping/references/unhcr-thailand-resolves-legal-status-of-over-100000-stateless-people-dec-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-thailand-resolves-legal-status-of-over-100000-stateless-people-dec-2025",
+      "sha256": "95faedf569b9c469e263a6720ccdcb8f45e3f08de01ad3428052bb4cbbd446e3",
+      "bytes": 15222
+    },
+    {
+      "path": "/mapping/references/unhcr-thailand-statelessness-country-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-thailand-statelessness-country-page",
+      "sha256": "8bb160fa327eec5e16b59f9ef00036cb9cc65b1b126e53104d6b68f8b4255bad",
+      "bytes": 15452
+    },
+    {
+      "path": "/mapping/references/unhcr-thailand-statelessness-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unhcr-thailand-statelessness-page",
+      "sha256": "41dd8fc0ae53aa4f869f331fa9768967786a146be64084a2f23021e1de0ce958",
+      "bytes": 13056
+    },
+    {
+      "path": "/mapping/references/unicef-and-unhcr-on-childhood-statelessness-in-thailand",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unicef-and-unhcr-on-childhood-statelessness-in-thailand",
+      "sha256": "faf1f13e39f15e17ae055d024dbea31dbfbcfcca823784344e03a021086aa303",
+      "bytes": 12813
+    },
+    {
+      "path": "/mapping/references/unicef-and-unhcr-on-childhood-statelessness-in-thailand-2",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unicef-and-unhcr-on-childhood-statelessness-in-thailand-2",
+      "sha256": "e63f50b5ede6bb24346aec1abb23e14b6c8e4398f6636984ed56ddc968929766",
+      "bytes": 13257
+    },
+    {
+      "path": "/mapping/references/unicef-myanmar-cash-transfers-lift-poor-families-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unicef-myanmar-cash-transfers-lift-poor-families-2025",
+      "sha256": "f7dfd0e7c69340a1229fc9f2f86e298c83a4fa4b168af8adad22af0f83fc34db",
+      "bytes": 13008
+    },
+    {
+      "path": "/mapping/references/unidad-en-l-nea",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unidad-en-l-nea",
+      "sha256": "ffc5d9db2e87db72345ced958a5bf5928604835de2110c0255ab5f79df7fef57",
+      "bytes": 12661
+    },
+    {
+      "path": "/mapping/references/unidad-para-las-v-ctimas-official-website",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unidad-para-las-v-ctimas-official-website",
+      "sha256": "4383c0d1c04d2a2bb3fb108c957a26a674e6bf324da2c0520a8f3f1418947c71",
+      "bytes": 12793
+    },
+    {
+      "path": "/mapping/references/unidad-para-las-v-ctimas-registro-nico-de-v-ctimas",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unidad-para-las-v-ctimas-registro-nico-de-v-ctimas",
+      "sha256": "4e70e58f928b9e8ac49d031d08d9ced7bd5a52b21addc537e626e39f5349ac20",
+      "bytes": 12894
+    },
+    {
+      "path": "/mapping/references/unidad-victimas-cifras-grid-2026-comparison",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unidad-victimas-cifras-grid-2026-comparison",
+      "sha256": "5f023e3e157e03897387abe727909e6aa46810e679f840127abe3e37a95d4ee9",
+      "bytes": 12907
+    },
+    {
+      "path": "/mapping/references/unidad-victimas-rendicion-cuentas-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/unidad-victimas-rendicion-cuentas-2025",
+      "sha256": "c818b66f6abbb668f1d3799f85a5473446826504d907acaf8eb9008b84bd2a3b",
+      "bytes": 12867
+    },
+    {
+      "path": "/mapping/references/university-of-minnesota-human-rights-library-republic-act-no-10022",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/university-of-minnesota-human-rights-library-republic-act-no-10022",
+      "sha256": "902d225e33f3abef5111baaca635e807c58020a2c6ceef14c52013d60e48961c",
+      "bytes": 12622
+    },
+    {
+      "path": "/mapping/references/viet-an-law-decree-154-2024-residence-law-guidance",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/viet-an-law-decree-154-2024-residence-law-guidance",
+      "sha256": "5ba60500acaf4aa70a1596fde4c0a313ab2e7a69ab5502587b81aea2cabdd0b7",
+      "bytes": 12496
+    },
+    {
+      "path": "/mapping/references/vietnam-law-magazine-management-of-citizen-residence-to-be-digitalized",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/vietnam-law-magazine-management-of-citizen-residence-to-be-digitalized",
+      "sha256": "fc71accb334dd0d6bb758c15db06ad396daa3617cec9a6aee6444ec8961c7920",
+      "bytes": 12628
+    },
+    {
+      "path": "/mapping/references/vietnamnet-online-residence-registration",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/vietnamnet-online-residence-registration",
+      "sha256": "4b3891d257920f1967c6882db2c6af0dd7fb79bd295799d84395a6414bd07f00",
+      "bytes": 12422
+    },
+    {
+      "path": "/mapping/references/wfp-cash-transfers",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/wfp-cash-transfers",
+      "sha256": "96749e6762633fdab6093d25ee8b7446bc0b99671acb7355ef43cbc050369313",
+      "bytes": 12367
+    },
+    {
+      "path": "/mapping/references/who-thailand-migrant-health-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/who-thailand-migrant-health-page",
+      "sha256": "71249e93b8faa53235ebb1903d5ec28a5d6cfcc0d8089bf946a987eeb2bc3003",
+      "bytes": 12638
+    },
+    {
+      "path": "/mapping/references/world-bank-adaptive-social-protection-key-findings",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-adaptive-social-protection-key-findings",
+      "sha256": "83e1aaf482b36bc8d8cb20a42d03d0df1265080b1d0d19ba144d544cdba2af62",
+      "bytes": 11023
+    },
+    {
+      "path": "/mapping/references/world-bank-blog-three-years-lessons-central-sulawesi-recovery",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-blog-three-years-lessons-central-sulawesi-recovery",
+      "sha256": "e5d90be16d5f3046fae7be5532a6f61261904edc7393e9d56944eb5340b2f6f1",
+      "bytes": 13417
+    },
+    {
+      "path": "/mapping/references/world-bank-environmental-and-social-framework-pdf",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-environmental-and-social-framework-pdf",
+      "sha256": "1014a65d0d3283b9764cd1f62f1c9b2f487ac49d6f138675a2b101f99de4b348",
+      "bytes": 10834
+    },
+    {
+      "path": "/mapping/references/world-bank-environmental-and-social-standards",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-environmental-and-social-standards",
+      "sha256": "942894da1cabbcc544a3b8346e3937eba091e9694b2f1921afe60a63f6cb6026",
+      "bytes": 10842
+    },
+    {
+      "path": "/mapping/references/world-bank-factsheet-10-things-to-know-about-whr",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-factsheet-10-things-to-know-about-whr",
+      "sha256": "ca28600ac3f43f38c3a926a2aec28dff9ee82221da1e80e9f5df99048e66f96a",
+      "bytes": 13124
+    },
+    {
+      "path": "/mapping/references/world-bank-fif-trustee-gcff-page",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-fif-trustee-gcff-page",
+      "sha256": "9884433f3c46403335824a880933e9d8857142d829bfc7fb7ed32f3ef2be4809",
+      "bytes": 12673
+    },
+    {
+      "path": "/mapping/references/world-bank-forced-displacement-topic-page-ida20-results",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-forced-displacement-topic-page-ida20-results",
+      "sha256": "21312b692f49f76c07c77b981baf9dc3d9b52f0e16c2469e9ea23591efd78b32",
+      "bytes": 13071
+    },
+    {
+      "path": "/mapping/references/world-bank-ida-window-for-host-communities-and-refugees",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-ida-window-for-host-communities-and-refugees",
+      "sha256": "5deb0aef8649f9d3bea537b0eab19447da8ef51d3e030fb3a33e759bea8417f9",
+      "bytes": 13136
+    },
+    {
+      "path": "/mapping/references/world-bank-md-icrsl-resettlement-action-plan-kien-giang",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-md-icrsl-resettlement-action-plan-kien-giang",
+      "sha256": "04540d1c81a3fa7f4006b6550096753bb60783d1e940600a002af07be9b56602",
+      "bytes": 13437
+    },
+    {
+      "path": "/mapping/references/world-bank-press-release-on-myanmar-mcct-financing",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-press-release-on-myanmar-mcct-financing",
+      "sha256": "c4bc1b7b2336e28a2c088e50e69e37358c39cc1e6a4aae49dcc4f01da2694aa3",
+      "bytes": 13070
+    },
+    {
+      "path": "/mapping/references/world-bank-project-document-text",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-project-document-text",
+      "sha256": "67ee88ac5042db41418edb3eb3dea922ab7c559fe5c9f154405c4196e16f4569",
+      "bytes": 12945
+    },
+    {
+      "path": "/mapping/references/world-bank-report-on-improving-data-quality-for-indonesia-s-social-reg",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-report-on-improving-data-quality-for-indonesia-s-social-reg",
+      "sha256": "ab9147d60d050c92195707e9c1698bc7180d10fc16c6c72d8b9c2a78ab2373d4",
+      "bytes": 12921
+    },
+    {
+      "path": "/mapping/references/world-bank-resettlement-policy-framework-referencing-decree-84",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-resettlement-policy-framework-referencing-decree-84",
+      "sha256": "adee1a38d8aafdbfc434cb22984dd94bbc8a9b47b005a34b8ff8937cea0e2dfc",
+      "bytes": 13092
+    },
+    {
+      "path": "/mapping/references/world-bank-results-feature-on-gcff",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-results-feature-on-gcff",
+      "sha256": "b0b8e4ea7446302e92521236624aef4bd06de7ad84076918d8e553aed63d61f6",
+      "bytes": 12762
+    },
+    {
+      "path": "/mapping/references/world-bank-timor-leste-land-of-opportunities-2025",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/world-bank-timor-leste-land-of-opportunities-2025",
+      "sha256": "dd229c52cc7f3c0fbc69ff6ee7b4397bd68365eeb981b1b3e996f8587fe03b28",
+      "bytes": 13147
+    },
+    {
+      "path": "/mapping/references/wpm-cambodia-mapping-statelessness-2024-report",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/references/wpm-cambodia-mapping-statelessness-2024-report",
+      "sha256": "df0be712587e13b93525b0b6d7e6f829642558ead01a7107465f74d62ced5640",
+      "bytes": 13214
+    },
+    {
+      "path": "/mapping/sendai-framework-disaster-risk-reduction",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/sendai-framework-disaster-risk-reduction"
+    },
+    {
+      "path": "/mapping/singapore-migrant-worker-dormitory-housing-reform",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/singapore-migrant-worker-dormitory-housing-reform",
+      "sha256": "b4296ea59d8be9de8b5939535e5c10107d0935b286dd24533eaa8c956fa2b613",
+      "bytes": 16795
+    },
+    {
+      "path": "/mapping/thailand-cabinet-resolution-statelessness-2024",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/thailand-cabinet-resolution-statelessness-2024",
+      "sha256": "61a072528762f0dc0b1f7d47f485d288950af81a5eb1449ed592f21f2579847c",
+      "bytes": 18266
+    },
+    {
+      "path": "/mapping/thailand-civil-registration-statelessness",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/thailand-civil-registration-statelessness",
+      "sha256": "b54dc0d23550c52627d995b594e9b2d11aee45faf86a8dae04e4c2e69c732133",
+      "bytes": 15798
+    },
+    {
+      "path": "/mapping/thailand-migrant-health-insurance-scheme",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/thailand-migrant-health-insurance-scheme",
+      "sha256": "98d5e46aad3aea9b039b93bcea72cb5972978593f306780ba1f793e003a18c47",
+      "bytes": 16473
+    },
+    {
+      "path": "/mapping/thailand-refugee-camp-border-assistance-architecture",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/thailand-refugee-camp-border-assistance-architecture",
+      "sha256": "546a4e5b180a087ab56cdcd35c130152c7950da1240e639c3e937e2554a7a655",
+      "bytes": 18349
+    },
+    {
+      "path": "/mapping/thailand-social-security-fund-migrant-coverage",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/thailand-social-security-fund-migrant-coverage",
+      "sha256": "12af5b8274e8705bc294d5c552fa76348bfdab721fbdd741d1536c6b4b04abd9",
+      "bytes": 15911
+    },
+    {
+      "path": "/mapping/thailand-universal-coverage-scheme",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/thailand-universal-coverage-scheme",
+      "sha256": "90d2b5b778dbced69d3da5785d6d1a066af735c854ab7c7200e7f9083fdd44ef",
+      "bytes": 14982
+    },
+    {
+      "path": "/mapping/timor-leste-land-law-idp-resettlement",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/timor-leste-land-law-idp-resettlement",
+      "sha256": "a8b93b1bedebf7f0842c61b3a7b1e9b105dcd5f3ff2df90af53b76ef0eaa8ae2",
+      "bytes": 16231
+    },
+    {
+      "path": "/mapping/un-action-agenda-internal-displacement",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/un-action-agenda-internal-displacement"
+    },
+    {
+      "path": "/mapping/unhcr-registration-humanitarian-identity-infrastructure",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/unhcr-registration-humanitarian-identity-infrastructure"
+    },
+    {
+      "path": "/mapping/vietnam-mekong-delta-climate-resettlement",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/vietnam-mekong-delta-climate-resettlement",
+      "sha256": "b91070e3207521a3c2f7eba51aa1051aad31307993afcdac24f749bb9254daf5",
+      "bytes": 16913
+    },
+    {
+      "path": "/mapping/vietnam-residence-law-household-registration-reform",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/vietnam-residence-law-household-registration-reform",
+      "sha256": "e7fc3403394310affd23c1569f57294b5f3b1dc82b52237b0f00c88e0b0012a4",
+      "bytes": 14242
+    },
+    {
+      "path": "/mapping/world-bank-adaptive-social-protection-framework",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/world-bank-adaptive-social-protection-framework"
+    },
+    {
+      "path": "/mapping/world-bank-ess5",
+      "status": 404,
+      "finalUrl": "https://displacementpolicy.org/mapping/world-bank-ess5"
+    },
+    {
+      "path": "/mapping/world-bank-ida-window-host-communities-refugees",
+      "status": 200,
+      "finalUrl": "https://displacementpolicy.org/mapping/world-bank-ida-window-host-communities-refugees",
+      "sha256": "869d1933653681d14be4804f480ec921986e431158bfedef30568981428f8e1c",
+      "bytes": 16433
+    }
+  ]
+}
