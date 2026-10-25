@@ -8,7 +8,8 @@ Generator-integrated landing/explorer redesign based on the supplied deployment 
 - Pushed backup: `backup/mapping-pre-redesign-2026-10-25` at that SHA.
 - Pre-release Vercel production: `dpl_Bd7QEHJ2sGgwsefskKgNV6usHWdY` / `displacement-policy-cm6k247xj-samuel-cheung-s-projects.vercel.app`.
 - Production deployment metadata reports that SHA with `gitDirty: 1`; the Git backup alone does not represent all live publication work. Raw production HTML/JSON and inventory were separately saved in the local sibling `.mapping-release-baseline/` directory. Do not upload its authentication cookie file.
-- Preview: https://displacement-policy-pl2oz6wym-samuel-cheung-s-projects.vercel.app (deployment `dpl_8ooeaisb6a4CbkZy2oXvNaxFYdUR`). Existing Vercel authentication protection remains enabled.
+- Final preview: https://displacement-policy-og3sd323a-samuel-cheung-s-projects.vercel.app (deployment `dpl_2bLLJjBMjYfNRF6koZNmy3LNjbtK`). Existing Vercel authentication protection remains enabled.
+- Draft PR: https://github.com/samdcheung/displacement-policy-web/pull/1.
 
 ## 40 versus 33 reconciliation
 
