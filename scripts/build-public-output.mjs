@@ -162,6 +162,7 @@ for (const directory of directories) {
 
 await mkdir(resolve(outDir, "data"), { recursive: true });
 await cp(resolve(root, "data", "mapping"), resolve(outDir, "data", "mapping"), { recursive: true });
+await cp(resolve(root, "data", "publications.json"), resolve(outDir, "data", "publications.json"));
 
 const perspectives = JSON.parse(await readFile(resolve(root, "data", "perspectives.json"), "utf8"));
 

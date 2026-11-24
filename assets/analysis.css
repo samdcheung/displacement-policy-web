@@ -1,0 +1,23 @@
+/* Scoped publication template: no changes to global site typography. */
+.analysis-detail { --analysis-sans: "Source Sans Pro", "Segoe UI", Arial, sans-serif; }
+.analysis-detail .analysis-masthead,
+.analysis-detail .analysis-body { width: min(calc(100% - 44px), 820px); }
+.analysis-detail .analysis-masthead { padding-block: 48px 36px; border-bottom: 1px solid var(--line); }
+.analysis-detail .analysis-institution { margin: 0 0 28px; color: var(--navy); font: 700 0.8rem var(--analysis-sans); letter-spacing: 0.16em; text-transform: uppercase; }
+.analysis-detail .analysis-masthead .eyebrow { color: #21627b; font-family: var(--analysis-sans); }
+.analysis-detail .analysis-masthead h1 { margin: 20px 0 16px; color: var(--navy); font-family: var(--analysis-sans); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.08; font-weight: 700; letter-spacing: -0.025em; }
+.analysis-detail .analysis-subtitle { margin: 0 0 22px; color: var(--blue-grey); font: italic 1.3rem/1.5 Cambria, Georgia, serif; }
+.analysis-detail .analysis-byline { margin: 0 0 28px; font: 1rem/1.6 var(--analysis-sans); }
+.analysis-detail .analysis-byline span { margin-inline: 5px; color: var(--blue-grey); }
+.analysis-detail .publication-download { display: inline-block; width: auto; font-family: var(--analysis-sans); }
+.analysis-detail .analysis-body { padding-block: 36px 72px; }
+.analysis-detail .analysis-body p { margin: 0 0 1.2em; color: var(--ink); font: 1.2rem/1.75 Cambria, Georgia, serif; }
+.analysis-detail .analysis-body section { margin-top: 40px; scroll-margin-top: 100px; }
+.analysis-detail .analysis-body h2 { margin: 0 0 16px; color: #21627b; font: 650 1.45rem/1.3 var(--analysis-sans); }
+.analysis-detail .analysis-body .analysis-note { margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 1rem; font-style: italic; color: var(--muted); }
+@media (max-width: 600px) {
+  .analysis-detail .analysis-masthead { padding-top: 30px; }
+  .analysis-detail .analysis-byline span { display: none; }
+  .analysis-detail .analysis-byline a { display: block; }
+  .analysis-detail .analysis-body p { font-size: 1.12rem; }
+}
