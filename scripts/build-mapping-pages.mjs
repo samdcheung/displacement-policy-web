@@ -1,4 +1,4 @@
-﻿import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -9,6 +9,8 @@ const recordsPath = resolve(dataDir, "mapping-records.json");
 const referencesPath = resolve(dataDir, "mapping-references.json");
 const profilesPath = resolve(dataDir, "mapping-country-profiles.json");
 const legacyDiagnosticPath = resolve(root, "data", "archive", "mapping-diagnostic-v1", "mapping-diagnostic.json");
+
+const landingTemplatePath = resolve(root, "mapping-ui", "index.template.html");
 
 const pageTitle = "Displacement Governance Mapping";
 const pageDescription = "A qualitative mapping of governance, institutional responsibility, and fiscal authority across displacement-related sectors in Southeast Asia.";
@@ -189,7 +191,7 @@ async function main() {
   const mappingDir = resolve(root, "mapping");
 
   await rm(mappingDir, { recursive: true, force: true });
-  await write(resolve(root, "mapping.html"), landingPage(records, references, profiles));
+  await write(resolve(root, "mapping.html"), await readFile(landingTemplatePath, "utf8"));
 
   for (const record of records) await write(resolve(mappingDir, record.slug, "index.html"), recordPage(record, referencesById));
   await write(resolve(mappingDir, "references", "index.html"), referencesIndex(references));
